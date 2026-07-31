@@ -1,0 +1,50 @@
+[
+  {
+    "id": "radar-backscatter",
+    "theme": "Remote Sensing explained",
+    "title": "This satellite image isn't a photo (SAR explained) #shorts",
+    "description": "Radar satellites send their own microwave pulses and measure the echo, so rough surfaces look bright and smooth surfaces look dark. #RemoteSensing #SAR #Satellites #Shorts",
+    "tags": ["remote sensing", "SAR", "radar", "satellite imagery", "geospatial", "shorts"],
+    "file": "https://raw.githubusercontent.com/mbongowo/social-media-shorts/main/RadarBackscatter.mp4"
+  },
+  {
+    "id": "spectral-fingerprint",
+    "theme": "Remote Sensing explained",
+    "title": "Every material has a barcode only satellites can read #shorts",
+    "description": "Vegetation, soil, and water each reflect light in a unique pattern across infrared bands, letting scientists identify materials from orbit. #RemoteSensing #Spectroscopy #GeoAI #Shorts",
+    "tags": ["remote sensing", "spectral signature", "hyperspectral", "satellite imagery", "earth observation", "shorts"],
+    "file": "https://raw.githubusercontent.com/mbongowo/social-media-shorts/main/SpectralFingerprint.mp4"
+  },
+  {
+    "id": "contour-slope",
+    "theme": "Maps & Cartography",
+    "title": "These squiggly lines are basically a 3D map on paper #shorts",
+    "description": "Contour lines connect points of equal elevation, closer spacing means steeper terrain, no numbers required. #Cartography #Topography #Maps #Shorts",
+    "tags": ["cartography", "topographic maps", "contour lines", "elevation", "geography", "shorts"],
+    "file": "https://raw.githubusercontent.com/mbongowo/social-media-shorts/main/ContourSlope.mp4"
+  },
+  {
+    "id": "foundation-model",
+    "theme": "GeoAI",
+    "title": "This AI never saw a single labeled satellite image #shorts",
+    "description": "Geospatial foundation models pretrain on millions of unlabeled satellite scenes, then need only a handful of labeled examples to tackle a new task. #GeoAI #MachineLearning #EarthObservation #Shorts",
+    "tags": ["GeoAI", "foundation models", "self-supervised learning", "machine learning", "satellite imagery", "shorts"],
+    "file": "https://raw.githubusercontent.com/mbongowo/social-media-shorts/main/FoundationModel.mp4"
+  },
+  {
+    "id": "maup",
+    "theme": "Geospatial Data Science",
+    "title": "Same data, same map, opposite conclusion #shorts",
+    "description": "The Modifiable Areal Unit Problem shows how the boundaries you choose to aggregate spatial data can flip your conclusion. #GeospatialDataScience #DataScience #Statistics #Shorts",
+    "tags": ["MAUP", "geospatial data science", "spatial statistics", "data visualization", "GIS", "shorts"],
+    "file": "https://raw.githubusercontent.com/mbongowo/social-media-shorts/main/MAUP.mp4"
+  },
+  {
+    "id": "spatial-autocorrelation",
+    "theme": "Geospatial Data Science",
+    "title": "The first law of geography fits in one sentence #shorts",
+    "description": "Tobler's First Law says near things are more related than distant things, and ignoring it is how ML models secretly cheat on geospatial data. #GeospatialDataScience #TobersLaw #GeoAI #Shorts",
+    "tags": ["Tobler's law", "spatial autocorrelation", "geospatial data science", "Moran's I", "GeoAI", "shorts"],
+    "file": "https://raw.githubusercontent.com/mbongowo/social-media-shorts/main/SpatialAutocorrelation.mp4"
+  }
+]
