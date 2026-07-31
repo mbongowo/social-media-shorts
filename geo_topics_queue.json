@@ -597,5 +597,95 @@
     "outro": "Follow for the science behind the map.",
     "endImg": { "wv": { "bbox": "-12,-67.5,4,-58.5", "date": "2024-08-20" } },
     "credit": "Imagery: NASA Worldview"
+  },
+
+  "lesotho": {
+    "theme": "MAPS & CARTOGRAPHY",
+    "accent": "#F6B93B",
+    "hook": "One country is completely enclosed by another, and it is not a tiny city-state.",
+    "hookMap": { "projection": "equalEarth", "accent": "#F6B93B", "highlight": ["Lesotho"], "fit": "South Africa" },
+    "scenes": [
+      { "caption": "Vatican City and San Marino are famous enclaves, but Lesotho is a full nation of two million people.", "map": { "projection": "equalEarth", "accent": "#F6B93B", "highlight": ["Lesotho"], "fit": "South Africa" } },
+      { "caption": "Lesotho sits entirely inside South Africa, a mountain kingdom with no coastline of its own.", "map": { "projection": "ortho", "accent": "#F6B93B", "highlight": ["Lesotho"], "rotate": [-28, 29] } },
+      { "caption": "Drive in any direction to leave the country, and you cross straight into South Africa.", "map": { "projection": "equalEarth", "accent": "#F6B93B", "highlight": ["Lesotho"], "fit": "South Africa" } }
+    ],
+    "outro": "Follow for the science behind the map.",
+    "endMap": { "projection": "equalEarth", "accent": "#F6B93B", "highlight": ["Lesotho"], "fit": "South Africa" },
+    "credit": "Cartography: Natural Earth"
+  },
+
+  "landsat": {
+    "theme": "SATELLITES & REMOTE SENSING",
+    "accent": "#4aa8ff",
+    "hook": "One satellite program has been photographing the same ground every couple of weeks for over fifty years.",
+    "hookImg": { "nasa": "blue marble earth" },
+    "scenes": [
+      { "caption": "Landsat 1 launched in 1972 and began the longest continuous space record of Earth's land surface.", "image": { "wv": { "bbox": "18,28.5,34,37.5", "date": "2024-07-01" } } },
+      { "caption": "Today Landsat 8 and 9 fly together, revisiting any point on Earth every eight days.", "image": { "wv": { "bbox": "8,2.1,36,17.9", "date": "2024-06-15" } } },
+      { "caption": "That unbroken archive lets scientists watch forests, cities and coastlines change decade by decade.", "image": { "nasa": "city lights from space station" } }
+    ],
+    "outro": "Follow for the science behind the map.",
+    "endImg": { "nasa": "blue marble earth" },
+    "credit": "Imagery: NASA"
+  },
+
+  "deepfakegeo": {
+    "theme": "GEOAI",
+    "accent": "#39d98a",
+    "hook": "In 2021, researchers proved AI could fake a satellite photo of a place, complete with buildings and rivers that were never there.",
+    "hookImg": { "wv": { "bbox": "25,28.5,33,33.0", "date": "2024-07-01" } },
+    "scenes": [
+      { "caption": "The study used a generative AI model to swap real features between different cities' satellite scenes.", "image": { "wv": { "bbox": "25,28.5,33,33.0", "date": "2024-07-01" } } },
+      { "caption": "The output looked like ordinary satellite imagery, but showed structures and terrain that did not exist on the ground.", "image": { "wv": { "bbox": "19.16,-80.5,29.83,-74.5", "date": "2024-07-01" } } },
+      { "caption": "Geographers now call this risk deep fake geography, a warning to verify imagery before trusting it.", "image": { "nasa": "synthetic aperture radar earth" } }
+    ],
+    "outro": "Follow for the science behind the map.",
+    "endImg": { "nasa": "blue marble earth" },
+    "credit": "Imagery: NASA"
+  },
+
+  "popai": {
+    "theme": "GEOAI",
+    "accent": "#39d98a",
+    "hook": "AI can estimate how many people live in a village that has never been surveyed.",
+    "hookImg": { "wv": { "bbox": "18,28.5,34,37.5", "date": "2024-07-01" } },
+    "scenes": [
+      { "caption": "Machine-learning models scan satellite images to spot individual buildings, roof by roof.", "image": { "wv": { "bbox": "25,28.5,33,33.0", "date": "2024-07-01" } } },
+      { "caption": "Combined with known census patterns, that building count becomes a population estimate for places no census reached.", "image": { "wv": { "bbox": "18,28.5,34,37.5", "date": "2024-07-01" } } },
+      { "caption": "Aid agencies use these AI-built population maps to plan vaccine drives and disaster relief.", "image": { "nasa": "city lights from space station" } }
+    ],
+    "outro": "Follow for the science behind the map.",
+    "endImg": { "nasa": "blue marble earth" },
+    "credit": "Imagery: NASA"
+  },
+
+  "nullisland": {
+    "theme": "GEOSPATIAL DATA SCIENCE",
+    "accent": "#8b7cff",
+    "hook": "Thousands of GPS errors all point to the exact same empty spot in the ocean.",
+    "hookMap": { "projection": "ortho", "accent": "#8b7cff", "rotate": [0, 0] },
+    "scenes": [
+      { "caption": "It is where the equator crosses the prime meridian, coordinates zero, zero exactly.", "map": { "projection": "ortho", "accent": "#8b7cff", "rotate": [0, 0] } },
+      { "caption": "When location software fails, it often defaults to that same zero-zero point instead of nothing.", "map": { "projection": "mercator", "accent": "#8b7cff" } },
+      { "caption": "Mapmakers nicknamed it Null Island, and a real ocean buoy floats there today.", "map": { "projection": "ortho", "accent": "#8b7cff", "rotate": [0, 0] } }
+    ],
+    "outro": "Follow for the science behind the map.",
+    "endMap": { "projection": "ortho", "accent": "#8b7cff", "rotate": [0, 0] },
+    "credit": "Cartography: Natural Earth"
+  },
+
+  "hexgrid": {
+    "theme": "GEOSPATIAL DATA SCIENCE",
+    "accent": "#8b7cff",
+    "hook": "Some data scientists redraw the entire planet in hexagons before they run a single query.",
+    "hookMap": { "projection": "ortho", "accent": "#8b7cff", "rotate": [-10, -6] },
+    "scenes": [
+      { "caption": "In a square grid, four neighbours touch an edge and four touch only a corner, so nearby is not one distance.", "map": { "projection": "mercator", "accent": "#8b7cff" } },
+      { "caption": "A hexagon's six neighbours are all the same distance away, so nearby means the same thing everywhere on the grid.", "map": { "projection": "equalEarth", "accent": "#8b7cff" } },
+      { "caption": "Uber open-sourced this hex grid, called H3, and it now bins millions of GPS pings in seconds.", "map": { "projection": "ortho", "accent": "#8b7cff", "rotate": [-10, -6] } }
+    ],
+    "outro": "Follow for the science behind the map.",
+    "endMap": { "projection": "equalEarth", "accent": "#8b7cff" },
+    "credit": "Cartography: Natural Earth"
   }
 }
