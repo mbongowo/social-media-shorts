@@ -33,3 +33,11 @@ Master list of every short concept ever produced. Never repeat a concept below.
 - FoundationModel — GeoAI — geospatial foundation models pretrain on unlabeled imagery, fine-tune with few labels
 - MAUP — Geospatial Data Science — Modifiable Areal Unit Problem: aggregation boundary choice can flip conclusions
 - SpatialAutocorrelation — Geospatial Data Science — Tobler's First Law and spatial data leakage in ML
+
+## Batch 6 (2026-08-01)
+- ResolutionTradeoff — Remote Sensing explained — spatial resolution vs revisit time tradeoff (Landsat vs weather satellites)
+- AtmosphereBlur — Remote Sensing explained — atmospheric correction: sunlight scatters/absorbs through the atmosphere twice before reaching the sensor
+- CoastlineParadox — Maps & Cartography — measured coastline length grows without limit as ruler size shrinks (fractal geometry)
+- DomainShift — GeoAI — models trained on one region/sensor lose accuracy when applied elsewhere without adaptation
+- VectorRaster — Geospatial Data Science — vector (points/lines/polygons) vs raster (grid of cells) data models
+- KrigingGuess — Geospatial Data Science — kriging spatial interpolation estimates unsampled values by distance-weighted correlation

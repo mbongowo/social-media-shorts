@@ -46,5 +46,53 @@
     "description": "Tobler's First Law says near things are more related than distant things, and ignoring it is how ML models secretly cheat on geospatial data. #GeospatialDataScience #TobersLaw #GeoAI #Shorts",
     "tags": ["Tobler's law", "spatial autocorrelation", "geospatial data science", "Moran's I", "GeoAI", "shorts"],
     "file": "https://raw.githubusercontent.com/mbongowo/social-media-shorts/main/SpatialAutocorrelation.mp4"
+  },
+  {
+    "id": "resolution-tradeoff",
+    "theme": "Remote Sensing explained",
+    "title": "Satellites can be sharp or fast. Never both #shorts",
+    "description": "Landsat resolves 30m detail but only revisits every 16 days, while weather satellites scan the planet every 10 minutes at about 1km per pixel. #RemoteSensing #Satellites #EarthObservation #Shorts",
+    "tags": ["remote sensing", "satellite resolution", "revisit time", "Landsat", "earth observation", "shorts"],
+    "file": "https://raw.githubusercontent.com/mbongowo/social-media-shorts/main/ResolutionTradeoff.mp4"
+  },
+  {
+    "id": "atmosphere-blur",
+    "theme": "Remote Sensing explained",
+    "title": "Your satellite photo has a photobomber #shorts",
+    "description": "Sunlight crosses the atmosphere twice before hitting the sensor, scattered and absorbed by gas and haze, which is why atmospheric correction exists. #RemoteSensing #Satellites #GeoAI #Shorts",
+    "tags": ["remote sensing", "atmospheric correction", "satellite imagery", "reflectance", "earth observation", "shorts"],
+    "file": "https://raw.githubusercontent.com/mbongowo/social-media-shorts/main/AtmosphereBlur.mp4"
+  },
+  {
+    "id": "coastline-paradox",
+    "theme": "Maps & Cartography",
+    "title": "How long is a coastline? Trick question #shorts",
+    "description": "Measure a coastline with a smaller ruler and it keeps getting longer, with no limit in theory, thanks to fractal geometry. #Cartography #CoastlineParadox #Maps #Shorts",
+    "tags": ["cartography", "coastline paradox", "fractal geometry", "maps", "geography", "shorts"],
+    "file": "https://raw.githubusercontent.com/mbongowo/social-media-shorts/main/CoastlineParadox.mp4"
+  },
+  {
+    "id": "domain-shift",
+    "theme": "GeoAI",
+    "title": "This AI aced California, then it saw Kenya #shorts",
+    "description": "A GeoAI model trained on one region's imagery can lose real accuracy on a new landscape, sensor, or season without adaptation. #GeoAI #MachineLearning #RemoteSensing #Shorts",
+    "tags": ["GeoAI", "domain shift", "machine learning", "satellite imagery", "generalization", "shorts"],
+    "file": "https://raw.githubusercontent.com/mbongowo/social-media-shorts/main/DomainShift.mp4"
+  },
+  {
+    "id": "vector-raster",
+    "theme": "Geospatial Data Science",
+    "title": "Every map is secretly one of two data types #shorts",
+    "description": "Vector data stores exact points, lines, and shapes while raster data stores a grid of cells, and picking the wrong one costs you. #GeospatialDataScience #GIS #Maps #Shorts",
+    "tags": ["geospatial data science", "vector data", "raster data", "GIS", "data models", "shorts"],
+    "file": "https://raw.githubusercontent.com/mbongowo/social-media-shorts/main/VectorRaster.mp4"
+  },
+  {
+    "id": "kriging-guess",
+    "theme": "Geospatial Data Science",
+    "title": "Nobody measured this spot, the map still knows #shorts",
+    "description": "Kriging estimates unknown values by weighting nearby samples by distance-based correlation, a method born in South African gold mines. #GeospatialDataScience #Kriging #GIS #Shorts",
+    "tags": ["geospatial data science", "kriging", "spatial interpolation", "geostatistics", "GIS", "shorts"],
+    "file": "https://raw.githubusercontent.com/mbongowo/social-media-shorts/main/KrigingGuess.mp4"
   }
 ]
