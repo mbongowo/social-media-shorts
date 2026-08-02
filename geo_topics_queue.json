@@ -687,5 +687,95 @@
     "outro": "Follow for the science behind the map.",
     "endMap": { "projection": "equalEarth", "accent": "#8b7cff" },
     "credit": "Cartography: Natural Earth"
+  },
+
+  "doublelandlocked": {
+    "theme": "MAPS & CARTOGRAPHY",
+    "accent": "#F6B93B",
+    "hook": "Only two countries on Earth are landlocked by other landlocked countries.",
+    "hookMap": { "projection": "equalEarth", "accent": "#F6B93B", "highlight": ["Liechtenstein", "Uzbekistan"] },
+    "scenes": [
+      { "caption": "Liechtenstein sits wedged between Switzerland and Austria, and both of those are landlocked too.", "map": { "projection": "ortho", "accent": "#F6B93B", "highlight": ["Liechtenstein", "Switzerland", "Austria"], "rotate": [-10, -47] } },
+      { "caption": "Uzbekistan is ringed by five neighbours, and every single one is also landlocked.", "map": { "projection": "ortho", "accent": "#F6B93B", "highlight": ["Uzbekistan", "Kazakhstan", "Turkmenistan", "Kyrgyzstan", "Tajikistan"], "rotate": [-64, -41] } },
+      { "caption": "From either country, reaching open ocean means crossing at least two borders no matter which way you go.", "map": { "projection": "equalEarth", "accent": "#F6B93B", "highlight": ["Liechtenstein", "Uzbekistan"] } }
+    ],
+    "outro": "Follow for the science behind the map.",
+    "endMap": { "projection": "equalEarth", "accent": "#F6B93B", "highlight": ["Liechtenstein", "Uzbekistan"] },
+    "credit": "Cartography: Natural Earth"
+  },
+
+  "triplefrontier": {
+    "theme": "MAPS & CARTOGRAPHY",
+    "accent": "#F6B93B",
+    "hook": "Stand on one riverbank and you can look into three different countries at once.",
+    "hookMap": { "projection": "ortho", "accent": "#F6B93B", "highlight": ["Argentina", "Brazil", "Paraguay"], "rotate": [55, 26] },
+    "scenes": [
+      { "caption": "The Iguazu River flows into the Parana River, and that confluence is where three borders meet.", "map": { "projection": "ortho", "accent": "#F6B93B", "highlight": ["Argentina", "Brazil", "Paraguay"], "rotate": [55, 26] } },
+      { "caption": "Argentina, Brazil and Paraguay all touch this one triangle of water, no bridge or fence needed to see all three.", "map": { "projection": "equalEarth", "accent": "#F6B93B", "highlight": ["Argentina", "Brazil", "Paraguay"], "fit": "Argentina" } },
+      { "caption": "Locals call it the Triple Frontier, one of the few places on Earth where three nations share a single point.", "map": { "projection": "ortho", "accent": "#F6B93B", "highlight": ["Argentina", "Brazil", "Paraguay"], "rotate": [55, 26] } }
+    ],
+    "outro": "Follow for the science behind the map.",
+    "endMap": { "projection": "equalEarth", "accent": "#F6B93B", "highlight": ["Argentina", "Brazil", "Paraguay"], "fit": "Argentina" },
+    "credit": "Cartography: Natural Earth"
+  },
+
+  "methaneleak": {
+    "theme": "SATELLITES & REMOTE SENSING",
+    "accent": "#4aa8ff",
+    "hook": "A satellite can catch a gas leak that the company never reported.",
+    "hookImg": { "commons": "oil and gas field aerial photo" },
+    "scenes": [
+      { "caption": "Methane is invisible to our eyes, but it absorbs one very specific band of infrared light.", "image": { "commons": "natural gas flare aerial" } },
+      { "caption": "Instruments like Europe's Sentinel-5P scan the whole planet every day, watching for that exact signature.", "image": { "nasa": "blue marble earth" } },
+      { "caption": "In 2022 that scanning exposed undisclosed 'super-emitter' leaks at oil and gas sites in Central Asia.", "image": { "commons": "oil pipeline infrastructure aerial" } }
+    ],
+    "outro": "Follow for the science behind the map.",
+    "endImg": { "nasa": "blue marble earth" },
+    "credit": "Imagery: Wikimedia Commons (public domain) / NASA"
+  },
+
+  "povertyai": {
+    "theme": "GEOAI",
+    "accent": "#39d98a",
+    "hook": "An AI once estimated how poor a village was from nothing but a satellite photo.",
+    "hookImg": { "wv": { "bbox": "25,28.5,33,33.0", "date": "2024-08-01" } },
+    "scenes": [
+      { "caption": "Household surveys are slow and costly, so most villages on Earth have never been formally surveyed.", "image": { "wv": { "bbox": "18,28.5,34,37.5", "date": "2024-07-01" } } },
+      { "caption": "Researchers trained a model to link daytime imagery to nighttime light levels, a known proxy for economic activity.", "image": { "nasa": "earth at night black marble" } },
+      { "caption": "Its estimates lined up closely with real household survey data, offering a way to map poverty where no survey exists.", "image": { "wv": { "bbox": "8,2.1,36,17.9", "date": "2024-06-15" } } }
+    ],
+    "outro": "Follow for the science behind the map.",
+    "endImg": { "nasa": "earth at night black marble" },
+    "credit": "Imagery: NASA Worldview"
+  },
+
+  "buildingheight": {
+    "theme": "GEOAI",
+    "accent": "#39d98a",
+    "hook": "AI can now guess how tall a building is from a completely flat satellite photo.",
+    "hookImg": { "wv": { "bbox": "25,28.5,33,33.0", "date": "2024-08-01" } },
+    "scenes": [
+      { "caption": "A standard satellite photo has no height data, just a flat grid of coloured pixels.", "image": { "wv": { "bbox": "18,28.5,34,37.5", "date": "2024-07-01" } } },
+      { "caption": "Models learn to read shadow length and rooftop shape as clues to how tall each structure really is.", "image": { "wv": { "bbox": "8,2.1,36,17.9", "date": "2024-06-15" } } },
+      { "caption": "Google's Open Buildings project used this method to map building heights across Africa where no ground survey ever existed.", "image": { "wv": { "bbox": "25,28.5,33,33.0", "date": "2024-08-01" } } }
+    ],
+    "outro": "Follow for the science behind the map.",
+    "endImg": { "wv": { "bbox": "25,28.5,33,33.0", "date": "2024-08-01" } },
+    "credit": "Imagery: NASA Worldview"
+  },
+
+  "srtm": {
+    "theme": "GEOSPATIAL DATA SCIENCE",
+    "accent": "#8b7cff",
+    "hook": "One 11-day space shuttle mission mapped the elevation of most of Earth's land.",
+    "hookMap": { "projection": "mercator", "accent": "#8b7cff" },
+    "scenes": [
+      { "caption": "In February 2000, Space Shuttle Endeavour flew two radar antennas, one in the cargo bay and one on a 60-metre mast.", "map": { "projection": "mercator", "accent": "#8b7cff" } },
+      { "caption": "The tiny difference between what each antenna received let software calculate the elevation of the ground below.", "map": { "projection": "equalEarth", "accent": "#8b7cff" } },
+      { "caption": "In just 11 days, the Shuttle Radar Topography Mission mapped elevation for about 80 percent of Earth's land surface.", "map": { "projection": "ortho", "accent": "#8b7cff", "rotate": [-10, -6] } }
+    ],
+    "outro": "Follow for the science behind the map.",
+    "endMap": { "projection": "ortho", "accent": "#8b7cff", "rotate": [-10, -6] },
+    "credit": "Cartography: Natural Earth"
   }
 }
