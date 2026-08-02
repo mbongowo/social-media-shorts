@@ -41,3 +41,11 @@ Master list of every short concept ever produced. Never repeat a concept below.
 - DomainShift — GeoAI — models trained on one region/sensor lose accuracy when applied elsewhere without adaptation
 - VectorRaster — Geospatial Data Science — vector (points/lines/polygons) vs raster (grid of cells) data models
 - KrigingGuess — Geospatial Data Science — kriging spatial interpolation estimates unsampled values by distance-weighted correlation
+
+## Batch 7 (2026-08-02)
+- SunSyncOrbit — Remote Sensing explained — sun-synchronous orbit keeps satellites crossing the equator at a consistent local time for comparable lighting
+- BitDepthSecret — Remote Sensing explained — radiometric resolution: Landsat 8 records 12-bit (4096 levels) vs an 8-bit photo's 256
+- ClassBreaksLie — Maps & Cartography — choropleth classification method (equal interval, quantile, natural breaks) changes a map's visual story from the same data
+- ImageChipping — GeoAI — large satellite scenes are cut into small tiles (chips) for neural network training, then stitched back together
+- RareClassTrap — Geospatial Data Science — class imbalance: rare-event models (e.g. flood pixels) can score high accuracy while missing every positive case
+- QuadtreeIndex — Geospatial Data Science — spatial indexes (quadtree, R-tree) split space into nested boxes so nearest-neighbor queries skip most of the data

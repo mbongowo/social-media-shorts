@@ -94,5 +94,53 @@
     "description": "Kriging estimates unknown values by weighting nearby samples by distance-based correlation, a method born in South African gold mines. #GeospatialDataScience #Kriging #GIS #Shorts",
     "tags": ["geospatial data science", "kriging", "spatial interpolation", "geostatistics", "GIS", "shorts"],
     "file": "https://raw.githubusercontent.com/mbongowo/social-media-shorts/main/KrigingGuess.mp4"
+  },
+  {
+    "id": "sun-sync-orbit",
+    "theme": "Remote Sensing explained",
+    "title": "Satellites plan their photos down to the minute #shorts",
+    "description": "Landsat's sun-synchronous orbit crosses the equator near the same local time on every pass, keeping the sun angle steady so images taken months apart still compare. #RemoteSensing #Satellites #Landsat #Shorts",
+    "tags": ["remote sensing", "sun-synchronous orbit", "Landsat", "satellites", "earth observation", "shorts"],
+    "file": "https://raw.githubusercontent.com/mbongowo/social-media-shorts/main/SunSyncOrbit.mp4"
+  },
+  {
+    "id": "bit-depth-secret",
+    "theme": "Remote Sensing explained",
+    "title": "Your screen shows 256 grays, satellites see 4096 #shorts",
+    "description": "Landsat 8 records each pixel at 12-bit radiometric resolution, 4096 brightness levels instead of the 256 a normal photo uses, catching subtler change. #RemoteSensing #Landsat #EarthObservation #Shorts",
+    "tags": ["remote sensing", "radiometric resolution", "bit depth", "Landsat", "satellite imagery", "shorts"],
+    "file": "https://raw.githubusercontent.com/mbongowo/social-media-shorts/main/BitDepthSecret.mp4"
+  },
+  {
+    "id": "class-breaks-lie",
+    "theme": "Maps & Cartography",
+    "title": "Same data, three totally different-looking maps #shorts",
+    "description": "Equal interval, quantile, and natural breaks classification slice the same numbers into different color bins, changing the map's story without changing the data. #Cartography #DataVisualization #Maps #Shorts",
+    "tags": ["cartography", "choropleth map", "classification methods", "data visualization", "GIS", "shorts"],
+    "file": "https://raw.githubusercontent.com/mbongowo/social-media-shorts/main/ClassBreaksLie.mp4"
+  },
+  {
+    "id": "image-chipping",
+    "theme": "GeoAI",
+    "title": "AI can't see the whole satellite image at once #shorts",
+    "description": "Huge satellite scenes get cut into small tiles, often 256x256 pixels, fed to the model one chip at a time and stitched back into one map. #GeoAI #MachineLearning #RemoteSensing #Shorts",
+    "tags": ["GeoAI", "image chipping", "deep learning", "satellite imagery", "machine learning", "shorts"],
+    "file": "https://raw.githubusercontent.com/mbongowo/social-media-shorts/main/ImageChipping.mp4"
+  },
+  {
+    "id": "rare-class-trap",
+    "theme": "Geospatial Data Science",
+    "title": "This model finds zero floods and still scores 98% #shorts",
+    "description": "When flooded pixels are a tiny fraction of a scene, guessing 'no flood' everywhere already wins on accuracy, which is why precision and recall matter more. #GeospatialDataScience #MachineLearning #GeoAI #Shorts",
+    "tags": ["geospatial data science", "class imbalance", "precision recall", "flood mapping", "machine learning", "shorts"],
+    "file": "https://raw.githubusercontent.com/mbongowo/social-media-shorts/main/RareClassTrap.mp4"
+  },
+  {
+    "id": "quadtree-index",
+    "theme": "Geospatial Data Science",
+    "title": "How GIS finds your nearest anything instantly #shorts",
+    "description": "Spatial indexes like quadtrees and R-trees split space into nested boxes so a nearest-neighbor search skips most of the data instead of scanning it all. #GeospatialDataScience #GIS #SpatialIndex #Shorts",
+    "tags": ["geospatial data science", "quadtree", "R-tree", "spatial index", "GIS", "shorts"],
+    "file": "https://raw.githubusercontent.com/mbongowo/social-media-shorts/main/QuadtreeIndex.mp4"
   }
 ]
