@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-08-01T12:25:44.565110+00:00",
+  "generated_utc": "2026-08-03T02:50:52.664704+00:00",
   "tasks": {
     "GeoShortProducer": {
       "state": "Enabled",
@@ -9,7 +9,7 @@
     "GeoYTScheduler": {
       "state": "Enabled",
       "status": "Ready",
-      "last_result": "0"
+      "last_result": "-2147020576"
     },
     "BlueskyPoster": {
       "state": "Enabled",
@@ -18,20 +18,24 @@
     }
   },
   "youtube": {
-    "total": 71,
+    "total": 77,
     "uploaded": 18,
-    "remaining": 53,
+    "remaining": 59,
     "next": "2026-09-13T18:00:00Z"
   },
-  "library_videos": 46,
-  "geo_specs": 46,
+  "library_videos": 49,
+  "geo_specs": 52,
   "renders": {
-    "fails": [],
-    "last_run_summary": "[07:24:19] === produce finished: 46 done, 0 failed [] ==="
+    "fails": [
+      "[21:49:03] FAIL povertyai: Command '['npx.cmd', 'remotion', 'render', 'GeoShort', 'out/geo_povertyai.mp4', '--props=C:\\\\Users\\\\mbongowo.mbuh\\\\Dropbox\\\\Claude\\\\Video project\\\\remotion-app\\\\out/props_povertyai.json', '--codec=h264', '--crf=20', '--log=error']' returned non-zero exit status 1.",
+      "[21:49:27] FAIL buildingheight: Command '['npx.cmd', 'remotion', 'render', 'GeoShort', 'out/geo_buildingheight.mp4', '--props=C:\\\\Users\\\\mbongowo.mbuh\\\\Dropbox\\\\Claude\\\\Video project\\\\remotion-app\\\\out/props_buildingheight.json', '--codec=h264', '--crf=20', '--log=error']' returned non-zero exit status 1.",
+      "[21:49:45] FAIL srtm: Command '['npx.cmd', 'remotion', 'render', 'GeoShort', 'out/geo_srtm.mp4', '--props=C:\\\\Users\\\\mbongowo.mbuh\\\\Dropbox\\\\Claude\\\\Video project\\\\remotion-app\\\\out/props_srtm.json', '--codec=h264', '--crf=20', '--log=error']' returned non-zero exit status 1."
+    ],
+    "last_run_summary": "[21:49:45] === produce finished: 49 done, 3 failed ['povertyai', 'buildingheight', 'srtm'] ==="
   },
   "bluesky": {
     "total": 113,
-    "posted": 14,
-    "pending": 99
+    "posted": 15,
+    "pending": 98
   }
 }
