@@ -142,5 +142,53 @@
     "description": "Spatial indexes like quadtrees and R-trees split space into nested boxes so a nearest-neighbor search skips most of the data instead of scanning it all. #GeospatialDataScience #GIS #SpatialIndex #Shorts",
     "tags": ["geospatial data science", "quadtree", "R-tree", "spatial index", "GIS", "shorts"],
     "file": "https://raw.githubusercontent.com/mbongowo/social-media-shorts/main/QuadtreeIndex.mp4"
+  },
+  {
+    "id": "terrain-lean",
+    "theme": "Remote Sensing explained",
+    "title": "This satellite photo is quietly lying to you #shorts",
+    "description": "Tall terrain leans sideways in raw satellite imagery because off-nadir viewing angles shift high elevations from their true map position. #RemoteSensing #Satellites #GIS #Shorts",
+    "tags": ["remote sensing", "orthorectification", "relief displacement", "satellite imagery", "GIS", "shorts"],
+    "file": "https://raw.githubusercontent.com/mbongowo/social-media-shorts/main/TerrainLean.mp4"
+  },
+  {
+    "id": "false-color-veg",
+    "theme": "Remote Sensing explained",
+    "title": "This isn't a photo, it's a plant health scan #shorts",
+    "description": "False color composites swap a near-infrared band into the red channel, making healthy vegetation glow bright red long before stress shows to the eye. #RemoteSensing #NDVI #EarthObservation #Shorts",
+    "tags": ["remote sensing", "false color", "infrared", "vegetation health", "satellite imagery", "shorts"],
+    "file": "https://raw.githubusercontent.com/mbongowo/social-media-shorts/main/FalseColorVeg.mp4"
+  },
+  {
+    "id": "great-circle-lie",
+    "theme": "Maps & Cartography",
+    "title": "The straight line on your map isn't the shortest path #shorts",
+    "description": "A straight line on a Mercator map holds one compass bearing, but the truly shortest path on a sphere is a curved great circle. #Cartography #Mercator #Maps #Shorts",
+    "tags": ["cartography", "great circle", "rhumb line", "Mercator projection", "navigation", "shorts"],
+    "file": "https://raw.githubusercontent.com/mbongowo/social-media-shorts/main/GreatCircleLie.mp4"
+  },
+  {
+    "id": "shortcut-learning",
+    "theme": "GeoAI",
+    "title": "This AI hit 98% accuracy, it still can't do its job #shorts",
+    "description": "Models can learn an easy shortcut correlated with a label, like a fence pattern, instead of the true feature, then fail on inputs that break the shortcut. #GeoAI #MachineLearning #RemoteSensing #Shorts",
+    "tags": ["GeoAI", "shortcut learning", "spurious correlation", "machine learning", "satellite imagery", "shorts"],
+    "file": "https://raw.githubusercontent.com/mbongowo/social-media-shorts/main/ShortcutLearning.mp4"
+  },
+  {
+    "id": "hex-grid-edge",
+    "theme": "Geospatial Data Science",
+    "title": "Why mapmakers are ditching squares for hexagons #shorts",
+    "description": "In a square grid a diagonal neighbor sits farther away than one straight across, so hex indexes like H3 use equal-distance neighbors for cleaner analytics. #GeospatialDataScience #GIS #H3 #Shorts",
+    "tags": ["geospatial data science", "hexagonal grid", "H3 index", "spatial analytics", "GIS", "shorts"],
+    "file": "https://raw.githubusercontent.com/mbongowo/social-media-shorts/main/HexGridEdge.mp4"
+  },
+  {
+    "id": "gps-snap",
+    "theme": "Geospatial Data Science",
+    "title": "Your GPS dot is wrong, your map fixes it for you #shorts",
+    "description": "Consumer GPS fixes can scatter several meters off the real road, so map-matching algorithms snap each noisy point onto the most likely route. #GeospatialDataScience #GPS #GIS #Shorts",
+    "tags": ["geospatial data science", "map matching", "GPS accuracy", "GIS", "navigation", "shorts"],
+    "file": "https://raw.githubusercontent.com/mbongowo/social-media-shorts/main/GPSSnap.mp4"
   }
 ]

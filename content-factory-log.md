@@ -49,3 +49,11 @@ Master list of every short concept ever produced. Never repeat a concept below.
 - ImageChipping — GeoAI — large satellite scenes are cut into small tiles (chips) for neural network training, then stitched back together
 - RareClassTrap — Geospatial Data Science — class imbalance: rare-event models (e.g. flood pixels) can score high accuracy while missing every positive case
 - QuadtreeIndex — Geospatial Data Science — spatial indexes (quadtree, R-tree) split space into nested boxes so nearest-neighbor queries skip most of the data
+
+## Batch 8 (2026-08-03)
+- TerrainLean — Remote Sensing explained — orthorectification: off-nadir viewing angles make tall terrain lean sideways in raw satellite imagery until elevation data warps it back to its true map position
+- FalseColorVeg — Remote Sensing explained — false color composites remap near-infrared reflectance into the red channel, making healthy chlorophyll-rich vegetation glow bright red
+- GreatCircleLie — Maps & Cartography — a straight line on a Mercator map is a constant-bearing rhumb line, not the shortest path; the true shortest path on a sphere is a curved great circle
+- ShortcutLearning — GeoAI — shortcut learning: a model can hit high accuracy by latching onto an easy correlated feature (e.g. a fence pattern) instead of the true target, then fail when that shortcut is absent
+- HexGridEdge — Geospatial Data Science — hexagonal spatial indexes (e.g. H3) give every neighboring cell equal distance, unlike square grids where diagonal neighbors sit farther away than orthogonal ones
+- GPSSnap — Geospatial Data Science — map matching algorithms snap noisy raw GPS fixes onto the most probable road segment using the road network's topology
