@@ -57,3 +57,6 @@ Master list of every short concept ever produced. Never repeat a concept below.
 - ShortcutLearning — GeoAI — shortcut learning: a model can hit high accuracy by latching onto an easy correlated feature (e.g. a fence pattern) instead of the true target, then fail when that shortcut is absent
 - HexGridEdge — Geospatial Data Science — hexagonal spatial indexes (e.g. H3) give every neighboring cell equal distance, unlike square grids where diagonal neighbors sit farther away than orthogonal ones
 - GPSSnap — Geospatial Data Science — map matching algorithms snap noisy raw GPS fixes onto the most probable road segment using the road network's topology
+
+## Batch 9 (2026-08-05)
+- TissotCircles — Maps & Cartography — Tissot's Indicatrix: identical circles placed across the globe swell into differently-sized ellipses once projected flat, revealing exactly where and how much a projection distorts area

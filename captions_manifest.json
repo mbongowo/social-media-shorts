@@ -190,5 +190,13 @@
     "description": "Consumer GPS fixes can scatter several meters off the real road, so map-matching algorithms snap each noisy point onto the most likely route. #GeospatialDataScience #GPS #GIS #Shorts",
     "tags": ["geospatial data science", "map matching", "GPS accuracy", "GIS", "navigation", "shorts"],
     "file": "https://raw.githubusercontent.com/mbongowo/social-media-shorts/main/GPSSnap.mp4"
+  },
+  {
+    "id": "tissot-circles",
+    "theme": "Maps & Cartography",
+    "title": "Cartographers have a secret tool to catch a map lying #shorts",
+    "description": "Tissot's Indicatrix places identical circles across the globe; after projection onto a flat map the circles swell into ellipses, revealing exactly where and how much a map distorts area. #Cartography #MapProjections #Tissot #Shorts",
+    "tags": ["cartography", "Tissot's indicatrix", "map projections", "map distortion", "GIS", "shorts"],
+    "file": "https://raw.githubusercontent.com/mbongowo/social-media-shorts/main/TissotCircles.mp4"
   }
 ]
