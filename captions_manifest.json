@@ -198,5 +198,14 @@
     "description": "Tissot's Indicatrix places identical circles across the globe; after projection onto a flat map the circles swell into ellipses, revealing exactly where and how much a map distorts area. #Cartography #MapProjections #Tissot #Shorts",
     "tags": ["cartography", "Tissot's indicatrix", "map projections", "map distortion", "GIS", "shorts"],
     "file": "https://raw.githubusercontent.com/mbongowo/social-media-shorts/main/TissotCircles.mp4"
+  },
+  {
+    "id": "super-res-hallucination",
+    "theme": "GeoAI",
+    "title": "This AI 'sharpens' satellite photos - and hallucinates buildings #shorts",
+    "description": "AI super-resolution models pattern-complete missing detail, and can hallucinate roads or buildings that were never in the real satellite scene. #GeoAI #RemoteSensing #MachineLearning #Shorts",
+    "tags": ["GeoAI", "super-resolution", "machine learning", "satellite imagery", "hallucination", "shorts"],
+    "file": "https://raw.githubusercontent.com/mbongowo/social-media-shorts/main/SuperResHallucination.mp4",
+    "cover": "https://raw.githubusercontent.com/mbongowo/social-media-shorts/main/covers/SuperResHallucination_cover.jpg"
   }
 ]

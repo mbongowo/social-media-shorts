@@ -60,3 +60,6 @@ Master list of every short concept ever produced. Never repeat a concept below.
 
 ## Batch 9 (2026-08-05)
 - TissotCircles — Maps & Cartography — Tissot's Indicatrix: identical circles placed across the globe swell into differently-sized ellipses once projected flat, revealing exactly where and how much a projection distorts area
+
+## Batch 10 (2026-08-07)
+- SuperResHallucination — GeoAI — AI super-resolution models pattern-complete missing detail; trained on natural photos, they can hallucinate plausible-looking roads or buildings that were never in the real satellite scene
