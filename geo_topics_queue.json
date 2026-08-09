@@ -777,5 +777,95 @@
     "outro": "Follow for the science behind the map.",
     "endMap": { "projection": "ortho", "accent": "#8b7cff", "rotate": [-10, -6] },
     "credit": "Cartography: Natural Earth"
+  },
+
+  "kaliningrad": {
+    "theme": "MAPS & CARTOGRAPHY",
+    "accent": "#F6B93B",
+    "hook": "One piece of Russia has no land border with the rest of Russia.",
+    "hookMap": { "projection": "ortho", "accent": "#F6B93B", "highlight": ["Russia"], "rotate": [-21, -55] },
+    "scenes": [
+      { "caption": "After 1945 the German city of Konigsberg became Soviet Kaliningrad, cut off from the Russian mainland by newly independent states.", "map": { "projection": "ortho", "accent": "#F6B93B", "highlight": ["Russia"], "rotate": [-21, -55] } },
+      { "caption": "Today it sits on the Baltic Sea wedged between Poland and Lithuania, over 300 kilometres from mainland Russia by land.", "map": { "projection": "equalEarth", "accent": "#F6B93B", "highlight": ["Russia", "Poland", "Lithuania"] } },
+      { "caption": "To drive there from Moscow, you have to cross the territory of at least one other country first.", "map": { "projection": "ortho", "accent": "#F6B93B", "highlight": ["Russia"], "rotate": [-21, -55] } }
+    ],
+    "outro": "Follow for the science behind the map.",
+    "endMap": { "projection": "ortho", "accent": "#F6B93B", "highlight": ["Russia"], "rotate": [-21, -55] },
+    "credit": "Cartography: Natural Earth"
+  },
+
+  "icesat": {
+    "theme": "SATELLITES & REMOTE SENSING",
+    "accent": "#4aa8ff",
+    "hook": "A NASA satellite measures the height of Earth's ice by counting single photons.",
+    "hookImg": { "nasa": "greenland ice sheet from space" },
+    "scenes": [
+      { "caption": "ICESat-2's laser fires ten thousand pulses a second and times individual photons bouncing back from the surface.", "image": { "nasa": "greenland ice sheet from space" } },
+      { "caption": "That timing lets it measure surface height to within a few centimetres, on repeat passes over the same ground.", "image": { "nasa": "blue marble earth" } },
+      { "caption": "Stacked year after year, those measurements reveal exactly how fast Greenland and Antarctica's ice is thinning.", "image": { "nasa": "greenland ice sheet from space" } }
+    ],
+    "outro": "Follow for the science behind the map.",
+    "endImg": { "nasa": "greenland ice sheet from space" },
+    "credit": "Imagery: NASA"
+  },
+
+  "coralbleach": {
+    "theme": "SATELLITES & REMOTE SENSING",
+    "accent": "#4aa8ff",
+    "hook": "Satellites can warn that a reef is about to bleach before a single diver sees it turn white.",
+    "hookImg": { "wv": { "bbox": "19.16,-80.5,29.83,-74.5", "date": "2024-07-01" } },
+    "scenes": [
+      { "caption": "Warm water stresses coral into expelling the colourful algae that feed it, leaving the skeleton bare and white.", "image": { "wv": { "bbox": "19.16,-80.5,29.83,-74.5", "date": "2024-07-15" } } },
+      { "caption": "NOAA satellites track sea-surface temperature worldwide and flag reefs under heat stress in near real time.", "image": { "wv": { "bbox": "19.16,-80.5,29.83,-74.5", "date": "2024-08-01" } } },
+      { "caption": "That satellite-built bleaching alert gives reef managers weeks of warning before the damage is visible underwater.", "image": { "wv": { "bbox": "19.16,-80.5,29.83,-74.5", "date": "2024-07-01" } } }
+    ],
+    "outro": "Follow for the science behind the map.",
+    "endImg": { "wv": { "bbox": "19.16,-80.5,29.83,-74.5", "date": "2024-07-01" } },
+    "credit": "Imagery: NASA Worldview"
+  },
+
+  "darkships": {
+    "theme": "GEOAI",
+    "accent": "#39d98a",
+    "hook": "AI can spot a ship that is trying to hide from satellites.",
+    "hookImg": { "nasa": "synthetic aperture radar earth" },
+    "scenes": [
+      { "caption": "Most ships broadcast their position automatically, but some switch that signal off to fish illegally or dodge sanctions.", "image": { "nasa": "synthetic aperture radar earth" } },
+      { "caption": "Radar satellites see every vessel anyway, transponder or not, because a metal hull bounces a strong signal straight back.", "image": { "nasa": "synthetic aperture radar earth" } },
+      { "caption": "AI models scan those radar images and match each unlisted ship's track, mapping vessels that never meant to be seen.", "image": { "nasa": "blue marble earth" } }
+    ],
+    "outro": "Follow for the science behind the map.",
+    "endImg": { "nasa": "synthetic aperture radar earth" },
+    "credit": "Imagery: NASA"
+  },
+
+  "wildlifeai": {
+    "theme": "GEOAI",
+    "accent": "#39d98a",
+    "hook": "Researchers once counted a herd of elephants from space, without a single ranger on the ground.",
+    "hookImg": { "wv": { "bbox": "18,28.5,34,37.5", "date": "2024-07-01" } },
+    "scenes": [
+      { "caption": "High-resolution satellites can resolve an object the size of an elephant clearly enough to make out its shape and shadow.", "image": { "wv": { "bbox": "18,28.5,34,37.5", "date": "2024-07-01" } } },
+      { "caption": "Researchers trained a deep learning model on thousands of labelled images to pick those shapes out automatically.", "image": { "wv": { "bbox": "8,2.1,36,17.9", "date": "2024-06-15" } } },
+      { "caption": "The model matched trained human counters, letting scientists survey herds across huge, hard-to-reach landscapes from orbit.", "image": { "nasa": "blue marble earth" } }
+    ],
+    "outro": "Follow for the science behind the map.",
+    "endImg": { "wv": { "bbox": "18,28.5,34,37.5", "date": "2024-07-01" } },
+    "credit": "Imagery: NASA Worldview"
+  },
+
+  "voronoi": {
+    "theme": "GEOSPATIAL DATA SCIENCE",
+    "accent": "#8b7cff",
+    "hook": "One geometric trick decides which hospital is really your nearest one.",
+    "hookMap": { "projection": "mercator", "accent": "#8b7cff" },
+    "scenes": [
+      { "caption": "Give a map a set of points, like hospitals, and a Voronoi diagram draws the boundary where you are closer to one than any other.", "map": { "projection": "mercator", "accent": "#8b7cff" } },
+      { "caption": "Each resulting cell is a catchment area: every location inside it is nearest to that one point, not the others.", "map": { "projection": "equalEarth", "accent": "#8b7cff" } },
+      { "caption": "GIS analysts use these cells to plan service areas, from clinics and fire stations to cell towers and delivery zones.", "map": { "projection": "ortho", "accent": "#8b7cff", "rotate": [-10, -6] } }
+    ],
+    "outro": "Follow for the science behind the map.",
+    "endMap": { "projection": "ortho", "accent": "#8b7cff", "rotate": [-10, -6] },
+    "credit": "Cartography: Natural Earth"
   }
 }
