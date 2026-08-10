@@ -4,7 +4,14 @@
     "theme": "Remote Sensing explained",
     "title": "This satellite image isn't a photo (SAR explained) #shorts",
     "description": "Radar satellites send their own microwave pulses and measure the echo, so rough surfaces look bright and smooth surfaces look dark. #RemoteSensing #SAR #Satellites #Shorts",
-    "tags": ["remote sensing", "SAR", "radar", "satellite imagery", "geospatial", "shorts"],
+    "tags": [
+      "remote sensing",
+      "SAR",
+      "radar",
+      "satellite imagery",
+      "geospatial",
+      "shorts"
+    ],
     "file": "https://raw.githubusercontent.com/mbongowo/social-media-shorts/main/RadarBackscatter.mp4"
   },
   {
@@ -12,7 +19,14 @@
     "theme": "Remote Sensing explained",
     "title": "Every material has a barcode only satellites can read #shorts",
     "description": "Vegetation, soil, and water each reflect light in a unique pattern across infrared bands, letting scientists identify materials from orbit. #RemoteSensing #Spectroscopy #GeoAI #Shorts",
-    "tags": ["remote sensing", "spectral signature", "hyperspectral", "satellite imagery", "earth observation", "shorts"],
+    "tags": [
+      "remote sensing",
+      "spectral signature",
+      "hyperspectral",
+      "satellite imagery",
+      "earth observation",
+      "shorts"
+    ],
     "file": "https://raw.githubusercontent.com/mbongowo/social-media-shorts/main/SpectralFingerprint.mp4"
   },
   {
@@ -20,7 +34,14 @@
     "theme": "Maps & Cartography",
     "title": "These squiggly lines are basically a 3D map on paper #shorts",
     "description": "Contour lines connect points of equal elevation, closer spacing means steeper terrain, no numbers required. #Cartography #Topography #Maps #Shorts",
-    "tags": ["cartography", "topographic maps", "contour lines", "elevation", "geography", "shorts"],
+    "tags": [
+      "cartography",
+      "topographic maps",
+      "contour lines",
+      "elevation",
+      "geography",
+      "shorts"
+    ],
     "file": "https://raw.githubusercontent.com/mbongowo/social-media-shorts/main/ContourSlope.mp4"
   },
   {
@@ -28,7 +49,14 @@
     "theme": "GeoAI",
     "title": "This AI never saw a single labeled satellite image #shorts",
     "description": "Geospatial foundation models pretrain on millions of unlabeled satellite scenes, then need only a handful of labeled examples to tackle a new task. #GeoAI #MachineLearning #EarthObservation #Shorts",
-    "tags": ["GeoAI", "foundation models", "self-supervised learning", "machine learning", "satellite imagery", "shorts"],
+    "tags": [
+      "GeoAI",
+      "foundation models",
+      "self-supervised learning",
+      "machine learning",
+      "satellite imagery",
+      "shorts"
+    ],
     "file": "https://raw.githubusercontent.com/mbongowo/social-media-shorts/main/FoundationModel.mp4"
   },
   {
@@ -36,7 +64,14 @@
     "theme": "Geospatial Data Science",
     "title": "Same data, same map, opposite conclusion #shorts",
     "description": "The Modifiable Areal Unit Problem shows how the boundaries you choose to aggregate spatial data can flip your conclusion. #GeospatialDataScience #DataScience #Statistics #Shorts",
-    "tags": ["MAUP", "geospatial data science", "spatial statistics", "data visualization", "GIS", "shorts"],
+    "tags": [
+      "MAUP",
+      "geospatial data science",
+      "spatial statistics",
+      "data visualization",
+      "GIS",
+      "shorts"
+    ],
     "file": "https://raw.githubusercontent.com/mbongowo/social-media-shorts/main/MAUP.mp4"
   },
   {
@@ -44,7 +79,14 @@
     "theme": "Geospatial Data Science",
     "title": "The first law of geography fits in one sentence #shorts",
     "description": "Tobler's First Law says near things are more related than distant things, and ignoring it is how ML models secretly cheat on geospatial data. #GeospatialDataScience #TobersLaw #GeoAI #Shorts",
-    "tags": ["Tobler's law", "spatial autocorrelation", "geospatial data science", "Moran's I", "GeoAI", "shorts"],
+    "tags": [
+      "Tobler's law",
+      "spatial autocorrelation",
+      "geospatial data science",
+      "Moran's I",
+      "GeoAI",
+      "shorts"
+    ],
     "file": "https://raw.githubusercontent.com/mbongowo/social-media-shorts/main/SpatialAutocorrelation.mp4"
   },
   {
@@ -52,7 +94,14 @@
     "theme": "Remote Sensing explained",
     "title": "Satellites can be sharp or fast. Never both #shorts",
     "description": "Landsat resolves 30m detail but only revisits every 16 days, while weather satellites scan the planet every 10 minutes at about 1km per pixel. #RemoteSensing #Satellites #EarthObservation #Shorts",
-    "tags": ["remote sensing", "satellite resolution", "revisit time", "Landsat", "earth observation", "shorts"],
+    "tags": [
+      "remote sensing",
+      "satellite resolution",
+      "revisit time",
+      "Landsat",
+      "earth observation",
+      "shorts"
+    ],
     "file": "https://raw.githubusercontent.com/mbongowo/social-media-shorts/main/ResolutionTradeoff.mp4"
   },
   {
@@ -60,7 +109,14 @@
     "theme": "Remote Sensing explained",
     "title": "Your satellite photo has a photobomber #shorts",
     "description": "Sunlight crosses the atmosphere twice before hitting the sensor, scattered and absorbed by gas and haze, which is why atmospheric correction exists. #RemoteSensing #Satellites #GeoAI #Shorts",
-    "tags": ["remote sensing", "atmospheric correction", "satellite imagery", "reflectance", "earth observation", "shorts"],
+    "tags": [
+      "remote sensing",
+      "atmospheric correction",
+      "satellite imagery",
+      "reflectance",
+      "earth observation",
+      "shorts"
+    ],
     "file": "https://raw.githubusercontent.com/mbongowo/social-media-shorts/main/AtmosphereBlur.mp4"
   },
   {
@@ -68,7 +124,14 @@
     "theme": "Maps & Cartography",
     "title": "How long is a coastline? Trick question #shorts",
     "description": "Measure a coastline with a smaller ruler and it keeps getting longer, with no limit in theory, thanks to fractal geometry. #Cartography #CoastlineParadox #Maps #Shorts",
-    "tags": ["cartography", "coastline paradox", "fractal geometry", "maps", "geography", "shorts"],
+    "tags": [
+      "cartography",
+      "coastline paradox",
+      "fractal geometry",
+      "maps",
+      "geography",
+      "shorts"
+    ],
     "file": "https://raw.githubusercontent.com/mbongowo/social-media-shorts/main/CoastlineParadox.mp4"
   },
   {
@@ -76,7 +139,14 @@
     "theme": "GeoAI",
     "title": "This AI aced California, then it saw Kenya #shorts",
     "description": "A GeoAI model trained on one region's imagery can lose real accuracy on a new landscape, sensor, or season without adaptation. #GeoAI #MachineLearning #RemoteSensing #Shorts",
-    "tags": ["GeoAI", "domain shift", "machine learning", "satellite imagery", "generalization", "shorts"],
+    "tags": [
+      "GeoAI",
+      "domain shift",
+      "machine learning",
+      "satellite imagery",
+      "generalization",
+      "shorts"
+    ],
     "file": "https://raw.githubusercontent.com/mbongowo/social-media-shorts/main/DomainShift.mp4"
   },
   {
@@ -84,7 +154,14 @@
     "theme": "Geospatial Data Science",
     "title": "Every map is secretly one of two data types #shorts",
     "description": "Vector data stores exact points, lines, and shapes while raster data stores a grid of cells, and picking the wrong one costs you. #GeospatialDataScience #GIS #Maps #Shorts",
-    "tags": ["geospatial data science", "vector data", "raster data", "GIS", "data models", "shorts"],
+    "tags": [
+      "geospatial data science",
+      "vector data",
+      "raster data",
+      "GIS",
+      "data models",
+      "shorts"
+    ],
     "file": "https://raw.githubusercontent.com/mbongowo/social-media-shorts/main/VectorRaster.mp4"
   },
   {
@@ -92,7 +169,14 @@
     "theme": "Geospatial Data Science",
     "title": "Nobody measured this spot, the map still knows #shorts",
     "description": "Kriging estimates unknown values by weighting nearby samples by distance-based correlation, a method born in South African gold mines. #GeospatialDataScience #Kriging #GIS #Shorts",
-    "tags": ["geospatial data science", "kriging", "spatial interpolation", "geostatistics", "GIS", "shorts"],
+    "tags": [
+      "geospatial data science",
+      "kriging",
+      "spatial interpolation",
+      "geostatistics",
+      "GIS",
+      "shorts"
+    ],
     "file": "https://raw.githubusercontent.com/mbongowo/social-media-shorts/main/KrigingGuess.mp4"
   },
   {
@@ -100,7 +184,14 @@
     "theme": "Remote Sensing explained",
     "title": "Satellites plan their photos down to the minute #shorts",
     "description": "Landsat's sun-synchronous orbit crosses the equator near the same local time on every pass, keeping the sun angle steady so images taken months apart still compare. #RemoteSensing #Satellites #Landsat #Shorts",
-    "tags": ["remote sensing", "sun-synchronous orbit", "Landsat", "satellites", "earth observation", "shorts"],
+    "tags": [
+      "remote sensing",
+      "sun-synchronous orbit",
+      "Landsat",
+      "satellites",
+      "earth observation",
+      "shorts"
+    ],
     "file": "https://raw.githubusercontent.com/mbongowo/social-media-shorts/main/SunSyncOrbit.mp4"
   },
   {
@@ -108,7 +199,14 @@
     "theme": "Remote Sensing explained",
     "title": "Your screen shows 256 grays, satellites see 4096 #shorts",
     "description": "Landsat 8 records each pixel at 12-bit radiometric resolution, 4096 brightness levels instead of the 256 a normal photo uses, catching subtler change. #RemoteSensing #Landsat #EarthObservation #Shorts",
-    "tags": ["remote sensing", "radiometric resolution", "bit depth", "Landsat", "satellite imagery", "shorts"],
+    "tags": [
+      "remote sensing",
+      "radiometric resolution",
+      "bit depth",
+      "Landsat",
+      "satellite imagery",
+      "shorts"
+    ],
     "file": "https://raw.githubusercontent.com/mbongowo/social-media-shorts/main/BitDepthSecret.mp4"
   },
   {
@@ -116,7 +214,14 @@
     "theme": "Maps & Cartography",
     "title": "Same data, three totally different-looking maps #shorts",
     "description": "Equal interval, quantile, and natural breaks classification slice the same numbers into different color bins, changing the map's story without changing the data. #Cartography #DataVisualization #Maps #Shorts",
-    "tags": ["cartography", "choropleth map", "classification methods", "data visualization", "GIS", "shorts"],
+    "tags": [
+      "cartography",
+      "choropleth map",
+      "classification methods",
+      "data visualization",
+      "GIS",
+      "shorts"
+    ],
     "file": "https://raw.githubusercontent.com/mbongowo/social-media-shorts/main/ClassBreaksLie.mp4"
   },
   {
@@ -124,7 +229,14 @@
     "theme": "GeoAI",
     "title": "AI can't see the whole satellite image at once #shorts",
     "description": "Huge satellite scenes get cut into small tiles, often 256x256 pixels, fed to the model one chip at a time and stitched back into one map. #GeoAI #MachineLearning #RemoteSensing #Shorts",
-    "tags": ["GeoAI", "image chipping", "deep learning", "satellite imagery", "machine learning", "shorts"],
+    "tags": [
+      "GeoAI",
+      "image chipping",
+      "deep learning",
+      "satellite imagery",
+      "machine learning",
+      "shorts"
+    ],
     "file": "https://raw.githubusercontent.com/mbongowo/social-media-shorts/main/ImageChipping.mp4"
   },
   {
@@ -132,7 +244,14 @@
     "theme": "Geospatial Data Science",
     "title": "This model finds zero floods and still scores 98% #shorts",
     "description": "When flooded pixels are a tiny fraction of a scene, guessing 'no flood' everywhere already wins on accuracy, which is why precision and recall matter more. #GeospatialDataScience #MachineLearning #GeoAI #Shorts",
-    "tags": ["geospatial data science", "class imbalance", "precision recall", "flood mapping", "machine learning", "shorts"],
+    "tags": [
+      "geospatial data science",
+      "class imbalance",
+      "precision recall",
+      "flood mapping",
+      "machine learning",
+      "shorts"
+    ],
     "file": "https://raw.githubusercontent.com/mbongowo/social-media-shorts/main/RareClassTrap.mp4"
   },
   {
@@ -140,7 +259,14 @@
     "theme": "Geospatial Data Science",
     "title": "How GIS finds your nearest anything instantly #shorts",
     "description": "Spatial indexes like quadtrees and R-trees split space into nested boxes so a nearest-neighbor search skips most of the data instead of scanning it all. #GeospatialDataScience #GIS #SpatialIndex #Shorts",
-    "tags": ["geospatial data science", "quadtree", "R-tree", "spatial index", "GIS", "shorts"],
+    "tags": [
+      "geospatial data science",
+      "quadtree",
+      "R-tree",
+      "spatial index",
+      "GIS",
+      "shorts"
+    ],
     "file": "https://raw.githubusercontent.com/mbongowo/social-media-shorts/main/QuadtreeIndex.mp4"
   },
   {
@@ -148,7 +274,14 @@
     "theme": "Remote Sensing explained",
     "title": "This satellite photo is quietly lying to you #shorts",
     "description": "Tall terrain leans sideways in raw satellite imagery because off-nadir viewing angles shift high elevations from their true map position. #RemoteSensing #Satellites #GIS #Shorts",
-    "tags": ["remote sensing", "orthorectification", "relief displacement", "satellite imagery", "GIS", "shorts"],
+    "tags": [
+      "remote sensing",
+      "orthorectification",
+      "relief displacement",
+      "satellite imagery",
+      "GIS",
+      "shorts"
+    ],
     "file": "https://raw.githubusercontent.com/mbongowo/social-media-shorts/main/TerrainLean.mp4"
   },
   {
@@ -156,7 +289,14 @@
     "theme": "Remote Sensing explained",
     "title": "This isn't a photo, it's a plant health scan #shorts",
     "description": "False color composites swap a near-infrared band into the red channel, making healthy vegetation glow bright red long before stress shows to the eye. #RemoteSensing #NDVI #EarthObservation #Shorts",
-    "tags": ["remote sensing", "false color", "infrared", "vegetation health", "satellite imagery", "shorts"],
+    "tags": [
+      "remote sensing",
+      "false color",
+      "infrared",
+      "vegetation health",
+      "satellite imagery",
+      "shorts"
+    ],
     "file": "https://raw.githubusercontent.com/mbongowo/social-media-shorts/main/FalseColorVeg.mp4"
   },
   {
@@ -164,7 +304,14 @@
     "theme": "Maps & Cartography",
     "title": "The straight line on your map isn't the shortest path #shorts",
     "description": "A straight line on a Mercator map holds one compass bearing, but the truly shortest path on a sphere is a curved great circle. #Cartography #Mercator #Maps #Shorts",
-    "tags": ["cartography", "great circle", "rhumb line", "Mercator projection", "navigation", "shorts"],
+    "tags": [
+      "cartography",
+      "great circle",
+      "rhumb line",
+      "Mercator projection",
+      "navigation",
+      "shorts"
+    ],
     "file": "https://raw.githubusercontent.com/mbongowo/social-media-shorts/main/GreatCircleLie.mp4"
   },
   {
@@ -172,7 +319,14 @@
     "theme": "GeoAI",
     "title": "This AI hit 98% accuracy, it still can't do its job #shorts",
     "description": "Models can learn an easy shortcut correlated with a label, like a fence pattern, instead of the true feature, then fail on inputs that break the shortcut. #GeoAI #MachineLearning #RemoteSensing #Shorts",
-    "tags": ["GeoAI", "shortcut learning", "spurious correlation", "machine learning", "satellite imagery", "shorts"],
+    "tags": [
+      "GeoAI",
+      "shortcut learning",
+      "spurious correlation",
+      "machine learning",
+      "satellite imagery",
+      "shorts"
+    ],
     "file": "https://raw.githubusercontent.com/mbongowo/social-media-shorts/main/ShortcutLearning.mp4"
   },
   {
@@ -180,7 +334,14 @@
     "theme": "Geospatial Data Science",
     "title": "Why mapmakers are ditching squares for hexagons #shorts",
     "description": "In a square grid a diagonal neighbor sits farther away than one straight across, so hex indexes like H3 use equal-distance neighbors for cleaner analytics. #GeospatialDataScience #GIS #H3 #Shorts",
-    "tags": ["geospatial data science", "hexagonal grid", "H3 index", "spatial analytics", "GIS", "shorts"],
+    "tags": [
+      "geospatial data science",
+      "hexagonal grid",
+      "H3 index",
+      "spatial analytics",
+      "GIS",
+      "shorts"
+    ],
     "file": "https://raw.githubusercontent.com/mbongowo/social-media-shorts/main/HexGridEdge.mp4"
   },
   {
@@ -188,7 +349,14 @@
     "theme": "Geospatial Data Science",
     "title": "Your GPS dot is wrong, your map fixes it for you #shorts",
     "description": "Consumer GPS fixes can scatter several meters off the real road, so map-matching algorithms snap each noisy point onto the most likely route. #GeospatialDataScience #GPS #GIS #Shorts",
-    "tags": ["geospatial data science", "map matching", "GPS accuracy", "GIS", "navigation", "shorts"],
+    "tags": [
+      "geospatial data science",
+      "map matching",
+      "GPS accuracy",
+      "GIS",
+      "navigation",
+      "shorts"
+    ],
     "file": "https://raw.githubusercontent.com/mbongowo/social-media-shorts/main/GPSSnap.mp4"
   },
   {
@@ -196,7 +364,14 @@
     "theme": "Maps & Cartography",
     "title": "Cartographers have a secret tool to catch a map lying #shorts",
     "description": "Tissot's Indicatrix places identical circles across the globe; after projection onto a flat map the circles swell into ellipses, revealing exactly where and how much a map distorts area. #Cartography #MapProjections #Tissot #Shorts",
-    "tags": ["cartography", "Tissot's indicatrix", "map projections", "map distortion", "GIS", "shorts"],
+    "tags": [
+      "cartography",
+      "Tissot's indicatrix",
+      "map projections",
+      "map distortion",
+      "GIS",
+      "shorts"
+    ],
     "file": "https://raw.githubusercontent.com/mbongowo/social-media-shorts/main/TissotCircles.mp4"
   },
   {
@@ -204,8 +379,31 @@
     "theme": "GeoAI",
     "title": "This AI 'sharpens' satellite photos - and hallucinates buildings #shorts",
     "description": "AI super-resolution models pattern-complete missing detail, and can hallucinate roads or buildings that were never in the real satellite scene. #GeoAI #RemoteSensing #MachineLearning #Shorts",
-    "tags": ["GeoAI", "super-resolution", "machine learning", "satellite imagery", "hallucination", "shorts"],
+    "tags": [
+      "GeoAI",
+      "super-resolution",
+      "machine learning",
+      "satellite imagery",
+      "hallucination",
+      "shorts"
+    ],
     "file": "https://raw.githubusercontent.com/mbongowo/social-media-shorts/main/SuperResHallucination.mp4",
     "cover": "https://raw.githubusercontent.com/mbongowo/social-media-shorts/main/covers/SuperResHallucination_cover.jpg"
+  },
+  {
+    "id": "four-color-map",
+    "theme": "Maps & Cartography",
+    "title": "Why no map on Earth needs a 5th color #shorts",
+    "description": "The Four Color Theorem guarantees any flat map can be colored so no two touching regions match, using at most four colors - proven in 1976 by the first major theorem checked by computer. #Cartography #MathIsFun #GeoAI #Shorts",
+    "tags": [
+      "cartography",
+      "four color theorem",
+      "map coloring",
+      "graph theory",
+      "GIS",
+      "shorts"
+    ],
+    "file": "https://raw.githubusercontent.com/mbongowo/social-media-shorts/main/FourColorMap.mp4",
+    "cover": "https://raw.githubusercontent.com/mbongowo/social-media-shorts/main/covers/FourColorMap_cover.jpg"
   }
 ]

@@ -63,3 +63,6 @@ Master list of every short concept ever produced. Never repeat a concept below.
 
 ## Batch 10 (2026-08-07)
 - SuperResHallucination — GeoAI — AI super-resolution models pattern-complete missing detail; trained on natural photos, they can hallucinate plausible-looking roads or buildings that were never in the real satellite scene
+
+## Batch 11 (2026-08-10)
+- FourColorMap — Maps & Cartography — the Four Color Theorem: any flat map can be colored with just 4 colors so no two touching regions match; proven in 1976 by Appel & Haken, the first major theorem verified with substantial computer assistance
