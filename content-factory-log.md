@@ -66,3 +66,6 @@ Master list of every short concept ever produced. Never repeat a concept below.
 
 ## Batch 11 (2026-08-10)
 - FourColorMap — Maps & Cartography — the Four Color Theorem: any flat map can be colored with just 4 colors so no two touching regions match; proven in 1976 by Appel & Haken, the first major theorem verified with substantial computer assistance
+
+## Batch 12 (2026-08-12)
+- OnboardCloudFilter — GeoAI — ESA's Phi-sat-1 ran an onboard neural net (CloudScout) that screened images for cloud cover and discarded unusable ones before downlink to the ground

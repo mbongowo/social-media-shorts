@@ -405,5 +405,21 @@
     ],
     "file": "https://raw.githubusercontent.com/mbongowo/social-media-shorts/main/FourColorMap.mp4",
     "cover": "https://raw.githubusercontent.com/mbongowo/social-media-shorts/main/covers/FourColorMap_cover.jpg"
+  },
+  {
+    "id": "onboard-cloud-filter",
+    "theme": "GeoAI",
+    "title": "This satellite deletes its own cloudy photos #shorts",
+    "description": "ESA satellite Phi-sat-1 runs a neural network in orbit that screens each image for cloud cover and discards the unusable ones before they are ever downlinked to the ground. #GeoAI #RemoteSensing #SatelliteTech #Shorts",
+    "tags": [
+      "GeoAI",
+      "edge AI",
+      "remote sensing",
+      "satellite",
+      "onboard processing",
+      "shorts"
+    ],
+    "file": "https://raw.githubusercontent.com/mbongowo/social-media-shorts/main/OnboardCloudFilter.mp4",
+    "cover": "https://raw.githubusercontent.com/mbongowo/social-media-shorts/main/covers/OnboardCloudFilter_cover.jpg"
   }
 ]
