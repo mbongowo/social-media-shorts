@@ -421,5 +421,23 @@
     ],
     "file": "https://raw.githubusercontent.com/mbongowo/social-media-shorts/main/OnboardCloudFilter.mp4",
     "cover": "https://raw.githubusercontent.com/mbongowo/social-media-shorts/main/covers/OnboardCloudFilter_cover.jpg"
+  },
+  {
+    "id": "cartogram-bend",
+    "theme": "Maps & Cartography",
+    "title": "Why some maps make small countries look bigger #shorts",
+    "description": "Cartograms resize regions by population instead of land area, using a diffusion algorithm published in PNAS in 2004. #cartography #maps #dataviz #geoai #Shorts",
+    "tags": [
+      "cartography",
+      "cartogram",
+      "maps",
+      "data visualization",
+      "geoai",
+      "population"
+    ],
+    "file": "https://raw.githubusercontent.com/mbongowo/social-media-shorts/main/CartogramBend.mp4",
+    "cover": "https://raw.githubusercontent.com/mbongowo/social-media-shorts/main/covers/CartogramBend_cover.jpg",
+    "source_doi": "10.1073/pnas.0400280101",
+    "source_url": "https://www.pnas.org/doi/10.1073/pnas.0400280101"
   }
 ]

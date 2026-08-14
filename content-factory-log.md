@@ -69,3 +69,6 @@ Master list of every short concept ever produced. Never repeat a concept below.
 
 ## Batch 12 (2026-08-12)
 - OnboardCloudFilter — GeoAI — ESA's Phi-sat-1 ran an onboard neural net (CloudScout) that screened images for cloud cover and discarded unusable ones before downlink to the ground
+
+## Batch 13 (2026-08-14)
+- CartogramBend — Maps & Cartography — a diffusion-based cartogram algorithm resizes map regions by population instead of land area, treating population like a gas that spreads to equal density and dragging borders along with it. Gastner and Newman, "Diffusion-based method for producing density-equalizing maps," PNAS 101(20), 2004, DOI 10.1073/pnas.0400280101
