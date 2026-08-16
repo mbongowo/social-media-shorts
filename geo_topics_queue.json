@@ -867,5 +867,95 @@
     "outro": "Follow for the science behind the map.",
     "endMap": { "projection": "ortho", "accent": "#8b7cff", "rotate": [-10, -6] },
     "credit": "Cartography: Natural Earth"
+  },
+
+  "pointnemo": {
+    "theme": "MAPS & CARTOGRAPHY",
+    "accent": "#F6B93B",
+    "hook": "When the space station flies overhead, it is closer to one point in the ocean than any person standing on land.",
+    "hookMap": { "projection": "ortho", "accent": "#F6B93B", "rotate": [123, 49] },
+    "scenes": [
+      { "caption": "Point Nemo sits in the South Pacific, more than 2,600 kilometers from the nearest shore in every direction.", "map": { "projection": "ortho", "accent": "#F6B93B", "rotate": [123, 49] } },
+      { "caption": "The International Space Station orbits about 400 kilometers up, closer to that spot than the nearest coastline.", "map": { "projection": "equalEarth", "accent": "#F6B93B" } },
+      { "caption": "Space agencies also aim retired satellites and cargo spacecraft at this same empty water on purpose.", "map": { "projection": "ortho", "accent": "#F6B93B", "rotate": [123, 49] } }
+    ],
+    "outro": "Follow for the science behind the map.",
+    "endMap": { "projection": "ortho", "accent": "#F6B93B", "rotate": [123, 49] },
+    "credit": "Cartography: Natural Earth"
+  },
+
+  "gracewater": {
+    "theme": "SATELLITES & REMOTE SENSING",
+    "accent": "#4aa8ff",
+    "hook": "Twin satellites can tell a region lost its groundwater just by weighing it from orbit.",
+    "hookImg": { "nasa": "blue marble earth" },
+    "scenes": [
+      { "caption": "Two satellites named GRACE flew in tight formation, sensing tiny shifts in Earth's own gravity.", "image": { "nasa": "blue marble earth" } },
+      { "caption": "When underground water drains away, the ground loses mass, and the satellites feel the pull change.", "image": { "wv": { "bbox": "18,28.5,34,37.5", "date": "2024-07-01" } } },
+      { "caption": "That let scientists measure aquifers draining faster than rainfall could refill them, without drilling a single well.", "image": { "wv": { "bbox": "18,28.5,34,37.5", "date": "2024-08-01" } } }
+    ],
+    "outro": "Follow for the science behind the map.",
+    "endImg": { "nasa": "blue marble earth" },
+    "credit": "Imagery: NASA Worldview"
+  },
+
+  "swot": {
+    "theme": "SATELLITES & REMOTE SENSING",
+    "accent": "#4aa8ff",
+    "hook": "One satellite launched in 2022 is the first to measure the height of nearly every river and lake on Earth.",
+    "hookImg": { "wv": { "bbox": "-12,-67.5,4,-58.5", "date": "2024-08-20" } },
+    "scenes": [
+      { "caption": "Most rivers on Earth had never been measured for water surface height in one consistent global survey.", "image": { "wv": { "bbox": "-12,-67.5,4,-58.5", "date": "2024-08-20" } } },
+      { "caption": "SWOT bounces radar across a wide swath, mapping the elevation of water surfaces down to a few centimeters.", "image": { "wv": { "bbox": "18,28.5,34,37.5", "date": "2024-07-01" } } },
+      { "caption": "That single instrument now tracks flood risk and drought stress on rivers and lakes worldwide.", "image": { "nasa": "blue marble earth" } }
+    ],
+    "outro": "Follow for the science behind the map.",
+    "endImg": { "wv": { "bbox": "-12,-67.5,4,-58.5", "date": "2024-08-20" } },
+    "credit": "Imagery: NASA Worldview"
+  },
+
+  "solarai": {
+    "theme": "GEOAI",
+    "accent": "#39d98a",
+    "hook": "One AI model mapped every solar panel in the United States from aerial photos alone.",
+    "hookImg": { "commons": "rooftop solar panels aerial photo" },
+    "scenes": [
+      { "caption": "Spotting every rooftop solar panel from satellite images by eye would take an army of analysts.", "image": { "commons": "solar farm aerial photo" } },
+      { "caption": "Researchers trained a deep learning model to recognize the shape and glare of solar panels instead.", "image": { "commons": "rooftop solar panels aerial photo" } },
+      { "caption": "It mapped 1.47 million installations across the country, the first fine grained national solar census.", "image": { "nasa": "blue marble earth" } }
+    ],
+    "outro": "Follow for the science behind the map.",
+    "endImg": { "commons": "solar farm aerial photo" },
+    "credit": "Imagery: Wikimedia Commons (public domain) / NASA"
+  },
+
+  "climatetrace": {
+    "theme": "GEOAI",
+    "accent": "#39d98a",
+    "hook": "A coalition of AI models now tracks greenhouse gas emissions from individual power plants and factories worldwide.",
+    "hookImg": { "commons": "power plant smokestacks aerial photo" },
+    "scenes": [
+      { "caption": "Governments and companies self-report most emissions data, and those numbers are often years old or missing.", "image": { "commons": "power plant smokestacks aerial photo" } },
+      { "caption": "Climate TRACE instead reads satellite imagery of smoke, flares and heat, then lets AI estimate the emissions directly.", "image": { "commons": "oil refinery aerial photo" } },
+      { "caption": "It was unveiled at a United Nations climate summit, offering an independent check on what polluters actually report.", "image": { "nasa": "blue marble earth" } }
+    ],
+    "outro": "Follow for the science behind the map.",
+    "endImg": { "commons": "power plant smokestacks aerial photo" },
+    "credit": "Imagery: Wikimedia Commons (public domain) / NASA"
+  },
+
+  "geohash": {
+    "theme": "GEOSPATIAL DATA SCIENCE",
+    "accent": "#8b7cff",
+    "hook": "A short string like 9q8yyk can pinpoint a location on Earth, and its own length decides how precise it is.",
+    "hookMap": { "projection": "mercator", "accent": "#8b7cff" },
+    "scenes": [
+      { "caption": "Latitude and longitude are two long decimal numbers, awkward to store, sort or search together.", "map": { "projection": "mercator", "accent": "#8b7cff" } },
+      { "caption": "A geohash interleaves their digits into one short string, so nearby places share the same starting letters.", "map": { "projection": "equalEarth", "accent": "#8b7cff" } },
+      { "caption": "Trim the last character and the same string still points to the same neighborhood, just less precisely.", "map": { "projection": "ortho", "accent": "#8b7cff", "rotate": [-10, -6] } }
+    ],
+    "outro": "Follow for the science behind the map.",
+    "endMap": { "projection": "equalEarth", "accent": "#8b7cff" },
+    "credit": "Cartography: Natural Earth"
   }
 }
