@@ -72,3 +72,6 @@ Master list of every short concept ever produced. Never repeat a concept below.
 
 ## Batch 13 (2026-08-14)
 - CartogramBend — Maps & Cartography — a diffusion-based cartogram algorithm resizes map regions by population instead of land area, treating population like a gas that spreads to equal density and dragging borders along with it. Gastner and Newman, "Diffusion-based method for producing density-equalizing maps," PNAS 101(20), 2004, DOI 10.1073/pnas.0400280101
+
+## Batch 14 (2026-08-17)
+- PovertyFromSpace — GeoAI — a CNN trained via transfer learning uses nighttime light brightness as a noisy wealth proxy to learn image features from daytime satellite photos, then estimates local household consumption and asset wealth, explaining up to 75% of local economic variation across five African countries (Nigeria, Tanzania, Uganda, Malawi, Rwanda) without any household survey. Jean, Burke, Xie, Davis, Lobell and Ermon, "Combining satellite imagery and machine learning to predict poverty," Science 353(6301):790-794, 2016, DOI 10.1126/science.aaf7894

@@ -439,5 +439,23 @@
     "cover": "https://raw.githubusercontent.com/mbongowo/social-media-shorts/main/covers/CartogramBend_cover.jpg",
     "source_doi": "10.1073/pnas.0400280101",
     "source_url": "https://www.pnas.org/doi/10.1073/pnas.0400280101"
+  },
+  {
+    "id": "poverty-from-space",
+    "theme": "GeoAI",
+    "title": "This AI guesses local wealth from a satellite photo alone #shorts",
+    "description": "A CNN trained on nighttime light brightness as a wealth proxy explained up to 75% of local economic variation across five African countries, no household survey required. #GeoAI #MachineLearning #EarthObservation #Shorts",
+    "tags": [
+      "GeoAI",
+      "machine learning",
+      "satellite imagery",
+      "poverty mapping",
+      "remote sensing",
+      "shorts"
+    ],
+    "file": "https://raw.githubusercontent.com/mbongowo/social-media-shorts/main/PovertyFromSpace.mp4",
+    "cover": "https://raw.githubusercontent.com/mbongowo/social-media-shorts/main/covers/PovertyFromSpace_cover.jpg",
+    "source_doi": "10.1126/science.aaf7894",
+    "source_url": "https://www.science.org/doi/10.1126/science.aaf7894"
   }
 ]
