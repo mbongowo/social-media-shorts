@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-08-17T12:21:25.643073+00:00",
+  "generated_utc": "2026-08-18T12:16:29.426475+00:00",
   "tasks": {
     "GeoShortProducer": {
       "state": "Enabled",
@@ -19,19 +19,19 @@
   },
   "youtube": {
     "total": 108,
-    "uploaded": 78,
-    "remaining": 30,
-    "next": "2027-01-17T19:00:00Z"
+    "uploaded": 84,
+    "remaining": 24,
+    "next": "2027-01-31T19:00:00Z"
   },
   "library_videos": 65,
   "geo_specs": 65,
   "renders": {
     "fails": [],
-    "last_run_summary": "[07:19:22] === produce finished: 65 done, 0 failed [] ==="
+    "last_run_summary": "[07:15:10] === produce finished: 65 done, 0 failed [] ==="
   },
   "bluesky": {
-    "total": 141,
-    "posted": 41,
+    "total": 142,
+    "posted": 42,
     "pending": 100
   }
 }
