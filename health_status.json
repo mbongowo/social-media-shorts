@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-08-18T12:16:29.426475+00:00",
+  "generated_utc": "2026-08-19T12:15:59.675783+00:00",
   "tasks": {
     "GeoShortProducer": {
       "state": "Enabled",
@@ -27,11 +27,11 @@
   "geo_specs": 65,
   "renders": {
     "fails": [],
-    "last_run_summary": "[07:15:10] === produce finished: 65 done, 0 failed [] ==="
+    "last_run_summary": "[07:15:11] === produce finished: 65 done, 0 failed [] ==="
   },
   "bluesky": {
-    "total": 142,
-    "posted": 42,
-    "pending": 100
+    "total": 145,
+    "posted": 43,
+    "pending": 102
   }
 }
