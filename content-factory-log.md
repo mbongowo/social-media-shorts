@@ -75,3 +75,9 @@ Master list of every short concept ever produced. Never repeat a concept below.
 
 ## Batch 14 (2026-08-17)
 - PovertyFromSpace — GeoAI — a CNN trained via transfer learning uses nighttime light brightness as a noisy wealth proxy to learn image features from daytime satellite photos, then estimates local household consumption and asset wealth, explaining up to 75% of local economic variation across five African countries (Nigeria, Tanzania, Uganda, Malawi, Rwanda) without any household survey. Jean, Burke, Xie, Davis, Lobell and Ermon, "Combining satellite imagery and machine learning to predict poverty," Science 353(6301):790-794, 2016, DOI 10.1126/science.aaf7894
+
+## Batch 15 (2026-08-19)
+- ProjectionScoreCard — Maps & Cartography — Goldberg and Gott's six-category distortion metric (isotropy, area, flexion, skewness, distances, boundary cuts) objectively scored world map projections; Mercator scores 8.296 versus Winkel Tripel's 4.563, nearly double the distortion, explaining why National Geographic adopted Winkel Tripel in 1998. Goldberg and Gott, "Flexion and Skewness in Map Projections of the Earth," Cartographica 42(4):297-318, 2007, DOI 10.3138/carto.42.4.297
+
+## Note on DoualaSinking.mp4 (found this run, 2026-08-19)
+DoualaSinking.mp4 exists at the repo root (committed 2026-08-14, commit 55468b5, authored directly by Mbongowo, not by this factory routine) but has no entry in this log, no captions_manifest.json entry, and no cover in covers/. It falls outside this factory's pipeline so it was left untouched, but it means captions_manifest.json is not a complete index of every short in the repo root. Flagged in this run's email.

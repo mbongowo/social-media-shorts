@@ -457,5 +457,23 @@
     "cover": "https://raw.githubusercontent.com/mbongowo/social-media-shorts/main/covers/PovertyFromSpace_cover.jpg",
     "source_doi": "10.1126/science.aaf7894",
     "source_url": "https://www.science.org/doi/10.1126/science.aaf7894"
+  },
+  {
+    "id": "projection-score-card",
+    "theme": "Maps & Cartography",
+    "title": "Scientists gave every world map a distortion score #shorts",
+    "description": "A 2007 astrophysics study scored world map projections for distortion: Mercator rates 8.3, Winkel Tripel just 4.6, nearly half. #maps #cartography #dataviz #geoai #Shorts",
+    "tags": [
+      "cartography",
+      "map projections",
+      "Mercator",
+      "Winkel Tripel",
+      "geoai",
+      "shorts"
+    ],
+    "file": "https://raw.githubusercontent.com/mbongowo/social-media-shorts/main/ProjectionScoreCard.mp4",
+    "cover": "https://raw.githubusercontent.com/mbongowo/social-media-shorts/main/covers/ProjectionScoreCard_cover.jpg",
+    "source_doi": "10.3138/carto.42.4.297",
+    "source_url": "https://doi.org/10.3138/carto.42.4.297"
   }
 ]
