@@ -475,5 +475,23 @@
     "cover": "https://raw.githubusercontent.com/mbongowo/social-media-shorts/main/covers/ProjectionScoreCard_cover.jpg",
     "source_doi": "10.3138/carto.42.4.297",
     "source_url": "https://doi.org/10.3138/carto.42.4.297"
+  },
+  {
+    "id": "geo-time-twin",
+    "theme": "GeoAI",
+    "title": "AI trained itself on satellites, no human labels needed #shorts",
+    "description": "A 2021 computer vision study paired satellite photos of the same place from different times as a free training signal, beating standard self-supervised training by about 8 percent with zero human labels. #GeoAI #MachineLearning #RemoteSensing #Shorts",
+    "tags": [
+      "GeoAI",
+      "self-supervised learning",
+      "satellite imagery",
+      "computer vision",
+      "remote sensing",
+      "shorts"
+    ],
+    "file": "https://raw.githubusercontent.com/mbongowo/social-media-shorts/main/GeoTimeTwin.mp4",
+    "cover": "https://raw.githubusercontent.com/mbongowo/social-media-shorts/main/covers/GeoTimeTwin_cover.jpg",
+    "source_doi": "10.1109/ICCV48922.2021.01002",
+    "source_url": "https://doi.org/10.1109/ICCV48922.2021.01002"
   }
 ]
