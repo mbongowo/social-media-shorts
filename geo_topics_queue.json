@@ -957,5 +957,95 @@
     "outro": "Follow for the science behind the map.",
     "endMap": { "projection": "equalEarth", "accent": "#8b7cff" },
     "credit": "Cartography: Natural Earth"
+  },
+
+  "birtawil": {
+    "theme": "MAPS & CARTOGRAPHY",
+    "accent": "#F6B93B",
+    "hook": "One patch of desert on Earth belongs to no country at all.",
+    "hookMap": { "projection": "ortho", "accent": "#F6B93B", "highlight": ["Egypt", "Sudan"], "rotate": [-34, -22] },
+    "scenes": [
+      { "caption": "Egypt and Sudan drew two different border lines in 1899 and 1902, and the two versions disagree over two patches of land.", "map": { "projection": "equalEarth", "accent": "#F6B93B", "highlight": ["Egypt", "Sudan"], "fit": "africa" } },
+      { "caption": "Both countries claim the coastal Halaib Triangle nearby, but each claim requires giving up Bir Tawil, the desert patch next to it.", "map": { "projection": "ortho", "accent": "#F6B93B", "highlight": ["Egypt", "Sudan"], "rotate": [-34, -22] } },
+      { "caption": "So neither country will claim Bir Tawil, leaving about 2,060 square kilometers unclaimed by any nation on Earth.", "map": { "projection": "equalEarth", "accent": "#F6B93B", "highlight": ["Egypt", "Sudan"], "fit": "africa" } }
+    ],
+    "outro": "Follow for the science behind the map.",
+    "endMap": { "projection": "equalEarth", "accent": "#F6B93B", "highlight": ["Egypt", "Sudan"], "fit": "africa" },
+    "credit": "Cartography: Natural Earth"
+  },
+
+  "baarle": {
+    "theme": "MAPS & CARTOGRAPHY",
+    "accent": "#F6B93B",
+    "hook": "One European town has a national border running straight through people's living rooms.",
+    "hookImg": { "commons": "Baarle Hertog border marker" },
+    "scenes": [
+      { "caption": "Baarle-Hertog is Belgian territory scattered across more than twenty separate patches inside the Netherlands.", "image": { "commons": "Baarle Hertog border marker" } },
+      { "caption": "Some of those Belgian patches even contain smaller Dutch patches inside them, enclaves within enclaves.", "image": { "commons": "Baarle Nassau street border" } },
+      { "caption": "White crosses set into the pavement trace the line, and in places it runs straight through houses and shops.", "image": { "commons": "Baarle Hertog border marker" } }
+    ],
+    "outro": "Follow for the science behind the map.",
+    "endImg": { "commons": "Baarle Hertog border marker" },
+    "credit": "Imagery: Wikimedia Commons (public domain)"
+  },
+
+  "volcanoinsar": {
+    "theme": "SATELLITES & REMOTE SENSING",
+    "accent": "#4aa8ff",
+    "hook": "Satellites can watch a volcano start to swell months before it erupts.",
+    "hookImg": { "nasa": "synthetic aperture radar earth" },
+    "scenes": [
+      { "caption": "As magma rises underground, it pushes the surface above it upward by centimeters, too subtle to see by eye.", "image": { "nasa": "synthetic aperture radar earth" } },
+      { "caption": "Radar satellites compare images of the same volcano from different days and measure that tiny swelling.", "image": { "nasa": "synthetic aperture radar earth" } },
+      { "caption": "That technique, called InSAR, now gives scientists warning of many eruptions before the first plume ever appears.", "image": { "nasa": "blue marble earth" } }
+    ],
+    "outro": "Follow for the science behind the map.",
+    "endImg": { "nasa": "synthetic aperture radar earth" },
+    "credit": "Imagery: NASA"
+  },
+
+  "dscovr": {
+    "theme": "SATELLITES & REMOTE SENSING",
+    "accent": "#4aa8ff",
+    "hook": "One NASA camera keeps a live photo of the whole sunlit Earth, taken from a million miles away.",
+    "hookImg": { "nasa": "blue marble earth" },
+    "scenes": [
+      { "caption": "DSCOVR sits at a gravitational balance point between Earth and the Sun called Lagrange point one, about a million miles out.", "image": { "nasa": "blue marble earth" } },
+      { "caption": "From there its EPIC camera always faces the fully lit side of Earth, a view no satellite closer to us can hold.", "image": { "wv": { "bbox": "8,2.1,36,17.9", "date": "2024-06-15" } } },
+      { "caption": "It captures a new full Earth image roughly every one to two hours and posts it publicly the same day.", "image": { "nasa": "blue marble earth" } }
+    ],
+    "outro": "Follow for the science behind the map.",
+    "endImg": { "nasa": "blue marble earth" },
+    "credit": "Imagery: NASA"
+  },
+
+  "photogeo": {
+    "theme": "GEOAI",
+    "accent": "#39d98a",
+    "hook": "An AI can now guess where an ordinary photo was taken with no location data attached at all.",
+    "hookImg": { "commons": "city street scene photograph" },
+    "scenes": [
+      { "caption": "Researchers trained a model on millions of geotagged street level photos, without ever telling it a single rule of geography.", "image": { "commons": "city street scene photograph" } },
+      { "caption": "It learned instead from clues like road markings, plants, architecture and even the angle of the shadows.", "image": { "commons": "rural road landscape photograph" } },
+      { "caption": "In head to head tests, it placed random photos closer to the true location than most human players of location guessing games.", "image": { "commons": "city street scene photograph" } }
+    ],
+    "outro": "Follow for the science behind the map.",
+    "endImg": { "commons": "city street scene photograph" },
+    "credit": "Imagery: Wikimedia Commons (public domain)"
+  },
+
+  "raycast": {
+    "theme": "GEOSPATIAL DATA SCIENCE",
+    "accent": "#8b7cff",
+    "hook": "One simple trick is how your phone knows a point is inside a country and not just near it.",
+    "hookMap": { "projection": "mercator", "accent": "#8b7cff" },
+    "scenes": [
+      { "caption": "Draw an imaginary ray from the point straight out to the edge of the map and count how many times it crosses the border.", "map": { "projection": "mercator", "accent": "#8b7cff" } },
+      { "caption": "Cross the line an odd number of times and the point is inside. Cross it an even number of times and it is outside.", "map": { "projection": "equalEarth", "accent": "#8b7cff" } },
+      { "caption": "That single rule, called ray casting, is what lets software test millions of points against a shape in an instant.", "map": { "projection": "ortho", "accent": "#8b7cff", "rotate": [-10, -6] } }
+    ],
+    "outro": "Follow for the science behind the map.",
+    "endMap": { "projection": "ortho", "accent": "#8b7cff", "rotate": [-10, -6] },
+    "credit": "Cartography: Natural Earth"
   }
 }
