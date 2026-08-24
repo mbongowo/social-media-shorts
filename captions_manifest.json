@@ -493,5 +493,23 @@
     "cover": "https://raw.githubusercontent.com/mbongowo/social-media-shorts/main/covers/GeoTimeTwin_cover.jpg",
     "source_doi": "10.1109/ICCV48922.2021.01002",
     "source_url": "https://doi.org/10.1109/ICCV48922.2021.01002"
+  },
+  {
+    "id": "label-packing",
+    "theme": "Maps & Cartography",
+    "title": "Scientists proved map labeling has no perfect fast solution #shorts",
+    "description": "Placing non-overlapping labels on a map is proven NP-hard, so every map app you use relies on approximation, not a perfect answer. #Cartography #MapLabeling #ComputationalGeometry #Shorts",
+    "tags": [
+      "cartography",
+      "map labeling",
+      "NP-hard",
+      "computational geometry",
+      "GIS",
+      "shorts"
+    ],
+    "file": "https://raw.githubusercontent.com/mbongowo/social-media-shorts/main/LabelPacking.mp4",
+    "cover": "https://raw.githubusercontent.com/mbongowo/social-media-shorts/main/covers/LabelPacking_cover.jpg",
+    "source_doi": "10.1145/109648.109680",
+    "source_url": "https://dl.acm.org/doi/10.1145/109648.109680"
   }
 ]

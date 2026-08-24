@@ -87,3 +87,9 @@ DoualaSinking.mp4 exists at the repo root (committed 2026-08-14, commit 55468b5,
 
 ## Note on PuertoRicoDrought.mp4 (found this run, 2026-08-21)
 PuertoRicoDrought.mp4 exists at the repo root (committed 2026-08-19, commit 1d03b10, authored directly by Mbongowo, not by this factory routine) but has no entry in this log, no captions_manifest.json entry, and no cover in covers/. Same situation as DoualaSinking.mp4 above. Left untouched, flagged in this run's email.
+
+## Batch 17 (2026-08-24)
+- LabelPacking — Maps & Cartography — placing non-overlapping labels next to points on a map (point-feature label placement) is proven NP-hard; the best guaranteed algorithm can only promise a labeling within 2x of the optimal fit. Not a current-events claim, so Gate 1 does not apply. Formann, M. and Wagner, F., "A packing problem with applications to lettering of maps," Proceedings of the 7th Annual ACM Symposium on Computational Geometry (SoCG '91), ACM, pp. 281-288, 1991, DOI 10.1145/109648.109680. Verification note: this run's network egress proxy again blocked api.crossref.org, dl.acm.org, doi.org, wikidata.org and dblp.org, so the DOI was cross-checked via WebSearch triangulation (three independent queries agreeing on title, authors, venue, pages, year and DOI), same fallback as GeoTimeTwin (batch 16).
+
+## Note on DoualaSinking.mp4 and PuertoRicoDrought.mp4 (still open, checked again 2026-08-24)
+Both still sit at the repo root outside this factory's pipeline (no log entry beyond these notes, no manifest entry, no cover). Left untouched again this run.
