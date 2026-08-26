@@ -93,3 +93,10 @@ PuertoRicoDrought.mp4 exists at the repo root (committed 2026-08-19, commit 1d03
 
 ## Note on DoualaSinking.mp4 and PuertoRicoDrought.mp4 (still open, checked again 2026-08-24)
 Both still sit at the repo root outside this factory's pipeline (no log entry beyond these notes, no manifest entry, no cover). Left untouched again this run.
+
+## Batch 18 (2026-08-26)
+- SinglePhotonIce — Remote Sensing explained — NASA's ICESat-2 fires 10,000 laser pulses a second from its ATLAS instrument and its single-photon-sensitive detectors track individual returning photons, giving enough precision to measure Greenland and Antarctic ice sheet height loss to within 4mm a year. Not a current-events claim, so Gate 1 does not apply. Markus, T., Neumann, T., Martino, A., Abdalati, W. et al., "The Ice, Cloud, and land Elevation Satellite-2 (ICESat-2): Science requirements, concept, and implementation," Remote Sensing of Environment 190:260-273, 2017, DOI 10.1016/j.rse.2016.12.029. Verification note: this run's network egress proxy again blocked api.crossref.org (CONNECT tunnel failed, 403), so the DOI was cross-checked via WebSearch triangulation across ResearchGate, ScienceDirect and NASA's own hosted PDF of the paper, all agreeing on title, full author list, journal, volume/pages and DOI, same fallback used in batches 16-17. The 10,000 pulses/sec and 4mm/year figures were separately corroborated on NASA's own ICESat-2 mission pages (icesat-2.gsfc.nasa.gov), which also serves as source_url as the primary agency page.
+- Rejected concept: volcanic ground deformation via InSAR (would have used Massonnet et al. 1995 Nature paper on Mount Etna). Not rejected for failing either gate; the DOI and fact were solid. Rejected because `pro/GEO_volcanoinsar.mp4` already exists in this repo (added by a separate, non-factory pipeline) and the topic would have overlapped with existing library content.
+
+## Note on DoualaSinking.mp4 and PuertoRicoDrought.mp4 (still open, checked again 2026-08-26)
+Both still sit at the repo root outside this factory's pipeline (no log entry beyond these notes, no manifest entry, no cover). Left untouched again this run.

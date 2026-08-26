@@ -511,5 +511,23 @@
     "cover": "https://raw.githubusercontent.com/mbongowo/social-media-shorts/main/covers/LabelPacking_cover.jpg",
     "source_doi": "10.1145/109648.109680",
     "source_url": "https://dl.acm.org/doi/10.1145/109648.109680"
+  },
+  {
+    "id": "single-photon-ice",
+    "theme": "Remote Sensing explained",
+    "title": "NASA's laser counts single photons to catch ice sheets shrinking #shorts",
+    "description": "ICESat-2 fires 10,000 laser pulses a second and tracks single returning photons to measure Greenland and Antarctica losing height, accurate to within 4mm a year. #RemoteSensing #NASA #ICESat2 #Shorts",
+    "tags": [
+      "remote sensing",
+      "ICESat-2",
+      "lidar",
+      "NASA",
+      "ice sheets",
+      "shorts"
+    ],
+    "file": "https://raw.githubusercontent.com/mbongowo/social-media-shorts/main/SinglePhotonIce.mp4",
+    "cover": "https://raw.githubusercontent.com/mbongowo/social-media-shorts/main/covers/SinglePhotonIce_cover.jpg",
+    "source_doi": "10.1016/j.rse.2016.12.029",
+    "source_url": "https://icesat-2.gsfc.nasa.gov/articles/counting-nasas-icesat-2"
   }
 ]
