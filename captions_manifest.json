@@ -529,5 +529,23 @@
     "cover": "https://raw.githubusercontent.com/mbongowo/social-media-shorts/main/covers/SinglePhotonIce_cover.jpg",
     "source_doi": "10.1016/j.rse.2016.12.029",
     "source_url": "https://icesat-2.gsfc.nasa.gov/articles/counting-nasas-icesat-2"
+  },
+  {
+    "id": "crowd-map-accuracy",
+    "theme": "Geospatial Data Science",
+    "title": "Random volunteers mapped roads as accurately as surveyors #shorts",
+    "description": "OpenStreetMap's crowdsourced roads landed within about 6 meters of official Ordnance Survey positions, with 80% motorway overlap. #GIS #OpenStreetMap #VGI #Shorts",
+    "tags": [
+      "geospatial data science",
+      "OpenStreetMap",
+      "volunteered geographic information",
+      "GIS",
+      "crowdsourcing",
+      "shorts"
+    ],
+    "file": "https://raw.githubusercontent.com/mbongowo/social-media-shorts/main/CrowdMapAccuracy.mp4",
+    "cover": "https://raw.githubusercontent.com/mbongowo/social-media-shorts/main/covers/CrowdMapAccuracy_cover.jpg",
+    "source_doi": "10.1068/b35097",
+    "source_url": "https://doi.org/10.1068/b35097"
   }
 ]
