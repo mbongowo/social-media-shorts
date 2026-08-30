@@ -1047,5 +1047,95 @@
     "outro": "Follow for the science behind the map.",
     "endMap": { "projection": "ortho", "accent": "#8b7cff", "rotate": [-10, -6] },
     "credit": "Cartography: Natural Earth"
+  },
+
+"truesize": {
+    "theme": "MAPS & CARTOGRAPHY",
+    "accent": "#F6B93B",
+    "hook": "Africa's true land area is bigger than the United States, China, India and most of Europe combined.",
+    "hookMap": { "projection": "mercator", "accent": "#F6B93B", "highlight": ["United States of America", "China", "India"], "highlight2": ["africa"], "accent2": "#4aa8ff" },
+    "scenes": [
+      { "caption": "On the Mercator map most people grew up with, Africa looks only a little larger than Europe or Greenland.", "map": { "projection": "mercator", "accent": "#F6B93B", "highlight2": ["africa"], "accent2": "#4aa8ff" } },
+      { "caption": "In true land area, Africa covers about 30 million square kilometers, more than the United States, China and India put together.", "map": { "projection": "equalEarth", "accent": "#F6B93B", "highlight": ["United States of America", "China", "India"], "highlight2": ["africa"], "accent2": "#4aa8ff", "fit": "africa" } },
+      { "caption": "The contiguous United States alone would fit inside Africa more than three times over.", "map": { "projection": "ortho", "accent": "#F6B93B", "highlight": ["United States of America"], "highlight2": ["africa"], "accent2": "#4aa8ff", "rotate": [20, 5] } }
+    ],
+    "outro": "Follow for the science behind the map.",
+    "endMap": { "projection": "equalEarth", "accent": "#F6B93B", "highlight": ["United States of America", "China", "India"], "highlight2": ["africa"], "accent2": "#4aa8ff", "fit": "africa" },
+    "credit": "Cartography: Natural Earth"
+  },
+
+  "pace": {
+    "theme": "SATELLITES & REMOTE SENSING",
+    "accent": "#4aa8ff",
+    "hook": "A NASA satellite launched in 2024 reads the exact color of the ocean closely enough to identify which plankton are blooming.",
+    "hookImg": { "nasa": "blue marble earth" },
+    "scenes": [
+      { "caption": "PACE launched in February 2024 carrying a hyperspectral instrument that measures far more colors in the ocean than earlier satellites could.", "image": { "nasa": "blue marble earth" } },
+      { "caption": "Different phytoplankton species absorb and reflect light differently, so their exact color signature reveals which ones are present.", "image": { "wv": { "bbox": "19.16,-80.5,29.83,-74.5", "date": "2024-07-01" } } },
+      { "caption": "That turns the color of the open ocean into a daily, planet-scale view of the phytoplankton that form the base of marine food webs.", "image": { "nasa": "blue marble earth" } }
+    ],
+    "outro": "Follow for the science behind the map.",
+    "endImg": { "nasa": "blue marble earth" },
+    "credit": "Imagery: NASA"
+  },
+
+  "firesat": {
+    "theme": "GEOAI",
+    "accent": "#39d98a",
+    "hook": "A new satellite constellation uses AI to spot a wildfire the size of a classroom from orbit.",
+    "hookImg": { "commons": "wildfire smoke plume satellite photograph" },
+    "scenes": [
+      { "caption": "FireSat is a constellation built by Google Research, Muon Space and the Earth Fire Alliance specifically to catch wildfires while they are still small.", "image": { "commons": "wildfire smoke plume satellite photograph" } },
+      { "caption": "Once complete, it is designed to detect fires as small as five meters by five meters, anywhere on Earth, updated as often as every twenty minutes.", "image": { "commons": "aerial photograph forest wildfire" } },
+      { "caption": "Onboard AI compares each patch of ground to earlier images, along with weather and nearby infrastructure, to decide if it is really a fire.", "image": { "commons": "satellite image wildfire smoke" } }
+    ],
+    "outro": "Follow for the science behind the map.",
+    "endImg": { "commons": "wildfire smoke plume satellite photograph" },
+    "credit": "Imagery: Wikimedia Commons (public domain)"
+  },
+
+  "informalsettlements": {
+    "theme": "GEOAI",
+    "accent": "#39d98a",
+    "hook": "One AI model can trace the outline of an entire informal settlement from a single satellite photo.",
+    "hookImg": { "commons": "aerial photograph dense informal settlement housing" },
+    "scenes": [
+      { "caption": "In 2017, researchers trained a fully convolutional neural network on very high resolution satellite images to trace informal settlement boundaries automatically.", "image": { "commons": "aerial photograph dense informal settlement housing" } },
+      { "caption": "The network learned the dense, irregular rooftop patterns that separate informal settlements from planned city blocks, without a person tracing a single outline.", "image": { "commons": "aerial photograph urban rooftops dense" } },
+      { "caption": "Published in IEEE Geoscience and Remote Sensing Letters, the method gives planners settlement maps that ground surveys alone would take years to produce.", "image": { "commons": "aerial photograph dense informal settlement housing" } }
+    ],
+    "outro": "Follow for the science behind the map.",
+    "endImg": { "commons": "aerial photograph dense informal settlement housing" },
+    "credit": "Imagery: Wikimedia Commons (public domain)"
+  },
+
+  "douglaspeucker": {
+    "theme": "GEOSPATIAL DATA SCIENCE",
+    "accent": "#8b7cff",
+    "hook": "One 1973 algorithm decides how much detail a coastline loses when a map zooms out.",
+    "hookMap": { "projection": "mercator", "accent": "#8b7cff" },
+    "scenes": [
+      { "caption": "David Douglas and Thomas Peucker published a method in 1973 for stripping unnecessary points out of a digitized line while keeping its basic shape.", "map": { "projection": "mercator", "accent": "#8b7cff" } },
+      { "caption": "The algorithm keeps the points that bend the line the most and discards the ones that barely change its path.", "map": { "projection": "equalEarth", "accent": "#8b7cff" } },
+      { "caption": "That same method, still called the Douglas Peucker algorithm, is why a coastline redraws itself with fewer points every time you zoom out.", "map": { "projection": "ortho", "accent": "#8b7cff", "rotate": [-10, -6] } }
+    ],
+    "outro": "Follow for the science behind the map.",
+    "endMap": { "projection": "ortho", "accent": "#8b7cff", "rotate": [-10, -6] },
+    "credit": "Cartography: Natural Earth"
+  },
+
+  "antimeridian": {
+    "theme": "GEOSPATIAL DATA SCIENCE",
+    "accent": "#8b7cff",
+    "hook": "One line of longitude breaks a surprising number of mapping tools that cross it.",
+    "hookMap": { "projection": "mercator", "accent": "#8b7cff" },
+    "scenes": [
+      { "caption": "The antimeridian sits at 180 degrees longitude, exactly opposite the prime meridian, running mostly through the Pacific Ocean.", "map": { "projection": "mercator", "accent": "#8b7cff" } },
+      { "caption": "Cross it and longitude jumps from positive 180 to negative 180, so a shape spanning that line can get its bounding box calculated backwards.", "map": { "projection": "equalEarth", "accent": "#8b7cff" } },
+      { "caption": "Mapping tools from open source libraries to commercial GIS platforms have documented bugs from exactly this wraparound.", "map": { "projection": "ortho", "accent": "#8b7cff", "rotate": [180, 0] } }
+    ],
+    "outro": "Follow for the science behind the map.",
+    "endMap": { "projection": "ortho", "accent": "#8b7cff", "rotate": [180, 0] },
+    "credit": "Cartography: Natural Earth"
   }
 }
