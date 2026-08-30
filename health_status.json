@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-08-28T12:16:18.766196+00:00",
+  "generated_utc": "2026-08-30T12:21:50.039450+00:00",
   "tasks": {
     "GeoShortProducer": {
       "state": "Enabled",
@@ -18,20 +18,26 @@
     }
   },
   "youtube": {
-    "total": 119,
+    "total": 125,
     "uploaded": 119,
-    "remaining": 0,
-    "next": null
+    "remaining": 6,
+    "next": "2027-04-23T18:00:00Z"
   },
-  "library_videos": 71,
-  "geo_specs": 71,
+  "library_videos": 72,
+  "geo_specs": 77,
   "renders": {
-    "fails": [],
-    "last_run_summary": "[07:15:13] === produce finished: 71 done, 0 failed [] ==="
+    "fails": [
+      "[07:18:33] FAIL pace: Command '['npx.cmd', 'remotion', 'render', 'GeoShort', 'out/geo_pace.mp4', '--props=C:\\\\Users\\\\mbongowo.mbuh\\\\Dropbox\\\\Claude\\\\Video project\\\\remotion-app\\\\out/props_pace.json', '--codec=h264', '--crf=20', '--log=error']' returned non-zero exit status 1.",
+      "[07:19:27] FAIL firesat: Command '['npx.cmd', 'remotion', 'render', 'GeoShort', 'out/geo_firesat.mp4', '--props=C:\\\\Users\\\\mbongowo.mbuh\\\\Dropbox\\\\Claude\\\\Video project\\\\remotion-app\\\\out/props_firesat.json', '--codec=h264', '--crf=20', '--log=error']' returned non-zero exit status 1.",
+      "[07:19:56] FAIL informalsettlements: Command '['npx.cmd', 'remotion', 'render', 'GeoShort', 'out/geo_informalsettlements.mp4', '--props=C:\\\\Users\\\\mbongowo.mbuh\\\\Dropbox\\\\Claude\\\\Video project\\\\remotion-app\\\\out/props_informalsettlements.json', '--codec=h264', '--crf=20', '--log=error']' returned non-zero exit status 1.",
+      "[07:20:16] FAIL douglaspeucker: Command '['npx.cmd', 'remotion', 'render', 'GeoShort', 'out/geo_douglaspeucker.mp4', '--props=C:\\\\Users\\\\mbongowo.mbuh\\\\Dropbox\\\\Claude\\\\Video project\\\\remotion-app\\\\out/props_douglaspeucker.json', '--codec=h264', '--crf=20', '--log=error']' returned non-zero exit status 1.",
+      "[07:20:35] FAIL antimeridian: Command '['npx.cmd', 'remotion', 'render', 'GeoShort', 'out/geo_antimeridian.mp4', '--props=C:\\\\Users\\\\mbongowo.mbuh\\\\Dropbox\\\\Claude\\\\Video project\\\\remotion-app\\\\out/props_antimeridian.json', '--codec=h264', '--crf=20', '--log=error']' returned non-zero exit status 1."
+    ],
+    "last_run_summary": "[07:20:35] === produce finished: 72 done, 5 failed ['pace', 'firesat', 'informalsettlements', 'douglaspeucker', 'antimeridian'] ==="
   },
   "bluesky": {
-    "total": 164,
-    "posted": 69,
-    "pending": 95
+    "total": 166,
+    "posted": 75,
+    "pending": 91
   }
 }
