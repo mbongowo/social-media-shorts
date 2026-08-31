@@ -547,5 +547,23 @@
     "cover": "https://raw.githubusercontent.com/mbongowo/social-media-shorts/main/covers/CrowdMapAccuracy_cover.jpg",
     "source_doi": "10.1068/b35097",
     "source_url": "https://doi.org/10.1068/b35097"
+  },
+  {
+    "id": "rain-nowcast-vote",
+    "theme": "GeoAI",
+    "title": "Weather experts picked this AI's rain forecast 89% of the time #shorts",
+    "description": "In a blind Met Office trial, more than 50 expert meteorologists ranked a deep generative model's rain nowcasts first for accuracy and usefulness in 89% of cases against two rival forecasting methods. #GeoAI #DeepLearning #WeatherForecasting #Shorts",
+    "tags": [
+      "GeoAI",
+      "nowcasting",
+      "deep learning",
+      "weather forecasting",
+      "remote sensing",
+      "shorts"
+    ],
+    "file": "https://raw.githubusercontent.com/mbongowo/social-media-shorts/main/RainNowcastVote.mp4",
+    "cover": "https://raw.githubusercontent.com/mbongowo/social-media-shorts/main/covers/RainNowcastVote_cover.jpg",
+    "source_doi": "10.1038/s41586-021-03854-z",
+    "source_url": "https://doi.org/10.1038/s41586-021-03854-z"
   }
 ]
