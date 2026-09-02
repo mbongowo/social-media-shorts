@@ -565,5 +565,23 @@
     "cover": "https://raw.githubusercontent.com/mbongowo/social-media-shorts/main/covers/RainNowcastVote_cover.jpg",
     "source_doi": "10.1038/s41586-021-03854-z",
     "source_url": "https://doi.org/10.1038/s41586-021-03854-z"
+  },
+  {
+    "id": "line-simplify-twins",
+    "theme": "Maps & Cartography",
+    "title": "This 1973 algorithm decides which map points survive #shorts",
+    "description": "Urs Ramer in Switzerland and Douglas and Peucker in Canada independently invented the same line-simplification algorithm a year apart, and it is still the default way GIS software thins map lines today. #GIS #Cartography #MapData #Shorts",
+    "tags": [
+      "cartography",
+      "GIS",
+      "map generalization",
+      "algorithms",
+      "geospatial data science",
+      "shorts"
+    ],
+    "file": "https://raw.githubusercontent.com/mbongowo/social-media-shorts/main/LineSimplifyTwins.mp4",
+    "cover": "https://raw.githubusercontent.com/mbongowo/social-media-shorts/main/covers/LineSimplifyTwins_cover.jpg",
+    "source_doi": "10.3138/FM57-6770-U75U-7727",
+    "source_url": "https://utppublishing.com/doi/10.3138/FM57-6770-U75U-7727"
   }
 ]
