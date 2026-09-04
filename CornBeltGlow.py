@@ -48,6 +48,7 @@ class CornBeltGlow(Scene):
         explainer.move_to(UP * 2.9)
         self.play(FadeIn(explainer, shift=UP * 0.15))
         self.wait(0.9)
+        self.play(FadeOut(explainer))
 
         baseline_y = -0.8
         amazon_h = 2.0
@@ -99,7 +100,7 @@ class CornBeltGlow(Scene):
         self.wait(1.8)
 
         scene_group = VGroup(
-            explainer, baseline, amazon_bar, corn_bar,
+            baseline, amazon_bar, corn_bar,
             amazon_label, corn_label, ref_line, plus40,
         )
         self.play(FadeOut(hook), FadeOut(fact), FadeOut(scene_group))

@@ -583,5 +583,22 @@
     "cover": "https://raw.githubusercontent.com/mbongowo/social-media-shorts/main/covers/LineSimplifyTwins_cover.jpg",
     "source_doi": "10.3138/FM57-6770-U75U-7727",
     "source_url": "https://utppublishing.com/doi/10.3138/FM57-6770-U75U-7727"
+  },
+  {
+    "id": "corn-belt-glow",
+    "theme": "Remote Sensing explained",
+    "title": "US cornfields out-glow the Amazon rainforest, satellites show #shorts",
+    "description": "Satellite data show the photosynthesis signal over the US Corn Belt running about 40% above the Amazon rainforest at its July peak. #RemoteSensing #GeoAI #Satellites #Shorts",
+    "tags": [
+      "remote sensing",
+      "satellite imagery",
+      "photosynthesis",
+      "chlorophyll fluorescence",
+      "corn belt"
+    ],
+    "file": "https://raw.githubusercontent.com/mbongowo/social-media-shorts/main/CornBeltGlow.mp4",
+    "cover": "https://raw.githubusercontent.com/mbongowo/social-media-shorts/main/covers/CornBeltGlow_cover.jpg",
+    "source_doi": "10.1073/pnas.1320008111",
+    "source_url": "https://www.pnas.org/doi/10.1073/pnas.1320008111"
   }
 ]
