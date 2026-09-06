@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-08-30T12:21:50.039450+00:00",
+  "generated_utc": "2026-09-06T03:06:52.866061+00:00",
   "tasks": {
     "GeoShortProducer": {
       "state": "Enabled",
@@ -9,7 +9,7 @@
     "GeoYTScheduler": {
       "state": "Enabled",
       "status": "Ready",
-      "last_result": "0"
+      "last_result": "-2147020576"
     },
     "BlueskyPoster": {
       "state": "Enabled",
@@ -18,26 +18,20 @@
     }
   },
   "youtube": {
-    "total": 125,
-    "uploaded": 119,
-    "remaining": 6,
-    "next": "2027-04-23T18:00:00Z"
+    "total": 127,
+    "uploaded": 122,
+    "remaining": 5,
+    "next": "2027-04-30T18:00:00Z"
   },
-  "library_videos": 72,
+  "library_videos": 77,
   "geo_specs": 77,
   "renders": {
-    "fails": [
-      "[07:18:33] FAIL pace: Command '['npx.cmd', 'remotion', 'render', 'GeoShort', 'out/geo_pace.mp4', '--props=C:\\\\Users\\\\mbongowo.mbuh\\\\Dropbox\\\\Claude\\\\Video project\\\\remotion-app\\\\out/props_pace.json', '--codec=h264', '--crf=20', '--log=error']' returned non-zero exit status 1.",
-      "[07:19:27] FAIL firesat: Command '['npx.cmd', 'remotion', 'render', 'GeoShort', 'out/geo_firesat.mp4', '--props=C:\\\\Users\\\\mbongowo.mbuh\\\\Dropbox\\\\Claude\\\\Video project\\\\remotion-app\\\\out/props_firesat.json', '--codec=h264', '--crf=20', '--log=error']' returned non-zero exit status 1.",
-      "[07:19:56] FAIL informalsettlements: Command '['npx.cmd', 'remotion', 'render', 'GeoShort', 'out/geo_informalsettlements.mp4', '--props=C:\\\\Users\\\\mbongowo.mbuh\\\\Dropbox\\\\Claude\\\\Video project\\\\remotion-app\\\\out/props_informalsettlements.json', '--codec=h264', '--crf=20', '--log=error']' returned non-zero exit status 1.",
-      "[07:20:16] FAIL douglaspeucker: Command '['npx.cmd', 'remotion', 'render', 'GeoShort', 'out/geo_douglaspeucker.mp4', '--props=C:\\\\Users\\\\mbongowo.mbuh\\\\Dropbox\\\\Claude\\\\Video project\\\\remotion-app\\\\out/props_douglaspeucker.json', '--codec=h264', '--crf=20', '--log=error']' returned non-zero exit status 1.",
-      "[07:20:35] FAIL antimeridian: Command '['npx.cmd', 'remotion', 'render', 'GeoShort', 'out/geo_antimeridian.mp4', '--props=C:\\\\Users\\\\mbongowo.mbuh\\\\Dropbox\\\\Claude\\\\Video project\\\\remotion-app\\\\out/props_antimeridian.json', '--codec=h264', '--crf=20', '--log=error']' returned non-zero exit status 1."
-    ],
-    "last_run_summary": "[07:20:35] === produce finished: 72 done, 5 failed ['pace', 'firesat', 'informalsettlements', 'douglaspeucker', 'antimeridian'] ==="
+    "fails": [],
+    "last_run_summary": "[22:05:10] === produce finished: 77 done, 0 failed [] ==="
   },
   "bluesky": {
-    "total": 166,
-    "posted": 75,
-    "pending": 91
+    "total": 183,
+    "posted": 94,
+    "pending": 89
   }
 }
