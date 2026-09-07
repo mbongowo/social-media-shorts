@@ -600,5 +600,23 @@
     "cover": "https://raw.githubusercontent.com/mbongowo/social-media-shorts/main/covers/CornBeltGlow_cover.jpg",
     "source_doi": "10.1073/pnas.1320008111",
     "source_url": "https://www.pnas.org/doi/10.1073/pnas.1320008111"
+  },
+  {
+    "id": "hotspot-z-test",
+    "theme": "Geospatial Data Science",
+    "title": "This map 'hotspot' had to pass a statistics test first #shorts",
+    "description": "A cluster only counts as a real hotspot in Getis-Ord Gi* analysis once its z-score passes 1.96, meaning under 5% odds it arose by pure chance. #GeospatialDataScience #GIS #SpatialStatistics #Shorts",
+    "tags": [
+      "geospatial data science",
+      "GIS",
+      "spatial statistics",
+      "hotspot analysis",
+      "data science",
+      "shorts"
+    ],
+    "file": "https://raw.githubusercontent.com/mbongowo/social-media-shorts/main/HotspotZTest.mp4",
+    "cover": "https://raw.githubusercontent.com/mbongowo/social-media-shorts/main/covers/HotspotZTest_cover.jpg",
+    "source_doi": "10.1111/j.1538-4632.1995.tb00912.x",
+    "source_url": "https://onlinelibrary.wiley.com/doi/10.1111/j.1538-4632.1995.tb00912.x"
   }
 ]
