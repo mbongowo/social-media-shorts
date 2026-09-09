@@ -133,3 +133,10 @@ Both still sit at the repo root outside this factory's pipeline (no log entry be
 
 ## Note on DoualaSinking.mp4 and PuertoRicoDrought.mp4 (still open, checked again 2026-09-07)
 Both still sit at the repo root outside this factory's pipeline (no log entry beyond these notes, no manifest entry, no cover). Left untouched again this run.
+
+## Batch 24 (2026-09-09)
+- RandomFeaturesWin — GeoAI — MOSAIKS uses a bank of fixed, never-optimized random convolutional filters (only a lightweight linear regression on top is trained) and still matches a fully trained ResNet-18 CNN's accuracy across all seven benchmark mapping tasks, training roughly 250 to 10,000x faster (a 2018 MacBook Pro or the same cloud node vs. 7.9 hours per task on an Amazon EC2 p3.xlarge with a Tesla V100 GPU for the CNN). Not a current-events claim, so Gate 1 does not apply. Rolf, E., Proctor, J., Carleton, T., Bolliger, I., Shankar, V., Ishihara, M., Recht, B. and Hsiang, S., "A generalizable and accessible approach to machine learning with global satellite imagery," Nature Communications 12, 4392, 2021, DOI 10.1038/s41467-021-24638-z. Verification note: this run's network egress proxy again blocked api.crossref.org, nature.com, nber.org, researchgate.net and arxiv.org (all EGRESS_BLOCKED or 403), so the DOI, full author list, journal/volume/article number and the seven-task count were cross-checked via the paper's own GitHub code repository README (Global-Policy-Lab/mosaiks-paper), and the specific "250 to 10,000x faster" / "7.9 hours per task" / hardware figures were corroborated by two independent WebSearch queries that both returned the identical detailed sentence, same triangulation fallback used in batches 16-23.
+- Theme rotation note: last run (batch 23, 2026-09-07) used Geospatial Data Science, so this run picked GeoAI, the theme least recently used (last seen batch 20, 2026-08-31).
+
+## Note on DoualaSinking.mp4 and PuertoRicoDrought.mp4 (still open, checked again 2026-09-09)
+Both still sit at the repo root outside this factory's pipeline (no log entry beyond these notes, no manifest entry, no cover). Left untouched again this run.

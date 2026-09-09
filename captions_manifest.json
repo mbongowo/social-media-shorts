@@ -618,5 +618,23 @@
     "cover": "https://raw.githubusercontent.com/mbongowo/social-media-shorts/main/covers/HotspotZTest_cover.jpg",
     "source_doi": "10.1111/j.1538-4632.1995.tb00912.x",
     "source_url": "https://onlinelibrary.wiley.com/doi/10.1111/j.1538-4632.1995.tb00912.x"
+  },
+  {
+    "id": "random-features-win",
+    "theme": "GeoAI",
+    "title": "This satellite AI never trained its own eyes #shorts",
+    "description": "MOSAIKS matches a trained CNN on 7 mapping tasks using fixed, never-optimized random filters, up to 10,000x faster to train. #GeoAI #MachineLearning #RemoteSensing #Shorts",
+    "tags": [
+      "GeoAI",
+      "MOSAIKS",
+      "machine learning",
+      "satellite imagery",
+      "random features",
+      "shorts"
+    ],
+    "file": "https://raw.githubusercontent.com/mbongowo/social-media-shorts/main/RandomFeaturesWin.mp4",
+    "cover": "https://raw.githubusercontent.com/mbongowo/social-media-shorts/main/covers/RandomFeaturesWin_cover.jpg",
+    "source_doi": "10.1038/s41467-021-24638-z",
+    "source_url": "https://www.nature.com/articles/s41467-021-24638-z"
   }
 ]
