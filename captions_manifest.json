@@ -636,5 +636,23 @@
     "cover": "https://raw.githubusercontent.com/mbongowo/social-media-shorts/main/covers/RandomFeaturesWin_cover.jpg",
     "source_doi": "10.1038/s41467-021-24638-z",
     "source_url": "https://www.nature.com/articles/s41467-021-24638-z"
+  },
+  {
+    "id": "color-blind-maps",
+    "theme": "Maps & Cartography",
+    "title": "Why 8% of men can't read red-green maps #shorts",
+    "description": "About 8% of men of Northern European descent have red-green color blindness, so a red-to-green choropleth map is unreadable to them. Cartographers fix it with colorblind-safe palettes. #maps #cartography #GIS #Shorts",
+    "tags": [
+      "cartography",
+      "colorblindness",
+      "maps",
+      "dataviz",
+      "GIS",
+      "geoscience"
+    ],
+    "file": "https://raw.githubusercontent.com/mbongowo/social-media-shorts/main/ColorBlindMaps.mp4",
+    "cover": "https://raw.githubusercontent.com/mbongowo/social-media-shorts/main/covers/ColorBlindMaps_cover.jpg",
+    "source_doi": "10.1016/j.visres.2010.12.002",
+    "source_url": "https://pubmed.ncbi.nlm.nih.gov/21167193/"
   }
 ]
