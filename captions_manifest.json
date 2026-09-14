@@ -654,5 +654,23 @@
     "cover": "https://raw.githubusercontent.com/mbongowo/social-media-shorts/main/covers/ColorBlindMaps_cover.jpg",
     "source_doi": "10.1016/j.visres.2010.12.002",
     "source_url": "https://pubmed.ncbi.nlm.nih.gov/21167193/"
+  },
+  {
+    "id": "plankton-match",
+    "theme": "Remote Sensing explained",
+    "title": "Invisible ocean plankton fix as much carbon as every plant on land #shorts",
+    "description": "Satellites reading ocean color reveal that microscopic phytoplankton fix nearly as much carbon each year as every plant on land combined. #RemoteSensing #Oceanography #EarthScience #Shorts",
+    "tags": [
+      "remote sensing",
+      "satellite data",
+      "ocean color",
+      "phytoplankton",
+      "earth science",
+      "oceanography"
+    ],
+    "file": "https://raw.githubusercontent.com/mbongowo/social-media-shorts/main/PlanktonMatch.mp4",
+    "cover": "https://raw.githubusercontent.com/mbongowo/social-media-shorts/main/covers/PlanktonMatch_cover.jpg",
+    "source_doi": "10.1126/science.281.5374.237",
+    "source_url": "https://www.science.org/doi/10.1126/science.281.5374.237"
   }
 ]
