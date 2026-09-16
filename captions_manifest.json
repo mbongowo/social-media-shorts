@@ -672,5 +672,23 @@
     "cover": "https://raw.githubusercontent.com/mbongowo/social-media-shorts/main/covers/PlanktonMatch_cover.jpg",
     "source_doi": "10.1126/science.281.5374.237",
     "source_url": "https://www.science.org/doi/10.1126/science.281.5374.237"
+  },
+  {
+    "id": "spatial-cv-leak",
+    "theme": "Geospatial Data Science",
+    "title": "Your AI map model's 99% accuracy might be a lie #shorts",
+    "description": "A rooftop detection study found random train test splits let neighboring satellite pixels leak between sets, inflating accuracy by up to 17 points. #GeoAI #GIS #DataScience #Shorts",
+    "tags": [
+      "geospatial data science",
+      "cross validation",
+      "spatial autocorrelation",
+      "geoai",
+      "remote sensing",
+      "machine learning"
+    ],
+    "file": "https://raw.githubusercontent.com/mbongowo/social-media-shorts/main/SpatialCVLeak.mp4",
+    "cover": "https://raw.githubusercontent.com/mbongowo/social-media-shorts/main/covers/SpatialCVLeak_cover.jpg",
+    "source_doi": "10.1016/j.heliyon.2023.e14045",
+    "source_url": "https://www.sciencedirect.com/science/article/pii/S2405844023012525"
   }
 ]
