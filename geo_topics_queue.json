@@ -1227,5 +1227,95 @@
     "outro": "Follow for the science behind the map.",
     "endMap": { "projection": "ortho", "accent": "#8b7cff", "rotate": [-10, -6] },
     "credit": "Cartography: Natural Earth"
+  },
+
+  "diomede": {
+    "theme": "MAPS & CARTOGRAPHY",
+    "accent": "#F6B93B",
+    "hook": "Two islands sit under four kilometers apart, and one of them is nearly a full day ahead of the other.",
+    "hookMap": { "projection": "ortho", "accent": "#F6B93B", "highlight": ["Russia", "United States of America"], "rotate": [169, -66] },
+    "scenes": [
+      { "caption": "Big Diomede and Little Diomede sit in the Bering Strait, just 3.8 kilometers apart at their closest point.", "map": { "projection": "ortho", "accent": "#F6B93B", "highlight": ["Russia", "United States of America"], "rotate": [169, -66] } },
+      { "caption": "The International Date Line runs straight between them, so Russia's island is 21 hours ahead of Alaska's.", "map": { "projection": "equalEarth", "accent": "#F6B93B", "highlight": ["Russia", "United States of America"] } },
+      { "caption": "Locals call them Tomorrow Island and Yesterday Isle, since standing on one lets you look across the water at tomorrow.", "map": { "projection": "ortho", "accent": "#F6B93B", "highlight": ["Russia", "United States of America"], "rotate": [169, -66] } }
+    ],
+    "outro": "Follow for the science behind the map.",
+    "endMap": { "projection": "equalEarth", "accent": "#F6B93B", "highlight": ["Russia", "United States of America"] },
+    "credit": "Cartography: Natural Earth"
+  },
+
+  "antarcticadesert": {
+    "theme": "MAPS & CARTOGRAPHY",
+    "accent": "#F6B93B",
+    "hook": "The largest desert on Earth is not sand. It is solid ice.",
+    "hookMap": { "projection": "ortho", "accent": "#F6B93B", "rotate": [0, 90] },
+    "scenes": [
+      { "caption": "A desert is defined by how little rain falls, not by heat or sand.", "map": { "projection": "equalEarth", "accent": "#F6B93B" } },
+      { "caption": "By that rule, Antarctica is the biggest desert on the planet, at 14.2 million square kilometers.", "map": { "projection": "ortho", "accent": "#F6B93B", "highlight": ["Antarctica"], "rotate": [0, 90] } },
+      { "caption": "That is larger than the Sahara, the Gobi and the Arabian Desert added together.", "map": { "projection": "equalEarth", "accent": "#F6B93B", "highlight": ["Antarctica"] } }
+    ],
+    "outro": "Follow for the science behind the map.",
+    "endMap": { "projection": "ortho", "accent": "#F6B93B", "highlight": ["Antarctica"], "rotate": [0, 90] },
+    "credit": "Cartography: Natural Earth"
+  },
+
+  "cygnss": {
+    "theme": "SATELLITES & REMOTE SENSING",
+    "accent": "#4aa8ff",
+    "hook": "Eight small satellites read hurricane wind speed by watching GPS signals bounce off the ocean, without ever looking at the storm itself.",
+    "hookImg": { "nasa": "hurricane from space" },
+    "scenes": [
+      { "caption": "A GPS signal from another satellite passes clean through the storm and bounces off the sea surface below.", "image": { "nasa": "hurricane from space" } },
+      { "caption": "Rougher water scrambles that reflected signal more, and the CYGNSS satellites read the scramble as wind speed.", "image": { "wv": { "bbox": "19.16,-80.5,29.83,-74.5", "date": "2024-07-01" } } },
+      { "caption": "Because the radio signal passes through rain, it reaches deep inside the eyewall that older instruments could never measure.", "image": { "nasa": "hurricane eye from space" } }
+    ],
+    "outro": "Follow for the science behind the map.",
+    "endImg": { "nasa": "hurricane from space" },
+    "credit": "Imagery: NASA"
+  },
+
+  "oco2": {
+    "theme": "SATELLITES & REMOTE SENSING",
+    "accent": "#4aa8ff",
+    "hook": "One NASA satellite reads the carbon dioxide over every part of Earth, twenty four times a second.",
+    "hookImg": { "nasa": "blue marble earth" },
+    "scenes": [
+      { "caption": "The Orbiting Carbon Observatory 2 launched in 2014 to measure atmospheric carbon dioxide from orbit, not from a single ground station.", "image": { "nasa": "blue marble earth" } },
+      { "caption": "It reads the exact wavelengths of sunlight that carbon dioxide absorbs on the way back up through the air.", "image": { "wv": { "bbox": "18,28.5,34,37.5", "date": "2024-07-01" } } },
+      { "caption": "The resulting maps show carbon dioxide pooling over cities and industry, with the highest levels over eastern China and the eastern United States.", "image": { "nasa": "city lights from space station" } }
+    ],
+    "outro": "Follow for the science behind the map.",
+    "endImg": { "nasa": "blue marble earth" },
+    "credit": "Imagery: NASA"
+  },
+
+  "goldminesat": {
+    "theme": "GEOAI",
+    "accent": "#39d98a",
+    "hook": "A machine learning model now flags new illegal gold mines cut into the Amazon almost as fast as they appear.",
+    "hookImg": { "commons": "Amazon rainforest gold mining aerial photograph" },
+    "scenes": [
+      { "caption": "Illegal mining strips riverside forest bare, leaving pale, waterlogged pits scarred into the green canopy.", "image": { "commons": "Amazon rainforest gold mining aerial photograph" } },
+      { "caption": "A tool called Amazon Mining Watch scans Sentinel-2 satellite images and trains a model to spot that exact scar pattern automatically.", "image": { "commons": "Amazon river aerial deforestation photograph" } },
+      { "caption": "In Peru's Madre de Dios region alone, mining has already cleared more than 100,000 hectares of rainforest, and the model tracks new scars as they form.", "image": { "commons": "Amazon rainforest gold mining aerial photograph" } }
+    ],
+    "outro": "Follow for the science behind the map.",
+    "endImg": { "commons": "Amazon rainforest gold mining aerial photograph" },
+    "credit": "Imagery: Wikimedia Commons (public domain)"
+  },
+
+  "viewshed": {
+    "theme": "GEOSPATIAL DATA SCIENCE",
+    "accent": "#8b7cff",
+    "hook": "One calculation on a grid of elevation numbers decides exactly which hills can see a radio tower, and which cannot.",
+    "hookMap": { "projection": "mercator", "accent": "#8b7cff" },
+    "scenes": [
+      { "caption": "A digital elevation model stores the height of the ground as a fine grid of numbers, point by point.", "map": { "projection": "mercator", "accent": "#8b7cff" } },
+      { "caption": "A viewshed analysis draws an imaginary line from the tower to every point on that grid and checks whether the terrain blocks it.", "map": { "projection": "equalEarth", "accent": "#8b7cff" } },
+      { "caption": "The result is a map of exactly what a tower, a wind turbine or a lookout point can and cannot see.", "map": { "projection": "ortho", "accent": "#8b7cff", "rotate": [-10, -6] } }
+    ],
+    "outro": "Follow for the science behind the map.",
+    "endMap": { "projection": "ortho", "accent": "#8b7cff", "rotate": [-10, -6] },
+    "credit": "Cartography: Natural Earth"
   }
 }
