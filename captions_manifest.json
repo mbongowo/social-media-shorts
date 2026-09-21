@@ -690,5 +690,23 @@
     "cover": "https://raw.githubusercontent.com/mbongowo/social-media-shorts/main/covers/SpatialCVLeak_cover.jpg",
     "source_doi": "10.1016/j.heliyon.2023.e14045",
     "source_url": "https://www.sciencedirect.com/science/article/pii/S2405844023012525"
+  },
+  {
+    "id": "ghost-fleet",
+    "theme": "GeoAI",
+    "title": "Most fishing boats on Earth are invisible to trackers #shorts",
+    "description": "AI trained on radar satellite images found that 72-76% of the world's industrial fishing vessels never broadcast their location. #GeoAI #RemoteSensing #Satellite #Shorts",
+    "tags": [
+      "GeoAI",
+      "RemoteSensing",
+      "SatelliteImagery",
+      "SAR",
+      "FishingFleet",
+      "MachineLearning"
+    ],
+    "file": "https://raw.githubusercontent.com/mbongowo/social-media-shorts/main/GhostFleet.mp4",
+    "cover": "https://raw.githubusercontent.com/mbongowo/social-media-shorts/main/covers/GhostFleet_cover.jpg",
+    "source_doi": "10.1038/s41586-023-06825-8",
+    "source_url": "https://www.nature.com/articles/s41586-023-06825-8"
   }
 ]
