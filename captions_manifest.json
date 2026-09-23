@@ -708,5 +708,22 @@
     "cover": "https://raw.githubusercontent.com/mbongowo/social-media-shorts/main/covers/GhostFleet_cover.jpg",
     "source_doi": "10.1038/s41586-023-06825-8",
     "source_url": "https://www.nature.com/articles/s41586-023-06825-8"
+  },
+  {
+    "id": "geoid-gap",
+    "theme": "Maps & Cartography",
+    "title": "Sea level dips 106 meters here with no hill in sight #shorts",
+    "description": "Earth's gravity is lumpy: south of India the geoid (true sea level) sags about 106 meters below the smooth ellipsoid GPS and maps use. #Geodesy #Cartography #Maps #Shorts",
+    "tags": [
+      "Geodesy",
+      "Cartography",
+      "Maps",
+      "EarthScience",
+      "GPS"
+    ],
+    "file": "https://raw.githubusercontent.com/mbongowo/social-media-shorts/main/GeoidGap.mp4",
+    "cover": "https://raw.githubusercontent.com/mbongowo/social-media-shorts/main/covers/GeoidGap_cover.jpg",
+    "source_doi": "10.1029/2011JB008916",
+    "source_url": "https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2011JB008916"
   }
 ]
