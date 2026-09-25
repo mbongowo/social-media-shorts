@@ -725,5 +725,23 @@
     "cover": "https://raw.githubusercontent.com/mbongowo/social-media-shorts/main/covers/GeoidGap_cover.jpg",
     "source_doi": "10.1029/2011JB008916",
     "source_url": "https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2011JB008916"
+  },
+  {
+    "id": "snow-cloud-check",
+    "theme": "Remote Sensing explained",
+    "title": "A satellite decides if it snowed where you live #shorts",
+    "description": "NASA's MODIS satellite maps snow cover across the whole planet every single day, and its clear-sky calls are about 93 percent accurate. Most of the misses are clouds mistaken for snow, not missed snow itself. #RemoteSensing #Satellite #EarthScience #Shorts",
+    "tags": [
+      "RemoteSensing",
+      "MODIS",
+      "SatelliteImagery",
+      "SnowCover",
+      "EarthScience",
+      "GeoAI"
+    ],
+    "file": "https://raw.githubusercontent.com/mbongowo/social-media-shorts/main/SnowCloudCheck.mp4",
+    "cover": "https://raw.githubusercontent.com/mbongowo/social-media-shorts/main/covers/SnowCloudCheck_cover.jpg",
+    "source_doi": "10.1002/hyp.6715",
+    "source_url": "https://onlinelibrary.wiley.com/doi/abs/10.1002/hyp.6715"
   }
 ]
