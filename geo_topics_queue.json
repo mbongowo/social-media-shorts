@@ -3,1319 +3,4268 @@
     "theme": "SATELLITES & REMOTE SENSING",
     "accent": "#4aa8ff",
     "hook": "Some places satellites almost never photograph.",
-    "hookImg": { "img": "geo/clouds.jpg" },
+    "hookImg": {
+      "img": "geo/clouds.jpg"
+    },
     "scenes": [
-      { "caption": "Rainforests sit under cloud about 300 days a year.", "image": { "img": "geo/clouds.jpg" } },
-      { "caption": "But radar, or SAR, makes its own light, at a wavelength clouds ignore.", "image": { "img": "geo/sar.jpg" } },
-      { "caption": "So it maps the ground day, night, and straight through storms.", "image": { "img": "geo/amazon.jpg" } }
+      {
+        "caption": "Rainforests sit under cloud about 300 days a year.",
+        "image": {
+          "img": "geo/clouds.jpg"
+        }
+      },
+      {
+        "caption": "But radar, or SAR, makes its own light, at a wavelength clouds ignore.",
+        "image": {
+          "img": "geo/sar.jpg"
+        }
+      },
+      {
+        "caption": "So it maps the ground day, night, and straight through storms.",
+        "image": {
+          "img": "geo/amazon.jpg"
+        }
+      }
     ],
     "outro": "Follow for the science behind the map.",
-    "endImg": { "img": "geo/amazon.jpg" },
+    "endImg": {
+      "img": "geo/amazon.jpg"
+    },
     "credit": "Imagery: NASA Worldview / JPL"
   },
-
   "mercator": {
     "theme": "MAPS & CARTOGRAPHY",
     "accent": "#F6B93B",
     "hook": "Every world map you have seen is lying to you.",
-    "hookMap": { "projection": "mercator", "accent": "#F6B93B", "highlight": ["Greenland"], "highlight2": ["africa"], "accent2": "#4aa8ff" },
+    "hookMap": {
+      "projection": "mercator",
+      "accent": "#F6B93B",
+      "highlight": [
+        "Greenland"
+      ],
+      "highlight2": [
+        "africa"
+      ],
+      "accent2": "#4aa8ff"
+    },
     "scenes": [
-      { "caption": "On the Mercator map, Greenland looks as big as all of Africa.", "map": { "projection": "mercator", "accent": "#F6B93B", "highlight": ["Greenland"], "highlight2": ["africa"], "accent2": "#4aa8ff" } },
-      { "caption": "But switch to an equal-area map, and Africa is fourteen times larger.", "map": { "projection": "equalEarth", "accent": "#F6B93B", "highlight": ["Greenland"], "highlight2": ["africa"], "accent2": "#4aa8ff" } },
-      { "caption": "Flattening a round planet always distorts. The only question is who gets shrunk.", "map": { "projection": "ortho", "accent": "#F6B93B", "rotate": [-8, -6] } }
+      {
+        "caption": "On the Mercator map, Greenland looks as big as all of Africa.",
+        "map": {
+          "projection": "mercator",
+          "accent": "#F6B93B",
+          "highlight": [
+            "Greenland"
+          ],
+          "highlight2": [
+            "africa"
+          ],
+          "accent2": "#4aa8ff"
+        }
+      },
+      {
+        "caption": "But switch to an equal-area map, and Africa is fourteen times larger.",
+        "map": {
+          "projection": "equalEarth",
+          "accent": "#F6B93B",
+          "highlight": [
+            "Greenland"
+          ],
+          "highlight2": [
+            "africa"
+          ],
+          "accent2": "#4aa8ff"
+        }
+      },
+      {
+        "caption": "Flattening a round planet always distorts. The only question is who gets shrunk.",
+        "map": {
+          "projection": "ortho",
+          "accent": "#F6B93B",
+          "rotate": [
+            -8,
+            -6
+          ]
+        }
+      }
     ],
     "outro": "Follow for the science behind the map.",
-    "endMap": { "projection": "equalEarth", "accent": "#F6B93B", "highlight": ["Greenland"], "highlight2": ["africa"], "accent2": "#4aa8ff" },
+    "endMap": {
+      "projection": "equalEarth",
+      "accent": "#F6B93B",
+      "highlight": [
+        "Greenland"
+      ],
+      "highlight2": [
+        "africa"
+      ],
+      "accent2": "#4aa8ff"
+    },
     "credit": "Cartography: Natural Earth"
   },
-
   "geoai": {
     "theme": "GEOAI",
     "accent": "#39d98a",
     "hook": "Artificial intelligence now maps every building on Earth.",
-    "hookImg": { "nasa": "blue marble earth" },
+    "hookImg": {
+      "nasa": "blue marble earth"
+    },
     "scenes": [
-      { "caption": "It reads satellite images and traces their footprints, over a billion of them.", "image": { "wv": { "bbox": "25,28.5,33,33.0", "date": "2024-08-01" } } },
-      { "caption": "Places once blank on the map suddenly have detail.", "image": { "nasa": "city lights from space station" } },
-      { "caption": "That is the power of geospatial machine learning, turning raw pixels into maps at planetary scale.", "image": { "nasa": "blue marble earth" } }
+      {
+        "caption": "It reads satellite images and traces their footprints, over a billion of them.",
+        "image": {
+          "wv": {
+            "bbox": "25,28.5,33,33.0",
+            "date": "2024-08-01"
+          }
+        }
+      },
+      {
+        "caption": "Places once blank on the map suddenly have detail.",
+        "image": {
+          "nasa": "city lights from space station"
+        }
+      },
+      {
+        "caption": "That is the power of geospatial machine learning, turning raw pixels into maps at planetary scale.",
+        "image": {
+          "nasa": "blue marble earth"
+        }
+      }
     ],
     "outro": "Follow for the science behind the map.",
-    "endImg": { "nasa": "blue marble earth" },
+    "endImg": {
+      "nasa": "blue marble earth"
+    },
     "credit": "Imagery: NASA"
   },
-
   "datascience": {
     "theme": "GEOSPATIAL DATA SCIENCE",
     "accent": "#8b7cff",
     "hook": "Stop paying for satellite data.",
-    "hookImg": { "wv": { "bbox": "8,2.1,36,17.9", "date": "2024-06-15" } },
+    "hookImg": {
+      "wv": {
+        "bbox": "8,2.1,36,17.9",
+        "date": "2024-06-15"
+      }
+    },
     "scenes": [
-      { "caption": "Sentinel, Landsat and MODIS give decades of imagery, all free and open.", "image": { "wv": { "bbox": "19.16,-80.5,29.83,-74.5", "date": "2024-07-01" } } },
-      { "caption": "Copernicus elevation, WorldPop, WorldCover and SoilGrids are free too.", "image": { "wv": { "bbox": "18,28.5,34,37.5", "date": "2024-07-01" } } },
-      { "caption": "The barrier is not the data anymore. It is knowing what to ask.", "image": { "nasa": "blue marble earth" } }
+      {
+        "caption": "Sentinel, Landsat and MODIS give decades of imagery, all free and open.",
+        "image": {
+          "wv": {
+            "bbox": "19.16,-80.5,29.83,-74.5",
+            "date": "2024-07-01"
+          }
+        }
+      },
+      {
+        "caption": "Copernicus elevation, WorldPop, WorldCover and SoilGrids are free too.",
+        "image": {
+          "wv": {
+            "bbox": "18,28.5,34,37.5",
+            "date": "2024-07-01"
+          }
+        }
+      },
+      {
+        "caption": "The barrier is not the data anymore. It is knowing what to ask.",
+        "image": {
+          "nasa": "blue marble earth"
+        }
+      }
     ],
     "outro": "Follow for the science behind the map.",
-    "endImg": { "wv": { "bbox": "8,2.1,36,17.9", "date": "2024-06-15" } },
+    "endImg": {
+      "wv": {
+        "bbox": "8,2.1,36,17.9",
+        "date": "2024-06-15"
+      }
+    },
     "credit": "Imagery: NASA Worldview"
   },
-
   "cameroon": {
     "theme": "MAPS & CARTOGRAPHY",
     "accent": "#F6B93B",
     "hook": "One country is called Africa in miniature.",
-    "hookMap": { "projection": "ortho", "accent": "#F6B93B", "highlight": ["Cameroon"], "rotate": [-12, -4] },
+    "hookMap": {
+      "projection": "ortho",
+      "accent": "#F6B93B",
+      "highlight": [
+        "Cameroon"
+      ],
+      "rotate": [
+        -12,
+        -4
+      ]
+    },
     "scenes": [
-      { "caption": "Cameroon packs rainforest, savanna, mountains and desert into one border.", "map": { "projection": "equalEarth", "accent": "#F6B93B", "highlight": ["Cameroon"], "highlight2": ["africa"], "accent2": "#4aa8ff", "fit": "africa" } },
-      { "caption": "From the Atlantic coast to the edge of Lake Chad, it holds a continent in miniature.", "map": { "projection": "ortho", "accent": "#F6B93B", "highlight": ["Cameroon"], "rotate": [-12, -4] } },
-      { "caption": "That is why so many geographers study it first.", "map": { "projection": "equalEarth", "accent": "#F6B93B", "highlight": ["Cameroon"], "highlight2": ["africa"], "accent2": "#4aa8ff", "fit": "africa" } }
+      {
+        "caption": "Cameroon packs rainforest, savanna, mountains and desert into one border.",
+        "map": {
+          "projection": "equalEarth",
+          "accent": "#F6B93B",
+          "highlight": [
+            "Cameroon"
+          ],
+          "highlight2": [
+            "africa"
+          ],
+          "accent2": "#4aa8ff",
+          "fit": "africa"
+        }
+      },
+      {
+        "caption": "From the Atlantic coast to the edge of Lake Chad, it holds a continent in miniature.",
+        "map": {
+          "projection": "ortho",
+          "accent": "#F6B93B",
+          "highlight": [
+            "Cameroon"
+          ],
+          "rotate": [
+            -12,
+            -4
+          ]
+        }
+      },
+      {
+        "caption": "That is why so many geographers study it first.",
+        "map": {
+          "projection": "equalEarth",
+          "accent": "#F6B93B",
+          "highlight": [
+            "Cameroon"
+          ],
+          "highlight2": [
+            "africa"
+          ],
+          "accent2": "#4aa8ff",
+          "fit": "africa"
+        }
+      }
     ],
     "outro": "Follow for the science behind the map.",
-    "endMap": { "projection": "equalEarth", "accent": "#F6B93B", "highlight": ["Cameroon"], "highlight2": ["africa"], "accent2": "#4aa8ff", "fit": "africa" },
+    "endMap": {
+      "projection": "equalEarth",
+      "accent": "#F6B93B",
+      "highlight": [
+        "Cameroon"
+      ],
+      "highlight2": [
+        "africa"
+      ],
+      "accent2": "#4aa8ff",
+      "fit": "africa"
+    },
     "credit": "Cartography: Natural Earth"
   },
-
   "projections": {
     "theme": "MAPS & CARTOGRAPHY",
     "accent": "#F6B93B",
     "hook": "There is no such thing as a perfect map.",
-    "hookMap": { "projection": "ortho", "accent": "#F6B93B", "rotate": [-10, -6] },
+    "hookMap": {
+      "projection": "ortho",
+      "accent": "#F6B93B",
+      "rotate": [
+        -10,
+        -6
+      ]
+    },
     "scenes": [
-      { "caption": "To flatten a round planet, you must cut it and stretch it somewhere.", "map": { "projection": "mercator", "accent": "#F6B93B" } },
-      { "caption": "Move the cut, and every country changes size and shape.", "map": { "projection": "equalEarth", "accent": "#F6B93B" } },
-      { "caption": "There is no perfect flat map. Only the right one for the job.", "map": { "projection": "ortho", "accent": "#F6B93B", "rotate": [30, -10] } }
+      {
+        "caption": "To flatten a round planet, you must cut it and stretch it somewhere.",
+        "map": {
+          "projection": "mercator",
+          "accent": "#F6B93B"
+        }
+      },
+      {
+        "caption": "Move the cut, and every country changes size and shape.",
+        "map": {
+          "projection": "equalEarth",
+          "accent": "#F6B93B"
+        }
+      },
+      {
+        "caption": "There is no perfect flat map. Only the right one for the job.",
+        "map": {
+          "projection": "ortho",
+          "accent": "#F6B93B",
+          "rotate": [
+            30,
+            -10
+          ]
+        }
+      }
     ],
     "outro": "Follow for the science behind the map.",
-    "endMap": { "projection": "ortho", "accent": "#F6B93B", "rotate": [-10, -6] },
+    "endMap": {
+      "projection": "ortho",
+      "accent": "#F6B93B",
+      "rotate": [
+        -10,
+        -6
+      ]
+    },
     "credit": "Cartography: Natural Earth"
   },
-
   "nightlights": {
     "theme": "SATELLITES & REMOTE SENSING",
     "accent": "#4aa8ff",
     "hook": "You can measure an economy from space.",
-    "hookImg": { "nasa": "earth at night black marble" },
+    "hookImg": {
+      "nasa": "earth at night black marble"
+    },
     "scenes": [
-      { "caption": "At night, satellites see our lights, and where they grow, economies grow.", "image": { "nasa": "city lights from space station" } },
-      { "caption": "When the lights go dark, they record blackouts, conflict and collapse.", "image": { "wv": { "bbox": "25,28.5,33,33.0", "date": "2024-08-01" } } },
-      { "caption": "Light becomes data, even where no official statistics exist.", "image": { "nasa": "earth at night black marble" } }
+      {
+        "caption": "At night, satellites see our lights, and where they grow, economies grow.",
+        "image": {
+          "nasa": "city lights from space station"
+        }
+      },
+      {
+        "caption": "When the lights go dark, they record blackouts, conflict and collapse.",
+        "image": {
+          "wv": {
+            "bbox": "25,28.5,33,33.0",
+            "date": "2024-08-01"
+          }
+        }
+      },
+      {
+        "caption": "Light becomes data, even where no official statistics exist.",
+        "image": {
+          "nasa": "earth at night black marble"
+        }
+      }
     ],
     "outro": "Follow for the science behind the map.",
-    "endImg": { "nasa": "earth at night black marble" },
+    "endImg": {
+      "nasa": "earth at night black marble"
+    },
     "credit": "Imagery: NASA"
   },
-
   "ndvi": {
     "theme": "SATELLITES & REMOTE SENSING",
     "accent": "#4aa8ff",
     "hook": "A satellite can see a plant get sick before you can.",
-    "hookImg": { "wv": { "bbox": "-12,-67.5,4,-58.5", "date": "2024-08-20" } },
+    "hookImg": {
+      "wv": {
+        "bbox": "-12,-67.5,4,-58.5",
+        "date": "2024-08-20"
+      }
+    },
     "scenes": [
-      { "caption": "Healthy leaves reflect invisible near-infrared light. Stressed leaves do not.", "image": { "wv": { "bbox": "-12,-67.5,4,-58.5", "date": "2024-08-20" } } },
-      { "caption": "One ratio of that light, called N-D-V-I, maps plant health across whole countries.", "image": { "wv": { "bbox": "25,28.5,33,33.0", "date": "2024-08-01" } } },
-      { "caption": "Weeks before a drought shows on the ground, it shows from orbit.", "image": { "wv": { "bbox": "8,2.1,36,17.9", "date": "2024-06-15" } } }
+      {
+        "caption": "Healthy leaves reflect invisible near-infrared light. Stressed leaves do not.",
+        "image": {
+          "wv": {
+            "bbox": "-12,-67.5,4,-58.5",
+            "date": "2024-08-20"
+          }
+        }
+      },
+      {
+        "caption": "One ratio of that light, called N-D-V-I, maps plant health across whole countries.",
+        "image": {
+          "wv": {
+            "bbox": "25,28.5,33,33.0",
+            "date": "2024-08-01"
+          }
+        }
+      },
+      {
+        "caption": "Weeks before a drought shows on the ground, it shows from orbit.",
+        "image": {
+          "wv": {
+            "bbox": "8,2.1,36,17.9",
+            "date": "2024-06-15"
+          }
+        }
+      }
     ],
     "outro": "Follow for the science behind the map.",
-    "endImg": { "wv": { "bbox": "-12,-67.5,4,-58.5", "date": "2024-08-20" } },
+    "endImg": {
+      "wv": {
+        "bbox": "-12,-67.5,4,-58.5",
+        "date": "2024-08-20"
+      }
+    },
     "credit": "Imagery: NASA Worldview"
   },
-
   "gps": {
     "theme": "SATELLITES & REMOTE SENSING",
     "accent": "#4aa8ff",
     "hook": "GPS has no idea where you are.",
-    "hookImg": { "nasa": "blue marble earth" },
+    "hookImg": {
+      "nasa": "blue marble earth"
+    },
     "scenes": [
-      { "caption": "Each satellite only broadcasts one thing, the exact time.", "image": { "nasa": "blue marble earth" } },
-      { "caption": "Your phone measures the tiny delay from several satellites at once.", "image": { "wv": { "bbox": "19.16,-80.5,29.83,-74.5", "date": "2024-07-01" } } },
-      { "caption": "Then it solves for the single point where all their signals agree.", "image": { "wv": { "bbox": "18,28.5,34,37.5", "date": "2024-07-01" } } }
+      {
+        "caption": "Each satellite only broadcasts one thing, the exact time.",
+        "image": {
+          "nasa": "blue marble earth"
+        }
+      },
+      {
+        "caption": "Your phone measures the tiny delay from several satellites at once.",
+        "image": {
+          "wv": {
+            "bbox": "19.16,-80.5,29.83,-74.5",
+            "date": "2024-07-01"
+          }
+        }
+      },
+      {
+        "caption": "Then it solves for the single point where all their signals agree.",
+        "image": {
+          "wv": {
+            "bbox": "18,28.5,34,37.5",
+            "date": "2024-07-01"
+          }
+        }
+      }
     ],
     "outro": "Follow for the science behind the map.",
-    "endImg": { "nasa": "blue marble earth" },
+    "endImg": {
+      "nasa": "blue marble earth"
+    },
     "credit": "Imagery: NASA"
   },
-
   "floodai": {
     "theme": "GEOAI",
     "accent": "#39d98a",
     "hook": "AI can now map a flood while it is still rising.",
-    "hookImg": { "commons": "flooded town aerial" },
+    "hookImg": {
+      "commons": "flooded town aerial"
+    },
     "scenes": [
-      { "caption": "Radar satellites see through storm clouds to the water below.", "image": { "img": "geo/sar.jpg" } },
-      { "caption": "Machine learning turns each pass into a live flood map.", "image": { "wv": { "bbox": "18,28.5,34,37.5", "date": "2024-07-01" } } },
-      { "caption": "Responders learn which roads and villages are cut off, within hours.", "image": { "wv": { "bbox": "25,28.5,33,33.0", "date": "2024-08-01" } } }
+      {
+        "caption": "Radar satellites see through storm clouds to the water below.",
+        "image": {
+          "img": "geo/sar.jpg"
+        }
+      },
+      {
+        "caption": "Machine learning turns each pass into a live flood map.",
+        "image": {
+          "wv": {
+            "bbox": "18,28.5,34,37.5",
+            "date": "2024-07-01"
+          }
+        }
+      },
+      {
+        "caption": "Responders learn which roads and villages are cut off, within hours.",
+        "image": {
+          "wv": {
+            "bbox": "25,28.5,33,33.0",
+            "date": "2024-08-01"
+          }
+        }
+      }
     ],
     "outro": "Follow for the science behind the map.",
-    "endImg": { "img": "geo/sar.jpg" },
+    "endImg": {
+      "img": "geo/sar.jpg"
+    },
     "credit": "Imagery: NASA Worldview / JPL"
   },
-
   "cropai": {
     "theme": "GEOAI",
     "accent": "#39d98a",
     "hook": "An algorithm is watching every farm on Earth.",
-    "hookImg": { "commons": "irrigated farm field aerial" },
+    "hookImg": {
+      "commons": "irrigated farm field aerial"
+    },
     "scenes": [
-      { "caption": "Satellites revisit each field every few days.", "image": { "wv": { "bbox": "25,28.5,33,33.0", "date": "2024-08-01" } } },
-      { "caption": "AI flags stress, disease and drought before the harvest fails.", "image": { "wv": { "bbox": "-12,-67.5,4,-58.5", "date": "2024-08-20" } } },
-      { "caption": "For smallholder farmers, that early warning can save the season.", "image": { "wv": { "bbox": "8,2.1,36,17.9", "date": "2024-06-15" } } }
+      {
+        "caption": "Satellites revisit each field every few days.",
+        "image": {
+          "wv": {
+            "bbox": "25,28.5,33,33.0",
+            "date": "2024-08-01"
+          }
+        }
+      },
+      {
+        "caption": "AI flags stress, disease and drought before the harvest fails.",
+        "image": {
+          "wv": {
+            "bbox": "-12,-67.5,4,-58.5",
+            "date": "2024-08-20"
+          }
+        }
+      },
+      {
+        "caption": "For smallholder farmers, that early warning can save the season.",
+        "image": {
+          "wv": {
+            "bbox": "8,2.1,36,17.9",
+            "date": "2024-06-15"
+          }
+        }
+      }
     ],
     "outro": "Follow for the science behind the map.",
-    "endImg": { "wv": { "bbox": "-12,-67.5,4,-58.5", "date": "2024-08-20" } },
+    "endImg": {
+      "wv": {
+        "bbox": "-12,-67.5,4,-58.5",
+        "date": "2024-08-20"
+      }
+    },
     "credit": "Imagery: NASA Worldview"
   },
-
   "crsbug": {
     "theme": "GEOSPATIAL DATA SCIENCE",
     "accent": "#8b7cff",
     "hook": "One setting has ruined more maps than any other bug.",
-    "hookMap": { "projection": "mercator", "accent": "#8b7cff" },
+    "hookMap": {
+      "projection": "mercator",
+      "accent": "#8b7cff"
+    },
     "scenes": [
-      { "caption": "It is the coordinate reference system, the C-R-S.", "map": { "projection": "mercator", "accent": "#8b7cff" } },
-      { "caption": "Mix two of them, and your data quietly lands in the wrong place.", "map": { "projection": "equalEarth", "accent": "#8b7cff" } },
-      { "caption": "The code runs fine. The map is just wrong. Always check your CRS.", "map": { "projection": "ortho", "accent": "#8b7cff", "rotate": [-10, -6] } }
+      {
+        "caption": "It is the coordinate reference system, the C-R-S.",
+        "map": {
+          "projection": "mercator",
+          "accent": "#8b7cff"
+        }
+      },
+      {
+        "caption": "Mix two of them, and your data quietly lands in the wrong place.",
+        "map": {
+          "projection": "equalEarth",
+          "accent": "#8b7cff"
+        }
+      },
+      {
+        "caption": "The code runs fine. The map is just wrong. Always check your CRS.",
+        "map": {
+          "projection": "ortho",
+          "accent": "#8b7cff",
+          "rotate": [
+            -10,
+            -6
+          ]
+        }
+      }
     ],
     "outro": "Follow for the science behind the map.",
-    "endMap": { "projection": "ortho", "accent": "#8b7cff", "rotate": [-10, -6] },
+    "endMap": {
+      "projection": "ortho",
+      "accent": "#8b7cff",
+      "rotate": [
+        -10,
+        -6
+      ]
+    },
     "credit": "Cartography: Natural Earth"
   },
-
   "redriver": {
     "theme": "MAPS & CARTOGRAPHY",
     "accent": "#F6B93B",
     "hook": "This river floods every spring because it flows the wrong way.",
-    "hookImg": { "commons": "Grand Forks flood 1997" },
+    "hookImg": {
+      "commons": "Grand Forks flood 1997"
+    },
     "scenes": [
-      { "caption": "Most rivers flow toward the equator. The Red River flows north.", "image": { "nasa": "river meander from space" } },
-      { "caption": "In spring the warm southern end thaws while the north is still frozen.", "image": { "commons": "Grand Forks flood 1997" } },
-      { "caption": "The meltwater has nowhere to go, so the flat valley floods.", "image": { "nasa": "mississippi river from space" } }
+      {
+        "caption": "Most rivers flow toward the equator. The Red River flows north.",
+        "image": {
+          "nasa": "river meander from space"
+        }
+      },
+      {
+        "caption": "In spring the warm southern end thaws while the north is still frozen.",
+        "image": {
+          "commons": "Grand Forks flood 1997"
+        }
+      },
+      {
+        "caption": "The meltwater has nowhere to go, so the flat valley floods.",
+        "image": {
+          "nasa": "mississippi river from space"
+        }
+      }
     ],
     "outro": "Follow for the science behind the map.",
-    "endImg": { "commons": "Grand Forks flood 1997" },
+    "endImg": {
+      "commons": "Grand Forks flood 1997"
+    },
     "credit": "Imagery: Wikimedia Commons (public domain) / NASA"
   },
-
   "drought": {
     "theme": "SATELLITES & REMOTE SENSING",
     "accent": "#4aa8ff",
     "hook": "We can see a drought coming before a single leaf turns brown.",
-    "hookImg": { "wv": { "bbox": "8,2.1,36,17.9", "date": "2024-06-15" } },
+    "hookImg": {
+      "wv": {
+        "bbox": "8,2.1,36,17.9",
+        "date": "2024-06-15"
+      }
+    },
     "scenes": [
-      { "caption": "Long before plants brown, they lose moisture you cannot see.", "image": { "wv": { "bbox": "-12,-67.5,4,-58.5", "date": "2024-08-20" } } },
-      { "caption": "A satellite index called N-D-M-I tracks that water, weeks ahead.", "image": { "wv": { "bbox": "25,28.5,33,33.0", "date": "2024-08-01" } } },
-      { "caption": "That head start is time to warn farmers and move water.", "image": { "wv": { "bbox": "8,2.1,36,17.9", "date": "2024-06-15" } } }
+      {
+        "caption": "Long before plants brown, they lose moisture you cannot see.",
+        "image": {
+          "wv": {
+            "bbox": "-12,-67.5,4,-58.5",
+            "date": "2024-08-20"
+          }
+        }
+      },
+      {
+        "caption": "A satellite index called N-D-M-I tracks that water, weeks ahead.",
+        "image": {
+          "wv": {
+            "bbox": "25,28.5,33,33.0",
+            "date": "2024-08-01"
+          }
+        }
+      },
+      {
+        "caption": "That head start is time to warn farmers and move water.",
+        "image": {
+          "wv": {
+            "bbox": "8,2.1,36,17.9",
+            "date": "2024-06-15"
+          }
+        }
+      }
     ],
     "outro": "Follow for the science behind the map.",
-    "endImg": { "wv": { "bbox": "8,2.1,36,17.9", "date": "2024-06-15" } },
+    "endImg": {
+      "wv": {
+        "bbox": "8,2.1,36,17.9",
+        "date": "2024-06-15"
+      }
+    },
     "credit": "Imagery: NASA Worldview"
   },
-
   "clinic": {
     "theme": "GEOSPATIAL DATA SCIENCE",
     "accent": "#8b7cff",
     "hook": "The clinic is five kilometres away. It might as well be a hundred.",
-    "hookImg": { "wv": { "bbox": "-12,-67.5,4,-58.5", "date": "2024-08-20" } },
+    "hookImg": {
+      "wv": {
+        "bbox": "-12,-67.5,4,-58.5",
+        "date": "2024-08-20"
+      }
+    },
     "scenes": [
-      { "caption": "Straight-line distance ignores the one thing that matters, the road.", "image": { "wv": { "bbox": "18,28.5,34,37.5", "date": "2024-07-01" } } },
-      { "caption": "Map the real road network, and five kilometres can mean a three-hour journey.", "image": { "wv": { "bbox": "-12,-67.5,4,-58.5", "date": "2024-08-20" } } },
-      { "caption": "That gap decides who reaches care in time.", "image": { "wv": { "bbox": "25,28.5,33,33.0", "date": "2024-08-01" } } }
+      {
+        "caption": "Straight-line distance ignores the one thing that matters, the road.",
+        "image": {
+          "wv": {
+            "bbox": "18,28.5,34,37.5",
+            "date": "2024-07-01"
+          }
+        }
+      },
+      {
+        "caption": "Map the real road network, and five kilometres can mean a three-hour journey.",
+        "image": {
+          "wv": {
+            "bbox": "-12,-67.5,4,-58.5",
+            "date": "2024-08-20"
+          }
+        }
+      },
+      {
+        "caption": "That gap decides who reaches care in time.",
+        "image": {
+          "wv": {
+            "bbox": "25,28.5,33,33.0",
+            "date": "2024-08-01"
+          }
+        }
+      }
     ],
     "outro": "Follow for the science behind the map.",
-    "endImg": { "wv": { "bbox": "18,28.5,34,37.5", "date": "2024-07-01" } },
+    "endImg": {
+      "wv": {
+        "bbox": "18,28.5,34,37.5",
+        "date": "2024-07-01"
+      }
+    },
     "credit": "Imagery: NASA Worldview"
   },
-
   "urbanheat": {
     "theme": "SATELLITES & REMOTE SENSING",
     "accent": "#4aa8ff",
     "hook": "Your city is hotter than the countryside, and it is by design.",
-    "hookImg": { "commons": "city aerial skyline summer" },
+    "hookImg": {
+      "commons": "city aerial skyline summer"
+    },
     "scenes": [
-      { "caption": "Asphalt and dark roofs soak up heat all day long.", "image": { "commons": "urban rooftops aerial" } },
-      { "caption": "At night they release it, keeping cities up to seven degrees warmer.", "image": { "nasa": "city lights from space station" } },
-      { "caption": "Thirty years of satellite data show it getting worse, block by block.", "image": { "nasa": "earth at night black marble" } }
+      {
+        "caption": "Asphalt and dark roofs soak up heat all day long.",
+        "image": {
+          "commons": "urban rooftops aerial"
+        }
+      },
+      {
+        "caption": "At night they release it, keeping cities up to seven degrees warmer.",
+        "image": {
+          "nasa": "city lights from space station"
+        }
+      },
+      {
+        "caption": "Thirty years of satellite data show it getting worse, block by block.",
+        "image": {
+          "nasa": "earth at night black marble"
+        }
+      }
     ],
     "outro": "Follow for the science behind the map.",
-    "endImg": { "commons": "city aerial skyline summer" },
+    "endImg": {
+      "commons": "city aerial skyline summer"
+    },
     "credit": "Imagery: Wikimedia Commons (public domain) / NASA"
   },
-
   "antipodes": {
     "theme": "MAPS & CARTOGRAPHY",
     "accent": "#F6B93B",
     "hook": "Dig straight down through the Earth and you would not reach China.",
-    "hookMap": { "projection": "ortho", "accent": "#F6B93B", "rotate": [-100, -20] },
+    "hookMap": {
+      "projection": "ortho",
+      "accent": "#F6B93B",
+      "rotate": [
+        -100,
+        -20
+      ]
+    },
     "scenes": [
-      { "caption": "The point exactly opposite yours is called your antipode.", "map": { "projection": "ortho", "accent": "#F6B93B", "rotate": [-100, -20] } },
-      { "caption": "For most of the United States, that point is in the Indian Ocean.", "map": { "projection": "ortho", "accent": "#F6B93B", "rotate": [80, 20] } },
-      { "caption": "Two-thirds of all land has ocean on the other side. Earth is mostly water.", "map": { "projection": "equalEarth", "accent": "#F6B93B" } }
+      {
+        "caption": "The point exactly opposite yours is called your antipode.",
+        "map": {
+          "projection": "ortho",
+          "accent": "#F6B93B",
+          "rotate": [
+            -100,
+            -20
+          ]
+        }
+      },
+      {
+        "caption": "For most of the United States, that point is in the Indian Ocean.",
+        "map": {
+          "projection": "ortho",
+          "accent": "#F6B93B",
+          "rotate": [
+            80,
+            20
+          ]
+        }
+      },
+      {
+        "caption": "Two-thirds of all land has ocean on the other side. Earth is mostly water.",
+        "map": {
+          "projection": "equalEarth",
+          "accent": "#F6B93B"
+        }
+      }
     ],
     "outro": "Follow for the science behind the map.",
-    "endMap": { "projection": "ortho", "accent": "#F6B93B", "rotate": [-30, -10] },
+    "endMap": {
+      "projection": "ortho",
+      "accent": "#F6B93B",
+      "rotate": [
+        -30,
+        -10
+      ]
+    },
     "credit": "Cartography: Natural Earth"
   },
-
   "northup": {
     "theme": "MAPS & CARTOGRAPHY",
     "accent": "#F6B93B",
     "hook": "There is no real reason north has to be up.",
-    "hookMap": { "projection": "ortho", "accent": "#F6B93B", "rotate": [-10, -8] },
+    "hookMap": {
+      "projection": "ortho",
+      "accent": "#F6B93B",
+      "rotate": [
+        -10,
+        -8
+      ]
+    },
     "scenes": [
-      { "caption": "Space has no up. Old maps put east, or even south, at the top.", "map": { "projection": "ortho", "accent": "#F6B93B", "rotate": [-10, 40] } },
-      { "caption": "North-up became standard only with the compass and European mapmaking.", "map": { "projection": "mercator", "accent": "#F6B93B" } },
-      { "caption": "Flip the map and the same world suddenly feels unfamiliar. That is a choice, not a law.", "map": { "projection": "equalEarth", "accent": "#F6B93B" } }
+      {
+        "caption": "Space has no up. Old maps put east, or even south, at the top.",
+        "map": {
+          "projection": "ortho",
+          "accent": "#F6B93B",
+          "rotate": [
+            -10,
+            40
+          ]
+        }
+      },
+      {
+        "caption": "North-up became standard only with the compass and European mapmaking.",
+        "map": {
+          "projection": "mercator",
+          "accent": "#F6B93B"
+        }
+      },
+      {
+        "caption": "Flip the map and the same world suddenly feels unfamiliar. That is a choice, not a law.",
+        "map": {
+          "projection": "equalEarth",
+          "accent": "#F6B93B"
+        }
+      }
     ],
     "outro": "Follow for the science behind the map.",
-    "endMap": { "projection": "ortho", "accent": "#F6B93B", "rotate": [-10, -8] },
+    "endMap": {
+      "projection": "ortho",
+      "accent": "#F6B93B",
+      "rotate": [
+        -10,
+        -8
+      ]
+    },
     "credit": "Cartography: Natural Earth"
   },
-
   "utm": {
     "theme": "MAPS & CARTOGRAPHY",
     "accent": "#F6B93B",
     "hook": "Every GPS point you have ever used sits on a hidden grid.",
-    "hookMap": { "projection": "mercator", "accent": "#F6B93B" },
+    "hookMap": {
+      "projection": "mercator",
+      "accent": "#F6B93B"
+    },
     "scenes": [
-      { "caption": "Latitude and longitude are angles, not meters. Hard to measure distance with.", "map": { "projection": "mercator", "accent": "#F6B93B" } },
-      { "caption": "So we slice the planet into 60 flat zones, each with its own metre grid: U-T-M.", "map": { "projection": "equalEarth", "accent": "#F6B93B" } },
-      { "caption": "It is why your survey lines up on the ground, and why the zone must match.", "map": { "projection": "ortho", "accent": "#F6B93B", "rotate": [-10, -6] } }
+      {
+        "caption": "Latitude and longitude are angles, not meters. Hard to measure distance with.",
+        "map": {
+          "projection": "mercator",
+          "accent": "#F6B93B"
+        }
+      },
+      {
+        "caption": "So we slice the planet into 60 flat zones, each with its own metre grid: U-T-M.",
+        "map": {
+          "projection": "equalEarth",
+          "accent": "#F6B93B"
+        }
+      },
+      {
+        "caption": "It is why your survey lines up on the ground, and why the zone must match.",
+        "map": {
+          "projection": "ortho",
+          "accent": "#F6B93B",
+          "rotate": [
+            -10,
+            -6
+          ]
+        }
+      }
     ],
     "outro": "Follow for the science behind the map.",
-    "endMap": { "projection": "mercator", "accent": "#F6B93B" },
+    "endMap": {
+      "projection": "mercator",
+      "accent": "#F6B93B"
+    },
     "credit": "Cartography: Natural Earth"
   },
-
   "deforestation": {
     "theme": "SATELLITES & REMOTE SENSING",
     "accent": "#4aa8ff",
     "hook": "You can watch a forest disappear from space, almost in real time.",
-    "hookImg": { "wv": { "bbox": "-12,-67.5,4,-58.5", "date": "2024-08-20" } },
+    "hookImg": {
+      "wv": {
+        "bbox": "-12,-67.5,4,-58.5",
+        "date": "2024-08-20"
+      }
+    },
     "scenes": [
-      { "caption": "Satellites revisit the Amazon every few days and flag pixels that turned from green to bare.", "image": { "wv": { "bbox": "-12,-67.5,4,-58.5", "date": "2024-08-20" } } },
-      { "caption": "The signature is unmistakable: sharp straight edges and a fishbone of new roads.", "image": { "wv": { "bbox": "-12,-67.5,4,-58.5", "date": "2024-02-20" } } },
-      { "caption": "Alerts now reach rangers within days, turning maps into enforcement.", "image": { "nasa": "blue marble earth" } }
+      {
+        "caption": "Satellites revisit the Amazon every few days and flag pixels that turned from green to bare.",
+        "image": {
+          "wv": {
+            "bbox": "-12,-67.5,4,-58.5",
+            "date": "2024-08-20"
+          }
+        }
+      },
+      {
+        "caption": "The signature is unmistakable: sharp straight edges and a fishbone of new roads.",
+        "image": {
+          "wv": {
+            "bbox": "-12,-67.5,4,-58.5",
+            "date": "2024-02-20"
+          }
+        }
+      },
+      {
+        "caption": "Alerts now reach rangers within days, turning maps into enforcement.",
+        "image": {
+          "nasa": "blue marble earth"
+        }
+      }
     ],
     "outro": "Follow for the science behind the map.",
-    "endImg": { "wv": { "bbox": "-12,-67.5,4,-58.5", "date": "2024-08-20" } },
+    "endImg": {
+      "wv": {
+        "bbox": "-12,-67.5,4,-58.5",
+        "date": "2024-08-20"
+      }
+    },
     "credit": "Imagery: NASA Worldview"
   },
-
   "aurora": {
     "theme": "SATELLITES & REMOTE SENSING",
     "accent": "#4aa8ff",
     "hook": "Satellites see the northern lights from above.",
-    "hookImg": { "nasa": "aurora from space station" },
+    "hookImg": {
+      "nasa": "aurora from space station"
+    },
     "scenes": [
-      { "caption": "The aurora is the solar wind slamming into our magnetic field, 100 kilometres up.", "image": { "nasa": "aurora from space station" } },
-      { "caption": "From orbit, it is a glowing green ribbon wrapped around the pole.", "image": { "nasa": "aurora australis from space" } },
-      { "caption": "The same space weather that paints it can knock out GPS and power grids.", "image": { "nasa": "earth at night black marble" } }
+      {
+        "caption": "The aurora is the solar wind slamming into our magnetic field, 100 kilometres up.",
+        "image": {
+          "nasa": "aurora from space station"
+        }
+      },
+      {
+        "caption": "From orbit, it is a glowing green ribbon wrapped around the pole.",
+        "image": {
+          "nasa": "aurora australis from space"
+        }
+      },
+      {
+        "caption": "The same space weather that paints it can knock out GPS and power grids.",
+        "image": {
+          "nasa": "earth at night black marble"
+        }
+      }
     ],
     "outro": "Follow for the science behind the map.",
-    "endImg": { "nasa": "aurora from space station" },
+    "endImg": {
+      "nasa": "aurora from space station"
+    },
     "credit": "Imagery: NASA"
   },
-
   "wildfire": {
     "theme": "SATELLITES & REMOTE SENSING",
     "accent": "#4aa8ff",
     "hook": "A satellite can spot a wildfire before anyone calls it in.",
-    "hookImg": { "nasa": "wildfire smoke from space" },
+    "hookImg": {
+      "nasa": "wildfire smoke from space"
+    },
     "scenes": [
-      { "caption": "Thermal sensors detect the heat signature of a fire just a few metres across.", "image": { "nasa": "wildfire smoke from space" } },
-      { "caption": "They map the smoke plume and the active fire front several times a day.", "image": { "nasa": "california wildfire from space" } },
-      { "caption": "That head start is what buys evacuation time.", "image": { "wv": { "bbox": "8,2.1,36,17.9", "date": "2024-06-15" } } }
+      {
+        "caption": "Thermal sensors detect the heat signature of a fire just a few metres across.",
+        "image": {
+          "nasa": "wildfire smoke from space"
+        }
+      },
+      {
+        "caption": "They map the smoke plume and the active fire front several times a day.",
+        "image": {
+          "nasa": "california wildfire from space"
+        }
+      },
+      {
+        "caption": "That head start is what buys evacuation time.",
+        "image": {
+          "wv": {
+            "bbox": "8,2.1,36,17.9",
+            "date": "2024-06-15"
+          }
+        }
+      }
     ],
     "outro": "Follow for the science behind the map.",
-    "endImg": { "nasa": "wildfire smoke from space" },
+    "endImg": {
+      "nasa": "wildfire smoke from space"
+    },
     "credit": "Imagery: NASA"
   },
-
   "sam": {
     "theme": "GEOAI",
     "accent": "#39d98a",
     "hook": "One AI model can now outline every object in a satellite image.",
-    "hookImg": { "wv": { "bbox": "25,28.5,33,33.0", "date": "2024-08-01" } },
+    "hookImg": {
+      "wv": {
+        "bbox": "25,28.5,33,33.0",
+        "date": "2024-08-01"
+      }
+    },
     "scenes": [
-      { "caption": "Foundation models learned the shape of things: fields, buildings, ponds, roads.", "image": { "wv": { "bbox": "25,28.5,33,33.0", "date": "2024-08-01" } } },
-      { "caption": "Point at a lake and it traces the whole shoreline in one click.", "image": { "wv": { "bbox": "19.16,-80.5,29.83,-74.5", "date": "2024-07-01" } } },
-      { "caption": "Mapping that took analysts weeks now takes minutes.", "image": { "nasa": "blue marble earth" } }
+      {
+        "caption": "Foundation models learned the shape of things: fields, buildings, ponds, roads.",
+        "image": {
+          "wv": {
+            "bbox": "25,28.5,33,33.0",
+            "date": "2024-08-01"
+          }
+        }
+      },
+      {
+        "caption": "Point at a lake and it traces the whole shoreline in one click.",
+        "image": {
+          "wv": {
+            "bbox": "19.16,-80.5,29.83,-74.5",
+            "date": "2024-07-01"
+          }
+        }
+      },
+      {
+        "caption": "Mapping that took analysts weeks now takes minutes.",
+        "image": {
+          "nasa": "blue marble earth"
+        }
+      }
     ],
     "outro": "Follow for the science behind the map.",
-    "endImg": { "wv": { "bbox": "25,28.5,33,33.0", "date": "2024-08-01" } },
+    "endImg": {
+      "wv": {
+        "bbox": "25,28.5,33,33.0",
+        "date": "2024-08-01"
+      }
+    },
     "credit": "Imagery: NASA Worldview"
   },
-
   "roadai": {
     "theme": "GEOAI",
     "accent": "#39d98a",
     "hook": "AI is tracing every road on Earth from orbit.",
-    "hookImg": { "nasa": "earth at night black marble" },
+    "hookImg": {
+      "nasa": "earth at night black marble"
+    },
     "scenes": [
-      { "caption": "Many maps still have blank spots where no one has surveyed the roads.", "image": { "nasa": "earth at night black marble" } },
-      { "caption": "Models trained on satellite imagery draw the missing network automatically.", "image": { "nasa": "city lights from space station" } },
-      { "caption": "For disaster response, a current road map is the difference between reaching people or not.", "image": { "wv": { "bbox": "25,28.5,33,33.0", "date": "2024-08-01" } } }
+      {
+        "caption": "Many maps still have blank spots where no one has surveyed the roads.",
+        "image": {
+          "nasa": "earth at night black marble"
+        }
+      },
+      {
+        "caption": "Models trained on satellite imagery draw the missing network automatically.",
+        "image": {
+          "nasa": "city lights from space station"
+        }
+      },
+      {
+        "caption": "For disaster response, a current road map is the difference between reaching people or not.",
+        "image": {
+          "wv": {
+            "bbox": "25,28.5,33,33.0",
+            "date": "2024-08-01"
+          }
+        }
+      }
     ],
     "outro": "Follow for the science behind the map.",
-    "endImg": { "nasa": "earth at night black marble" },
+    "endImg": {
+      "nasa": "earth at night black marble"
+    },
     "credit": "Imagery: NASA"
   },
-
   "cog": {
     "theme": "GEOSPATIAL DATA SCIENCE",
     "accent": "#8b7cff",
     "hook": "You can read one corner of a 100-gigabyte satellite image without downloading it.",
-    "hookMap": { "projection": "mercator", "accent": "#8b7cff" },
+    "hookMap": {
+      "projection": "mercator",
+      "accent": "#8b7cff"
+    },
     "scenes": [
-      { "caption": "A cloud-optimized GeoTIFF stores the file so any tile can be fetched on its own.", "map": { "projection": "mercator", "accent": "#8b7cff" } },
-      { "caption": "Your code asks for just the pixels in view, over the network, in milliseconds.", "map": { "projection": "equalEarth", "accent": "#8b7cff" } },
-      { "caption": "Petabytes of imagery become something a laptop can actually work with.", "map": { "projection": "ortho", "accent": "#8b7cff", "rotate": [-10, -6] } }
+      {
+        "caption": "A cloud-optimized GeoTIFF stores the file so any tile can be fetched on its own.",
+        "map": {
+          "projection": "mercator",
+          "accent": "#8b7cff"
+        }
+      },
+      {
+        "caption": "Your code asks for just the pixels in view, over the network, in milliseconds.",
+        "map": {
+          "projection": "equalEarth",
+          "accent": "#8b7cff"
+        }
+      },
+      {
+        "caption": "Petabytes of imagery become something a laptop can actually work with.",
+        "map": {
+          "projection": "ortho",
+          "accent": "#8b7cff",
+          "rotate": [
+            -10,
+            -6
+          ]
+        }
+      }
     ],
     "outro": "Follow for the science behind the map.",
-    "endMap": { "projection": "ortho", "accent": "#8b7cff", "rotate": [-10, -6] },
+    "endMap": {
+      "projection": "ortho",
+      "accent": "#8b7cff",
+      "rotate": [
+        -10,
+        -6
+      ]
+    },
     "credit": "Cartography: Natural Earth"
   },
-
   "spatialjoin": {
     "theme": "GEOSPATIAL DATA SCIENCE",
     "accent": "#8b7cff",
     "hook": "One line of geospatial code can freeze your laptop for an hour.",
-    "hookMap": { "projection": "ortho", "accent": "#8b7cff", "rotate": [-10, -6] },
+    "hookMap": {
+      "projection": "ortho",
+      "accent": "#8b7cff",
+      "rotate": [
+        -10,
+        -6
+      ]
+    },
     "scenes": [
-      { "caption": "A spatial join checks every shape against every other shape. That is millions times millions.", "map": { "projection": "ortho", "accent": "#8b7cff", "rotate": [-10, -6] } },
-      { "caption": "A spatial index sorts the data by location first, so each shape only checks its neighbours.", "map": { "projection": "mercator", "accent": "#8b7cff" } },
-      { "caption": "Same answer, a thousand times faster. Indexing is the whole game.", "map": { "projection": "equalEarth", "accent": "#8b7cff" } }
+      {
+        "caption": "A spatial join checks every shape against every other shape. That is millions times millions.",
+        "map": {
+          "projection": "ortho",
+          "accent": "#8b7cff",
+          "rotate": [
+            -10,
+            -6
+          ]
+        }
+      },
+      {
+        "caption": "A spatial index sorts the data by location first, so each shape only checks its neighbours.",
+        "map": {
+          "projection": "mercator",
+          "accent": "#8b7cff"
+        }
+      },
+      {
+        "caption": "Same answer, a thousand times faster. Indexing is the whole game.",
+        "map": {
+          "projection": "equalEarth",
+          "accent": "#8b7cff"
+        }
+      }
     ],
     "outro": "Follow for the science behind the map.",
-    "endMap": { "projection": "mercator", "accent": "#8b7cff" },
+    "endMap": {
+      "projection": "mercator",
+      "accent": "#8b7cff"
+    },
     "credit": "Cartography: Natural Earth"
   },
-
   "himalaya": {
     "theme": "SATELLITES & REMOTE SENSING",
     "accent": "#4aa8ff",
     "hook": "The tallest mountains on Earth are still growing, and satellites can measure it.",
-    "hookImg": { "nasa": "himalayas from space" },
+    "hookImg": {
+      "nasa": "himalayas from space"
+    },
     "scenes": [
-      { "caption": "India is still crashing into Asia, lifting the Himalaya a few millimetres a year.", "image": { "nasa": "himalayas from space" } },
-      { "caption": "Radar satellites measure that ground motion from orbit, to the millimetre.", "image": { "img": "geo/sar.jpg" } },
-      { "caption": "The same technique tracks sinking cities and slipping faults before a quake.", "image": { "nasa": "blue marble earth" } }
+      {
+        "caption": "India is still crashing into Asia, lifting the Himalaya a few millimetres a year.",
+        "image": {
+          "nasa": "himalayas from space"
+        }
+      },
+      {
+        "caption": "Radar satellites measure that ground motion from orbit, to the millimetre.",
+        "image": {
+          "img": "geo/sar.jpg"
+        }
+      },
+      {
+        "caption": "The same technique tracks sinking cities and slipping faults before a quake.",
+        "image": {
+          "nasa": "blue marble earth"
+        }
+      }
     ],
     "outro": "Follow for the science behind the map.",
-    "endImg": { "nasa": "himalayas from space" },
+    "endImg": {
+      "nasa": "himalayas from space"
+    },
     "credit": "Imagery: NASA / JPL"
   },
-
   "bluemarble": {
     "theme": "SATELLITES & REMOTE SENSING",
     "accent": "#4aa8ff",
     "hook": "The most reproduced photograph in history is a map.",
-    "hookImg": { "nasa": "blue marble earth apollo" },
+    "hookImg": {
+      "nasa": "blue marble earth apollo"
+    },
     "scenes": [
-      { "caption": "In 1972 the Apollo 17 crew shot the whole Earth, lit and round, in one frame.", "image": { "nasa": "blue marble earth apollo" } },
-      { "caption": "For the first time people saw the planet with no borders drawn on it.", "image": { "nasa": "blue marble earth" } },
-      { "caption": "Every basemap you scroll today is the descendant of that single view.", "image": { "nasa": "earth from space full disk" } }
+      {
+        "caption": "In 1972 the Apollo 17 crew shot the whole Earth, lit and round, in one frame.",
+        "image": {
+          "nasa": "blue marble earth apollo"
+        }
+      },
+      {
+        "caption": "For the first time people saw the planet with no borders drawn on it.",
+        "image": {
+          "nasa": "blue marble earth"
+        }
+      },
+      {
+        "caption": "Every basemap you scroll today is the descendant of that single view.",
+        "image": {
+          "nasa": "earth from space full disk"
+        }
+      }
     ],
     "outro": "Follow for the science behind the map.",
-    "endImg": { "nasa": "blue marble earth" },
+    "endImg": {
+      "nasa": "blue marble earth"
+    },
     "credit": "Imagery: NASA"
   },
-
   "greatcircle": {
     "theme": "MAPS & CARTOGRAPHY",
     "accent": "#F6B93B",
     "hook": "The shortest flight path looks like a curve on your map.",
-    "hookMap": { "projection": "ortho", "accent": "#F6B93B", "rotate": [-40, -20] },
+    "hookMap": {
+      "projection": "ortho",
+      "accent": "#F6B93B",
+      "rotate": [
+        -40,
+        -20
+      ]
+    },
     "scenes": [
-      { "caption": "On a globe, the straight line between two cities bends toward the pole.", "map": { "projection": "ortho", "accent": "#F6B93B", "rotate": [-40, -20] } },
-      { "caption": "Flatten that globe onto a map and the same straight path looks curved.", "map": { "projection": "mercator", "accent": "#F6B93B" } },
-      { "caption": "It is why flights from the US to Asia arc up over the Arctic.", "map": { "projection": "ortho", "accent": "#F6B93B", "rotate": [-120, -50] } }
+      {
+        "caption": "On a globe, the straight line between two cities bends toward the pole.",
+        "map": {
+          "projection": "ortho",
+          "accent": "#F6B93B",
+          "rotate": [
+            -40,
+            -20
+          ]
+        }
+      },
+      {
+        "caption": "Flatten that globe onto a map and the same straight path looks curved.",
+        "map": {
+          "projection": "mercator",
+          "accent": "#F6B93B"
+        }
+      },
+      {
+        "caption": "It is why flights from the US to Asia arc up over the Arctic.",
+        "map": {
+          "projection": "ortho",
+          "accent": "#F6B93B",
+          "rotate": [
+            -120,
+            -50
+          ]
+        }
+      }
     ],
     "outro": "Follow for the science behind the map.",
-    "endMap": { "projection": "ortho", "accent": "#F6B93B", "rotate": [-40, -20] },
+    "endMap": {
+      "projection": "ortho",
+      "accent": "#F6B93B",
+      "rotate": [
+        -40,
+        -20
+      ]
+    },
     "credit": "Cartography: Natural Earth"
   },
-
   "dateline": {
     "theme": "MAPS & CARTOGRAPHY",
     "accent": "#F6B93B",
     "hook": "Cross one invisible line in the Pacific and it is suddenly tomorrow.",
-    "hookMap": { "projection": "ortho", "accent": "#F6B93B", "rotate": [-180, -10] },
+    "hookMap": {
+      "projection": "ortho",
+      "accent": "#F6B93B",
+      "rotate": [
+        -180,
+        -10
+      ]
+    },
     "scenes": [
-      { "caption": "The International Date Line runs down the middle of the Pacific.", "map": { "projection": "ortho", "accent": "#F6B93B", "rotate": [-180, -10] } },
-      { "caption": "Step across it going west and you skip a whole day forward.", "map": { "projection": "equalEarth", "accent": "#F6B93B" } },
-      { "caption": "It zig-zags around islands so each nation keeps a single date.", "map": { "projection": "ortho", "accent": "#F6B93B", "rotate": [-170, -5] } }
+      {
+        "caption": "The International Date Line runs down the middle of the Pacific.",
+        "map": {
+          "projection": "ortho",
+          "accent": "#F6B93B",
+          "rotate": [
+            -180,
+            -10
+          ]
+        }
+      },
+      {
+        "caption": "Step across it going west and you skip a whole day forward.",
+        "map": {
+          "projection": "equalEarth",
+          "accent": "#F6B93B"
+        }
+      },
+      {
+        "caption": "It zig-zags around islands so each nation keeps a single date.",
+        "map": {
+          "projection": "ortho",
+          "accent": "#F6B93B",
+          "rotate": [
+            -170,
+            -5
+          ]
+        }
+      }
     ],
     "outro": "Follow for the science behind the map.",
-    "endMap": { "projection": "ortho", "accent": "#F6B93B", "rotate": [-180, -10] },
+    "endMap": {
+      "projection": "ortho",
+      "accent": "#F6B93B",
+      "rotate": [
+        -180,
+        -10
+      ]
+    },
     "credit": "Cartography: Natural Earth"
   },
-
   "equator": {
     "theme": "MAPS & CARTOGRAPHY",
     "accent": "#F6B93B",
     "hook": "Standing on the equator, you are spinning at 1,600 kilometres an hour.",
-    "hookMap": { "projection": "ortho", "accent": "#F6B93B", "rotate": [-20, 0] },
+    "hookMap": {
+      "projection": "ortho",
+      "accent": "#F6B93B",
+      "rotate": [
+        -20,
+        0
+      ]
+    },
     "scenes": [
-      { "caption": "Earth turns once a day, and the equator is the widest circle around it.", "map": { "projection": "ortho", "accent": "#F6B93B", "rotate": [-20, 0] } },
-      { "caption": "So the ground there races eastward far faster than at the poles.", "map": { "projection": "equalEarth", "accent": "#F6B93B" } },
-      { "caption": "That free eastward speed is exactly why rockets launch near the equator.", "map": { "projection": "ortho", "accent": "#F6B93B", "rotate": [-52, 0] } }
+      {
+        "caption": "Earth turns once a day, and the equator is the widest circle around it.",
+        "map": {
+          "projection": "ortho",
+          "accent": "#F6B93B",
+          "rotate": [
+            -20,
+            0
+          ]
+        }
+      },
+      {
+        "caption": "So the ground there races eastward far faster than at the poles.",
+        "map": {
+          "projection": "equalEarth",
+          "accent": "#F6B93B"
+        }
+      },
+      {
+        "caption": "That free eastward speed is exactly why rockets launch near the equator.",
+        "map": {
+          "projection": "ortho",
+          "accent": "#F6B93B",
+          "rotate": [
+            -52,
+            0
+          ]
+        }
+      }
     ],
     "outro": "Follow for the science behind the map.",
-    "endMap": { "projection": "ortho", "accent": "#F6B93B", "rotate": [-20, 0] },
+    "endMap": {
+      "projection": "ortho",
+      "accent": "#F6B93B",
+      "rotate": [
+        -20,
+        0
+      ]
+    },
     "credit": "Cartography: Natural Earth"
   },
-
   "straightborders": {
     "theme": "MAPS & CARTOGRAPHY",
     "accent": "#F6B93B",
     "hook": "Some country borders are just straight lines a ruler drew.",
-    "hookMap": { "projection": "equalEarth", "accent": "#F6B93B", "highlight": ["Egypt", "Libya", "Sudan"], "fit": "africa" },
+    "hookMap": {
+      "projection": "equalEarth",
+      "accent": "#F6B93B",
+      "highlight": [
+        "Egypt",
+        "Libya",
+        "Sudan"
+      ],
+      "fit": "africa"
+    },
     "scenes": [
-      { "caption": "Rivers and mountains make crooked borders. Straight ones are drawn by people.", "map": { "projection": "equalEarth", "accent": "#F6B93B", "highlight": ["Egypt", "Libya", "Sudan", "Chad", "Niger"], "fit": "africa" } },
-      { "caption": "Much of Africa's map was ruled off in European capitals in the 1880s.", "map": { "projection": "mercator", "accent": "#F6B93B", "highlight2": ["africa"], "accent2": "#4aa8ff" } },
-      { "caption": "Those lines still cut through peoples and rivers today.", "map": { "projection": "equalEarth", "accent": "#F6B93B", "highlight2": ["africa"], "accent2": "#4aa8ff", "fit": "africa" } }
+      {
+        "caption": "Rivers and mountains make crooked borders. Straight ones are drawn by people.",
+        "map": {
+          "projection": "equalEarth",
+          "accent": "#F6B93B",
+          "highlight": [
+            "Egypt",
+            "Libya",
+            "Sudan",
+            "Chad",
+            "Niger"
+          ],
+          "fit": "africa"
+        }
+      },
+      {
+        "caption": "Much of Africa's map was ruled off in European capitals in the 1880s.",
+        "map": {
+          "projection": "mercator",
+          "accent": "#F6B93B",
+          "highlight2": [
+            "africa"
+          ],
+          "accent2": "#4aa8ff"
+        }
+      },
+      {
+        "caption": "Those lines still cut through peoples and rivers today.",
+        "map": {
+          "projection": "equalEarth",
+          "accent": "#F6B93B",
+          "highlight2": [
+            "africa"
+          ],
+          "accent2": "#4aa8ff",
+          "fit": "africa"
+        }
+      }
     ],
     "outro": "Follow for the science behind the map.",
-    "endMap": { "projection": "equalEarth", "accent": "#F6B93B", "highlight2": ["africa"], "accent2": "#4aa8ff", "fit": "africa" },
+    "endMap": {
+      "projection": "equalEarth",
+      "accent": "#F6B93B",
+      "highlight2": [
+        "africa"
+      ],
+      "accent2": "#4aa8ff",
+      "fit": "africa"
+    },
     "credit": "Cartography: Natural Earth"
   },
-
   "tiles": {
     "theme": "GEOSPATIAL DATA SCIENCE",
     "accent": "#8b7cff",
     "hook": "Every online map is really millions of tiny square images.",
-    "hookMap": { "projection": "mercator", "accent": "#8b7cff" },
+    "hookMap": {
+      "projection": "mercator",
+      "accent": "#8b7cff"
+    },
     "scenes": [
-      { "caption": "Zoom in and the map quietly swaps in sharper 256-pixel tiles.", "map": { "projection": "mercator", "accent": "#8b7cff" } },
-      { "caption": "Each zoom level has four times as many tiles as the one before.", "map": { "projection": "mercator", "accent": "#8b7cff" } },
-      { "caption": "That pyramid of tiles is why a world map loads instantly on your phone.", "map": { "projection": "equalEarth", "accent": "#8b7cff" } }
+      {
+        "caption": "Zoom in and the map quietly swaps in sharper 256-pixel tiles.",
+        "map": {
+          "projection": "mercator",
+          "accent": "#8b7cff"
+        }
+      },
+      {
+        "caption": "Each zoom level has four times as many tiles as the one before.",
+        "map": {
+          "projection": "mercator",
+          "accent": "#8b7cff"
+        }
+      },
+      {
+        "caption": "That pyramid of tiles is why a world map loads instantly on your phone.",
+        "map": {
+          "projection": "equalEarth",
+          "accent": "#8b7cff"
+        }
+      }
     ],
     "outro": "Follow for the science behind the map.",
-    "endMap": { "projection": "mercator", "accent": "#8b7cff" },
+    "endMap": {
+      "projection": "mercator",
+      "accent": "#8b7cff"
+    },
     "credit": "Cartography: Natural Earth"
   },
-
   "geocoding": {
     "theme": "GEOSPATIAL DATA SCIENCE",
     "accent": "#8b7cff",
     "hook": "Turning an address into a dot on the map is harder than it sounds.",
-    "hookMap": { "projection": "ortho", "accent": "#8b7cff", "rotate": [-10, -6] },
+    "hookMap": {
+      "projection": "ortho",
+      "accent": "#8b7cff",
+      "rotate": [
+        -10,
+        -6
+      ]
+    },
     "scenes": [
-      { "caption": "People write addresses a hundred messy ways. Computers need one exact point.", "map": { "projection": "mercator", "accent": "#8b7cff" } },
-      { "caption": "Geocoding matches the text to a known location, then guesses the rest.", "map": { "projection": "equalEarth", "accent": "#8b7cff" } },
-      { "caption": "Get it wrong and your delivery, or your ambulance, goes to the wrong street.", "map": { "projection": "ortho", "accent": "#8b7cff", "rotate": [-10, -6] } }
+      {
+        "caption": "People write addresses a hundred messy ways. Computers need one exact point.",
+        "map": {
+          "projection": "mercator",
+          "accent": "#8b7cff"
+        }
+      },
+      {
+        "caption": "Geocoding matches the text to a known location, then guesses the rest.",
+        "map": {
+          "projection": "equalEarth",
+          "accent": "#8b7cff"
+        }
+      },
+      {
+        "caption": "Get it wrong and your delivery, or your ambulance, goes to the wrong street.",
+        "map": {
+          "projection": "ortho",
+          "accent": "#8b7cff",
+          "rotate": [
+            -10,
+            -6
+          ]
+        }
+      }
     ],
     "outro": "Follow for the science behind the map.",
-    "endMap": { "projection": "ortho", "accent": "#8b7cff", "rotate": [-10, -6] },
+    "endMap": {
+      "projection": "ortho",
+      "accent": "#8b7cff",
+      "rotate": [
+        -10,
+        -6
+      ]
+    },
     "credit": "Cartography: Natural Earth"
   },
-
   "bigdata": {
     "theme": "GEOSPATIAL DATA SCIENCE",
     "accent": "#8b7cff",
     "hook": "One day of satellite imagery is bigger than the entire early internet.",
-    "hookImg": { "nasa": "blue marble earth" },
+    "hookImg": {
+      "nasa": "blue marble earth"
+    },
     "scenes": [
-      { "caption": "Earth-observing satellites now stream terabytes of pixels every single day.", "image": { "nasa": "blue marble earth" } },
-      { "caption": "No one downloads it all. You send the code to the data, in the cloud.", "image": { "wv": { "bbox": "8,2.1,36,17.9", "date": "2024-06-15" } } },
-      { "caption": "Platforms like Earth Engine turn a planet of pixels into one line of code.", "image": { "nasa": "earth at night black marble" } }
+      {
+        "caption": "Earth-observing satellites now stream terabytes of pixels every single day.",
+        "image": {
+          "nasa": "blue marble earth"
+        }
+      },
+      {
+        "caption": "No one downloads it all. You send the code to the data, in the cloud.",
+        "image": {
+          "wv": {
+            "bbox": "8,2.1,36,17.9",
+            "date": "2024-06-15"
+          }
+        }
+      },
+      {
+        "caption": "Platforms like Earth Engine turn a planet of pixels into one line of code.",
+        "image": {
+          "nasa": "earth at night black marble"
+        }
+      }
     ],
     "outro": "Follow for the science behind the map.",
-    "endImg": { "nasa": "blue marble earth" },
+    "endImg": {
+      "nasa": "blue marble earth"
+    },
     "credit": "Imagery: NASA"
   },
-
   "hurricane": {
     "theme": "SATELLITES & REMOTE SENSING",
     "accent": "#4aa8ff",
     "hook": "A satellite watches the eye of a hurricane form in real time.",
-    "hookImg": { "nasa": "hurricane from space" },
+    "hookImg": {
+      "nasa": "hurricane from space"
+    },
     "scenes": [
-      { "caption": "From orbit, the storm is a perfect spiral with a calm eye at its centre.", "image": { "nasa": "hurricane from space" } },
-      { "caption": "Satellites clock its winds, path and pressure hours before landfall.", "image": { "nasa": "hurricane eye from space" } },
-      { "caption": "That warning is measured in lives, not likes.", "image": { "nasa": "blue marble earth" } }
+      {
+        "caption": "From orbit, the storm is a perfect spiral with a calm eye at its centre.",
+        "image": {
+          "nasa": "hurricane from space"
+        }
+      },
+      {
+        "caption": "Satellites clock its winds, path and pressure hours before landfall.",
+        "image": {
+          "nasa": "hurricane eye from space"
+        }
+      },
+      {
+        "caption": "That warning is measured in lives, not likes.",
+        "image": {
+          "nasa": "blue marble earth"
+        }
+      }
     ],
     "outro": "Follow for the science behind the map.",
-    "endImg": { "nasa": "hurricane from space" },
+    "endImg": {
+      "nasa": "hurricane from space"
+    },
     "credit": "Imagery: NASA"
   },
-
   "glacier": {
     "theme": "SATELLITES & REMOTE SENSING",
     "accent": "#4aa8ff",
     "hook": "Satellites watch a glacier retreat, one summer at a time.",
-    "hookImg": { "nasa": "greenland ice sheet from space" },
+    "hookImg": {
+      "nasa": "greenland ice sheet from space"
+    },
     "scenes": [
-      { "caption": "Line up images across the years and the ice visibly pulls back.", "image": { "nasa": "greenland ice sheet from space" } },
-      { "caption": "Meltwater carves bright blue lakes and rivers across the white.", "image": { "nasa": "glacier from space" } },
-      { "caption": "The record is undeniable because it is the same camera, year after year.", "image": { "nasa": "greenland ice sheet from space" } }
+      {
+        "caption": "Line up images across the years and the ice visibly pulls back.",
+        "image": {
+          "nasa": "greenland ice sheet from space"
+        }
+      },
+      {
+        "caption": "Meltwater carves bright blue lakes and rivers across the white.",
+        "image": {
+          "nasa": "glacier from space"
+        }
+      },
+      {
+        "caption": "The record is undeniable because it is the same camera, year after year.",
+        "image": {
+          "nasa": "greenland ice sheet from space"
+        }
+      }
     ],
     "outro": "Follow for the science behind the map.",
-    "endImg": { "nasa": "greenland ice sheet from space" },
+    "endImg": {
+      "nasa": "greenland ice sheet from space"
+    },
     "credit": "Imagery: NASA"
   },
-
   "dust": {
     "theme": "SATELLITES & REMOTE SENSING",
     "accent": "#4aa8ff",
     "hook": "Desert dust crosses an entire ocean to feed a rainforest.",
-    "hookImg": { "wv": { "bbox": "8,2.1,36,17.9", "date": "2024-06-15" } },
+    "hookImg": {
+      "wv": {
+        "bbox": "8,2.1,36,17.9",
+        "date": "2024-06-15"
+      }
+    },
     "scenes": [
-      { "caption": "Every year the Sahara lofts millions of tonnes of dust into the sky.", "image": { "wv": { "bbox": "8,2.1,36,17.9", "date": "2024-06-15" } } },
-      { "caption": "Satellites track the plume as it drifts across the Atlantic.", "image": { "nasa": "saharan dust atlantic from space" } },
-      { "caption": "It lands on the Amazon, carrying the very phosphorus the forest needs.", "image": { "wv": { "bbox": "-12,-67.5,4,-58.5", "date": "2024-08-20" } } }
+      {
+        "caption": "Every year the Sahara lofts millions of tonnes of dust into the sky.",
+        "image": {
+          "wv": {
+            "bbox": "8,2.1,36,17.9",
+            "date": "2024-06-15"
+          }
+        }
+      },
+      {
+        "caption": "Satellites track the plume as it drifts across the Atlantic.",
+        "image": {
+          "nasa": "saharan dust atlantic from space"
+        }
+      },
+      {
+        "caption": "It lands on the Amazon, carrying the very phosphorus the forest needs.",
+        "image": {
+          "wv": {
+            "bbox": "-12,-67.5,4,-58.5",
+            "date": "2024-08-20"
+          }
+        }
+      }
     ],
     "outro": "Follow for the science behind the map.",
-    "endImg": { "wv": { "bbox": "8,2.1,36,17.9", "date": "2024-06-15" } },
+    "endImg": {
+      "wv": {
+        "bbox": "8,2.1,36,17.9",
+        "date": "2024-06-15"
+      }
+    },
     "credit": "Imagery: NASA Worldview"
   },
-
   "sealevel": {
     "theme": "SATELLITES & REMOTE SENSING",
     "accent": "#4aa8ff",
     "hook": "Satellites measure the height of the ocean to the width of a finger.",
-    "hookImg": { "wv": { "bbox": "19.16,-80.5,29.83,-74.5", "date": "2024-07-01" } },
+    "hookImg": {
+      "wv": {
+        "bbox": "19.16,-80.5,29.83,-74.5",
+        "date": "2024-07-01"
+      }
+    },
     "scenes": [
-      { "caption": "A radar altimeter bounces a pulse off the sea and times the echo.", "image": { "wv": { "bbox": "19.16,-80.5,29.83,-74.5", "date": "2024-07-01" } } },
-      { "caption": "Repeat it for 30 years and you can see the ocean slowly rising.", "image": { "wv": { "bbox": "18,28.5,34,37.5", "date": "2024-07-01" } } },
-      { "caption": "For low coasts and deltas, a few centimetres decides who floods.", "image": { "wv": { "bbox": "25,28.5,33,33.0", "date": "2024-08-01" } } }
+      {
+        "caption": "A radar altimeter bounces a pulse off the sea and times the echo.",
+        "image": {
+          "wv": {
+            "bbox": "19.16,-80.5,29.83,-74.5",
+            "date": "2024-07-01"
+          }
+        }
+      },
+      {
+        "caption": "Repeat it for 30 years and you can see the ocean slowly rising.",
+        "image": {
+          "wv": {
+            "bbox": "18,28.5,34,37.5",
+            "date": "2024-07-01"
+          }
+        }
+      },
+      {
+        "caption": "For low coasts and deltas, a few centimetres decides who floods.",
+        "image": {
+          "wv": {
+            "bbox": "25,28.5,33,33.0",
+            "date": "2024-08-01"
+          }
+        }
+      }
     ],
     "outro": "Follow for the science behind the map.",
-    "endImg": { "wv": { "bbox": "19.16,-80.5,29.83,-74.5", "date": "2024-07-01" } },
+    "endImg": {
+      "wv": {
+        "bbox": "19.16,-80.5,29.83,-74.5",
+        "date": "2024-07-01"
+      }
+    },
     "credit": "Imagery: NASA Worldview"
   },
-
   "changedetection": {
     "theme": "GEOAI",
     "accent": "#39d98a",
     "hook": "AI can tell you exactly what changed between two satellite passes.",
-    "hookImg": { "wv": { "bbox": "-12,-67.5,4,-58.5", "date": "2024-02-20" } },
+    "hookImg": {
+      "wv": {
+        "bbox": "-12,-67.5,4,-58.5",
+        "date": "2024-02-20"
+      }
+    },
     "scenes": [
-      { "caption": "Take the same place on two dates and subtract one image from the other.", "image": { "wv": { "bbox": "-12,-67.5,4,-58.5", "date": "2024-02-20" } } },
-      { "caption": "A model flags only the meaningful change: new clearing, new water, new building.", "image": { "wv": { "bbox": "-12,-67.5,4,-58.5", "date": "2024-08-20" } } },
-      { "caption": "It turns a firehose of imagery into a short list of what actually matters.", "image": { "nasa": "blue marble earth" } }
+      {
+        "caption": "Take the same place on two dates and subtract one image from the other.",
+        "image": {
+          "wv": {
+            "bbox": "-12,-67.5,4,-58.5",
+            "date": "2024-02-20"
+          }
+        }
+      },
+      {
+        "caption": "A model flags only the meaningful change: new clearing, new water, new building.",
+        "image": {
+          "wv": {
+            "bbox": "-12,-67.5,4,-58.5",
+            "date": "2024-08-20"
+          }
+        }
+      },
+      {
+        "caption": "It turns a firehose of imagery into a short list of what actually matters.",
+        "image": {
+          "nasa": "blue marble earth"
+        }
+      }
     ],
     "outro": "Follow for the science behind the map.",
-    "endImg": { "wv": { "bbox": "-12,-67.5,4,-58.5", "date": "2024-08-20" } },
+    "endImg": {
+      "wv": {
+        "bbox": "-12,-67.5,4,-58.5",
+        "date": "2024-08-20"
+      }
+    },
     "credit": "Imagery: NASA Worldview"
   },
-
   "lesotho": {
     "theme": "MAPS & CARTOGRAPHY",
     "accent": "#F6B93B",
     "hook": "One country is completely enclosed by another, and it is not a tiny city-state.",
-    "hookMap": { "projection": "equalEarth", "accent": "#F6B93B", "highlight": ["Lesotho"], "fit": "South Africa" },
+    "hookMap": {
+      "projection": "equalEarth",
+      "accent": "#F6B93B",
+      "highlight": [
+        "Lesotho"
+      ],
+      "fit": "South Africa"
+    },
     "scenes": [
-      { "caption": "Vatican City and San Marino are famous enclaves, but Lesotho is a full nation of two million people.", "map": { "projection": "equalEarth", "accent": "#F6B93B", "highlight": ["Lesotho"], "fit": "South Africa" } },
-      { "caption": "Lesotho sits entirely inside South Africa, a mountain kingdom with no coastline of its own.", "map": { "projection": "ortho", "accent": "#F6B93B", "highlight": ["Lesotho"], "rotate": [-28, 29] } },
-      { "caption": "Drive in any direction to leave the country, and you cross straight into South Africa.", "map": { "projection": "equalEarth", "accent": "#F6B93B", "highlight": ["Lesotho"], "fit": "South Africa" } }
+      {
+        "caption": "Vatican City and San Marino are famous enclaves, but Lesotho is a full nation of two million people.",
+        "map": {
+          "projection": "equalEarth",
+          "accent": "#F6B93B",
+          "highlight": [
+            "Lesotho"
+          ],
+          "fit": "South Africa"
+        }
+      },
+      {
+        "caption": "Lesotho sits entirely inside South Africa, a mountain kingdom with no coastline of its own.",
+        "map": {
+          "projection": "ortho",
+          "accent": "#F6B93B",
+          "highlight": [
+            "Lesotho"
+          ],
+          "rotate": [
+            -28,
+            29
+          ]
+        }
+      },
+      {
+        "caption": "Drive in any direction to leave the country, and you cross straight into South Africa.",
+        "map": {
+          "projection": "equalEarth",
+          "accent": "#F6B93B",
+          "highlight": [
+            "Lesotho"
+          ],
+          "fit": "South Africa"
+        }
+      }
     ],
     "outro": "Follow for the science behind the map.",
-    "endMap": { "projection": "equalEarth", "accent": "#F6B93B", "highlight": ["Lesotho"], "fit": "South Africa" },
+    "endMap": {
+      "projection": "equalEarth",
+      "accent": "#F6B93B",
+      "highlight": [
+        "Lesotho"
+      ],
+      "fit": "South Africa"
+    },
     "credit": "Cartography: Natural Earth"
   },
-
   "landsat": {
     "theme": "SATELLITES & REMOTE SENSING",
     "accent": "#4aa8ff",
     "hook": "One satellite program has been photographing the same ground every couple of weeks for over fifty years.",
-    "hookImg": { "nasa": "blue marble earth" },
+    "hookImg": {
+      "nasa": "blue marble earth"
+    },
     "scenes": [
-      { "caption": "Landsat 1 launched in 1972 and began the longest continuous space record of Earth's land surface.", "image": { "wv": { "bbox": "18,28.5,34,37.5", "date": "2024-07-01" } } },
-      { "caption": "Today Landsat 8 and 9 fly together, revisiting any point on Earth every eight days.", "image": { "wv": { "bbox": "8,2.1,36,17.9", "date": "2024-06-15" } } },
-      { "caption": "That unbroken archive lets scientists watch forests, cities and coastlines change decade by decade.", "image": { "nasa": "city lights from space station" } }
+      {
+        "caption": "Landsat 1 launched in 1972 and began the longest continuous space record of Earth's land surface.",
+        "image": {
+          "wv": {
+            "bbox": "18,28.5,34,37.5",
+            "date": "2024-07-01"
+          }
+        }
+      },
+      {
+        "caption": "Today Landsat 8 and 9 fly together, revisiting any point on Earth every eight days.",
+        "image": {
+          "wv": {
+            "bbox": "8,2.1,36,17.9",
+            "date": "2024-06-15"
+          }
+        }
+      },
+      {
+        "caption": "That unbroken archive lets scientists watch forests, cities and coastlines change decade by decade.",
+        "image": {
+          "nasa": "city lights from space station"
+        }
+      }
     ],
     "outro": "Follow for the science behind the map.",
-    "endImg": { "nasa": "blue marble earth" },
+    "endImg": {
+      "nasa": "blue marble earth"
+    },
     "credit": "Imagery: NASA"
   },
-
   "deepfakegeo": {
     "theme": "GEOAI",
     "accent": "#39d98a",
     "hook": "In 2021, researchers proved AI could fake a satellite photo of a place, complete with buildings and rivers that were never there.",
-    "hookImg": { "wv": { "bbox": "25,28.5,33,33.0", "date": "2024-07-01" } },
+    "hookImg": {
+      "wv": {
+        "bbox": "25,28.5,33,33.0",
+        "date": "2024-07-01"
+      }
+    },
     "scenes": [
-      { "caption": "The study used a generative AI model to swap real features between different cities' satellite scenes.", "image": { "wv": { "bbox": "25,28.5,33,33.0", "date": "2024-07-01" } } },
-      { "caption": "The output looked like ordinary satellite imagery, but showed structures and terrain that did not exist on the ground.", "image": { "wv": { "bbox": "19.16,-80.5,29.83,-74.5", "date": "2024-07-01" } } },
-      { "caption": "Geographers now call this risk deep fake geography, a warning to verify imagery before trusting it.", "image": { "nasa": "synthetic aperture radar earth" } }
+      {
+        "caption": "The study used a generative AI model to swap real features between different cities' satellite scenes.",
+        "image": {
+          "wv": {
+            "bbox": "25,28.5,33,33.0",
+            "date": "2024-07-01"
+          }
+        }
+      },
+      {
+        "caption": "The output looked like ordinary satellite imagery, but showed structures and terrain that did not exist on the ground.",
+        "image": {
+          "wv": {
+            "bbox": "19.16,-80.5,29.83,-74.5",
+            "date": "2024-07-01"
+          }
+        }
+      },
+      {
+        "caption": "Geographers now call this risk deep fake geography, a warning to verify imagery before trusting it.",
+        "image": {
+          "nasa": "synthetic aperture radar earth"
+        }
+      }
     ],
     "outro": "Follow for the science behind the map.",
-    "endImg": { "nasa": "blue marble earth" },
+    "endImg": {
+      "nasa": "blue marble earth"
+    },
     "credit": "Imagery: NASA"
   },
-
   "popai": {
     "theme": "GEOAI",
     "accent": "#39d98a",
     "hook": "AI can estimate how many people live in a village that has never been surveyed.",
-    "hookImg": { "wv": { "bbox": "18,28.5,34,37.5", "date": "2024-07-01" } },
+    "hookImg": {
+      "wv": {
+        "bbox": "18,28.5,34,37.5",
+        "date": "2024-07-01"
+      }
+    },
     "scenes": [
-      { "caption": "Machine-learning models scan satellite images to spot individual buildings, roof by roof.", "image": { "wv": { "bbox": "25,28.5,33,33.0", "date": "2024-07-01" } } },
-      { "caption": "Combined with known census patterns, that building count becomes a population estimate for places no census reached.", "image": { "wv": { "bbox": "18,28.5,34,37.5", "date": "2024-07-01" } } },
-      { "caption": "Aid agencies use these AI-built population maps to plan vaccine drives and disaster relief.", "image": { "nasa": "city lights from space station" } }
+      {
+        "caption": "Machine-learning models scan satellite images to spot individual buildings, roof by roof.",
+        "image": {
+          "wv": {
+            "bbox": "25,28.5,33,33.0",
+            "date": "2024-07-01"
+          }
+        }
+      },
+      {
+        "caption": "Combined with known census patterns, that building count becomes a population estimate for places no census reached.",
+        "image": {
+          "wv": {
+            "bbox": "18,28.5,34,37.5",
+            "date": "2024-07-01"
+          }
+        }
+      },
+      {
+        "caption": "Aid agencies use these AI-built population maps to plan vaccine drives and disaster relief.",
+        "image": {
+          "nasa": "city lights from space station"
+        }
+      }
     ],
     "outro": "Follow for the science behind the map.",
-    "endImg": { "nasa": "blue marble earth" },
+    "endImg": {
+      "nasa": "blue marble earth"
+    },
     "credit": "Imagery: NASA"
   },
-
   "nullisland": {
     "theme": "GEOSPATIAL DATA SCIENCE",
     "accent": "#8b7cff",
     "hook": "Thousands of GPS errors all point to the exact same empty spot in the ocean.",
-    "hookMap": { "projection": "ortho", "accent": "#8b7cff", "rotate": [0, 0] },
+    "hookMap": {
+      "projection": "ortho",
+      "accent": "#8b7cff",
+      "rotate": [
+        0,
+        0
+      ]
+    },
     "scenes": [
-      { "caption": "It is where the equator crosses the prime meridian, coordinates zero, zero exactly.", "map": { "projection": "ortho", "accent": "#8b7cff", "rotate": [0, 0] } },
-      { "caption": "When location software fails, it often defaults to that same zero-zero point instead of nothing.", "map": { "projection": "mercator", "accent": "#8b7cff" } },
-      { "caption": "Mapmakers nicknamed it Null Island, and a real ocean buoy floats there today.", "map": { "projection": "ortho", "accent": "#8b7cff", "rotate": [0, 0] } }
+      {
+        "caption": "It is where the equator crosses the prime meridian, coordinates zero, zero exactly.",
+        "map": {
+          "projection": "ortho",
+          "accent": "#8b7cff",
+          "rotate": [
+            0,
+            0
+          ]
+        }
+      },
+      {
+        "caption": "When location software fails, it often defaults to that same zero-zero point instead of nothing.",
+        "map": {
+          "projection": "mercator",
+          "accent": "#8b7cff"
+        }
+      },
+      {
+        "caption": "Mapmakers nicknamed it Null Island, and a real ocean buoy floats there today.",
+        "map": {
+          "projection": "ortho",
+          "accent": "#8b7cff",
+          "rotate": [
+            0,
+            0
+          ]
+        }
+      }
     ],
     "outro": "Follow for the science behind the map.",
-    "endMap": { "projection": "ortho", "accent": "#8b7cff", "rotate": [0, 0] },
+    "endMap": {
+      "projection": "ortho",
+      "accent": "#8b7cff",
+      "rotate": [
+        0,
+        0
+      ]
+    },
     "credit": "Cartography: Natural Earth"
   },
-
   "hexgrid": {
     "theme": "GEOSPATIAL DATA SCIENCE",
     "accent": "#8b7cff",
     "hook": "Some data scientists redraw the entire planet in hexagons before they run a single query.",
-    "hookMap": { "projection": "ortho", "accent": "#8b7cff", "rotate": [-10, -6] },
+    "hookMap": {
+      "projection": "ortho",
+      "accent": "#8b7cff",
+      "rotate": [
+        -10,
+        -6
+      ]
+    },
     "scenes": [
-      { "caption": "In a square grid, four neighbours touch an edge and four touch only a corner, so nearby is not one distance.", "map": { "projection": "mercator", "accent": "#8b7cff" } },
-      { "caption": "A hexagon's six neighbours are all the same distance away, so nearby means the same thing everywhere on the grid.", "map": { "projection": "equalEarth", "accent": "#8b7cff" } },
-      { "caption": "Uber open-sourced this hex grid, called H3, and it now bins millions of GPS pings in seconds.", "map": { "projection": "ortho", "accent": "#8b7cff", "rotate": [-10, -6] } }
+      {
+        "caption": "In a square grid, four neighbours touch an edge and four touch only a corner, so nearby is not one distance.",
+        "map": {
+          "projection": "mercator",
+          "accent": "#8b7cff"
+        }
+      },
+      {
+        "caption": "A hexagon's six neighbours are all the same distance away, so nearby means the same thing everywhere on the grid.",
+        "map": {
+          "projection": "equalEarth",
+          "accent": "#8b7cff"
+        }
+      },
+      {
+        "caption": "Uber open-sourced this hex grid, called H3, and it now bins millions of GPS pings in seconds.",
+        "map": {
+          "projection": "ortho",
+          "accent": "#8b7cff",
+          "rotate": [
+            -10,
+            -6
+          ]
+        }
+      }
     ],
     "outro": "Follow for the science behind the map.",
-    "endMap": { "projection": "equalEarth", "accent": "#8b7cff" },
+    "endMap": {
+      "projection": "equalEarth",
+      "accent": "#8b7cff"
+    },
     "credit": "Cartography: Natural Earth"
   },
-
   "doublelandlocked": {
     "theme": "MAPS & CARTOGRAPHY",
     "accent": "#F6B93B",
     "hook": "Only two countries on Earth are landlocked by other landlocked countries.",
-    "hookMap": { "projection": "equalEarth", "accent": "#F6B93B", "highlight": ["Liechtenstein", "Uzbekistan"] },
+    "hookMap": {
+      "projection": "equalEarth",
+      "accent": "#F6B93B",
+      "highlight": [
+        "Liechtenstein",
+        "Uzbekistan"
+      ]
+    },
     "scenes": [
-      { "caption": "Liechtenstein sits wedged between Switzerland and Austria, and both of those are landlocked too.", "map": { "projection": "ortho", "accent": "#F6B93B", "highlight": ["Liechtenstein", "Switzerland", "Austria"], "rotate": [-10, -47] } },
-      { "caption": "Uzbekistan is ringed by five neighbours, and every single one is also landlocked.", "map": { "projection": "ortho", "accent": "#F6B93B", "highlight": ["Uzbekistan", "Kazakhstan", "Turkmenistan", "Kyrgyzstan", "Tajikistan"], "rotate": [-64, -41] } },
-      { "caption": "From either country, reaching open ocean means crossing at least two borders no matter which way you go.", "map": { "projection": "equalEarth", "accent": "#F6B93B", "highlight": ["Liechtenstein", "Uzbekistan"] } }
+      {
+        "caption": "Liechtenstein sits wedged between Switzerland and Austria, and both of those are landlocked too.",
+        "map": {
+          "projection": "ortho",
+          "accent": "#F6B93B",
+          "highlight": [
+            "Liechtenstein",
+            "Switzerland",
+            "Austria"
+          ],
+          "rotate": [
+            -10,
+            -47
+          ]
+        }
+      },
+      {
+        "caption": "Uzbekistan is ringed by five neighbours, and every single one is also landlocked.",
+        "map": {
+          "projection": "ortho",
+          "accent": "#F6B93B",
+          "highlight": [
+            "Uzbekistan",
+            "Kazakhstan",
+            "Turkmenistan",
+            "Kyrgyzstan",
+            "Tajikistan"
+          ],
+          "rotate": [
+            -64,
+            -41
+          ]
+        }
+      },
+      {
+        "caption": "From either country, reaching open ocean means crossing at least two borders no matter which way you go.",
+        "map": {
+          "projection": "equalEarth",
+          "accent": "#F6B93B",
+          "highlight": [
+            "Liechtenstein",
+            "Uzbekistan"
+          ]
+        }
+      }
     ],
     "outro": "Follow for the science behind the map.",
-    "endMap": { "projection": "equalEarth", "accent": "#F6B93B", "highlight": ["Liechtenstein", "Uzbekistan"] },
+    "endMap": {
+      "projection": "equalEarth",
+      "accent": "#F6B93B",
+      "highlight": [
+        "Liechtenstein",
+        "Uzbekistan"
+      ]
+    },
     "credit": "Cartography: Natural Earth"
   },
-
   "triplefrontier": {
     "theme": "MAPS & CARTOGRAPHY",
     "accent": "#F6B93B",
     "hook": "Stand on one riverbank and you can look into three different countries at once.",
-    "hookMap": { "projection": "ortho", "accent": "#F6B93B", "highlight": ["Argentina", "Brazil", "Paraguay"], "rotate": [55, 26] },
+    "hookMap": {
+      "projection": "ortho",
+      "accent": "#F6B93B",
+      "highlight": [
+        "Argentina",
+        "Brazil",
+        "Paraguay"
+      ],
+      "rotate": [
+        55,
+        26
+      ]
+    },
     "scenes": [
-      { "caption": "The Iguazu River flows into the Parana River, and that confluence is where three borders meet.", "map": { "projection": "ortho", "accent": "#F6B93B", "highlight": ["Argentina", "Brazil", "Paraguay"], "rotate": [55, 26] } },
-      { "caption": "Argentina, Brazil and Paraguay all touch this one triangle of water, no bridge or fence needed to see all three.", "map": { "projection": "equalEarth", "accent": "#F6B93B", "highlight": ["Argentina", "Brazil", "Paraguay"], "fit": "Argentina" } },
-      { "caption": "Locals call it the Triple Frontier, one of the few places on Earth where three nations share a single point.", "map": { "projection": "ortho", "accent": "#F6B93B", "highlight": ["Argentina", "Brazil", "Paraguay"], "rotate": [55, 26] } }
+      {
+        "caption": "The Iguazu River flows into the Parana River, and that confluence is where three borders meet.",
+        "map": {
+          "projection": "ortho",
+          "accent": "#F6B93B",
+          "highlight": [
+            "Argentina",
+            "Brazil",
+            "Paraguay"
+          ],
+          "rotate": [
+            55,
+            26
+          ]
+        }
+      },
+      {
+        "caption": "Argentina, Brazil and Paraguay all touch this one triangle of water, no bridge or fence needed to see all three.",
+        "map": {
+          "projection": "equalEarth",
+          "accent": "#F6B93B",
+          "highlight": [
+            "Argentina",
+            "Brazil",
+            "Paraguay"
+          ],
+          "fit": "Argentina"
+        }
+      },
+      {
+        "caption": "Locals call it the Triple Frontier, one of the few places on Earth where three nations share a single point.",
+        "map": {
+          "projection": "ortho",
+          "accent": "#F6B93B",
+          "highlight": [
+            "Argentina",
+            "Brazil",
+            "Paraguay"
+          ],
+          "rotate": [
+            55,
+            26
+          ]
+        }
+      }
     ],
     "outro": "Follow for the science behind the map.",
-    "endMap": { "projection": "equalEarth", "accent": "#F6B93B", "highlight": ["Argentina", "Brazil", "Paraguay"], "fit": "Argentina" },
+    "endMap": {
+      "projection": "equalEarth",
+      "accent": "#F6B93B",
+      "highlight": [
+        "Argentina",
+        "Brazil",
+        "Paraguay"
+      ],
+      "fit": "Argentina"
+    },
     "credit": "Cartography: Natural Earth"
   },
-
   "methaneleak": {
     "theme": "SATELLITES & REMOTE SENSING",
     "accent": "#4aa8ff",
     "hook": "A satellite can catch a gas leak that the company never reported.",
-    "hookImg": { "commons": "oil and gas field aerial photo" },
+    "hookImg": {
+      "commons": "oil and gas field aerial photo"
+    },
     "scenes": [
-      { "caption": "Methane is invisible to our eyes, but it absorbs one very specific band of infrared light.", "image": { "commons": "natural gas flare aerial" } },
-      { "caption": "Instruments like Europe's Sentinel-5P scan the whole planet every day, watching for that exact signature.", "image": { "nasa": "blue marble earth" } },
-      { "caption": "In 2022 that scanning exposed undisclosed 'super-emitter' leaks at oil and gas sites in Central Asia.", "image": { "commons": "oil pipeline infrastructure aerial" } }
+      {
+        "caption": "Methane is invisible to our eyes, but it absorbs one very specific band of infrared light.",
+        "image": {
+          "commons": "natural gas flare aerial"
+        }
+      },
+      {
+        "caption": "Instruments like Europe's Sentinel-5P scan the whole planet every day, watching for that exact signature.",
+        "image": {
+          "nasa": "blue marble earth"
+        }
+      },
+      {
+        "caption": "In 2022 that scanning exposed undisclosed 'super-emitter' leaks at oil and gas sites in Central Asia.",
+        "image": {
+          "commons": "oil pipeline infrastructure aerial"
+        }
+      }
     ],
     "outro": "Follow for the science behind the map.",
-    "endImg": { "nasa": "blue marble earth" },
+    "endImg": {
+      "nasa": "blue marble earth"
+    },
     "credit": "Imagery: Wikimedia Commons (public domain) / NASA"
   },
-
   "povertyai": {
     "theme": "GEOAI",
     "accent": "#39d98a",
     "hook": "An AI once estimated how poor a village was from nothing but a satellite photo.",
-    "hookImg": { "wv": { "bbox": "25,28.5,33,33.0", "date": "2024-08-01" } },
+    "hookImg": {
+      "wv": {
+        "bbox": "25,28.5,33,33.0",
+        "date": "2024-08-01"
+      }
+    },
     "scenes": [
-      { "caption": "Household surveys are slow and costly, so most villages on Earth have never been formally surveyed.", "image": { "wv": { "bbox": "18,28.5,34,37.5", "date": "2024-07-01" } } },
-      { "caption": "Researchers trained a model to link daytime imagery to nighttime light levels, a known proxy for economic activity.", "image": { "nasa": "earth at night black marble" } },
-      { "caption": "Its estimates lined up closely with real household survey data, offering a way to map poverty where no survey exists.", "image": { "wv": { "bbox": "8,2.1,36,17.9", "date": "2024-06-15" } } }
+      {
+        "caption": "Household surveys are slow and costly, so most villages on Earth have never been formally surveyed.",
+        "image": {
+          "wv": {
+            "bbox": "18,28.5,34,37.5",
+            "date": "2024-07-01"
+          }
+        }
+      },
+      {
+        "caption": "Researchers trained a model to link daytime imagery to nighttime light levels, a known proxy for economic activity.",
+        "image": {
+          "nasa": "earth at night black marble"
+        }
+      },
+      {
+        "caption": "Its estimates lined up closely with real household survey data, offering a way to map poverty where no survey exists.",
+        "image": {
+          "wv": {
+            "bbox": "8,2.1,36,17.9",
+            "date": "2024-06-15"
+          }
+        }
+      }
     ],
     "outro": "Follow for the science behind the map.",
-    "endImg": { "nasa": "earth at night black marble" },
+    "endImg": {
+      "nasa": "earth at night black marble"
+    },
     "credit": "Imagery: NASA Worldview"
   },
-
   "buildingheight": {
     "theme": "GEOAI",
     "accent": "#39d98a",
     "hook": "AI can now guess how tall a building is from a completely flat satellite photo.",
-    "hookImg": { "wv": { "bbox": "25,28.5,33,33.0", "date": "2024-08-01" } },
+    "hookImg": {
+      "wv": {
+        "bbox": "25,28.5,33,33.0",
+        "date": "2024-08-01"
+      }
+    },
     "scenes": [
-      { "caption": "A standard satellite photo has no height data, just a flat grid of coloured pixels.", "image": { "wv": { "bbox": "18,28.5,34,37.5", "date": "2024-07-01" } } },
-      { "caption": "Models learn to read shadow length and rooftop shape as clues to how tall each structure really is.", "image": { "wv": { "bbox": "8,2.1,36,17.9", "date": "2024-06-15" } } },
-      { "caption": "Google's Open Buildings project used this method to map building heights across Africa where no ground survey ever existed.", "image": { "wv": { "bbox": "25,28.5,33,33.0", "date": "2024-08-01" } } }
+      {
+        "caption": "A standard satellite photo has no height data, just a flat grid of coloured pixels.",
+        "image": {
+          "wv": {
+            "bbox": "18,28.5,34,37.5",
+            "date": "2024-07-01"
+          }
+        }
+      },
+      {
+        "caption": "Models learn to read shadow length and rooftop shape as clues to how tall each structure really is.",
+        "image": {
+          "wv": {
+            "bbox": "8,2.1,36,17.9",
+            "date": "2024-06-15"
+          }
+        }
+      },
+      {
+        "caption": "Google's Open Buildings project used this method to map building heights across Africa where no ground survey ever existed.",
+        "image": {
+          "wv": {
+            "bbox": "25,28.5,33,33.0",
+            "date": "2024-08-01"
+          }
+        }
+      }
     ],
     "outro": "Follow for the science behind the map.",
-    "endImg": { "wv": { "bbox": "25,28.5,33,33.0", "date": "2024-08-01" } },
+    "endImg": {
+      "wv": {
+        "bbox": "25,28.5,33,33.0",
+        "date": "2024-08-01"
+      }
+    },
     "credit": "Imagery: NASA Worldview"
   },
-
   "srtm": {
     "theme": "GEOSPATIAL DATA SCIENCE",
     "accent": "#8b7cff",
     "hook": "One 11-day space shuttle mission mapped the elevation of most of Earth's land.",
-    "hookMap": { "projection": "mercator", "accent": "#8b7cff" },
+    "hookMap": {
+      "projection": "mercator",
+      "accent": "#8b7cff"
+    },
     "scenes": [
-      { "caption": "In February 2000, Space Shuttle Endeavour flew two radar antennas, one in the cargo bay and one on a 60-metre mast.", "map": { "projection": "mercator", "accent": "#8b7cff" } },
-      { "caption": "The tiny difference between what each antenna received let software calculate the elevation of the ground below.", "map": { "projection": "equalEarth", "accent": "#8b7cff" } },
-      { "caption": "In just 11 days, the Shuttle Radar Topography Mission mapped elevation for about 80 percent of Earth's land surface.", "map": { "projection": "ortho", "accent": "#8b7cff", "rotate": [-10, -6] } }
+      {
+        "caption": "In February 2000, Space Shuttle Endeavour flew two radar antennas, one in the cargo bay and one on a 60-metre mast.",
+        "map": {
+          "projection": "mercator",
+          "accent": "#8b7cff"
+        }
+      },
+      {
+        "caption": "The tiny difference between what each antenna received let software calculate the elevation of the ground below.",
+        "map": {
+          "projection": "equalEarth",
+          "accent": "#8b7cff"
+        }
+      },
+      {
+        "caption": "In just 11 days, the Shuttle Radar Topography Mission mapped elevation for about 80 percent of Earth's land surface.",
+        "map": {
+          "projection": "ortho",
+          "accent": "#8b7cff",
+          "rotate": [
+            -10,
+            -6
+          ]
+        }
+      }
     ],
     "outro": "Follow for the science behind the map.",
-    "endMap": { "projection": "ortho", "accent": "#8b7cff", "rotate": [-10, -6] },
+    "endMap": {
+      "projection": "ortho",
+      "accent": "#8b7cff",
+      "rotate": [
+        -10,
+        -6
+      ]
+    },
     "credit": "Cartography: Natural Earth"
   },
-
   "kaliningrad": {
     "theme": "MAPS & CARTOGRAPHY",
     "accent": "#F6B93B",
     "hook": "One piece of Russia has no land border with the rest of Russia.",
-    "hookMap": { "projection": "ortho", "accent": "#F6B93B", "highlight": ["Russia"], "rotate": [-21, -55] },
+    "hookMap": {
+      "projection": "ortho",
+      "accent": "#F6B93B",
+      "highlight": [
+        "Russia"
+      ],
+      "rotate": [
+        -21,
+        -55
+      ]
+    },
     "scenes": [
-      { "caption": "After 1945 the German city of Konigsberg became Soviet Kaliningrad, cut off from the Russian mainland by newly independent states.", "map": { "projection": "ortho", "accent": "#F6B93B", "highlight": ["Russia"], "rotate": [-21, -55] } },
-      { "caption": "Today it sits on the Baltic Sea wedged between Poland and Lithuania, over 300 kilometres from mainland Russia by land.", "map": { "projection": "equalEarth", "accent": "#F6B93B", "highlight": ["Russia", "Poland", "Lithuania"] } },
-      { "caption": "To drive there from Moscow, you have to cross the territory of at least one other country first.", "map": { "projection": "ortho", "accent": "#F6B93B", "highlight": ["Russia"], "rotate": [-21, -55] } }
+      {
+        "caption": "After 1945 the German city of Konigsberg became Soviet Kaliningrad, cut off from the Russian mainland by newly independent states.",
+        "map": {
+          "projection": "ortho",
+          "accent": "#F6B93B",
+          "highlight": [
+            "Russia"
+          ],
+          "rotate": [
+            -21,
+            -55
+          ]
+        }
+      },
+      {
+        "caption": "Today it sits on the Baltic Sea wedged between Poland and Lithuania, over 300 kilometres from mainland Russia by land.",
+        "map": {
+          "projection": "equalEarth",
+          "accent": "#F6B93B",
+          "highlight": [
+            "Russia",
+            "Poland",
+            "Lithuania"
+          ]
+        }
+      },
+      {
+        "caption": "To drive there from Moscow, you have to cross the territory of at least one other country first.",
+        "map": {
+          "projection": "ortho",
+          "accent": "#F6B93B",
+          "highlight": [
+            "Russia"
+          ],
+          "rotate": [
+            -21,
+            -55
+          ]
+        }
+      }
     ],
     "outro": "Follow for the science behind the map.",
-    "endMap": { "projection": "ortho", "accent": "#F6B93B", "highlight": ["Russia"], "rotate": [-21, -55] },
+    "endMap": {
+      "projection": "ortho",
+      "accent": "#F6B93B",
+      "highlight": [
+        "Russia"
+      ],
+      "rotate": [
+        -21,
+        -55
+      ]
+    },
     "credit": "Cartography: Natural Earth"
   },
-
   "icesat": {
     "theme": "SATELLITES & REMOTE SENSING",
     "accent": "#4aa8ff",
     "hook": "A NASA satellite measures the height of Earth's ice by counting single photons.",
-    "hookImg": { "nasa": "greenland ice sheet from space" },
+    "hookImg": {
+      "nasa": "greenland ice sheet from space"
+    },
     "scenes": [
-      { "caption": "ICESat-2's laser fires ten thousand pulses a second and times individual photons bouncing back from the surface.", "image": { "nasa": "greenland ice sheet from space" } },
-      { "caption": "That timing lets it measure surface height to within a few centimetres, on repeat passes over the same ground.", "image": { "nasa": "blue marble earth" } },
-      { "caption": "Stacked year after year, those measurements reveal exactly how fast Greenland and Antarctica's ice is thinning.", "image": { "nasa": "greenland ice sheet from space" } }
+      {
+        "caption": "ICESat-2's laser fires ten thousand pulses a second and times individual photons bouncing back from the surface.",
+        "image": {
+          "nasa": "greenland ice sheet from space"
+        }
+      },
+      {
+        "caption": "That timing lets it measure surface height to within a few centimetres, on repeat passes over the same ground.",
+        "image": {
+          "nasa": "blue marble earth"
+        }
+      },
+      {
+        "caption": "Stacked year after year, those measurements reveal exactly how fast Greenland and Antarctica's ice is thinning.",
+        "image": {
+          "nasa": "greenland ice sheet from space"
+        }
+      }
     ],
     "outro": "Follow for the science behind the map.",
-    "endImg": { "nasa": "greenland ice sheet from space" },
+    "endImg": {
+      "nasa": "greenland ice sheet from space"
+    },
     "credit": "Imagery: NASA"
   },
-
   "coralbleach": {
     "theme": "SATELLITES & REMOTE SENSING",
     "accent": "#4aa8ff",
     "hook": "Satellites can warn that a reef is about to bleach before a single diver sees it turn white.",
-    "hookImg": { "wv": { "bbox": "19.16,-80.5,29.83,-74.5", "date": "2024-07-01" } },
+    "hookImg": {
+      "wv": {
+        "bbox": "19.16,-80.5,29.83,-74.5",
+        "date": "2024-07-01"
+      }
+    },
     "scenes": [
-      { "caption": "Warm water stresses coral into expelling the colourful algae that feed it, leaving the skeleton bare and white.", "image": { "wv": { "bbox": "19.16,-80.5,29.83,-74.5", "date": "2024-07-15" } } },
-      { "caption": "NOAA satellites track sea-surface temperature worldwide and flag reefs under heat stress in near real time.", "image": { "wv": { "bbox": "19.16,-80.5,29.83,-74.5", "date": "2024-08-01" } } },
-      { "caption": "That satellite-built bleaching alert gives reef managers weeks of warning before the damage is visible underwater.", "image": { "wv": { "bbox": "19.16,-80.5,29.83,-74.5", "date": "2024-07-01" } } }
+      {
+        "caption": "Warm water stresses coral into expelling the colourful algae that feed it, leaving the skeleton bare and white.",
+        "image": {
+          "wv": {
+            "bbox": "19.16,-80.5,29.83,-74.5",
+            "date": "2024-07-15"
+          }
+        }
+      },
+      {
+        "caption": "NOAA satellites track sea-surface temperature worldwide and flag reefs under heat stress in near real time.",
+        "image": {
+          "wv": {
+            "bbox": "19.16,-80.5,29.83,-74.5",
+            "date": "2024-08-01"
+          }
+        }
+      },
+      {
+        "caption": "That satellite-built bleaching alert gives reef managers weeks of warning before the damage is visible underwater.",
+        "image": {
+          "wv": {
+            "bbox": "19.16,-80.5,29.83,-74.5",
+            "date": "2024-07-01"
+          }
+        }
+      }
     ],
     "outro": "Follow for the science behind the map.",
-    "endImg": { "wv": { "bbox": "19.16,-80.5,29.83,-74.5", "date": "2024-07-01" } },
+    "endImg": {
+      "wv": {
+        "bbox": "19.16,-80.5,29.83,-74.5",
+        "date": "2024-07-01"
+      }
+    },
     "credit": "Imagery: NASA Worldview"
   },
-
   "darkships": {
     "theme": "GEOAI",
     "accent": "#39d98a",
     "hook": "AI can spot a ship that is trying to hide from satellites.",
-    "hookImg": { "nasa": "synthetic aperture radar earth" },
+    "hookImg": {
+      "nasa": "synthetic aperture radar earth"
+    },
     "scenes": [
-      { "caption": "Most ships broadcast their position automatically, but some switch that signal off to fish illegally or dodge sanctions.", "image": { "nasa": "synthetic aperture radar earth" } },
-      { "caption": "Radar satellites see every vessel anyway, transponder or not, because a metal hull bounces a strong signal straight back.", "image": { "nasa": "synthetic aperture radar earth" } },
-      { "caption": "AI models scan those radar images and match each unlisted ship's track, mapping vessels that never meant to be seen.", "image": { "nasa": "blue marble earth" } }
+      {
+        "caption": "Most ships broadcast their position automatically, but some switch that signal off to fish illegally or dodge sanctions.",
+        "image": {
+          "nasa": "synthetic aperture radar earth"
+        }
+      },
+      {
+        "caption": "Radar satellites see every vessel anyway, transponder or not, because a metal hull bounces a strong signal straight back.",
+        "image": {
+          "nasa": "synthetic aperture radar earth"
+        }
+      },
+      {
+        "caption": "AI models scan those radar images and match each unlisted ship's track, mapping vessels that never meant to be seen.",
+        "image": {
+          "nasa": "blue marble earth"
+        }
+      }
     ],
     "outro": "Follow for the science behind the map.",
-    "endImg": { "nasa": "synthetic aperture radar earth" },
+    "endImg": {
+      "nasa": "synthetic aperture radar earth"
+    },
     "credit": "Imagery: NASA"
   },
-
   "wildlifeai": {
     "theme": "GEOAI",
     "accent": "#39d98a",
     "hook": "Researchers once counted a herd of elephants from space, without a single ranger on the ground.",
-    "hookImg": { "wv": { "bbox": "18,28.5,34,37.5", "date": "2024-07-01" } },
+    "hookImg": {
+      "wv": {
+        "bbox": "18,28.5,34,37.5",
+        "date": "2024-07-01"
+      }
+    },
     "scenes": [
-      { "caption": "High-resolution satellites can resolve an object the size of an elephant clearly enough to make out its shape and shadow.", "image": { "wv": { "bbox": "18,28.5,34,37.5", "date": "2024-07-01" } } },
-      { "caption": "Researchers trained a deep learning model on thousands of labelled images to pick those shapes out automatically.", "image": { "wv": { "bbox": "8,2.1,36,17.9", "date": "2024-06-15" } } },
-      { "caption": "The model matched trained human counters, letting scientists survey herds across huge, hard-to-reach landscapes from orbit.", "image": { "nasa": "blue marble earth" } }
+      {
+        "caption": "High-resolution satellites can resolve an object the size of an elephant clearly enough to make out its shape and shadow.",
+        "image": {
+          "wv": {
+            "bbox": "18,28.5,34,37.5",
+            "date": "2024-07-01"
+          }
+        }
+      },
+      {
+        "caption": "Researchers trained a deep learning model on thousands of labelled images to pick those shapes out automatically.",
+        "image": {
+          "wv": {
+            "bbox": "8,2.1,36,17.9",
+            "date": "2024-06-15"
+          }
+        }
+      },
+      {
+        "caption": "The model matched trained human counters, letting scientists survey herds across huge, hard-to-reach landscapes from orbit.",
+        "image": {
+          "nasa": "blue marble earth"
+        }
+      }
     ],
     "outro": "Follow for the science behind the map.",
-    "endImg": { "wv": { "bbox": "18,28.5,34,37.5", "date": "2024-07-01" } },
+    "endImg": {
+      "wv": {
+        "bbox": "18,28.5,34,37.5",
+        "date": "2024-07-01"
+      }
+    },
     "credit": "Imagery: NASA Worldview"
   },
-
   "voronoi": {
     "theme": "GEOSPATIAL DATA SCIENCE",
     "accent": "#8b7cff",
     "hook": "One geometric trick decides which hospital is really your nearest one.",
-    "hookMap": { "projection": "mercator", "accent": "#8b7cff" },
+    "hookMap": {
+      "projection": "mercator",
+      "accent": "#8b7cff"
+    },
     "scenes": [
-      { "caption": "Give a map a set of points, like hospitals, and a Voronoi diagram draws the boundary where you are closer to one than any other.", "map": { "projection": "mercator", "accent": "#8b7cff" } },
-      { "caption": "Each resulting cell is a catchment area: every location inside it is nearest to that one point, not the others.", "map": { "projection": "equalEarth", "accent": "#8b7cff" } },
-      { "caption": "GIS analysts use these cells to plan service areas, from clinics and fire stations to cell towers and delivery zones.", "map": { "projection": "ortho", "accent": "#8b7cff", "rotate": [-10, -6] } }
+      {
+        "caption": "Give a map a set of points, like hospitals, and a Voronoi diagram draws the boundary where you are closer to one than any other.",
+        "map": {
+          "projection": "mercator",
+          "accent": "#8b7cff"
+        }
+      },
+      {
+        "caption": "Each resulting cell is a catchment area: every location inside it is nearest to that one point, not the others.",
+        "map": {
+          "projection": "equalEarth",
+          "accent": "#8b7cff"
+        }
+      },
+      {
+        "caption": "GIS analysts use these cells to plan service areas, from clinics and fire stations to cell towers and delivery zones.",
+        "map": {
+          "projection": "ortho",
+          "accent": "#8b7cff",
+          "rotate": [
+            -10,
+            -6
+          ]
+        }
+      }
     ],
     "outro": "Follow for the science behind the map.",
-    "endMap": { "projection": "ortho", "accent": "#8b7cff", "rotate": [-10, -6] },
+    "endMap": {
+      "projection": "ortho",
+      "accent": "#8b7cff",
+      "rotate": [
+        -10,
+        -6
+      ]
+    },
     "credit": "Cartography: Natural Earth"
   },
-
   "pointnemo": {
     "theme": "MAPS & CARTOGRAPHY",
     "accent": "#F6B93B",
     "hook": "When the space station flies overhead, it is closer to one point in the ocean than any person standing on land.",
-    "hookMap": { "projection": "ortho", "accent": "#F6B93B", "rotate": [123, 49] },
+    "hookMap": {
+      "projection": "ortho",
+      "accent": "#F6B93B",
+      "rotate": [
+        123,
+        49
+      ]
+    },
     "scenes": [
-      { "caption": "Point Nemo sits in the South Pacific, more than 2,600 kilometers from the nearest shore in every direction.", "map": { "projection": "ortho", "accent": "#F6B93B", "rotate": [123, 49] } },
-      { "caption": "The International Space Station orbits about 400 kilometers up, closer to that spot than the nearest coastline.", "map": { "projection": "equalEarth", "accent": "#F6B93B" } },
-      { "caption": "Space agencies also aim retired satellites and cargo spacecraft at this same empty water on purpose.", "map": { "projection": "ortho", "accent": "#F6B93B", "rotate": [123, 49] } }
+      {
+        "caption": "Point Nemo sits in the South Pacific, more than 2,600 kilometers from the nearest shore in every direction.",
+        "map": {
+          "projection": "ortho",
+          "accent": "#F6B93B",
+          "rotate": [
+            123,
+            49
+          ]
+        }
+      },
+      {
+        "caption": "The International Space Station orbits about 400 kilometers up, closer to that spot than the nearest coastline.",
+        "map": {
+          "projection": "equalEarth",
+          "accent": "#F6B93B"
+        }
+      },
+      {
+        "caption": "Space agencies also aim retired satellites and cargo spacecraft at this same empty water on purpose.",
+        "map": {
+          "projection": "ortho",
+          "accent": "#F6B93B",
+          "rotate": [
+            123,
+            49
+          ]
+        }
+      }
     ],
     "outro": "Follow for the science behind the map.",
-    "endMap": { "projection": "ortho", "accent": "#F6B93B", "rotate": [123, 49] },
+    "endMap": {
+      "projection": "ortho",
+      "accent": "#F6B93B",
+      "rotate": [
+        123,
+        49
+      ]
+    },
     "credit": "Cartography: Natural Earth"
   },
-
   "gracewater": {
     "theme": "SATELLITES & REMOTE SENSING",
     "accent": "#4aa8ff",
     "hook": "Twin satellites can tell a region lost its groundwater just by weighing it from orbit.",
-    "hookImg": { "nasa": "blue marble earth" },
+    "hookImg": {
+      "nasa": "blue marble earth"
+    },
     "scenes": [
-      { "caption": "Two satellites named GRACE flew in tight formation, sensing tiny shifts in Earth's own gravity.", "image": { "nasa": "blue marble earth" } },
-      { "caption": "When underground water drains away, the ground loses mass, and the satellites feel the pull change.", "image": { "wv": { "bbox": "18,28.5,34,37.5", "date": "2024-07-01" } } },
-      { "caption": "That let scientists measure aquifers draining faster than rainfall could refill them, without drilling a single well.", "image": { "wv": { "bbox": "18,28.5,34,37.5", "date": "2024-08-01" } } }
+      {
+        "caption": "Two satellites named GRACE flew in tight formation, sensing tiny shifts in Earth's own gravity.",
+        "image": {
+          "nasa": "blue marble earth"
+        }
+      },
+      {
+        "caption": "When underground water drains away, the ground loses mass, and the satellites feel the pull change.",
+        "image": {
+          "wv": {
+            "bbox": "18,28.5,34,37.5",
+            "date": "2024-07-01"
+          }
+        }
+      },
+      {
+        "caption": "That let scientists measure aquifers draining faster than rainfall could refill them, without drilling a single well.",
+        "image": {
+          "wv": {
+            "bbox": "18,28.5,34,37.5",
+            "date": "2024-08-01"
+          }
+        }
+      }
     ],
     "outro": "Follow for the science behind the map.",
-    "endImg": { "nasa": "blue marble earth" },
+    "endImg": {
+      "nasa": "blue marble earth"
+    },
     "credit": "Imagery: NASA Worldview"
   },
-
   "swot": {
     "theme": "SATELLITES & REMOTE SENSING",
     "accent": "#4aa8ff",
     "hook": "One satellite launched in 2022 is the first to measure the height of nearly every river and lake on Earth.",
-    "hookImg": { "wv": { "bbox": "-12,-67.5,4,-58.5", "date": "2024-08-20" } },
+    "hookImg": {
+      "wv": {
+        "bbox": "-12,-67.5,4,-58.5",
+        "date": "2024-08-20"
+      }
+    },
     "scenes": [
-      { "caption": "Most rivers on Earth had never been measured for water surface height in one consistent global survey.", "image": { "wv": { "bbox": "-12,-67.5,4,-58.5", "date": "2024-08-20" } } },
-      { "caption": "SWOT bounces radar across a wide swath, mapping the elevation of water surfaces down to a few centimeters.", "image": { "wv": { "bbox": "18,28.5,34,37.5", "date": "2024-07-01" } } },
-      { "caption": "That single instrument now tracks flood risk and drought stress on rivers and lakes worldwide.", "image": { "nasa": "blue marble earth" } }
+      {
+        "caption": "Most rivers on Earth had never been measured for water surface height in one consistent global survey.",
+        "image": {
+          "wv": {
+            "bbox": "-12,-67.5,4,-58.5",
+            "date": "2024-08-20"
+          }
+        }
+      },
+      {
+        "caption": "SWOT bounces radar across a wide swath, mapping the elevation of water surfaces down to a few centimeters.",
+        "image": {
+          "wv": {
+            "bbox": "18,28.5,34,37.5",
+            "date": "2024-07-01"
+          }
+        }
+      },
+      {
+        "caption": "That single instrument now tracks flood risk and drought stress on rivers and lakes worldwide.",
+        "image": {
+          "nasa": "blue marble earth"
+        }
+      }
     ],
     "outro": "Follow for the science behind the map.",
-    "endImg": { "wv": { "bbox": "-12,-67.5,4,-58.5", "date": "2024-08-20" } },
+    "endImg": {
+      "wv": {
+        "bbox": "-12,-67.5,4,-58.5",
+        "date": "2024-08-20"
+      }
+    },
     "credit": "Imagery: NASA Worldview"
   },
-
   "solarai": {
     "theme": "GEOAI",
     "accent": "#39d98a",
     "hook": "One AI model mapped every solar panel in the United States from aerial photos alone.",
-    "hookImg": { "commons": "rooftop solar panels aerial photo" },
+    "hookImg": {
+      "commons": "rooftop solar panels aerial photo"
+    },
     "scenes": [
-      { "caption": "Spotting every rooftop solar panel from satellite images by eye would take an army of analysts.", "image": { "commons": "solar farm aerial photo" } },
-      { "caption": "Researchers trained a deep learning model to recognize the shape and glare of solar panels instead.", "image": { "commons": "rooftop solar panels aerial photo" } },
-      { "caption": "It mapped 1.47 million installations across the country, the first fine grained national solar census.", "image": { "nasa": "blue marble earth" } }
+      {
+        "caption": "Spotting every rooftop solar panel from satellite images by eye would take an army of analysts.",
+        "image": {
+          "commons": "solar farm aerial photo"
+        }
+      },
+      {
+        "caption": "Researchers trained a deep learning model to recognize the shape and glare of solar panels instead.",
+        "image": {
+          "commons": "rooftop solar panels aerial photo"
+        }
+      },
+      {
+        "caption": "It mapped 1.47 million installations across the country, the first fine grained national solar census.",
+        "image": {
+          "nasa": "blue marble earth"
+        }
+      }
     ],
     "outro": "Follow for the science behind the map.",
-    "endImg": { "commons": "solar farm aerial photo" },
+    "endImg": {
+      "commons": "solar farm aerial photo"
+    },
     "credit": "Imagery: Wikimedia Commons (public domain) / NASA"
   },
-
   "climatetrace": {
     "theme": "GEOAI",
     "accent": "#39d98a",
     "hook": "A coalition of AI models now tracks greenhouse gas emissions from individual power plants and factories worldwide.",
-    "hookImg": { "commons": "power plant smokestacks aerial photo" },
+    "hookImg": {
+      "commons": "power plant smokestacks aerial photo"
+    },
     "scenes": [
-      { "caption": "Governments and companies self-report most emissions data, and those numbers are often years old or missing.", "image": { "commons": "power plant smokestacks aerial photo" } },
-      { "caption": "Climate TRACE instead reads satellite imagery of smoke, flares and heat, then lets AI estimate the emissions directly.", "image": { "commons": "oil refinery aerial photo" } },
-      { "caption": "It was unveiled at a United Nations climate summit, offering an independent check on what polluters actually report.", "image": { "nasa": "blue marble earth" } }
+      {
+        "caption": "Governments and companies self-report most emissions data, and those numbers are often years old or missing.",
+        "image": {
+          "commons": "power plant smokestacks aerial photo"
+        }
+      },
+      {
+        "caption": "Climate TRACE instead reads satellite imagery of smoke, flares and heat, then lets AI estimate the emissions directly.",
+        "image": {
+          "commons": "oil refinery aerial photo"
+        }
+      },
+      {
+        "caption": "It was unveiled at a United Nations climate summit, offering an independent check on what polluters actually report.",
+        "image": {
+          "nasa": "blue marble earth"
+        }
+      }
     ],
     "outro": "Follow for the science behind the map.",
-    "endImg": { "commons": "power plant smokestacks aerial photo" },
+    "endImg": {
+      "commons": "power plant smokestacks aerial photo"
+    },
     "credit": "Imagery: Wikimedia Commons (public domain) / NASA"
   },
-
   "geohash": {
     "theme": "GEOSPATIAL DATA SCIENCE",
     "accent": "#8b7cff",
     "hook": "A short string like 9q8yyk can pinpoint a location on Earth, and its own length decides how precise it is.",
-    "hookMap": { "projection": "mercator", "accent": "#8b7cff" },
+    "hookMap": {
+      "projection": "mercator",
+      "accent": "#8b7cff"
+    },
     "scenes": [
-      { "caption": "Latitude and longitude are two long decimal numbers, awkward to store, sort or search together.", "map": { "projection": "mercator", "accent": "#8b7cff" } },
-      { "caption": "A geohash interleaves their digits into one short string, so nearby places share the same starting letters.", "map": { "projection": "equalEarth", "accent": "#8b7cff" } },
-      { "caption": "Trim the last character and the same string still points to the same neighborhood, just less precisely.", "map": { "projection": "ortho", "accent": "#8b7cff", "rotate": [-10, -6] } }
+      {
+        "caption": "Latitude and longitude are two long decimal numbers, awkward to store, sort or search together.",
+        "map": {
+          "projection": "mercator",
+          "accent": "#8b7cff"
+        }
+      },
+      {
+        "caption": "A geohash interleaves their digits into one short string, so nearby places share the same starting letters.",
+        "map": {
+          "projection": "equalEarth",
+          "accent": "#8b7cff"
+        }
+      },
+      {
+        "caption": "Trim the last character and the same string still points to the same neighborhood, just less precisely.",
+        "map": {
+          "projection": "ortho",
+          "accent": "#8b7cff",
+          "rotate": [
+            -10,
+            -6
+          ]
+        }
+      }
     ],
     "outro": "Follow for the science behind the map.",
-    "endMap": { "projection": "equalEarth", "accent": "#8b7cff" },
+    "endMap": {
+      "projection": "equalEarth",
+      "accent": "#8b7cff"
+    },
     "credit": "Cartography: Natural Earth"
   },
-
   "birtawil": {
     "theme": "MAPS & CARTOGRAPHY",
     "accent": "#F6B93B",
     "hook": "One patch of desert on Earth belongs to no country at all.",
-    "hookMap": { "projection": "ortho", "accent": "#F6B93B", "highlight": ["Egypt", "Sudan"], "rotate": [-34, -22] },
+    "hookMap": {
+      "projection": "ortho",
+      "accent": "#F6B93B",
+      "highlight": [
+        "Egypt",
+        "Sudan"
+      ],
+      "rotate": [
+        -34,
+        -22
+      ]
+    },
     "scenes": [
-      { "caption": "Egypt and Sudan drew two different border lines in 1899 and 1902, and the two versions disagree over two patches of land.", "map": { "projection": "equalEarth", "accent": "#F6B93B", "highlight": ["Egypt", "Sudan"], "fit": "africa" } },
-      { "caption": "Both countries claim the coastal Halaib Triangle nearby, but each claim requires giving up Bir Tawil, the desert patch next to it.", "map": { "projection": "ortho", "accent": "#F6B93B", "highlight": ["Egypt", "Sudan"], "rotate": [-34, -22] } },
-      { "caption": "So neither country will claim Bir Tawil, leaving about 2,060 square kilometers unclaimed by any nation on Earth.", "map": { "projection": "equalEarth", "accent": "#F6B93B", "highlight": ["Egypt", "Sudan"], "fit": "africa" } }
+      {
+        "caption": "Egypt and Sudan drew two different border lines in 1899 and 1902, and the two versions disagree over two patches of land.",
+        "map": {
+          "projection": "equalEarth",
+          "accent": "#F6B93B",
+          "highlight": [
+            "Egypt",
+            "Sudan"
+          ],
+          "fit": "africa"
+        }
+      },
+      {
+        "caption": "Both countries claim the coastal Halaib Triangle nearby, but each claim requires giving up Bir Tawil, the desert patch next to it.",
+        "map": {
+          "projection": "ortho",
+          "accent": "#F6B93B",
+          "highlight": [
+            "Egypt",
+            "Sudan"
+          ],
+          "rotate": [
+            -34,
+            -22
+          ]
+        }
+      },
+      {
+        "caption": "So neither country will claim Bir Tawil, leaving about 2,060 square kilometers unclaimed by any nation on Earth.",
+        "map": {
+          "projection": "equalEarth",
+          "accent": "#F6B93B",
+          "highlight": [
+            "Egypt",
+            "Sudan"
+          ],
+          "fit": "africa"
+        }
+      }
     ],
     "outro": "Follow for the science behind the map.",
-    "endMap": { "projection": "equalEarth", "accent": "#F6B93B", "highlight": ["Egypt", "Sudan"], "fit": "africa" },
+    "endMap": {
+      "projection": "equalEarth",
+      "accent": "#F6B93B",
+      "highlight": [
+        "Egypt",
+        "Sudan"
+      ],
+      "fit": "africa"
+    },
     "credit": "Cartography: Natural Earth"
   },
-
   "baarle": {
     "theme": "MAPS & CARTOGRAPHY",
     "accent": "#F6B93B",
     "hook": "One European town has a national border running straight through people's living rooms.",
-    "hookImg": { "commons": "Baarle Hertog border marker" },
+    "hookImg": {
+      "commons": "Baarle Hertog border marker"
+    },
     "scenes": [
-      { "caption": "Baarle-Hertog is Belgian territory scattered across more than twenty separate patches inside the Netherlands.", "image": { "commons": "Baarle Hertog border marker" } },
-      { "caption": "Some of those Belgian patches even contain smaller Dutch patches inside them, enclaves within enclaves.", "image": { "commons": "Baarle Nassau street border" } },
-      { "caption": "White crosses set into the pavement trace the line, and in places it runs straight through houses and shops.", "image": { "commons": "Baarle Hertog border marker" } }
+      {
+        "caption": "Baarle-Hertog is Belgian territory scattered across more than twenty separate patches inside the Netherlands.",
+        "image": {
+          "commons": "Baarle Hertog border marker"
+        }
+      },
+      {
+        "caption": "Some of those Belgian patches even contain smaller Dutch patches inside them, enclaves within enclaves.",
+        "image": {
+          "commons": "Baarle Nassau street border"
+        }
+      },
+      {
+        "caption": "White crosses set into the pavement trace the line, and in places it runs straight through houses and shops.",
+        "image": {
+          "commons": "Baarle Hertog border marker"
+        }
+      }
     ],
     "outro": "Follow for the science behind the map.",
-    "endImg": { "commons": "Baarle Hertog border marker" },
+    "endImg": {
+      "commons": "Baarle Hertog border marker"
+    },
     "credit": "Imagery: Wikimedia Commons (public domain)"
   },
-
   "volcanoinsar": {
     "theme": "SATELLITES & REMOTE SENSING",
     "accent": "#4aa8ff",
     "hook": "Satellites can watch a volcano start to swell months before it erupts.",
-    "hookImg": { "nasa": "synthetic aperture radar earth" },
+    "hookImg": {
+      "nasa": "synthetic aperture radar earth"
+    },
     "scenes": [
-      { "caption": "As magma rises underground, it pushes the surface above it upward by centimeters, too subtle to see by eye.", "image": { "nasa": "synthetic aperture radar earth" } },
-      { "caption": "Radar satellites compare images of the same volcano from different days and measure that tiny swelling.", "image": { "nasa": "synthetic aperture radar earth" } },
-      { "caption": "That technique, called InSAR, now gives scientists warning of many eruptions before the first plume ever appears.", "image": { "nasa": "blue marble earth" } }
+      {
+        "caption": "As magma rises underground, it pushes the surface above it upward by centimeters, too subtle to see by eye.",
+        "image": {
+          "nasa": "synthetic aperture radar earth"
+        }
+      },
+      {
+        "caption": "Radar satellites compare images of the same volcano from different days and measure that tiny swelling.",
+        "image": {
+          "nasa": "synthetic aperture radar earth"
+        }
+      },
+      {
+        "caption": "That technique, called InSAR, now gives scientists warning of many eruptions before the first plume ever appears.",
+        "image": {
+          "nasa": "blue marble earth"
+        }
+      }
     ],
     "outro": "Follow for the science behind the map.",
-    "endImg": { "nasa": "synthetic aperture radar earth" },
+    "endImg": {
+      "nasa": "synthetic aperture radar earth"
+    },
     "credit": "Imagery: NASA"
   },
-
   "dscovr": {
     "theme": "SATELLITES & REMOTE SENSING",
     "accent": "#4aa8ff",
     "hook": "One NASA camera keeps a live photo of the whole sunlit Earth, taken from a million miles away.",
-    "hookImg": { "nasa": "blue marble earth" },
+    "hookImg": {
+      "nasa": "blue marble earth"
+    },
     "scenes": [
-      { "caption": "DSCOVR sits at a gravitational balance point between Earth and the Sun called Lagrange point one, about a million miles out.", "image": { "nasa": "blue marble earth" } },
-      { "caption": "From there its EPIC camera always faces the fully lit side of Earth, a view no satellite closer to us can hold.", "image": { "wv": { "bbox": "8,2.1,36,17.9", "date": "2024-06-15" } } },
-      { "caption": "It captures a new full Earth image roughly every one to two hours and posts it publicly the same day.", "image": { "nasa": "blue marble earth" } }
+      {
+        "caption": "DSCOVR sits at a gravitational balance point between Earth and the Sun called Lagrange point one, about a million miles out.",
+        "image": {
+          "nasa": "blue marble earth"
+        }
+      },
+      {
+        "caption": "From there its EPIC camera always faces the fully lit side of Earth, a view no satellite closer to us can hold.",
+        "image": {
+          "wv": {
+            "bbox": "8,2.1,36,17.9",
+            "date": "2024-06-15"
+          }
+        }
+      },
+      {
+        "caption": "It captures a new full Earth image roughly every one to two hours and posts it publicly the same day.",
+        "image": {
+          "nasa": "blue marble earth"
+        }
+      }
     ],
     "outro": "Follow for the science behind the map.",
-    "endImg": { "nasa": "blue marble earth" },
+    "endImg": {
+      "nasa": "blue marble earth"
+    },
     "credit": "Imagery: NASA"
   },
-
   "photogeo": {
     "theme": "GEOAI",
     "accent": "#39d98a",
     "hook": "An AI can now guess where an ordinary photo was taken with no location data attached at all.",
-    "hookImg": { "commons": "city street scene photograph" },
+    "hookImg": {
+      "commons": "city street scene photograph"
+    },
     "scenes": [
-      { "caption": "Researchers trained a model on millions of geotagged street level photos, without ever telling it a single rule of geography.", "image": { "commons": "city street scene photograph" } },
-      { "caption": "It learned instead from clues like road markings, plants, architecture and even the angle of the shadows.", "image": { "commons": "rural road landscape photograph" } },
-      { "caption": "In head to head tests, it placed random photos closer to the true location than most human players of location guessing games.", "image": { "commons": "city street scene photograph" } }
+      {
+        "caption": "Researchers trained a model on millions of geotagged street level photos, without ever telling it a single rule of geography.",
+        "image": {
+          "commons": "city street scene photograph"
+        }
+      },
+      {
+        "caption": "It learned instead from clues like road markings, plants, architecture and even the angle of the shadows.",
+        "image": {
+          "commons": "rural road landscape photograph"
+        }
+      },
+      {
+        "caption": "In head to head tests, it placed random photos closer to the true location than most human players of location guessing games.",
+        "image": {
+          "commons": "city street scene photograph"
+        }
+      }
     ],
     "outro": "Follow for the science behind the map.",
-    "endImg": { "commons": "city street scene photograph" },
+    "endImg": {
+      "commons": "city street scene photograph"
+    },
     "credit": "Imagery: Wikimedia Commons (public domain)"
   },
-
   "raycast": {
     "theme": "GEOSPATIAL DATA SCIENCE",
     "accent": "#8b7cff",
     "hook": "One simple trick is how your phone knows a point is inside a country and not just near it.",
-    "hookMap": { "projection": "mercator", "accent": "#8b7cff" },
+    "hookMap": {
+      "projection": "mercator",
+      "accent": "#8b7cff"
+    },
     "scenes": [
-      { "caption": "Draw an imaginary ray from the point straight out to the edge of the map and count how many times it crosses the border.", "map": { "projection": "mercator", "accent": "#8b7cff" } },
-      { "caption": "Cross the line an odd number of times and the point is inside. Cross it an even number of times and it is outside.", "map": { "projection": "equalEarth", "accent": "#8b7cff" } },
-      { "caption": "That single rule, called ray casting, is what lets software test millions of points against a shape in an instant.", "map": { "projection": "ortho", "accent": "#8b7cff", "rotate": [-10, -6] } }
+      {
+        "caption": "Draw an imaginary ray from the point straight out to the edge of the map and count how many times it crosses the border.",
+        "map": {
+          "projection": "mercator",
+          "accent": "#8b7cff"
+        }
+      },
+      {
+        "caption": "Cross the line an odd number of times and the point is inside. Cross it an even number of times and it is outside.",
+        "map": {
+          "projection": "equalEarth",
+          "accent": "#8b7cff"
+        }
+      },
+      {
+        "caption": "That single rule, called ray casting, is what lets software test millions of points against a shape in an instant.",
+        "map": {
+          "projection": "ortho",
+          "accent": "#8b7cff",
+          "rotate": [
+            -10,
+            -6
+          ]
+        }
+      }
     ],
     "outro": "Follow for the science behind the map.",
-    "endMap": { "projection": "ortho", "accent": "#8b7cff", "rotate": [-10, -6] },
+    "endMap": {
+      "projection": "ortho",
+      "accent": "#8b7cff",
+      "rotate": [
+        -10,
+        -6
+      ]
+    },
     "credit": "Cartography: Natural Earth"
   },
-
-"truesize": {
+  "truesize": {
     "theme": "MAPS & CARTOGRAPHY",
     "accent": "#F6B93B",
     "hook": "Africa's true land area is bigger than the United States, China, India and most of Europe combined.",
-    "hookMap": { "projection": "mercator", "accent": "#F6B93B", "highlight": ["United States of America", "China", "India"], "highlight2": ["africa"], "accent2": "#4aa8ff" },
+    "hookMap": {
+      "projection": "mercator",
+      "accent": "#F6B93B",
+      "highlight": [
+        "United States of America",
+        "China",
+        "India"
+      ],
+      "highlight2": [
+        "africa"
+      ],
+      "accent2": "#4aa8ff"
+    },
     "scenes": [
-      { "caption": "On the Mercator map most people grew up with, Africa looks only a little larger than Europe or Greenland.", "map": { "projection": "mercator", "accent": "#F6B93B", "highlight2": ["africa"], "accent2": "#4aa8ff" } },
-      { "caption": "In true land area, Africa covers about 30 million square kilometers, more than the United States, China and India put together.", "map": { "projection": "equalEarth", "accent": "#F6B93B", "highlight": ["United States of America", "China", "India"], "highlight2": ["africa"], "accent2": "#4aa8ff", "fit": "africa" } },
-      { "caption": "The contiguous United States alone would fit inside Africa more than three times over.", "map": { "projection": "ortho", "accent": "#F6B93B", "highlight": ["United States of America"], "highlight2": ["africa"], "accent2": "#4aa8ff", "rotate": [20, 5] } }
+      {
+        "caption": "On the Mercator map most people grew up with, Africa looks only a little larger than Europe or Greenland.",
+        "map": {
+          "projection": "mercator",
+          "accent": "#F6B93B",
+          "highlight2": [
+            "africa"
+          ],
+          "accent2": "#4aa8ff"
+        }
+      },
+      {
+        "caption": "In true land area, Africa covers about 30 million square kilometers, more than the United States, China and India put together.",
+        "map": {
+          "projection": "equalEarth",
+          "accent": "#F6B93B",
+          "highlight": [
+            "United States of America",
+            "China",
+            "India"
+          ],
+          "highlight2": [
+            "africa"
+          ],
+          "accent2": "#4aa8ff",
+          "fit": "africa"
+        }
+      },
+      {
+        "caption": "The contiguous United States alone would fit inside Africa more than three times over.",
+        "map": {
+          "projection": "ortho",
+          "accent": "#F6B93B",
+          "highlight": [
+            "United States of America"
+          ],
+          "highlight2": [
+            "africa"
+          ],
+          "accent2": "#4aa8ff",
+          "rotate": [
+            20,
+            5
+          ]
+        }
+      }
     ],
     "outro": "Follow for the science behind the map.",
-    "endMap": { "projection": "equalEarth", "accent": "#F6B93B", "highlight": ["United States of America", "China", "India"], "highlight2": ["africa"], "accent2": "#4aa8ff", "fit": "africa" },
+    "endMap": {
+      "projection": "equalEarth",
+      "accent": "#F6B93B",
+      "highlight": [
+        "United States of America",
+        "China",
+        "India"
+      ],
+      "highlight2": [
+        "africa"
+      ],
+      "accent2": "#4aa8ff",
+      "fit": "africa"
+    },
     "credit": "Cartography: Natural Earth"
   },
-
   "pace": {
     "theme": "SATELLITES & REMOTE SENSING",
     "accent": "#4aa8ff",
     "hook": "A NASA satellite launched in 2024 reads the exact color of the ocean closely enough to identify which plankton are blooming.",
-    "hookImg": { "nasa": "blue marble earth" },
+    "hookImg": {
+      "nasa": "blue marble earth"
+    },
     "scenes": [
-      { "caption": "PACE launched in February 2024 carrying a hyperspectral instrument that measures far more colors in the ocean than earlier satellites could.", "image": { "nasa": "blue marble earth" } },
-      { "caption": "Different phytoplankton species absorb and reflect light differently, so their exact color signature reveals which ones are present.", "image": { "wv": { "bbox": "19.16,-80.5,29.83,-74.5", "date": "2024-07-01" } } },
-      { "caption": "That turns the color of the open ocean into a daily, planet-scale view of the phytoplankton that form the base of marine food webs.", "image": { "nasa": "blue marble earth" } }
+      {
+        "caption": "PACE launched in February 2024 carrying a hyperspectral instrument that measures far more colors in the ocean than earlier satellites could.",
+        "image": {
+          "nasa": "blue marble earth"
+        }
+      },
+      {
+        "caption": "Different phytoplankton species absorb and reflect light differently, so their exact color signature reveals which ones are present.",
+        "image": {
+          "wv": {
+            "bbox": "19.16,-80.5,29.83,-74.5",
+            "date": "2024-07-01"
+          }
+        }
+      },
+      {
+        "caption": "That turns the color of the open ocean into a daily, planet-scale view of the phytoplankton that form the base of marine food webs.",
+        "image": {
+          "nasa": "blue marble earth"
+        }
+      }
     ],
     "outro": "Follow for the science behind the map.",
-    "endImg": { "nasa": "blue marble earth" },
+    "endImg": {
+      "nasa": "blue marble earth"
+    },
     "credit": "Imagery: NASA"
   },
-
   "firesat": {
     "theme": "GEOAI",
     "accent": "#39d98a",
     "hook": "A new satellite constellation uses AI to spot a wildfire the size of a classroom from orbit.",
-    "hookImg": { "commons": "wildfire smoke plume satellite photograph" },
+    "hookImg": {
+      "commons": "wildfire smoke plume satellite photograph"
+    },
     "scenes": [
-      { "caption": "FireSat is a constellation built by Google Research, Muon Space and the Earth Fire Alliance specifically to catch wildfires while they are still small.", "image": { "commons": "wildfire smoke plume satellite photograph" } },
-      { "caption": "Once complete, it is designed to detect fires as small as five meters by five meters, anywhere on Earth, updated as often as every twenty minutes.", "image": { "commons": "aerial photograph forest wildfire" } },
-      { "caption": "Onboard AI compares each patch of ground to earlier images, along with weather and nearby infrastructure, to decide if it is really a fire.", "image": { "commons": "satellite image wildfire smoke" } }
+      {
+        "caption": "FireSat is a constellation built by Google Research, Muon Space and the Earth Fire Alliance specifically to catch wildfires while they are still small.",
+        "image": {
+          "commons": "wildfire smoke plume satellite photograph"
+        }
+      },
+      {
+        "caption": "Once complete, it is designed to detect fires as small as five meters by five meters, anywhere on Earth, updated as often as every twenty minutes.",
+        "image": {
+          "commons": "aerial photograph forest wildfire"
+        }
+      },
+      {
+        "caption": "Onboard AI compares each patch of ground to earlier images, along with weather and nearby infrastructure, to decide if it is really a fire.",
+        "image": {
+          "commons": "satellite image wildfire smoke"
+        }
+      }
     ],
     "outro": "Follow for the science behind the map.",
-    "endImg": { "commons": "wildfire smoke plume satellite photograph" },
+    "endImg": {
+      "commons": "wildfire smoke plume satellite photograph"
+    },
     "credit": "Imagery: Wikimedia Commons (public domain)"
   },
-
   "informalsettlements": {
     "theme": "GEOAI",
     "accent": "#39d98a",
     "hook": "One AI model can trace the outline of an entire informal settlement from a single satellite photo.",
-    "hookImg": { "commons": "aerial photograph dense informal settlement housing" },
+    "hookImg": {
+      "commons": "aerial photograph dense informal settlement housing"
+    },
     "scenes": [
-      { "caption": "In 2017, researchers trained a fully convolutional neural network on very high resolution satellite images to trace informal settlement boundaries automatically.", "image": { "commons": "aerial photograph dense informal settlement housing" } },
-      { "caption": "The network learned the dense, irregular rooftop patterns that separate informal settlements from planned city blocks, without a person tracing a single outline.", "image": { "commons": "aerial photograph urban rooftops dense" } },
-      { "caption": "Published in IEEE Geoscience and Remote Sensing Letters, the method gives planners settlement maps that ground surveys alone would take years to produce.", "image": { "commons": "aerial photograph dense informal settlement housing" } }
+      {
+        "caption": "In 2017, researchers trained a fully convolutional neural network on very high resolution satellite images to trace informal settlement boundaries automatically.",
+        "image": {
+          "commons": "aerial photograph dense informal settlement housing"
+        }
+      },
+      {
+        "caption": "The network learned the dense, irregular rooftop patterns that separate informal settlements from planned city blocks, without a person tracing a single outline.",
+        "image": {
+          "commons": "aerial photograph urban rooftops dense"
+        }
+      },
+      {
+        "caption": "Published in IEEE Geoscience and Remote Sensing Letters, the method gives planners settlement maps that ground surveys alone would take years to produce.",
+        "image": {
+          "commons": "aerial photograph dense informal settlement housing"
+        }
+      }
     ],
     "outro": "Follow for the science behind the map.",
-    "endImg": { "commons": "aerial photograph dense informal settlement housing" },
+    "endImg": {
+      "commons": "aerial photograph dense informal settlement housing"
+    },
     "credit": "Imagery: Wikimedia Commons (public domain)"
   },
-
   "douglaspeucker": {
     "theme": "GEOSPATIAL DATA SCIENCE",
     "accent": "#8b7cff",
     "hook": "One 1973 algorithm decides how much detail a coastline loses when a map zooms out.",
-    "hookMap": { "projection": "mercator", "accent": "#8b7cff" },
+    "hookMap": {
+      "projection": "mercator",
+      "accent": "#8b7cff"
+    },
     "scenes": [
-      { "caption": "David Douglas and Thomas Peucker published a method in 1973 for stripping unnecessary points out of a digitized line while keeping its basic shape.", "map": { "projection": "mercator", "accent": "#8b7cff" } },
-      { "caption": "The algorithm keeps the points that bend the line the most and discards the ones that barely change its path.", "map": { "projection": "equalEarth", "accent": "#8b7cff" } },
-      { "caption": "That same method, still called the Douglas Peucker algorithm, is why a coastline redraws itself with fewer points every time you zoom out.", "map": { "projection": "ortho", "accent": "#8b7cff", "rotate": [-10, -6] } }
+      {
+        "caption": "David Douglas and Thomas Peucker published a method in 1973 for stripping unnecessary points out of a digitized line while keeping its basic shape.",
+        "map": {
+          "projection": "mercator",
+          "accent": "#8b7cff"
+        }
+      },
+      {
+        "caption": "The algorithm keeps the points that bend the line the most and discards the ones that barely change its path.",
+        "map": {
+          "projection": "equalEarth",
+          "accent": "#8b7cff"
+        }
+      },
+      {
+        "caption": "That same method, still called the Douglas Peucker algorithm, is why a coastline redraws itself with fewer points every time you zoom out.",
+        "map": {
+          "projection": "ortho",
+          "accent": "#8b7cff",
+          "rotate": [
+            -10,
+            -6
+          ]
+        }
+      }
     ],
     "outro": "Follow for the science behind the map.",
-    "endMap": { "projection": "ortho", "accent": "#8b7cff", "rotate": [-10, -6] },
+    "endMap": {
+      "projection": "ortho",
+      "accent": "#8b7cff",
+      "rotate": [
+        -10,
+        -6
+      ]
+    },
     "credit": "Cartography: Natural Earth"
   },
-
   "antimeridian": {
     "theme": "GEOSPATIAL DATA SCIENCE",
     "accent": "#8b7cff",
     "hook": "One line of longitude breaks a surprising number of mapping tools that cross it.",
-    "hookMap": { "projection": "mercator", "accent": "#8b7cff" },
+    "hookMap": {
+      "projection": "mercator",
+      "accent": "#8b7cff"
+    },
     "scenes": [
-      { "caption": "The antimeridian sits at 180 degrees longitude, exactly opposite the prime meridian, running mostly through the Pacific Ocean.", "map": { "projection": "mercator", "accent": "#8b7cff" } },
-      { "caption": "Cross it and longitude jumps from positive 180 to negative 180, so a shape spanning that line can get its bounding box calculated backwards.", "map": { "projection": "equalEarth", "accent": "#8b7cff" } },
-      { "caption": "Mapping tools from open source libraries to commercial GIS platforms have documented bugs from exactly this wraparound.", "map": { "projection": "ortho", "accent": "#8b7cff", "rotate": [180, 0] } }
+      {
+        "caption": "The antimeridian sits at 180 degrees longitude, exactly opposite the prime meridian, running mostly through the Pacific Ocean.",
+        "map": {
+          "projection": "mercator",
+          "accent": "#8b7cff"
+        }
+      },
+      {
+        "caption": "Cross it and longitude jumps from positive 180 to negative 180, so a shape spanning that line can get its bounding box calculated backwards.",
+        "map": {
+          "projection": "equalEarth",
+          "accent": "#8b7cff"
+        }
+      },
+      {
+        "caption": "Mapping tools from open source libraries to commercial GIS platforms have documented bugs from exactly this wraparound.",
+        "map": {
+          "projection": "ortho",
+          "accent": "#8b7cff",
+          "rotate": [
+            180,
+            0
+          ]
+        }
+      }
     ],
     "outro": "Follow for the science behind the map.",
-    "endMap": { "projection": "ortho", "accent": "#8b7cff", "rotate": [180, 0] },
+    "endMap": {
+      "projection": "ortho",
+      "accent": "#8b7cff",
+      "rotate": [
+        180,
+        0
+      ]
+    },
     "credit": "Cartography: Natural Earth"
   },
-
   "fourcorners": {
     "theme": "MAPS & CARTOGRAPHY",
     "accent": "#F6B93B",
     "hook": "There is exactly one point in the United States where four states meet at once.",
-    "hookMap": { "projection": "ortho", "accent": "#F6B93B", "highlight": ["United States of America"], "rotate": [109, -37] },
+    "hookMap": {
+      "projection": "ortho",
+      "accent": "#F6B93B",
+      "highlight": [
+        "United States of America"
+      ],
+      "rotate": [
+        109,
+        -37
+      ]
+    },
     "scenes": [
-      { "caption": "Colorado, Utah, Arizona and New Mexico all touch at a single surveyed point in the desert.", "map": { "projection": "ortho", "accent": "#F6B93B", "highlight": ["United States of America"], "rotate": [109, -37] } },
-      { "caption": "It is the only place in the country where a border crosses four states instead of two or three.", "map": { "projection": "equalEarth", "accent": "#F6B93B", "highlight": ["United States of America"] } },
-      { "caption": "Visitors line up to place a hand or foot in each of the four states at the same time.", "map": { "projection": "ortho", "accent": "#F6B93B", "highlight": ["United States of America"], "rotate": [109, -37] } }
+      {
+        "caption": "Colorado, Utah, Arizona and New Mexico all touch at a single surveyed point in the desert.",
+        "map": {
+          "projection": "ortho",
+          "accent": "#F6B93B",
+          "highlight": [
+            "United States of America"
+          ],
+          "rotate": [
+            109,
+            -37
+          ]
+        }
+      },
+      {
+        "caption": "It is the only place in the country where a border crosses four states instead of two or three.",
+        "map": {
+          "projection": "equalEarth",
+          "accent": "#F6B93B",
+          "highlight": [
+            "United States of America"
+          ]
+        }
+      },
+      {
+        "caption": "Visitors line up to place a hand or foot in each of the four states at the same time.",
+        "map": {
+          "projection": "ortho",
+          "accent": "#F6B93B",
+          "highlight": [
+            "United States of America"
+          ],
+          "rotate": [
+            109,
+            -37
+          ]
+        }
+      }
     ],
     "outro": "Follow for the science behind the map.",
-    "endMap": { "projection": "equalEarth", "accent": "#F6B93B", "highlight": ["United States of America"] },
+    "endMap": {
+      "projection": "equalEarth",
+      "accent": "#F6B93B",
+      "highlight": [
+        "United States of America"
+      ]
+    },
     "credit": "Cartography: Natural Earth"
   },
-
   "chileshape": {
     "theme": "MAPS & CARTOGRAPHY",
     "accent": "#F6B93B",
     "hook": "One country runs over four thousand kilometres long and is never much more than 350 wide.",
-    "hookMap": { "projection": "equalEarth", "accent": "#F6B93B", "highlight": ["Chile"], "fit": "Chile" },
+    "hookMap": {
+      "projection": "equalEarth",
+      "accent": "#F6B93B",
+      "highlight": [
+        "Chile"
+      ],
+      "fit": "Chile"
+    },
     "scenes": [
-      { "caption": "Squeezed between the Andes and the Pacific, Chile stretches about 4,270 kilometres from its northern desert to its southern fjords.", "map": { "projection": "equalEarth", "accent": "#F6B93B", "highlight": ["Chile"], "fit": "Chile" } },
-      { "caption": "At its narrowest, the country is only about 64 kilometres across, roughly the width of a short afternoon drive.", "map": { "projection": "ortho", "accent": "#F6B93B", "highlight": ["Chile"], "rotate": [71, 33] } },
-      { "caption": "That long ribbon of land holds desert, vineyards, volcanoes and glaciers, all packed side by side instead of end to end.", "map": { "projection": "equalEarth", "accent": "#F6B93B", "highlight": ["Chile"], "fit": "Chile" } }
+      {
+        "caption": "Squeezed between the Andes and the Pacific, Chile stretches about 4,270 kilometres from its northern desert to its southern fjords.",
+        "map": {
+          "projection": "equalEarth",
+          "accent": "#F6B93B",
+          "highlight": [
+            "Chile"
+          ],
+          "fit": "Chile"
+        }
+      },
+      {
+        "caption": "At its narrowest, the country is only about 64 kilometres across, roughly the width of a short afternoon drive.",
+        "map": {
+          "projection": "ortho",
+          "accent": "#F6B93B",
+          "highlight": [
+            "Chile"
+          ],
+          "rotate": [
+            71,
+            33
+          ]
+        }
+      },
+      {
+        "caption": "That long ribbon of land holds desert, vineyards, volcanoes and glaciers, all packed side by side instead of end to end.",
+        "map": {
+          "projection": "equalEarth",
+          "accent": "#F6B93B",
+          "highlight": [
+            "Chile"
+          ],
+          "fit": "Chile"
+        }
+      }
     ],
     "outro": "Follow for the science behind the map.",
-    "endMap": { "projection": "equalEarth", "accent": "#F6B93B", "highlight": ["Chile"], "fit": "Chile" },
+    "endMap": {
+      "projection": "equalEarth",
+      "accent": "#F6B93B",
+      "highlight": [
+        "Chile"
+      ],
+      "fit": "Chile"
+    },
     "credit": "Cartography: Natural Earth"
   },
-
   "geostationary": {
     "theme": "SATELLITES & REMOTE SENSING",
     "accent": "#4aa8ff",
     "hook": "One satellite can hover over the exact same spot on Earth, forever.",
-    "hookImg": { "nasa": "blue marble earth" },
+    "hookImg": {
+      "nasa": "blue marble earth"
+    },
     "scenes": [
-      { "caption": "About 35,786 kilometres up, a satellite orbits at the same speed Earth spins.", "image": { "nasa": "blue marble earth" } },
-      { "caption": "That match locks it above one fixed point on the equator, watching the same storm or coastline all day.", "image": { "nasa": "hurricane from space" } },
-      { "caption": "It is why a weather satellite can stream one continuous view of a hurricane for hours without ever moving in the sky.", "image": { "nasa": "hurricane from space" } }
+      {
+        "caption": "About 35,786 kilometres up, a satellite orbits at the same speed Earth spins.",
+        "image": {
+          "nasa": "blue marble earth"
+        }
+      },
+      {
+        "caption": "That match locks it above one fixed point on the equator, watching the same storm or coastline all day.",
+        "image": {
+          "nasa": "hurricane from space"
+        }
+      },
+      {
+        "caption": "It is why a weather satellite can stream one continuous view of a hurricane for hours without ever moving in the sky.",
+        "image": {
+          "nasa": "hurricane from space"
+        }
+      }
     ],
     "outro": "Follow for the science behind the map.",
-    "endImg": { "nasa": "blue marble earth" },
+    "endImg": {
+      "nasa": "blue marble earth"
+    },
     "credit": "Imagery: NASA"
   },
-
   "atrain": {
     "theme": "SATELLITES & REMOTE SENSING",
     "accent": "#4aa8ff",
     "hook": "Several NASA satellites fly in a train, crossing the same point on Earth minutes apart, every single day.",
-    "hookImg": { "nasa": "blue marble earth" },
+    "hookImg": {
+      "nasa": "blue marble earth"
+    },
     "scenes": [
-      { "caption": "The A-Train constellation lines up satellites like Aqua, Aura and CloudSat one behind another in the same orbit.", "image": { "nasa": "blue marble earth" } },
-      { "caption": "Each one crosses the equator within minutes of the others, at about 1:30 in the afternoon local time.", "image": { "wv": { "bbox": "8,2.1,36,17.9", "date": "2024-06-15" } } },
-      { "caption": "That tight formation lets scientists combine their instruments into one near-simultaneous view of the same clouds and air.", "image": { "nasa": "blue marble earth" } }
+      {
+        "caption": "The A-Train constellation lines up satellites like Aqua, Aura and CloudSat one behind another in the same orbit.",
+        "image": {
+          "nasa": "blue marble earth"
+        }
+      },
+      {
+        "caption": "Each one crosses the equator within minutes of the others, at about 1:30 in the afternoon local time.",
+        "image": {
+          "wv": {
+            "bbox": "8,2.1,36,17.9",
+            "date": "2024-06-15"
+          }
+        }
+      },
+      {
+        "caption": "That tight formation lets scientists combine their instruments into one near-simultaneous view of the same clouds and air.",
+        "image": {
+          "nasa": "blue marble earth"
+        }
+      }
     ],
     "outro": "Follow for the science behind the map.",
-    "endImg": { "nasa": "blue marble earth" },
+    "endImg": {
+      "nasa": "blue marble earth"
+    },
     "credit": "Imagery: NASA"
   },
-
   "dynamicworld": {
     "theme": "GEOAI",
     "accent": "#39d98a",
     "hook": "One AI model updates a live land cover map of the entire planet every few days.",
-    "hookImg": { "wv": { "bbox": "25,28.5,33,33.0", "date": "2024-08-01" } },
+    "hookImg": {
+      "wv": {
+        "bbox": "25,28.5,33,33.0",
+        "date": "2024-08-01"
+      }
+    },
     "scenes": [
-      { "caption": "Trained on Sentinel-2 satellite images, it sorts every 10 metre pixel on Earth into a class: forest, crop, water or built up.", "image": { "wv": { "bbox": "25,28.5,33,33.0", "date": "2024-08-01" } } },
-      { "caption": "Published in 2022 as Dynamic World, it refreshes in near real time instead of waiting for an annual release.", "image": { "wv": { "bbox": "8,2.1,36,17.9", "date": "2024-06-15" } } },
-      { "caption": "That means analysts can watch new construction or a drying wetland show up on the map within days, not years.", "image": { "nasa": "blue marble earth" } }
+      {
+        "caption": "Trained on Sentinel-2 satellite images, it sorts every 10 metre pixel on Earth into a class: forest, crop, water or built up.",
+        "image": {
+          "wv": {
+            "bbox": "25,28.5,33,33.0",
+            "date": "2024-08-01"
+          }
+        }
+      },
+      {
+        "caption": "Published in 2022 as Dynamic World, it refreshes in near real time instead of waiting for an annual release.",
+        "image": {
+          "wv": {
+            "bbox": "8,2.1,36,17.9",
+            "date": "2024-06-15"
+          }
+        }
+      },
+      {
+        "caption": "That means analysts can watch new construction or a drying wetland show up on the map within days, not years.",
+        "image": {
+          "nasa": "blue marble earth"
+        }
+      }
     ],
     "outro": "Follow for the science behind the map.",
-    "endImg": { "nasa": "blue marble earth" },
+    "endImg": {
+      "nasa": "blue marble earth"
+    },
     "credit": "Imagery: NASA Worldview"
   },
-
   "tin": {
     "theme": "GEOSPATIAL DATA SCIENCE",
     "accent": "#8b7cff",
     "hook": "One geometric trick turns a handful of elevation readings into a smooth 3D model of the ground.",
-    "hookMap": { "projection": "mercator", "accent": "#8b7cff" },
+    "hookMap": {
+      "projection": "mercator",
+      "accent": "#8b7cff"
+    },
     "scenes": [
-      { "caption": "Take scattered elevation points and connect them into triangles that never overlap.", "map": { "projection": "mercator", "accent": "#8b7cff" } },
-      { "caption": "That mesh, called a triangulated irregular network, packs in more triangles exactly where the terrain is roughest.", "map": { "projection": "equalEarth", "accent": "#8b7cff" } },
-      { "caption": "Flat ground gets a few big triangles, cliffs and ridges get many tiny ones, so the model stays light and still holds its shape.", "map": { "projection": "ortho", "accent": "#8b7cff", "rotate": [-10, -6] } }
+      {
+        "caption": "Take scattered elevation points and connect them into triangles that never overlap.",
+        "map": {
+          "projection": "mercator",
+          "accent": "#8b7cff"
+        }
+      },
+      {
+        "caption": "That mesh, called a triangulated irregular network, packs in more triangles exactly where the terrain is roughest.",
+        "map": {
+          "projection": "equalEarth",
+          "accent": "#8b7cff"
+        }
+      },
+      {
+        "caption": "Flat ground gets a few big triangles, cliffs and ridges get many tiny ones, so the model stays light and still holds its shape.",
+        "map": {
+          "projection": "ortho",
+          "accent": "#8b7cff",
+          "rotate": [
+            -10,
+            -6
+          ]
+        }
+      }
     ],
     "outro": "Follow for the science behind the map.",
-    "endMap": { "projection": "ortho", "accent": "#8b7cff", "rotate": [-10, -6] },
+    "endMap": {
+      "projection": "ortho",
+      "accent": "#8b7cff",
+      "rotate": [
+        -10,
+        -6
+      ]
+    },
     "credit": "Cartography: Natural Earth"
   },
-
   "diomede": {
     "theme": "MAPS & CARTOGRAPHY",
     "accent": "#F6B93B",
     "hook": "Two islands sit under four kilometers apart, and one of them is nearly a full day ahead of the other.",
-    "hookMap": { "projection": "ortho", "accent": "#F6B93B", "highlight": ["Russia", "United States of America"], "rotate": [169, -66] },
+    "hookMap": {
+      "projection": "ortho",
+      "accent": "#F6B93B",
+      "highlight": [
+        "Russia",
+        "United States of America"
+      ],
+      "rotate": [
+        169,
+        -66
+      ]
+    },
     "scenes": [
-      { "caption": "Big Diomede and Little Diomede sit in the Bering Strait, just 3.8 kilometers apart at their closest point.", "map": { "projection": "ortho", "accent": "#F6B93B", "highlight": ["Russia", "United States of America"], "rotate": [169, -66] } },
-      { "caption": "The International Date Line runs straight between them, so Russia's island is 21 hours ahead of Alaska's.", "map": { "projection": "equalEarth", "accent": "#F6B93B", "highlight": ["Russia", "United States of America"] } },
-      { "caption": "Locals call them Tomorrow Island and Yesterday Isle, since standing on one lets you look across the water at tomorrow.", "map": { "projection": "ortho", "accent": "#F6B93B", "highlight": ["Russia", "United States of America"], "rotate": [169, -66] } }
+      {
+        "caption": "Big Diomede and Little Diomede sit in the Bering Strait, just 3.8 kilometers apart at their closest point.",
+        "map": {
+          "projection": "ortho",
+          "accent": "#F6B93B",
+          "highlight": [
+            "Russia",
+            "United States of America"
+          ],
+          "rotate": [
+            169,
+            -66
+          ]
+        }
+      },
+      {
+        "caption": "The International Date Line runs straight between them, so Russia's island is 21 hours ahead of Alaska's.",
+        "map": {
+          "projection": "equalEarth",
+          "accent": "#F6B93B",
+          "highlight": [
+            "Russia",
+            "United States of America"
+          ]
+        }
+      },
+      {
+        "caption": "Locals call them Tomorrow Island and Yesterday Isle, since standing on one lets you look across the water at tomorrow.",
+        "map": {
+          "projection": "ortho",
+          "accent": "#F6B93B",
+          "highlight": [
+            "Russia",
+            "United States of America"
+          ],
+          "rotate": [
+            169,
+            -66
+          ]
+        }
+      }
     ],
     "outro": "Follow for the science behind the map.",
-    "endMap": { "projection": "equalEarth", "accent": "#F6B93B", "highlight": ["Russia", "United States of America"] },
+    "endMap": {
+      "projection": "equalEarth",
+      "accent": "#F6B93B",
+      "highlight": [
+        "Russia",
+        "United States of America"
+      ]
+    },
     "credit": "Cartography: Natural Earth"
   },
-
   "antarcticadesert": {
     "theme": "MAPS & CARTOGRAPHY",
     "accent": "#F6B93B",
     "hook": "The largest desert on Earth is not sand. It is solid ice.",
-    "hookMap": { "projection": "ortho", "accent": "#F6B93B", "rotate": [0, 90] },
+    "hookMap": {
+      "projection": "ortho",
+      "accent": "#F6B93B",
+      "rotate": [
+        0,
+        90
+      ]
+    },
     "scenes": [
-      { "caption": "A desert is defined by how little rain falls, not by heat or sand.", "map": { "projection": "equalEarth", "accent": "#F6B93B" } },
-      { "caption": "By that rule, Antarctica is the biggest desert on the planet, at 14.2 million square kilometers.", "map": { "projection": "ortho", "accent": "#F6B93B", "highlight": ["Antarctica"], "rotate": [0, 90] } },
-      { "caption": "That is larger than the Sahara, the Gobi and the Arabian Desert added together.", "map": { "projection": "equalEarth", "accent": "#F6B93B", "highlight": ["Antarctica"] } }
+      {
+        "caption": "A desert is defined by how little rain falls, not by heat or sand.",
+        "map": {
+          "projection": "equalEarth",
+          "accent": "#F6B93B"
+        }
+      },
+      {
+        "caption": "By that rule, Antarctica is the biggest desert on the planet, at 14.2 million square kilometers.",
+        "map": {
+          "projection": "ortho",
+          "accent": "#F6B93B",
+          "highlight": [
+            "Antarctica"
+          ],
+          "rotate": [
+            0,
+            90
+          ]
+        }
+      },
+      {
+        "caption": "That is larger than the Sahara, the Gobi and the Arabian Desert added together.",
+        "map": {
+          "projection": "equalEarth",
+          "accent": "#F6B93B",
+          "highlight": [
+            "Antarctica"
+          ]
+        }
+      }
     ],
     "outro": "Follow for the science behind the map.",
-    "endMap": { "projection": "ortho", "accent": "#F6B93B", "highlight": ["Antarctica"], "rotate": [0, 90] },
+    "endMap": {
+      "projection": "ortho",
+      "accent": "#F6B93B",
+      "highlight": [
+        "Antarctica"
+      ],
+      "rotate": [
+        0,
+        90
+      ]
+    },
     "credit": "Cartography: Natural Earth"
   },
-
   "cygnss": {
     "theme": "SATELLITES & REMOTE SENSING",
     "accent": "#4aa8ff",
     "hook": "Eight small satellites read hurricane wind speed by watching GPS signals bounce off the ocean, without ever looking at the storm itself.",
-    "hookImg": { "nasa": "hurricane from space" },
+    "hookImg": {
+      "nasa": "hurricane from space"
+    },
     "scenes": [
-      { "caption": "A GPS signal from another satellite passes clean through the storm and bounces off the sea surface below.", "image": { "nasa": "hurricane from space" } },
-      { "caption": "Rougher water scrambles that reflected signal more, and the CYGNSS satellites read the scramble as wind speed.", "image": { "wv": { "bbox": "19.16,-80.5,29.83,-74.5", "date": "2024-07-01" } } },
-      { "caption": "Because the radio signal passes through rain, it reaches deep inside the eyewall that older instruments could never measure.", "image": { "nasa": "hurricane eye from space" } }
+      {
+        "caption": "A GPS signal from another satellite passes clean through the storm and bounces off the sea surface below.",
+        "image": {
+          "nasa": "hurricane from space"
+        }
+      },
+      {
+        "caption": "Rougher water scrambles that reflected signal more, and the CYGNSS satellites read the scramble as wind speed.",
+        "image": {
+          "wv": {
+            "bbox": "19.16,-80.5,29.83,-74.5",
+            "date": "2024-07-01"
+          }
+        }
+      },
+      {
+        "caption": "Because the radio signal passes through rain, it reaches deep inside the eyewall that older instruments could never measure.",
+        "image": {
+          "nasa": "hurricane eye from space"
+        }
+      }
     ],
     "outro": "Follow for the science behind the map.",
-    "endImg": { "nasa": "hurricane from space" },
+    "endImg": {
+      "nasa": "hurricane from space"
+    },
     "credit": "Imagery: NASA"
   },
-
   "oco2": {
     "theme": "SATELLITES & REMOTE SENSING",
     "accent": "#4aa8ff",
     "hook": "One NASA satellite reads the carbon dioxide over every part of Earth, twenty four times a second.",
-    "hookImg": { "nasa": "blue marble earth" },
+    "hookImg": {
+      "nasa": "blue marble earth"
+    },
     "scenes": [
-      { "caption": "The Orbiting Carbon Observatory 2 launched in 2014 to measure atmospheric carbon dioxide from orbit, not from a single ground station.", "image": { "nasa": "blue marble earth" } },
-      { "caption": "It reads the exact wavelengths of sunlight that carbon dioxide absorbs on the way back up through the air.", "image": { "wv": { "bbox": "18,28.5,34,37.5", "date": "2024-07-01" } } },
-      { "caption": "The resulting maps show carbon dioxide pooling over cities and industry, with the highest levels over eastern China and the eastern United States.", "image": { "nasa": "city lights from space station" } }
+      {
+        "caption": "The Orbiting Carbon Observatory 2 launched in 2014 to measure atmospheric carbon dioxide from orbit, not from a single ground station.",
+        "image": {
+          "nasa": "blue marble earth"
+        }
+      },
+      {
+        "caption": "It reads the exact wavelengths of sunlight that carbon dioxide absorbs on the way back up through the air.",
+        "image": {
+          "wv": {
+            "bbox": "18,28.5,34,37.5",
+            "date": "2024-07-01"
+          }
+        }
+      },
+      {
+        "caption": "The resulting maps show carbon dioxide pooling over cities and industry, with the highest levels over eastern China and the eastern United States.",
+        "image": {
+          "nasa": "city lights from space station"
+        }
+      }
     ],
     "outro": "Follow for the science behind the map.",
-    "endImg": { "nasa": "blue marble earth" },
+    "endImg": {
+      "nasa": "blue marble earth"
+    },
     "credit": "Imagery: NASA"
   },
-
   "goldminesat": {
     "theme": "GEOAI",
     "accent": "#39d98a",
     "hook": "A machine learning model now flags new illegal gold mines cut into the Amazon almost as fast as they appear.",
-    "hookImg": { "commons": "Amazon rainforest gold mining aerial photograph" },
+    "hookImg": {
+      "commons": "Amazon rainforest gold mining aerial photograph"
+    },
     "scenes": [
-      { "caption": "Illegal mining strips riverside forest bare, leaving pale, waterlogged pits scarred into the green canopy.", "image": { "commons": "Amazon rainforest gold mining aerial photograph" } },
-      { "caption": "A tool called Amazon Mining Watch scans Sentinel-2 satellite images and trains a model to spot that exact scar pattern automatically.", "image": { "commons": "Amazon river aerial deforestation photograph" } },
-      { "caption": "In Peru's Madre de Dios region alone, mining has already cleared more than 100,000 hectares of rainforest, and the model tracks new scars as they form.", "image": { "commons": "Amazon rainforest gold mining aerial photograph" } }
+      {
+        "caption": "Illegal mining strips riverside forest bare, leaving pale, waterlogged pits scarred into the green canopy.",
+        "image": {
+          "commons": "Amazon rainforest gold mining aerial photograph"
+        }
+      },
+      {
+        "caption": "A tool called Amazon Mining Watch scans Sentinel-2 satellite images and trains a model to spot that exact scar pattern automatically.",
+        "image": {
+          "commons": "Amazon river aerial deforestation photograph"
+        }
+      },
+      {
+        "caption": "In Peru's Madre de Dios region alone, mining has already cleared more than 100,000 hectares of rainforest, and the model tracks new scars as they form.",
+        "image": {
+          "commons": "Amazon rainforest gold mining aerial photograph"
+        }
+      }
     ],
     "outro": "Follow for the science behind the map.",
-    "endImg": { "commons": "Amazon rainforest gold mining aerial photograph" },
+    "endImg": {
+      "commons": "Amazon rainforest gold mining aerial photograph"
+    },
     "credit": "Imagery: Wikimedia Commons (public domain)"
   },
-
   "viewshed": {
     "theme": "GEOSPATIAL DATA SCIENCE",
     "accent": "#8b7cff",
     "hook": "One calculation on a grid of elevation numbers decides exactly which hills can see a radio tower, and which cannot.",
-    "hookMap": { "projection": "mercator", "accent": "#8b7cff" },
+    "hookMap": {
+      "projection": "mercator",
+      "accent": "#8b7cff"
+    },
     "scenes": [
-      { "caption": "A digital elevation model stores the height of the ground as a fine grid of numbers, point by point.", "map": { "projection": "mercator", "accent": "#8b7cff" } },
-      { "caption": "A viewshed analysis draws an imaginary line from the tower to every point on that grid and checks whether the terrain blocks it.", "map": { "projection": "equalEarth", "accent": "#8b7cff" } },
-      { "caption": "The result is a map of exactly what a tower, a wind turbine or a lookout point can and cannot see.", "map": { "projection": "ortho", "accent": "#8b7cff", "rotate": [-10, -6] } }
+      {
+        "caption": "A digital elevation model stores the height of the ground as a fine grid of numbers, point by point.",
+        "map": {
+          "projection": "mercator",
+          "accent": "#8b7cff"
+        }
+      },
+      {
+        "caption": "A viewshed analysis draws an imaginary line from the tower to every point on that grid and checks whether the terrain blocks it.",
+        "map": {
+          "projection": "equalEarth",
+          "accent": "#8b7cff"
+        }
+      },
+      {
+        "caption": "The result is a map of exactly what a tower, a wind turbine or a lookout point can and cannot see.",
+        "map": {
+          "projection": "ortho",
+          "accent": "#8b7cff",
+          "rotate": [
+            -10,
+            -6
+          ]
+        }
+      }
     ],
     "outro": "Follow for the science behind the map.",
-    "endMap": { "projection": "ortho", "accent": "#8b7cff", "rotate": [-10, -6] },
+    "endMap": {
+      "projection": "ortho",
+      "accent": "#8b7cff",
+      "rotate": [
+        -10,
+        -6
+      ]
+    },
+    "credit": "Cartography: Natural Earth"
+  },
+  "primemeridian": {
+    "theme": "MAPS & CARTOGRAPHY",
+    "accent": "#F6B93B",
+    "hook": "In 1884, world delegates voted on where zero degrees longitude should sit, and only one country voted no.",
+    "hookMap": {
+      "projection": "ortho",
+      "accent": "#F6B93B",
+      "highlight": [
+        "United Kingdom",
+        "Dominican Republic"
+      ],
+      "rotate": [
+        -30,
+        40
+      ]
+    },
+    "scenes": [
+      {
+        "caption": "The International Meridian Conference met in Washington, D.C. in October 1884 to choose a single global prime meridian for time and navigation.",
+        "map": {
+          "projection": "mercator",
+          "accent": "#F6B93B"
+        }
+      },
+      {
+        "caption": "Delegates voted 22 to 1 to run zero degrees longitude through the Royal Observatory in Greenwich, England, with only San Domingo, now the Dominican Republic, voting against it.",
+        "map": {
+          "projection": "ortho",
+          "accent": "#F6B93B",
+          "highlight": [
+            "United Kingdom",
+            "Dominican Republic"
+          ],
+          "rotate": [
+            -30,
+            40
+          ]
+        }
+      },
+      {
+        "caption": "France abstained from the vote and kept publishing official maps measured from Paris for decades afterward.",
+        "map": {
+          "projection": "mercator",
+          "accent": "#F6B93B",
+          "highlight": [
+            "France"
+          ]
+        }
+      }
+    ],
+    "outro": "Follow for the science behind the map.",
+    "endMap": {
+      "projection": "ortho",
+      "accent": "#F6B93B",
+      "highlight": [
+        "United Kingdom"
+      ],
+      "rotate": [
+        0,
+        -51
+      ]
+    },
+    "credit": "Cartography: Natural Earth"
+  },
+  "inaccessiblepole": {
+    "theme": "MAPS & CARTOGRAPHY",
+    "accent": "#F6B93B",
+    "hook": "One spot in a Chinese desert sits farther from any ocean than anywhere else on Earth's land.",
+    "hookMap": {
+      "projection": "ortho",
+      "accent": "#F6B93B",
+      "highlight": [
+        "China"
+      ],
+      "rotate": [
+        -87,
+        -46
+      ]
+    },
+    "scenes": [
+      {
+        "caption": "The Eurasian Pole of Inaccessibility sits in the Gurbantunggut Desert in northwest China, roughly 2,645 kilometers from the nearest coastline.",
+        "map": {
+          "projection": "ortho",
+          "accent": "#F6B93B",
+          "highlight": [
+            "China"
+          ],
+          "rotate": [
+            -87,
+            -46
+          ]
+        }
+      },
+      {
+        "caption": "It is the continental counterpart to Point Nemo, the spot in the ocean farthest from any shore, except this pole is buried deep inside land instead of open water.",
+        "map": {
+          "projection": "equalEarth",
+          "accent": "#F6B93B"
+        }
+      },
+      {
+        "caption": "Geographers work out poles of inaccessibility for oceans, continents and even Antarctica by measuring straight-line distance to the nearest coastline on a map.",
+        "map": {
+          "projection": "mercator",
+          "accent": "#F6B93B",
+          "highlight": [
+            "China"
+          ]
+        }
+      }
+    ],
+    "outro": "Follow for the science behind the map.",
+    "endMap": {
+      "projection": "ortho",
+      "accent": "#F6B93B",
+      "highlight": [
+        "China"
+      ],
+      "rotate": [
+        -87,
+        -46
+      ]
+    },
+    "credit": "Cartography: Natural Earth"
+  },
+  "sentinel2": {
+    "theme": "SATELLITES & REMOTE SENSING",
+    "accent": "#4aa8ff",
+    "hook": "One European satellite pair photographs almost every patch of Earth's land every five days, and gives the images away for free.",
+    "hookImg": {
+      "nasa": "blue marble earth"
+    },
+    "scenes": [
+      {
+        "caption": "ESA's Sentinel-2A and Sentinel-2B satellites, launched in 2015 and 2017, share the same orbit but sit 180 degrees apart so together they revisit any point on land every five days.",
+        "image": {
+          "nasa": "blue marble earth"
+        }
+      },
+      {
+        "caption": "Each satellite records 13 bands of light, from visible color to shortwave infrared, at resolutions as sharp as 10 meters per pixel.",
+        "image": {
+          "wv": {
+            "bbox": "8,2.1,36,17.9",
+            "date": "2024-07-01"
+          }
+        }
+      },
+      {
+        "caption": "The European Union's Copernicus program releases every Sentinel-2 image to the public at no cost, making it one of the most used data sources in remote sensing research.",
+        "image": {
+          "wv": {
+            "bbox": "18,28.5,34,37.5",
+            "date": "2024-07-01"
+          }
+        }
+      }
+    ],
+    "outro": "Follow for the science behind the map.",
+    "endImg": {
+      "nasa": "blue marble earth"
+    },
+    "credit": "Imagery: NASA"
+  },
+  "lightningmapper": {
+    "theme": "SATELLITES & REMOTE SENSING",
+    "accent": "#4aa8ff",
+    "hook": "One instrument parked in orbit counts almost every lightning flash across a whole hemisphere without waiting for a ground sensor to hear it.",
+    "hookImg": {
+      "nasa": "hurricane from space"
+    },
+    "scenes": [
+      {
+        "caption": "NASA and NOAA's Geostationary Lightning Mapper flies on the GOES-16 through GOES-19 satellites, watching nearly a full hemisphere continuously.",
+        "image": {
+          "nasa": "hurricane from space"
+        }
+      },
+      {
+        "caption": "It detects the flash of light that lightning makes at cloud-top level, day and night, even over oceans that have no ground sensors at all.",
+        "image": {
+          "nasa": "city lights from space station"
+        }
+      },
+      {
+        "caption": "Forecasters watch for a sudden jump in a storm's lightning rate as an early sign it is about to intensify.",
+        "image": {
+          "nasa": "hurricane from space"
+        }
+      }
+    ],
+    "outro": "Follow for the science behind the map.",
+    "endImg": {
+      "nasa": "hurricane from space"
+    },
+    "credit": "Imagery: NASA"
+  },
+  "nazcaai": {
+    "theme": "GEOAI",
+    "accent": "#39d98a",
+    "hook": "In under six months, an AI model found more new figures carved into Peru's desert than a century of archaeologists had found by eye.",
+    "hookImg": {
+      "commons": "Nazca Lines aerial"
+    },
+    "scenes": [
+      {
+        "caption": "The Nazca Lines are giant figures etched into the Peruvian desert floor more than 1,500 years ago, many too large to recognize while standing on the ground.",
+        "image": {
+          "commons": "Nazca Lines"
+        }
+      },
+      {
+        "caption": "In 2024, researchers from Yamagata University and IBM trained an AI model on drone and satellite imagery to flag faint, eroded geoglyphs that human surveyors had missed.",
+        "image": {
+          "commons": "Nazca monkey geoglyph"
+        }
+      },
+      {
+        "caption": "The model helped the team confirm 303 new figures in about six months, nearly doubling the roughly 430 geoglyphs found since the 1940s.",
+        "image": {
+          "commons": "Nazca Lines UNESCO"
+        }
+      }
+    ],
+    "outro": "Follow for the science behind the map.",
+    "endImg": {
+      "commons": "Nazca Lines aerial"
+    },
+    "credit": "Imagery: Wikimedia Commons (public domain)"
+  },
+  "rtree": {
+    "theme": "GEOSPATIAL DATA SCIENCE",
+    "accent": "#8b7cff",
+    "hook": "One 1984 data structure is why a map app can find every restaurant near you without checking every restaurant on Earth.",
+    "hookMap": {
+      "projection": "mercator",
+      "accent": "#8b7cff"
+    },
+    "scenes": [
+      {
+        "caption": "A spatial database holding millions of locations cannot afford to compare your position against every single point just to find what is nearby.",
+        "map": {
+          "projection": "mercator",
+          "accent": "#8b7cff"
+        }
+      },
+      {
+        "caption": "The R-tree, published by Antonin Guttman in 1984, groups nearby shapes into nested bounding boxes, like folders inside folders.",
+        "map": {
+          "projection": "equalEarth",
+          "accent": "#8b7cff"
+        }
+      },
+      {
+        "caption": "A location query only has to open the few boxes that could contain the answer, skipping most of the data instantly, which is why R-tree style indexes still power PostGIS and most modern GIS databases.",
+        "map": {
+          "projection": "ortho",
+          "accent": "#8b7cff",
+          "rotate": [
+            -10,
+            -6
+          ]
+        }
+      }
+    ],
+    "outro": "Follow for the science behind the map.",
+    "endMap": {
+      "projection": "ortho",
+      "accent": "#8b7cff",
+      "rotate": [
+        -10,
+        -6
+      ]
+    },
     "credit": "Cartography: Natural Earth"
   }
 }
