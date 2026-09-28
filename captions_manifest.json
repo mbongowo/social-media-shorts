@@ -743,5 +743,23 @@
     "cover": "https://raw.githubusercontent.com/mbongowo/social-media-shorts/main/covers/SnowCloudCheck_cover.jpg",
     "source_doi": "10.1002/hyp.6715",
     "source_url": "https://onlinelibrary.wiley.com/doi/abs/10.1002/hyp.6715"
+  },
+  {
+    "id": "zipf-city-law",
+    "theme": "Geospatial Data Science",
+    "title": "One formula predicts every big US city's size #shorts",
+    "description": "A 1999 economics study found the populations of the 135 largest US metro areas fit a power law so precisely that dividing the #1 city's population by a city's rank explains 98.6% of the pattern. #DataScience #Geography #Cities #Shorts",
+    "tags": [
+      "GeospatialDataScience",
+      "ZipfsLaw",
+      "UrbanGeography",
+      "DataScience",
+      "PowerLaw",
+      "Cities"
+    ],
+    "file": "https://raw.githubusercontent.com/mbongowo/social-media-shorts/main/ZipfCityLaw.mp4",
+    "cover": "https://raw.githubusercontent.com/mbongowo/social-media-shorts/main/covers/ZipfCityLaw_cover.jpg",
+    "source_doi": "10.1162/003355399556133",
+    "source_url": "https://academic.oup.com/qje/article-abstract/114/3/739/1848099"
   }
 ]
