@@ -761,5 +761,23 @@
     "cover": "https://raw.githubusercontent.com/mbongowo/social-media-shorts/main/covers/ZipfCityLaw_cover.jpg",
     "source_doi": "10.1162/003355399556133",
     "source_url": "https://academic.oup.com/qje/article-abstract/114/3/739/1848099"
+  },
+  {
+    "id": "graphcast-win",
+    "theme": "GeoAI",
+    "title": "AI beats the world's best weather model 90% of the time #shorts",
+    "description": "DeepMind's GraphCast, a graph neural network trained on decades of weather data, outpredicted the ECMWF's physics-based HRES model on 90% of 1,380 forecast targets across 10-day global forecasts. #GeoAI #WeatherAI #MachineLearning #Shorts",
+    "tags": [
+      "GeoAI",
+      "WeatherForecasting",
+      "GraphCast",
+      "MachineLearning",
+      "ClimateAI",
+      "DeepMind"
+    ],
+    "file": "https://raw.githubusercontent.com/mbongowo/social-media-shorts/main/GraphCastWin.mp4",
+    "cover": "https://raw.githubusercontent.com/mbongowo/social-media-shorts/main/covers/GraphCastWin_cover.jpg",
+    "source_doi": "10.1126/science.adi2336",
+    "source_url": "https://www.science.org/doi/10.1126/science.adi2336"
   }
 ]
