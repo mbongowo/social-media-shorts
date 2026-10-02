@@ -779,5 +779,23 @@
     "cover": "https://raw.githubusercontent.com/mbongowo/social-media-shorts/main/covers/GraphCastWin_cover.jpg",
     "source_doi": "10.1126/science.adi2336",
     "source_url": "https://www.science.org/doi/10.1126/science.adi2336"
+  },
+  {
+    "id": "flannery-fix",
+    "theme": "Maps & Cartography",
+    "title": "Why a map circle scaled by exact math still looks wrong #shorts",
+    "description": "Flannery (1971) found viewers underestimate big proportional circles on maps, so cartographers scale radius by value^0.57 instead of value^0.5 to make size read correctly. #Cartography #DataViz #MapDesign #Shorts",
+    "tags": [
+      "Cartography",
+      "DataVisualization",
+      "MapDesign",
+      "GIS",
+      "Perception",
+      "ProportionalSymbols"
+    ],
+    "file": "https://raw.githubusercontent.com/mbongowo/social-media-shorts/main/FlanneryFix.mp4",
+    "cover": "https://raw.githubusercontent.com/mbongowo/social-media-shorts/main/covers/FlanneryFix_cover.jpg",
+    "source_doi": "10.3138/J647-1776-745H-3667",
+    "source_url": "https://utppublishing.com/doi/10.3138/J647-1776-745H-3667"
   }
 ]
