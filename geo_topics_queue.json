@@ -4266,5 +4266,308 @@
       ]
     },
     "credit": "Cartography: Natural Earth"
+  },
+  "rhumbline": {
+    "theme": "MAPS & CARTOGRAPHY",
+    "accent": "#F6B93B",
+    "hook": "Mercator's map was never built to show you the world correctly.",
+    "hookMap": {
+      "projection": "mercator",
+      "accent": "#F6B93B"
+    },
+    "scenes": [
+      {
+        "caption": "In 1569, Gerardus Mercator built his map so sailors could steer by one constant compass heading.",
+        "map": {
+          "projection": "mercator",
+          "accent": "#F6B93B"
+        }
+      },
+      {
+        "caption": "On his grid, that single-heading path, called a rhumb line, is always drawn as a straight line.",
+        "map": {
+          "projection": "mercator",
+          "accent": "#F6B93B"
+        }
+      },
+      {
+        "caption": "A straight rhumb line is almost never the shortest route, which is why ships and planes still fly the curve.",
+        "map": {
+          "projection": "ortho",
+          "accent": "#F6B93B",
+          "rotate": [
+            -40,
+            -20
+          ]
+        }
+      }
+    ],
+    "outro": "Follow for the science behind the map.",
+    "endMap": {
+      "projection": "mercator",
+      "accent": "#F6B93B"
+    },
+    "credit": "Cartography: Natural Earth"
+  },
+  "pheasantisland": {
+    "theme": "MAPS & CARTOGRAPHY",
+    "accent": "#F6B93B",
+    "hook": "One tiny island switches countries twice a year, on schedule, for over 360 years.",
+    "hookMap": {
+      "projection": "ortho",
+      "accent": "#F6B93B",
+      "highlight": [
+        "France"
+      ],
+      "highlight2": [
+        "Spain"
+      ],
+      "accent2": "#4aa8ff",
+      "rotate": [
+        1.8,
+        -43.3
+      ]
+    },
+    "scenes": [
+      {
+        "caption": "The border between France and Spain runs along the Bidasoa River, down to one small island in the middle.",
+        "map": {
+          "projection": "ortho",
+          "accent": "#F6B93B",
+          "highlight": [
+            "France"
+          ],
+          "highlight2": [
+            "Spain"
+          ],
+          "accent2": "#4aa8ff",
+          "rotate": [
+            1.8,
+            -43.3
+          ]
+        }
+      },
+      {
+        "caption": "Since the Treaty of the Pyrenees in 1659, that island has belonged to Spain for six months, then France for the other six.",
+        "map": {
+          "projection": "equalEarth",
+          "accent": "#F6B93B",
+          "highlight": [
+            "France"
+          ],
+          "highlight2": [
+            "Spain"
+          ],
+          "accent2": "#4aa8ff"
+        }
+      },
+      {
+        "caption": "No fence, no ferry, just a line on the map that quietly swaps sovereignty right on schedule.",
+        "map": {
+          "projection": "ortho",
+          "accent": "#F6B93B",
+          "highlight": [
+            "France"
+          ],
+          "highlight2": [
+            "Spain"
+          ],
+          "accent2": "#4aa8ff",
+          "rotate": [
+            1.8,
+            -43.3
+          ]
+        }
+      }
+    ],
+    "outro": "Follow for the science behind the map.",
+    "endMap": {
+      "projection": "ortho",
+      "accent": "#F6B93B",
+      "highlight": [
+        "France"
+      ],
+      "highlight2": [
+        "Spain"
+      ],
+      "accent2": "#4aa8ff",
+      "rotate": [
+        1.8,
+        -43.3
+      ]
+    },
+    "credit": "Cartography: Natural Earth"
+  },
+  "gedi": {
+    "theme": "SATELLITES & REMOTE SENSING",
+    "accent": "#4aa8ff",
+    "hook": "A laser bolted to the space station is weighing the carbon locked in Earth's forests.",
+    "hookImg": {
+      "wv": {
+        "bbox": "-12,-67.5,4,-58.5",
+        "date": "2024-08-20"
+      }
+    },
+    "scenes": [
+      {
+        "caption": "GEDI is a laser altimeter mounted on the International Space Station, firing pulses of light down at the forest canopy.",
+        "image": {
+          "wv": {
+            "bbox": "-12,-67.5,4,-58.5",
+            "date": "2024-02-20"
+          }
+        }
+      },
+      {
+        "caption": "Each returning pulse traces the height and layered structure of the trees, from top branches down to bare ground.",
+        "image": {
+          "wv": {
+            "bbox": "-12,-67.5,4,-58.5",
+            "date": "2024-08-20"
+          }
+        }
+      },
+      {
+        "caption": "That structure converts into an estimate of stored carbon, mapped across forests worldwide.",
+        "image": {
+          "nasa": "blue marble earth"
+        }
+      }
+    ],
+    "outro": "Follow for the science behind the map.",
+    "endImg": {
+      "wv": {
+        "bbox": "-12,-67.5,4,-58.5",
+        "date": "2024-08-20"
+      }
+    },
+    "credit": "Imagery: NASA Worldview"
+  },
+  "smap": {
+    "theme": "SATELLITES & REMOTE SENSING",
+    "accent": "#4aa8ff",
+    "hook": "One satellite reads the moisture in the ground without ever touching it, even through clouds.",
+    "hookImg": {
+      "wv": {
+        "bbox": "8,2.1,36,17.9",
+        "date": "2024-06-15"
+      }
+    },
+    "scenes": [
+      {
+        "caption": "SMAP carries a microwave radiometer tuned to the faint signal water leaves behind in soil.",
+        "image": {
+          "wv": {
+            "bbox": "8,2.1,36,17.9",
+            "date": "2024-06-15"
+          }
+        }
+      },
+      {
+        "caption": "Microwaves pass straight through cloud cover, so the satellite reads soil moisture through storms that blind ordinary cameras.",
+        "image": {
+          "wv": {
+            "bbox": "18,28.5,34,37.5",
+            "date": "2024-07-01"
+          }
+        }
+      },
+      {
+        "caption": "It remaps nearly all of Earth's land every two to three days, an early signal for both drought and flood risk.",
+        "image": {
+          "wv": {
+            "bbox": "8,2.1,36,17.9",
+            "date": "2024-06-15"
+          }
+        }
+      }
+    ],
+    "outro": "Follow for the science behind the map.",
+    "endImg": {
+      "wv": {
+        "bbox": "8,2.1,36,17.9",
+        "date": "2024-06-15"
+      }
+    },
+    "credit": "Imagery: NASA Worldview"
+  },
+  "kurganai": {
+    "theme": "GEOAI",
+    "accent": "#39d98a",
+    "hook": "A computer taught itself to spot ancient royal tombs scattered across satellite images of the Asian steppe.",
+    "hookImg": {
+      "commons": "Scythian kurgan burial mound"
+    },
+    "scenes": [
+      {
+        "caption": "Across the Eurasian steppe, elite burial mounds called kurgans can look like ordinary bumps in satellite photos.",
+        "image": {
+          "commons": "Scythian kurgan burial mound"
+        }
+      },
+      {
+        "caption": "Researchers trained a neural network on those photos to learn each mound's faint round shadow and raised shape.",
+        "image": {
+          "nasa": "synthetic aperture radar earth"
+        }
+      },
+      {
+        "caption": "Once trained, the model could flag likely kurgans automatically across stretches of steppe too vast for survey teams to walk.",
+        "image": {
+          "nasa": "blue marble earth"
+        }
+      }
+    ],
+    "outro": "Follow for the science behind the map.",
+    "endImg": {
+      "commons": "Scythian kurgan burial mound"
+    },
+    "credit": "Imagery: Wikimedia Commons (public domain) / NASA"
+  },
+  "haversine": {
+    "theme": "GEOSPATIAL DATA SCIENCE",
+    "accent": "#8b7cff",
+    "hook": "Subtracting two GPS coordinates never tells you the real distance between them.",
+    "hookMap": {
+      "projection": "mercator",
+      "accent": "#8b7cff"
+    },
+    "scenes": [
+      {
+        "caption": "Latitude and longitude are angles on a sphere, not flat meters, so simple subtraction gives the wrong number.",
+        "map": {
+          "projection": "mercator",
+          "accent": "#8b7cff"
+        }
+      },
+      {
+        "caption": "The haversine formula instead treats both points as sitting on a curved globe and solves for the great-circle distance.",
+        "map": {
+          "projection": "ortho",
+          "accent": "#8b7cff",
+          "rotate": [
+            -10,
+            -6
+          ]
+        }
+      },
+      {
+        "caption": "That one formula is quietly running inside almost every 'distance away' you see in an app.",
+        "map": {
+          "projection": "equalEarth",
+          "accent": "#8b7cff"
+        }
+      }
+    ],
+    "outro": "Follow for the science behind the map.",
+    "endMap": {
+      "projection": "ortho",
+      "accent": "#8b7cff",
+      "rotate": [
+        -10,
+        -6
+      ]
+    },
+    "credit": "Cartography: Natural Earth"
   }
 }
