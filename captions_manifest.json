@@ -797,5 +797,23 @@
     "cover": "https://raw.githubusercontent.com/mbongowo/social-media-shorts/main/covers/FlanneryFix_cover.jpg",
     "source_doi": "10.3138/J647-1776-745H-3667",
     "source_url": "https://utppublishing.com/doi/10.3138/J647-1776-745H-3667"
+  },
+  {
+    "id": "sub-pixel-fire",
+    "theme": "Remote Sensing explained",
+    "title": "A fire 1000x smaller than the pixel still gets caught #shorts",
+    "description": "A MODIS satellite pixel covers about a million square metres, yet the sensor still catches flaming or smoldering fires as small as 1,000 square metres because the heat overwhelms the pixel. #RemoteSensing #MODIS #Wildfire #Shorts",
+    "tags": [
+      "remote sensing",
+      "MODIS",
+      "wildfire detection",
+      "satellite imagery",
+      "earth observation",
+      "shorts"
+    ],
+    "file": "https://raw.githubusercontent.com/mbongowo/social-media-shorts/main/SubPixelFire.mp4",
+    "cover": "https://raw.githubusercontent.com/mbongowo/social-media-shorts/main/covers/SubPixelFire_cover.jpg",
+    "source_doi": "10.1016/j.rse.2016.02.054",
+    "source_url": "https://www.earthdata.nasa.gov/data/tools/firms"
   }
 ]
