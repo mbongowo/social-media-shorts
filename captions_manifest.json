@@ -815,5 +815,23 @@
     "cover": "https://raw.githubusercontent.com/mbongowo/social-media-shorts/main/covers/SubPixelFire_cover.jpg",
     "source_doi": "10.1016/j.rse.2016.02.054",
     "source_url": "https://www.earthdata.nasa.gov/data/tools/firms"
+  },
+  {
+    "id": "rate-map-noise",
+    "theme": "Geospatial Data Science",
+    "title": "The best and worst county cancer rates are the SAME counties #shorts",
+    "description": "In US county cancer rate maps the highest rate counties and the lowest rate counties are both disproportionately small, rural counties, because tiny populations make rates swing wildly by chance alone. #GeospatialDataScience #DataScience #Statistics #Shorts",
+    "tags": [
+      "geospatial data science",
+      "small number problem",
+      "disease mapping",
+      "statistics",
+      "data visualization",
+      "shorts"
+    ],
+    "file": "https://raw.githubusercontent.com/mbongowo/social-media-shorts/main/RateMapNoise.mp4",
+    "cover": "https://raw.githubusercontent.com/mbongowo/social-media-shorts/main/covers/RateMapNoise_cover.jpg",
+    "source_doi": "10.1002/(SICI)1097-0258(19991215)18:23<3221::AID-SIM312>3.0.CO;2-M",
+    "source_url": "https://sites.stat.columbia.edu/gelman/research/published/allmaps.pdf"
   }
 ]
