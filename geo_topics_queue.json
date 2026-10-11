@@ -4569,5 +4569,262 @@
       ]
     },
     "credit": "Cartography: Natural Earth"
+  },
+  "declination": {
+    "theme": "MAPS & CARTOGRAPHY",
+    "accent": "#F6B93B",
+    "hook": "Your compass has never once pointed at true north.",
+    "hookMap": {
+      "projection": "ortho",
+      "accent": "#F6B93B",
+      "rotate": [
+        -100,
+        60
+      ]
+    },
+    "scenes": [
+      {
+        "caption": "A compass needle points toward magnetic north, not the geographic North Pole at the top of the globe.",
+        "map": {
+          "projection": "ortho",
+          "accent": "#F6B93B",
+          "rotate": [
+            -100,
+            60
+          ]
+        }
+      },
+      {
+        "caption": "The gap between the two is called declination, and it is different in every city and keeps drifting year to year.",
+        "map": {
+          "projection": "equalEarth",
+          "accent": "#F6B93B"
+        }
+      },
+      {
+        "caption": "NOAA and the British Geological Survey jointly publish the World Magnetic Model to track that drift for every GPS device and compass on Earth.",
+        "map": {
+          "projection": "ortho",
+          "accent": "#F6B93B",
+          "rotate": [
+            -20,
+            50
+          ]
+        }
+      }
+    ],
+    "outro": "Follow for the science behind the map.",
+    "endMap": {
+      "projection": "ortho",
+      "accent": "#F6B93B",
+      "rotate": [
+        -100,
+        60
+      ]
+    },
+    "credit": "Cartography: Natural Earth"
+  },
+  "bathymetry": {
+    "theme": "SATELLITES & REMOTE SENSING",
+    "accent": "#4aa8ff",
+    "hook": "A satellite can measure how deep the ocean is without a single boat on the water.",
+    "hookImg": {
+      "wv": {
+        "bbox": "19.16,-80.5,29.83,-74.5",
+        "date": "2024-07-01"
+      }
+    },
+    "scenes": [
+      {
+        "caption": "Blue and green light penetrate clear shallow water, then bounce back brighter over sand than over deeper water.",
+        "image": {
+          "wv": {
+            "bbox": "19.16,-80.5,29.83,-74.5",
+            "date": "2024-07-01"
+          }
+        }
+      },
+      {
+        "caption": "Comparing those two colour bands in an ordinary satellite photo turns brightness into an estimate of depth.",
+        "image": {
+          "wv": {
+            "bbox": "19.16,-80.5,29.83,-74.5",
+            "date": "2024-07-01"
+          }
+        }
+      },
+      {
+        "caption": "A 2003 study testing the method over reefs and sandbars found it tracking real depth past twenty five metres down.",
+        "image": {
+          "nasa": "blue marble earth"
+        }
+      }
+    ],
+    "outro": "Follow for the science behind the map.",
+    "endImg": {
+      "wv": {
+        "bbox": "19.16,-80.5,29.83,-74.5",
+        "date": "2024-07-01"
+      }
+    },
+    "credit": "Imagery: NASA Worldview"
+  },
+  "tropomi": {
+    "theme": "SATELLITES & REMOTE SENSING",
+    "accent": "#4aa8ff",
+    "hook": "One satellite instrument maps nitrogen dioxide pollution over every country on Earth, every single day.",
+    "hookImg": {
+      "commons": "air pollution smog city aerial"
+    },
+    "scenes": [
+      {
+        "caption": "The TROPOMI instrument flies aboard the Sentinel-5P satellite, launched by the European Space Agency in 2017.",
+        "image": {
+          "commons": "air pollution smog city aerial"
+        }
+      },
+      {
+        "caption": "It reads sunlight scattered back from the atmosphere to map nitrogen dioxide, sulfur dioxide, methane and ozone worldwide.",
+        "image": {
+          "nasa": "blue marble earth"
+        }
+      },
+      {
+        "caption": "Its wide swath covers nearly the whole planet once a day, and the data is free for anyone to use.",
+        "image": {
+          "nasa": "earth at night black marble"
+        }
+      }
+    ],
+    "outro": "Follow for the science behind the map.",
+    "endImg": {
+      "commons": "air pollution smog city aerial"
+    },
+    "credit": "Imagery: Wikimedia Commons (public domain) / NASA"
+  },
+  "glaciallakes": {
+    "theme": "GEOAI",
+    "accent": "#39d98a",
+    "hook": "A machine learning model now finds dangerous glacial lakes without a single scientist on site.",
+    "hookImg": {
+      "commons": "Himalaya glacial lake aerial"
+    },
+    "scenes": [
+      {
+        "caption": "High in the Himalaya and Karakoram, melting glaciers leave lakes held back only by loose rock and ice.",
+        "image": {
+          "commons": "Himalaya glacial lake aerial"
+        }
+      },
+      {
+        "caption": "A 2020 study trained a random forest classifier on Sentinel-1 radar and Sentinel-2 optical images to map those lakes automatically.",
+        "image": {
+          "commons": "Karakoram mountain range aerial"
+        }
+      },
+      {
+        "caption": "Mapping every lake this way is the first step toward warning the valley below before one ever bursts.",
+        "image": {
+          "commons": "glacial lake outburst flood valley"
+        }
+      }
+    ],
+    "outro": "Follow for the science behind the map.",
+    "endImg": {
+      "commons": "Himalaya glacial lake aerial"
+    },
+    "credit": "Imagery: Wikimedia Commons (public domain)"
+  },
+  "kdtree": {
+    "theme": "GEOSPATIAL DATA SCIENCE",
+    "accent": "#8b7cff",
+    "hook": "Finding your single nearest coffee shop among a million points takes one trick, not a million comparisons.",
+    "hookMap": {
+      "projection": "mercator",
+      "accent": "#8b7cff"
+    },
+    "scenes": [
+      {
+        "caption": "A 1975 computer science paper split the map in half, then split each half again, building a tree of regions.",
+        "map": {
+          "projection": "mercator",
+          "accent": "#8b7cff"
+        }
+      },
+      {
+        "caption": "That structure, the k-d tree, lets your phone rule out most of the planet in a few steps instead of checking every point.",
+        "map": {
+          "projection": "equalEarth",
+          "accent": "#8b7cff"
+        }
+      },
+      {
+        "caption": "It is why a nearest neighbour search that once took forever now returns in milliseconds.",
+        "map": {
+          "projection": "ortho",
+          "accent": "#8b7cff",
+          "rotate": [
+            -10,
+            -6
+          ]
+        }
+      }
+    ],
+    "outro": "Follow for the science behind the map.",
+    "endMap": {
+      "projection": "ortho",
+      "accent": "#8b7cff",
+      "rotate": [
+        -10,
+        -6
+      ]
+    },
+    "credit": "Cartography: Natural Earth"
+  },
+  "firstlaw": {
+    "theme": "GEOSPATIAL DATA SCIENCE",
+    "accent": "#8b7cff",
+    "hook": "One sentence from 1970 still underlies almost every map analysis done today.",
+    "hookMap": {
+      "projection": "equalEarth",
+      "accent": "#8b7cff"
+    },
+    "scenes": [
+      {
+        "caption": "Geographer Waldo Tobler wrote it almost as a joke: everything is related to everything else, but near things are more related than distant things.",
+        "map": {
+          "projection": "equalEarth",
+          "accent": "#8b7cff"
+        }
+      },
+      {
+        "caption": "It became known as the First Law of Geography, and it is why nearby places tend to share weather, prices and disease risk.",
+        "map": {
+          "projection": "mercator",
+          "accent": "#8b7cff"
+        }
+      },
+      {
+        "caption": "Every tool that weighs nearby data more heavily than distant data, from spatial statistics to machine learning, leans on that one idea.",
+        "map": {
+          "projection": "ortho",
+          "accent": "#8b7cff",
+          "rotate": [
+            -10,
+            -6
+          ]
+        }
+      }
+    ],
+    "outro": "Follow for the science behind the map.",
+    "endMap": {
+      "projection": "ortho",
+      "accent": "#8b7cff",
+      "rotate": [
+        -10,
+        -6
+      ]
+    },
+    "credit": "Cartography: Natural Earth"
   }
 }
