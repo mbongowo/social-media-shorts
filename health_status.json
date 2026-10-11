@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-10-10T12:16:24.000826+00:00",
+  "generated_utc": "2026-10-11T12:19:50.695269+00:00",
   "tasks": {
     "GeoShortProducer": {
       "state": "Enabled",
@@ -18,20 +18,27 @@
     }
   },
   "youtube": {
-    "total": 165,
+    "total": 171,
     "uploaded": 165,
-    "remaining": 0,
-    "next": null
+    "remaining": 6,
+    "next": "2027-08-08T18:00:00Z"
   },
   "library_videos": 101,
-  "geo_specs": 101,
+  "geo_specs": 107,
   "renders": {
-    "fails": [],
-    "last_run_summary": "[07:15:09] === produce finished: 101 done, 0 failed [] ==="
+    "fails": [
+      "[07:16:04] FAIL declination: Command '['npx.cmd', 'remotion', 'render', 'GeoShort', 'out/geo_declination.mp4', '--props=C:\\\\Users\\\\mbongowo.mbuh\\\\Dropbox\\\\Claude\\\\Video project\\\\remotion-app\\\\out/props_declination.json', '--codec=h264', '--crf=20', '--log=error']' returned non-zero exit status 1.",
+      "[07:16:38] FAIL bathymetry: Command '['npx.cmd', 'remotion', 'render', 'GeoShort', 'out/geo_bathymetry.mp4', '--props=C:\\\\Users\\\\mbongowo.mbuh\\\\Dropbox\\\\Claude\\\\Video project\\\\remotion-app\\\\out/props_bathymetry.json', '--codec=h264', '--crf=20', '--log=error']' returned non-zero exit status 1.",
+      "[07:17:12] FAIL tropomi: Command '['npx.cmd', 'remotion', 'render', 'GeoShort', 'out/geo_tropomi.mp4', '--props=C:\\\\Users\\\\mbongowo.mbuh\\\\Dropbox\\\\Claude\\\\Video project\\\\remotion-app\\\\out/props_tropomi.json', '--codec=h264', '--crf=20', '--log=error']' returned non-zero exit status 1.",
+      "[07:17:40] FAIL glaciallakes: Command '['npx.cmd', 'remotion', 'render', 'GeoShort', 'out/geo_glaciallakes.mp4', '--props=C:\\\\Users\\\\mbongowo.mbuh\\\\Dropbox\\\\Claude\\\\Video project\\\\remotion-app\\\\out/props_glaciallakes.json', '--codec=h264', '--crf=20', '--log=error']' returned non-zero exit status 1.",
+      "[07:18:02] FAIL kdtree: Command '['npx.cmd', 'remotion', 'render', 'GeoShort', 'out/geo_kdtree.mp4', '--props=C:\\\\Users\\\\mbongowo.mbuh\\\\Dropbox\\\\Claude\\\\Video project\\\\remotion-app\\\\out/props_kdtree.json', '--codec=h264', '--crf=20', '--log=error']' returned non-zero exit status 1.",
+      "[07:18:27] FAIL firstlaw: Command '['npx.cmd', 'remotion', 'render', 'GeoShort', 'out/geo_firstlaw.mp4', '--props=C:\\\\Users\\\\mbongowo.mbuh\\\\Dropbox\\\\Claude\\\\Video project\\\\remotion-app\\\\out/props_firstlaw.json', '--codec=h264', '--crf=20', '--log=error']' returned non-zero exit status 1."
+    ],
+    "last_run_summary": "[07:18:27] === produce finished: 101 done, 6 failed ['declination', 'bathymetry', 'tropomi', 'glaciallakes', 'kdtree', 'firstlaw'] ==="
   },
   "bluesky": {
-    "total": 364,
+    "total": 366,
     "posted": 215,
-    "pending": 149
+    "pending": 151
   }
 }
