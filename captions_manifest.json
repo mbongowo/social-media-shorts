@@ -851,5 +851,23 @@
     "cover": "https://raw.githubusercontent.com/mbongowo/social-media-shorts/main/covers/PreHarvestAI_cover.jpg",
     "source_doi": "10.1609/aaai.v31i1.11172",
     "source_url": "https://ojs.aaai.org/index.php/AAAI/article/view/11172"
+  },
+  {
+    "id": "greenwich-shift",
+    "theme": "Maps & Cartography",
+    "title": "Stand on Greenwich's meridian? GPS says you're 102m off #shorts",
+    "description": "A 2015 Journal of Geodesy study found GPS zero longitude sits 102 meters east of the brass meridian strip at Greenwich, because old astronomical surveying measured from local gravity, not Earth center of mass. #Cartography #GPS #Geodesy #Shorts",
+    "tags": [
+      "cartography",
+      "gps",
+      "geodesy",
+      "maps",
+      "greenwich meridian",
+      "shorts"
+    ],
+    "file": "https://raw.githubusercontent.com/mbongowo/social-media-shorts/main/GreenwichShift.mp4",
+    "cover": "https://raw.githubusercontent.com/mbongowo/social-media-shorts/main/covers/GreenwichShift_cover.jpg",
+    "source_doi": "10.1007/s00190-015-0844-y",
+    "source_url": "https://www.gpsworld.com/prime-meridian-on-the-move/"
   }
 ]
