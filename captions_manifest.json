@@ -869,5 +869,23 @@
     "cover": "https://raw.githubusercontent.com/mbongowo/social-media-shorts/main/covers/GreenwichShift_cover.jpg",
     "source_doi": "10.1007/s00190-015-0844-y",
     "source_url": "https://www.gpsworld.com/prime-meridian-on-the-move/"
+  },
+  {
+    "id": "gravity-water",
+    "theme": "Remote Sensing explained",
+    "title": "Satellites can weigh groundwater from space #shorts",
+    "description": "NASA GRACE satellites tracked gravity changes and found northern India losing 17.7 cubic km of groundwater a year. #GeoAI #RemoteSensing #ClimateScience #Shorts",
+    "tags": [
+      "remote sensing",
+      "GRACE satellites",
+      "groundwater",
+      "geospatial science",
+      "NASA",
+      "climate data"
+    ],
+    "file": "https://raw.githubusercontent.com/mbongowo/social-media-shorts/main/GravityWater.mp4",
+    "cover": "https://raw.githubusercontent.com/mbongowo/social-media-shorts/main/covers/GravityWater_cover.jpg",
+    "source_doi": "10.1038/nature08238",
+    "source_url": "https://grace.jpl.nasa.gov/applications/groundwater"
   }
 ]
