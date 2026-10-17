@@ -357,7 +357,10 @@
       "navigation",
       "shorts"
     ],
-    "file": "https://raw.githubusercontent.com/mbongowo/social-media-shorts/main/GPSSnap.mp4"
+    "file": "https://raw.githubusercontent.com/mbongowo/social-media-shorts/main/GPSSnap.mp4",
+    "cover": "https://raw.githubusercontent.com/mbongowo/social-media-shorts/main/covers/GPSSnap_cover.jpg",
+    "source_doi": "10.1145/1653771.1653818",
+    "source_url": "https://www.microsoft.com/en-us/research/publication/hidden-markov-map-matching-noise-sparseness/"
   },
   {
     "id": "tissot-circles",
