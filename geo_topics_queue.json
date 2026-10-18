@@ -4826,5 +4826,315 @@
       ]
     },
     "credit": "Cartography: Natural Earth"
+  },
+  "russiaclocks": {
+    "theme": "MAPS & CARTOGRAPHY",
+    "accent": "#F6B93B",
+    "hook": "One country spans eleven time zones, more than any other on Earth.",
+    "hookMap": {
+      "projection": "ortho",
+      "accent": "#F6B93B",
+      "highlight": [
+        "Russia"
+      ],
+      "rotate": [
+        -100,
+        -60
+      ]
+    },
+    "scenes": [
+      {
+        "caption": "From Kaliningrad in the west to Kamchatka in the east, the country crosses eleven clocks.",
+        "map": {
+          "projection": "equalEarth",
+          "accent": "#F6B93B",
+          "highlight": [
+            "Russia"
+          ]
+        }
+      },
+      {
+        "caption": "When it is breakfast in Moscow, it is already dinner on the Pacific coast.",
+        "map": {
+          "projection": "ortho",
+          "accent": "#F6B93B",
+          "highlight": [
+            "Russia"
+          ],
+          "rotate": [
+            -132,
+            -43
+          ]
+        }
+      },
+      {
+        "caption": "No other country on Earth keeps that many official time zones at once.",
+        "map": {
+          "projection": "ortho",
+          "accent": "#F6B93B",
+          "highlight": [
+            "Russia"
+          ],
+          "rotate": [
+            -20,
+            -54
+          ]
+        }
+      }
+    ],
+    "outro": "Follow for the science behind the map.",
+    "endMap": {
+      "projection": "equalEarth",
+      "accent": "#F6B93B",
+      "highlight": [
+        "Russia"
+      ]
+    },
+    "credit": "Cartography: Natural Earth"
+  },
+  "threecapitals": {
+    "theme": "MAPS & CARTOGRAPHY",
+    "accent": "#F6B93B",
+    "hook": "One country runs its government out of three different capital cities.",
+    "hookMap": {
+      "projection": "equalEarth",
+      "accent": "#F6B93B",
+      "highlight": [
+        "South Africa"
+      ],
+      "fit": "South Africa"
+    },
+    "scenes": [
+      {
+        "caption": "Pretoria is the executive capital, home to the president's office.",
+        "map": {
+          "projection": "ortho",
+          "accent": "#F6B93B",
+          "highlight": [
+            "South Africa"
+          ],
+          "rotate": [
+            -24,
+            29
+          ]
+        }
+      },
+      {
+        "caption": "Cape Town is the legislative capital, where parliament meets.",
+        "map": {
+          "projection": "equalEarth",
+          "accent": "#F6B93B",
+          "highlight": [
+            "South Africa"
+          ],
+          "fit": "South Africa"
+        }
+      },
+      {
+        "caption": "Bloemfontein is the judicial capital, seat of the supreme court of appeal.",
+        "map": {
+          "projection": "ortho",
+          "accent": "#F6B93B",
+          "highlight": [
+            "South Africa"
+          ],
+          "rotate": [
+            -24,
+            29
+          ]
+        }
+      }
+    ],
+    "outro": "Follow for the science behind the map.",
+    "endMap": {
+      "projection": "equalEarth",
+      "accent": "#F6B93B",
+      "highlight": [
+        "South Africa"
+      ],
+      "fit": "South Africa"
+    },
+    "credit": "Cartography: Natural Earth"
+  },
+  "ozonehole": {
+    "theme": "SATELLITES & REMOTE SENSING",
+    "accent": "#4aa8ff",
+    "hook": "Satellites have watched a hole in our atmosphere slowly heal for over twenty years.",
+    "hookImg": {
+      "nasa": "blue marble earth"
+    },
+    "scenes": [
+      {
+        "caption": "Each spring, instruments in orbit measure the thin ozone layer above Antarctica.",
+        "image": {
+          "nasa": "blue marble earth"
+        }
+      },
+      {
+        "caption": "The hole, opened by factory chemicals banned under a 1987 treaty, is now shrinking year after year.",
+        "image": {
+          "nasa": "blue marble earth"
+        }
+      },
+      {
+        "caption": "Decades of unbroken satellite data are the proof that healing the atmosphere can work.",
+        "image": {
+          "nasa": "blue marble earth"
+        }
+      }
+    ],
+    "outro": "Follow for the science behind the map.",
+    "endImg": {
+      "nasa": "blue marble earth"
+    },
+    "credit": "Imagery: NASA"
+  },
+  "cryosat": {
+    "theme": "SATELLITES & REMOTE SENSING",
+    "accent": "#4aa8ff",
+    "hook": "A satellite measures how thick Arctic sea ice is without ever touching it, even in total winter darkness.",
+    "hookMap": {
+      "projection": "ortho",
+      "accent": "#4aa8ff",
+      "rotate": [
+        0,
+        -90
+      ]
+    },
+    "scenes": [
+      {
+        "caption": "Radar pulses bounce off the ice and back to the satellite in milliseconds.",
+        "map": {
+          "projection": "ortho",
+          "accent": "#4aa8ff",
+          "rotate": [
+            0,
+            -90
+          ]
+        }
+      },
+      {
+        "caption": "The height of the ice poking above the water reveals its thickness below.",
+        "map": {
+          "projection": "ortho",
+          "accent": "#4aa8ff",
+          "rotate": [
+            0,
+            -90
+          ]
+        }
+      },
+      {
+        "caption": "Because radar needs no sunlight, it keeps measuring straight through the polar night.",
+        "map": {
+          "projection": "equalEarth",
+          "accent": "#4aa8ff"
+        }
+      }
+    ],
+    "outro": "Follow for the science behind the map.",
+    "endMap": {
+      "projection": "ortho",
+      "accent": "#4aa8ff",
+      "rotate": [
+        0,
+        -90
+      ]
+    },
+    "credit": "Cartography: Natural Earth"
+  },
+  "croptypeai": {
+    "theme": "GEOAI",
+    "accent": "#39d98a",
+    "hook": "One AI model can tell corn from soybeans in a satellite photo of a field it has never seen.",
+    "hookImg": {
+      "wv": {
+        "bbox": "25,28.5,33,33.0",
+        "date": "2024-08-01"
+      }
+    },
+    "scenes": [
+      {
+        "caption": "Different crops reflect light differently as they grow through the season.",
+        "image": {
+          "wv": {
+            "bbox": "18,28.5,34,37.5",
+            "date": "2024-07-01"
+          }
+        }
+      },
+      {
+        "caption": "A model learns each crop's pattern across the whole season, not just one snapshot.",
+        "image": {
+          "wv": {
+            "bbox": "8,2.1,36,17.9",
+            "date": "2024-06-15"
+          }
+        }
+      },
+      {
+        "caption": "That turns a single satellite pass into a map of exactly what is growing, field by field.",
+        "image": {
+          "wv": {
+            "bbox": "25,28.5,33,33.0",
+            "date": "2024-08-01"
+          }
+        }
+      }
+    ],
+    "outro": "Follow for the science behind the map.",
+    "endImg": {
+      "wv": {
+        "bbox": "25,28.5,33,33.0",
+        "date": "2024-08-01"
+      }
+    },
+    "credit": "Imagery: NASA Worldview"
+  },
+  "snaptolerance": {
+    "theme": "GEOSPATIAL DATA SCIENCE",
+    "accent": "#8b7cff",
+    "hook": "One invisible number decides whether two roads on your map actually connect.",
+    "hookMap": {
+      "projection": "mercator",
+      "accent": "#8b7cff"
+    },
+    "scenes": [
+      {
+        "caption": "Every digitized road is just a string of coordinate points, never perfectly aligned.",
+        "map": {
+          "projection": "mercator",
+          "accent": "#8b7cff"
+        }
+      },
+      {
+        "caption": "A snapping tolerance merges points that fall within a set distance of each other.",
+        "map": {
+          "projection": "equalEarth",
+          "accent": "#8b7cff"
+        }
+      },
+      {
+        "caption": "Set it too loose and distinct roads fuse. Set it too tight and connected roads quietly split apart.",
+        "map": {
+          "projection": "ortho",
+          "accent": "#8b7cff",
+          "rotate": [
+            -10,
+            -6
+          ]
+        }
+      }
+    ],
+    "outro": "Follow for the science behind the map.",
+    "endMap": {
+      "projection": "ortho",
+      "accent": "#8b7cff",
+      "rotate": [
+        -10,
+        -6
+      ]
+    },
+    "credit": "Cartography: Natural Earth"
   }
 }
