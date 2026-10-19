@@ -890,5 +890,23 @@
     "cover": "https://raw.githubusercontent.com/mbongowo/social-media-shorts/main/covers/GravityWater_cover.jpg",
     "source_doi": "10.1038/nature08238",
     "source_url": "https://grace.jpl.nasa.gov/applications/groundwater"
+  },
+  {
+    "id": "clark-evans-index",
+    "theme": "Geospatial Data Science",
+    "title": "This 1954 formula proves if map points are really clustered #shorts",
+    "description": "The Clark-Evans R ratio compares real point spacing to pure random chance, with a provable 2.1491 ceiling for perfectly even spacing. #GIS #SpatialStatistics #DataScience #Shorts",
+    "tags": [
+      "geospatial data science",
+      "spatial statistics",
+      "point pattern analysis",
+      "GIS",
+      "nearest neighbor analysis",
+      "cartography"
+    ],
+    "file": "https://raw.githubusercontent.com/mbongowo/social-media-shorts/main/ClarkEvansIndex.mp4",
+    "cover": "https://raw.githubusercontent.com/mbongowo/social-media-shorts/main/covers/ClarkEvansIndex_cover.jpg",
+    "source_doi": "10.2307/1931034",
+    "source_url": "https://doi.org/10.2307/1931034"
   }
 ]
