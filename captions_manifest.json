@@ -327,7 +327,10 @@
       "satellite imagery",
       "shorts"
     ],
-    "file": "https://raw.githubusercontent.com/mbongowo/social-media-shorts/main/ShortcutLearning.mp4"
+    "file": "https://raw.githubusercontent.com/mbongowo/social-media-shorts/main/ShortcutLearning.mp4",
+    "cover": "https://raw.githubusercontent.com/mbongowo/social-media-shorts/main/covers/ShortcutLearning_cover.jpg",
+    "source_doi": "10.1038/s42256-020-00257-z",
+    "source_url": "https://doi.org/10.1038/s42256-020-00257-z"
   },
   {
     "id": "hex-grid-edge",
