@@ -911,5 +911,23 @@
     "cover": "https://raw.githubusercontent.com/mbongowo/social-media-shorts/main/covers/ClarkEvansIndex_cover.jpg",
     "source_doi": "10.2307/1931034",
     "source_url": "https://doi.org/10.2307/1931034"
+  },
+  {
+    "id": "deep-solar-scan",
+    "theme": "GeoAI",
+    "title": "AI found every solar panel in America from space #shorts",
+    "description": "A Stanford deep learning model scanned over a billion satellite tiles and identified 1.47 million solar installations across the contiguous US, the first complete public database of its kind. #GeoAI #MachineLearning #RemoteSensing #Shorts",
+    "tags": [
+      "GeoAI",
+      "DeepSolar",
+      "machine learning",
+      "satellite imagery",
+      "solar energy",
+      "shorts"
+    ],
+    "file": "https://raw.githubusercontent.com/mbongowo/social-media-shorts/main/DeepSolarScan.mp4",
+    "cover": "https://raw.githubusercontent.com/mbongowo/social-media-shorts/main/covers/DeepSolarScan_cover.jpg",
+    "source_doi": "10.1016/j.joule.2018.11.021",
+    "source_url": "https://www.sciencedirect.com/science/article/pii/S2542435118305701"
   }
 ]
