@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-10-13T12:19:58.753654+00:00",
+  "generated_utc": "2026-10-21T12:23:52.174127+00:00",
   "tasks": {
     "GeoShortProducer": {
       "state": "Enabled",
@@ -18,26 +18,27 @@
     }
   },
   "youtube": {
-    "total": 172,
-    "uploaded": 165,
-    "remaining": 7,
-    "next": "2027-08-08T18:00:00Z"
+    "total": 182,
+    "uploaded": 167,
+    "remaining": 15,
+    "next": "2027-08-11T18:00:00Z"
   },
-  "library_videos": 102,
-  "geo_specs": 107,
+  "library_videos": 107,
+  "geo_specs": 113,
   "renders": {
     "fails": [
-      "[07:17:39] FAIL bathymetry: Command '['npx.cmd', 'remotion', 'render', 'GeoShort', 'out/geo_bathymetry.mp4', '--props=C:\\\\Users\\\\mbongowo.mbuh\\\\Dropbox\\\\Claude\\\\Video project\\\\remotion-app\\\\out/props_bathymetry.json', '--codec=h264', '--crf=20', '--log=error']' returned non-zero exit status 1.",
-      "[07:17:54] FAIL tropomi: Command '['npx.cmd', 'remotion', 'render', 'GeoShort', 'out/geo_tropomi.mp4', '--props=C:\\\\Users\\\\mbongowo.mbuh\\\\Dropbox\\\\Claude\\\\Video project\\\\remotion-app\\\\out/props_tropomi.json', '--codec=h264', '--crf=20', '--log=error']' returned non-zero exit status 1.",
-      "[07:18:04] FAIL glaciallakes: Command '['npx.cmd', 'remotion', 'render', 'GeoShort', 'out/geo_glaciallakes.mp4', '--props=C:\\\\Users\\\\mbongowo.mbuh\\\\Dropbox\\\\Claude\\\\Video project\\\\remotion-app\\\\out/props_glaciallakes.json', '--codec=h264', '--crf=20', '--log=error']' returned non-zero exit status 1.",
-      "[07:18:15] FAIL kdtree: Command '['npx.cmd', 'remotion', 'render', 'GeoShort', 'out/geo_kdtree.mp4', '--props=C:\\\\Users\\\\mbongowo.mbuh\\\\Dropbox\\\\Claude\\\\Video project\\\\remotion-app\\\\out/props_kdtree.json', '--codec=h264', '--crf=20', '--log=error']' returned non-zero exit status 1.",
-      "[07:18:26] FAIL firstlaw: Command '['npx.cmd', 'remotion', 'render', 'GeoShort', 'out/geo_firstlaw.mp4', '--props=C:\\\\Users\\\\mbongowo.mbuh\\\\Dropbox\\\\Claude\\\\Video project\\\\remotion-app\\\\out/props_firstlaw.json', '--codec=h264', '--crf=20', '--log=error']' returned non-zero exit status 1."
+      "[07:21:41] FAIL russiaclocks: Command '['C:\\\\Python314\\\\python.exe', 'C:\\\\Users\\\\mbongowo.mbuh\\\\Dropbox\\\\Claude\\\\Video project\\\\remotion-app\\\\scripts\\\\build_geoshort.py', '--spec', 'C:\\\\Users\\\\mbongowo.mbuh\\\\Dropbox\\\\Claude\\\\Video project\\\\remotion-app\\\\scripts\\\\geo_specs.json', '--id', 'russiaclocks']' returned non-zero exit status 1.",
+      "[07:21:45] FAIL threecapitals: Command '['C:\\\\Python314\\\\python.exe', 'C:\\\\Users\\\\mbongowo.mbuh\\\\Dropbox\\\\Claude\\\\Video project\\\\remotion-app\\\\scripts\\\\build_geoshort.py', '--spec', 'C:\\\\Users\\\\mbongowo.mbuh\\\\Dropbox\\\\Claude\\\\Video project\\\\remotion-app\\\\scripts\\\\geo_specs.json', '--id', 'threecapitals']' returned non-zero exit status 1.",
+      "[07:21:48] FAIL ozonehole: Command '['C:\\\\Python314\\\\python.exe', 'C:\\\\Users\\\\mbongowo.mbuh\\\\Dropbox\\\\Claude\\\\Video project\\\\remotion-app\\\\scripts\\\\build_geoshort.py', '--spec', 'C:\\\\Users\\\\mbongowo.mbuh\\\\Dropbox\\\\Claude\\\\Video project\\\\remotion-app\\\\scripts\\\\geo_specs.json', '--id', 'ozonehole']' returned non-zero exit status 1.",
+      "[07:21:52] FAIL cryosat: Command '['C:\\\\Python314\\\\python.exe', 'C:\\\\Users\\\\mbongowo.mbuh\\\\Dropbox\\\\Claude\\\\Video project\\\\remotion-app\\\\scripts\\\\build_geoshort.py', '--spec', 'C:\\\\Users\\\\mbongowo.mbuh\\\\Dropbox\\\\Claude\\\\Video project\\\\remotion-app\\\\scripts\\\\geo_specs.json', '--id', 'cryosat']' returned non-zero exit status 1.",
+      "[07:21:55] FAIL croptypeai: Command '['C:\\\\Python314\\\\python.exe', 'C:\\\\Users\\\\mbongowo.mbuh\\\\Dropbox\\\\Claude\\\\Video project\\\\remotion-app\\\\scripts\\\\build_geoshort.py', '--spec', 'C:\\\\Users\\\\mbongowo.mbuh\\\\Dropbox\\\\Claude\\\\Video project\\\\remotion-app\\\\scripts\\\\geo_specs.json', '--id', 'croptypeai']' returned non-zero exit status 1.",
+      "[07:21:59] FAIL snaptolerance: Command '['C:\\\\Python314\\\\python.exe', 'C:\\\\Users\\\\mbongowo.mbuh\\\\Dropbox\\\\Claude\\\\Video project\\\\remotion-app\\\\scripts\\\\build_geoshort.py', '--spec', 'C:\\\\Users\\\\mbongowo.mbuh\\\\Dropbox\\\\Claude\\\\Video project\\\\remotion-app\\\\scripts\\\\geo_specs.json', '--id', 'snaptolerance']' returned non-zero exit status 1."
     ],
-    "last_run_summary": "[07:18:26] === produce finished: 102 done, 5 failed ['bathymetry', 'tropomi', 'glaciallakes', 'kdtree', 'firstlaw'] ==="
+    "last_run_summary": "[07:21:59] === produce finished: 107 done, 6 failed ['russiaclocks', 'threecapitals', 'ozonehole', 'cryosat', 'croptypeai', 'snaptolerance'] ==="
   },
   "bluesky": {
-    "total": 370,
-    "posted": 227,
-    "pending": 143
+    "total": 385,
+    "posted": 250,
+    "pending": 135
   }
 }
