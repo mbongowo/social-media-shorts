@@ -929,5 +929,23 @@
     "cover": "https://raw.githubusercontent.com/mbongowo/social-media-shorts/main/covers/DeepSolarScan_cover.jpg",
     "source_doi": "10.1016/j.joule.2018.11.021",
     "source_url": "https://www.sciencedirect.com/science/article/pii/S2542435118305701"
+  },
+  {
+    "id": "degree-vanishes",
+    "theme": "Maps & Cartography",
+    "title": "A degree on the map is not one fixed distance #shorts",
+    "description": "A degree of longitude spans 111.32 km at the equator but shrinks to under 2 km near 89N, while a degree of latitude barely changes, because Earth is an ellipsoid not a grid. #Cartography #Geodesy #Maps #Shorts",
+    "tags": [
+      "cartography",
+      "geodesy",
+      "WGS84",
+      "map projections",
+      "geography",
+      "shorts"
+    ],
+    "file": "https://raw.githubusercontent.com/mbongowo/social-media-shorts/main/DegreeVanishes.mp4",
+    "cover": "https://raw.githubusercontent.com/mbongowo/social-media-shorts/main/covers/DegreeVanishes_cover.jpg",
+    "source_doi": "10.3133/pp1395",
+    "source_url": "https://pubs.usgs.gov/publication/pp1395"
   }
 ]
