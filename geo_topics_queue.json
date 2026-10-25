@@ -5136,5 +5136,331 @@
       ]
     },
     "credit": "Cartography: Natural Earth"
+  },
+  "tordesillas": {
+    "theme": "MAPS & CARTOGRAPHY",
+    "accent": "#F6B93B",
+    "hook": "One straight line drawn in 1494 decided which language half of South America would speak.",
+    "hookMap": {
+      "projection": "ortho",
+      "accent": "#F6B93B",
+      "highlight": [
+        "Brazil"
+      ],
+      "rotate": [
+        51,
+        10
+      ]
+    },
+    "scenes": [
+      {
+        "caption": "Spain and Portugal signed the Treaty of Tordesillas, splitting the unclaimed world along a line 370 leagues west of Cape Verde.",
+        "map": {
+          "projection": "equalEarth",
+          "accent": "#F6B93B",
+          "highlight": [
+            "Brazil"
+          ],
+          "highlight2": [
+            "Argentina",
+            "Peru",
+            "Colombia",
+            "Venezuela",
+            "Chile",
+            "Bolivia",
+            "Ecuador",
+            "Paraguay",
+            "Uruguay"
+          ],
+          "accent2": "#4aa8ff"
+        }
+      },
+      {
+        "caption": "Everything east of that line went to Portugal, including the Brazilian coast reached by Pedro Alvares Cabral in 1500.",
+        "map": {
+          "projection": "mercator",
+          "accent": "#F6B93B",
+          "highlight": [
+            "Brazil"
+          ],
+          "highlight2": [
+            "Argentina",
+            "Peru",
+            "Colombia",
+            "Venezuela",
+            "Chile",
+            "Bolivia",
+            "Ecuador",
+            "Paraguay",
+            "Uruguay"
+          ],
+          "accent2": "#4aa8ff"
+        }
+      },
+      {
+        "caption": "That is why Brazil speaks Portuguese today, while nearly every neighboring country speaks Spanish.",
+        "map": {
+          "projection": "ortho",
+          "accent": "#F6B93B",
+          "highlight": [
+            "Brazil"
+          ],
+          "rotate": [
+            51,
+            10
+          ]
+        }
+      }
+    ],
+    "outro": "Follow for the science behind the map.",
+    "endMap": {
+      "projection": "equalEarth",
+      "accent": "#F6B93B",
+      "highlight": [
+        "Brazil"
+      ],
+      "highlight2": [
+        "Argentina",
+        "Peru",
+        "Colombia",
+        "Venezuela",
+        "Chile",
+        "Bolivia",
+        "Ecuador",
+        "Paraguay",
+        "Uruguay"
+      ],
+      "accent2": "#4aa8ff"
+    },
+    "credit": "Cartography: Natural Earth"
+  },
+  "alaskaextremes": {
+    "theme": "MAPS & CARTOGRAPHY",
+    "accent": "#F6B93B",
+    "hook": "One U.S. state has land in both the Western and Eastern Hemispheres.",
+    "hookMap": {
+      "projection": "ortho",
+      "accent": "#F6B93B",
+      "highlight": [
+        "United States of America"
+      ],
+      "rotate": [
+        -180,
+        -52
+      ]
+    },
+    "scenes": [
+      {
+        "caption": "Alaska's Aleutian Islands stretch so far west they cross the 180th meridian, the line where east becomes west.",
+        "map": {
+          "projection": "ortho",
+          "accent": "#F6B93B",
+          "highlight": [
+            "United States of America"
+          ],
+          "rotate": [
+            -180,
+            -52
+          ]
+        }
+      },
+      {
+        "caption": "That crossing gives Alaska the United States' easternmost point by longitude, not Maine.",
+        "map": {
+          "projection": "ortho",
+          "accent": "#F6B93B",
+          "highlight": [
+            "United States of America"
+          ],
+          "rotate": [
+            175,
+            -52
+          ]
+        }
+      },
+      {
+        "caption": "The westernmost U.S. point sits in the very same island chain, just over seventy miles away.",
+        "map": {
+          "projection": "equalEarth",
+          "accent": "#F6B93B",
+          "highlight": [
+            "United States of America"
+          ]
+        }
+      }
+    ],
+    "outro": "Follow for the science behind the map.",
+    "endMap": {
+      "projection": "equalEarth",
+      "accent": "#F6B93B",
+      "highlight": [
+        "United States of America"
+      ]
+    },
+    "credit": "Cartography: Natural Earth"
+  },
+  "gasflaring": {
+    "theme": "SATELLITES & REMOTE SENSING",
+    "accent": "#4aa8ff",
+    "hook": "Some of the brightest lights visible from space are not cities. They are burning gas.",
+    "hookImg": {
+      "nasa": "earth at night black marble"
+    },
+    "scenes": [
+      {
+        "caption": "Oil fields burn off extra natural gas in open flares, and a NASA sensor called VIIRS catches that heat every single night.",
+        "image": {
+          "nasa": "city lights from space station"
+        }
+      },
+      {
+        "caption": "The VIIRS Nightfire method picks out each flare's temperature and size from orbit, even though a flare is far smaller than one pixel.",
+        "image": {
+          "wv": {
+            "bbox": "8,2.1,36,17.9",
+            "date": "2024-06-15"
+          }
+        }
+      },
+      {
+        "caption": "That nightly catalog now tracks how many billions of cubic meters of gas the world burns off instead of using.",
+        "image": {
+          "nasa": "earth at night black marble"
+        }
+      }
+    ],
+    "outro": "Follow for the science behind the map.",
+    "endImg": {
+      "nasa": "earth at night black marble"
+    },
+    "credit": "Imagery: NASA"
+  },
+  "magneticweakspot": {
+    "theme": "SATELLITES & REMOTE SENSING",
+    "accent": "#4aa8ff",
+    "hook": "A weak patch in Earth's magnetic shield has been growing for over a decade, and satellites are watching it happen.",
+    "hookImg": {
+      "nasa": "blue marble earth"
+    },
+    "scenes": [
+      {
+        "caption": "Three identical satellites named Swarm have mapped Earth's magnetic field continuously since they launched in 2013.",
+        "image": {
+          "nasa": "blue marble earth"
+        }
+      },
+      {
+        "caption": "Since 2014 they have recorded that weak patch, called the South Atlantic Anomaly, growing by an area roughly half the size of continental Europe.",
+        "image": {
+          "nasa": "earth at night black marble"
+        }
+      },
+      {
+        "caption": "Spacecraft like the Hubble Space Telescope pause their most sensitive observations every time they pass through that zone.",
+        "image": {
+          "nasa": "blue marble earth"
+        }
+      }
+    ],
+    "outro": "Follow for the science behind the map.",
+    "endImg": {
+      "nasa": "blue marble earth"
+    },
+    "credit": "Imagery: NASA"
+  },
+  "yieldai": {
+    "theme": "GEOAI",
+    "accent": "#39d98a",
+    "hook": "An algorithm can predict how big a soybean harvest will be before a single combine enters the field.",
+    "hookImg": {
+      "wv": {
+        "bbox": "18,28.5,34,37.5",
+        "date": "2024-07-01"
+      }
+    },
+    "scenes": [
+      {
+        "caption": "In 2017, Stanford researchers trained a deep learning model on years of satellite images and weather records from U.S. soybean counties.",
+        "image": {
+          "wv": {
+            "bbox": "8,2.1,36,17.9",
+            "date": "2024-06-15"
+          }
+        }
+      },
+      {
+        "caption": "The model read each field's growing season from orbit and learned which patterns in the images led to a bigger harvest.",
+        "image": {
+          "wv": {
+            "bbox": "25,28.5,33,33.0",
+            "date": "2024-08-01"
+          }
+        }
+      },
+      {
+        "caption": "That early estimate now helps traders, insurers and governments plan months ahead of the actual harvest.",
+        "image": {
+          "nasa": "blue marble earth"
+        }
+      }
+    ],
+    "outro": "Follow for the science behind the map.",
+    "endImg": {
+      "wv": {
+        "bbox": "18,28.5,34,37.5",
+        "date": "2024-07-01"
+      }
+    },
+    "credit": "Imagery: NASA Worldview"
+  },
+  "kriginggeo": {
+    "theme": "GEOSPATIAL DATA SCIENCE",
+    "accent": "#8b7cff",
+    "hook": "One mining engineer's idea lets scientists estimate a value anywhere on a map from only a handful of measurements.",
+    "hookMap": {
+      "projection": "ortho",
+      "accent": "#8b7cff",
+      "rotate": [
+        -10,
+        -6
+      ]
+    },
+    "scenes": [
+      {
+        "caption": "In the 1950s, South African mining engineer Danie Krige found a better way to estimate gold ore grades between scattered drill samples.",
+        "map": {
+          "projection": "mercator",
+          "accent": "#8b7cff"
+        }
+      },
+      {
+        "caption": "French mathematician Georges Matheron formalized the method in 1963, naming it kriging after Krige's original insight.",
+        "map": {
+          "projection": "equalEarth",
+          "accent": "#8b7cff"
+        }
+      },
+      {
+        "caption": "Today the same math estimates rainfall, pollution and soil properties at every point on a map, not just where it was measured.",
+        "map": {
+          "projection": "ortho",
+          "accent": "#8b7cff",
+          "rotate": [
+            -10,
+            -6
+          ]
+        }
+      }
+    ],
+    "outro": "Follow for the science behind the map.",
+    "endMap": {
+      "projection": "ortho",
+      "accent": "#8b7cff",
+      "rotate": [
+        -10,
+        -6
+      ]
+    },
+    "credit": "Cartography: Natural Earth"
   }
 }
