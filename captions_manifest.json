@@ -947,5 +947,23 @@
     "cover": "https://raw.githubusercontent.com/mbongowo/social-media-shorts/main/covers/DegreeVanishes_cover.jpg",
     "source_doi": "10.3133/pp1395",
     "source_url": "https://pubs.usgs.gov/publication/pp1395"
+  },
+  {
+    "id": "sea-level-speeds-up",
+    "theme": "Remote Sensing explained",
+    "title": "Satellite radar caught sea level rise speeding up #shorts",
+    "description": "25 years of TOPEX and Jason satellite altimetry show global sea level rise accelerating by about 0.084 mm per year, every year, a trend that could mean 65 cm of rise by 2100 instead of a steady-rate forecast. #RemoteSensing #ClimateScience #Satellites #Shorts",
+    "tags": [
+      "remote sensing",
+      "satellite altimetry",
+      "sea level rise",
+      "climate science",
+      "NASA",
+      "shorts"
+    ],
+    "file": "https://raw.githubusercontent.com/mbongowo/social-media-shorts/main/SeaLevelSpeedsUp.mp4",
+    "cover": "https://raw.githubusercontent.com/mbongowo/social-media-shorts/main/covers/SeaLevelSpeedsUp_cover.jpg",
+    "source_doi": "10.1073/pnas.1717312115",
+    "source_url": "https://www.pnas.org/doi/10.1073/pnas.1717312115"
   }
 ]
