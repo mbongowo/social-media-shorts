@@ -965,5 +965,23 @@
     "cover": "https://raw.githubusercontent.com/mbongowo/social-media-shorts/main/covers/SeaLevelSpeedsUp_cover.jpg",
     "source_doi": "10.1073/pnas.1717312115",
     "source_url": "https://www.pnas.org/doi/10.1073/pnas.1717312115"
+  },
+  {
+    "id": "geodesic-millimeter",
+    "theme": "Geospatial Data Science",
+    "title": "This 1975 formula still calculates your GPS distance to the millimeter #shorts",
+    "description": "Vincenty's 1975 geodesic formula was independently checked in 2005 across 3,801 test lines up to 18,000 km and matched to within 0.115 mm. It's still the distance math under modern GIS. #GIS #Geodesy #DataScience #Shorts",
+    "tags": [
+      "geodesy",
+      "gps",
+      "gis",
+      "mapping",
+      "geospatial data science",
+      "vincenty"
+    ],
+    "file": "https://raw.githubusercontent.com/mbongowo/social-media-shorts/main/GeodesicMillimeter.mp4",
+    "cover": "https://raw.githubusercontent.com/mbongowo/social-media-shorts/main/covers/GeodesicMillimeter_cover.jpg",
+    "source_doi": "10.1061/(ASCE)0733-9453(2005)131:1(20)",
+    "source_url": "https://ascelibrary.org/doi/10.1061/%28ASCE%290733-9453%282005%29131%3A1%2820%29"
   }
 ]
