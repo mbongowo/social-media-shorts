@@ -5462,5 +5462,284 @@
       ]
     },
     "credit": "Cartography: Natural Earth"
+  },
+  "chimborazo": {
+    "theme": "MAPS & CARTOGRAPHY",
+    "accent": "#F6B93B",
+    "hook": "Mount Everest is not the farthest point on Earth from the planet's center.",
+    "hookMap": {
+      "projection": "ortho",
+      "accent": "#F6B93B",
+      "highlight": [
+        "Ecuador"
+      ],
+      "rotate": [
+        79,
+        1
+      ]
+    },
+    "scenes": [
+      {
+        "caption": "Mount Chimborazo in Ecuador rises to 6,263 meters above sea level, less than three quarters the height of Mount Everest.",
+        "map": {
+          "projection": "ortho",
+          "accent": "#F6B93B",
+          "highlight": [
+            "Ecuador"
+          ],
+          "rotate": [
+            79,
+            1
+          ]
+        }
+      },
+      {
+        "caption": "Earth bulges at the equator, so the ground there sits roughly 21 kilometers farther from the planet's center than the ground at the poles.",
+        "map": {
+          "projection": "equalEarth",
+          "accent": "#F6B93B",
+          "highlight": [
+            "Ecuador"
+          ]
+        }
+      },
+      {
+        "caption": "Add Chimborazo's own height to that bulge, and its summit ends up more than two kilometers farther from Earth's center than Everest's summit.",
+        "map": {
+          "projection": "equalEarth",
+          "accent": "#F6B93B",
+          "highlight": [
+            "Ecuador"
+          ],
+          "highlight2": [
+            "Nepal"
+          ],
+          "accent2": "#4aa8ff"
+        }
+      }
+    ],
+    "outro": "Follow for the science behind the map.",
+    "endMap": {
+      "projection": "ortho",
+      "accent": "#F6B93B",
+      "highlight": [
+        "Ecuador"
+      ],
+      "rotate": [
+        79,
+        1
+      ]
+    },
+    "credit": "Cartography: Natural Earth"
+  },
+  "southpolemarker": {
+    "theme": "MAPS & CARTOGRAPHY",
+    "accent": "#F6B93B",
+    "hook": "The marker at the exact South Pole gets replaced every single year.",
+    "hookMap": {
+      "projection": "ortho",
+      "accent": "#F6B93B",
+      "highlight": [
+        "Antarctica"
+      ],
+      "rotate": [
+        0,
+        90
+      ]
+    },
+    "scenes": [
+      {
+        "caption": "Amundsen-Scott South Pole Station sits on an ice sheet about 2.7 kilometers thick, and the whole sheet is slowly flowing.",
+        "map": {
+          "projection": "ortho",
+          "accent": "#F6B93B",
+          "highlight": [
+            "Antarctica"
+          ],
+          "rotate": [
+            0,
+            90
+          ]
+        }
+      },
+      {
+        "caption": "GPS surveys show the ice moving about 10 meters a year, carrying any marker on it away from true south.",
+        "map": {
+          "projection": "equalEarth",
+          "accent": "#F6B93B",
+          "highlight": [
+            "Antarctica"
+          ]
+        }
+      },
+      {
+        "caption": "So every New Year's Day since 1959, station crews resurvey the exact pole and plant a new marker, keeping the old ones inside as a record of the drift.",
+        "map": {
+          "projection": "ortho",
+          "accent": "#F6B93B",
+          "highlight": [
+            "Antarctica"
+          ],
+          "rotate": [
+            0,
+            90
+          ]
+        }
+      }
+    ],
+    "outro": "Follow for the science behind the map.",
+    "endMap": {
+      "projection": "ortho",
+      "accent": "#F6B93B",
+      "highlight": [
+        "Antarctica"
+      ],
+      "rotate": [
+        0,
+        90
+      ]
+    },
+    "credit": "Cartography: Natural Earth"
+  },
+  "coldestspot": {
+    "theme": "SATELLITES & REMOTE SENSING",
+    "accent": "#4aa8ff",
+    "hook": "Satellites have recorded the coldest temperature ever registered on Earth's surface, and no person was there to feel it.",
+    "hookImg": {
+      "commons": "East Antarctic plateau aerial photograph"
+    },
+    "scenes": [
+      {
+        "caption": "In August 2010, a NASA satellite recorded surface temperatures near minus 98 degrees Celsius in small hollows on the East Antarctic ice sheet.",
+        "image": {
+          "commons": "East Antarctic plateau aerial photograph"
+        }
+      },
+      {
+        "caption": "The hollows sit on a ridge between two high points called Dome A and Dome Fuji, where clear, bone dry air lets heat radiate straight into space.",
+        "image": {
+          "commons": "Antarctica ice sheet surface photograph"
+        }
+      },
+      {
+        "caption": "That beats the previous coldest known temperature, minus 89.2 degrees Celsius measured at Vostok Station in 1983, according to a 2018 study in Geophysical Research Letters.",
+        "image": {
+          "commons": "Vostok Station Antarctica photograph"
+        }
+      }
+    ],
+    "outro": "Follow for the science behind the map.",
+    "endImg": {
+      "commons": "East Antarctic plateau aerial photograph"
+    },
+    "credit": "Imagery: Wikimedia Commons (public domain)"
+  },
+  "s2hilbert": {
+    "theme": "GEOSPATIAL DATA SCIENCE",
+    "accent": "#8b7cff",
+    "hook": "A math curve invented in 1891, long before computers existed, still decides which places on Earth count as near each other.",
+    "hookMap": {
+      "projection": "mercator",
+      "accent": "#8b7cff"
+    },
+    "scenes": [
+      {
+        "caption": "In 1891, mathematician David Hilbert described a curve that snakes through every cell of a grid, point by point, without ever crossing itself.",
+        "map": {
+          "projection": "mercator",
+          "accent": "#8b7cff"
+        }
+      },
+      {
+        "caption": "Google's S2 library projects the whole globe onto the six faces of a cube, then orders every cell on each face along that same Hilbert curve.",
+        "map": {
+          "projection": "equalEarth",
+          "accent": "#8b7cff"
+        }
+      },
+      {
+        "caption": "Because the curve keeps nearby cells next to each other in the ordering, systems from Google Maps to MongoDB use it to find what is close to a point fast.",
+        "map": {
+          "projection": "ortho",
+          "accent": "#8b7cff",
+          "rotate": [
+            0,
+            20
+          ]
+        }
+      }
+    ],
+    "outro": "Follow for the science behind the map.",
+    "endMap": {
+      "projection": "equalEarth",
+      "accent": "#8b7cff"
+    },
+    "credit": "Cartography: Natural Earth"
+  },
+  "disasterai": {
+    "theme": "GEOAI",
+    "accent": "#39d98a",
+    "hook": "After a disaster, one AI model can tell which buildings are destroyed before anyone sets foot on the ground.",
+    "hookImg": {
+      "commons": "earthquake damaged buildings aerial photograph"
+    },
+    "scenes": [
+      {
+        "caption": "Researchers built a dataset called xBD, pairing satellite photos taken just before and just after disasters like earthquakes, floods and hurricanes.",
+        "image": {
+          "commons": "earthquake damaged buildings aerial photograph"
+        }
+      },
+      {
+        "caption": "xBD labels more than 850,000 individual buildings across 15 countries, each marked no damage, minor, major or destroyed.",
+        "image": {
+          "commons": "hurricane damaged town aerial photograph"
+        }
+      },
+      {
+        "caption": "A model trained on those labels can scan a fresh disaster image and sort buildings by damage almost as soon as the satellite passes overhead.",
+        "image": {
+          "commons": "flood damaged buildings aerial photograph"
+        }
+      }
+    ],
+    "outro": "Follow for the science behind the map.",
+    "endImg": {
+      "commons": "earthquake damaged buildings aerial photograph"
+    },
+    "credit": "Imagery: Wikimedia Commons (public domain)"
+  },
+  "plasticai": {
+    "theme": "GEOAI",
+    "accent": "#39d98a",
+    "hook": "A satellite can spot a raft of floating ocean plastic from orbit, using a signal invisible to the naked eye.",
+    "hookImg": {
+      "commons": "ocean plastic pollution aerial photograph"
+    },
+    "scenes": [
+      {
+        "caption": "In 2020, researchers combined Sentinel-2 satellite images with a spectral signal called the Floating Debris Index to flag likely plastic on the water.",
+        "image": {
+          "commons": "Sentinel satellite ocean coastline photograph"
+        }
+      },
+      {
+        "caption": "A machine learning classifier then sorted those signals into real plastic versus look-alikes like seaweed and foam, trained on confirmed debris sites.",
+        "image": {
+          "commons": "floating marine debris photograph"
+        }
+      },
+      {
+        "caption": "The method found plastic patches off Ghana, Vietnam and Scotland, the first time satellites alone confirmed ocean plastic this way.",
+        "image": {
+          "commons": "beach plastic pollution photograph"
+        }
+      }
+    ],
+    "outro": "Follow for the science behind the map.",
+    "endImg": {
+      "commons": "ocean plastic pollution aerial photograph"
+    },
+    "credit": "Imagery: Wikimedia Commons (public domain)"
   }
 }
