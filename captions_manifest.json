@@ -1001,5 +1001,23 @@
     "cover": "https://raw.githubusercontent.com/mbongowo/social-media-shorts/main/covers/ZeroLabelCrops_cover.jpg",
     "source_doi": "10.1609/aaai.v33i01.33013967",
     "source_url": "https://ojs.aaai.org/index.php/AAAI/article/view/4288"
+  },
+  {
+    "id": "web-mercator-gap",
+    "theme": "Maps & Cartography",
+    "title": "Google Maps has a 21 km error built into its math #shorts",
+    "description": "Web Mercator, the projection behind Google Maps, Bing Maps and OpenStreetMap, feeds true WGS84 ellipsoid GPS coordinates into spherical projection math, producing a northing error that peaks around 21 km on the ground near 45 degrees latitude. #Cartography #GIS #Geodesy #Shorts",
+    "tags": [
+      "cartography",
+      "web mercator",
+      "gis",
+      "geodesy",
+      "google maps",
+      "map projections"
+    ],
+    "file": "https://raw.githubusercontent.com/mbongowo/social-media-shorts/main/WebMercatorGap.mp4",
+    "cover": "https://raw.githubusercontent.com/mbongowo/social-media-shorts/main/covers/WebMercatorGap_cover.jpg",
+    "source_doi": "10.3138/carto.49.2.2313",
+    "source_url": "https://www.usgs.gov/publications/implications-web-mercator-and-its-use-online-mapping"
   }
 ]
