@@ -1019,5 +1019,23 @@
     "cover": "https://raw.githubusercontent.com/mbongowo/social-media-shorts/main/covers/WebMercatorGap_cover.jpg",
     "source_doi": "10.3138/carto.49.2.2313",
     "source_url": "https://www.usgs.gov/publications/implications-web-mercator-and-its-use-online-mapping"
+  },
+  {
+    "id": "insar-sink",
+    "theme": "Remote Sensing explained",
+    "title": "Satellite radar caught Mexico City sinking over 30 cm a year #shorts",
+    "description": "Satellite radar (InSAR) compared echoes from the same ground years apart and found parts of Mexico City sinking faster than 30 cm a year, driven by groundwater pumping. #RemoteSensing #GeoAI #Satellite #Shorts",
+    "tags": [
+      "remote sensing",
+      "InSAR",
+      "satellite radar",
+      "land subsidence",
+      "Mexico City",
+      "geospatial"
+    ],
+    "file": "https://raw.githubusercontent.com/mbongowo/social-media-shorts/main/InSARSink.mp4",
+    "cover": "https://raw.githubusercontent.com/mbongowo/social-media-shorts/main/covers/InSARSink_cover.jpg",
+    "source_doi": "10.1016/j.rse.2013.08.038",
+    "source_url": "https://discovery.fiu.edu/display/pub70938"
   }
 ]
