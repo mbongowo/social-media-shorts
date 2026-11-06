@@ -1037,5 +1037,23 @@
     "cover": "https://raw.githubusercontent.com/mbongowo/social-media-shorts/main/covers/InSARSink_cover.jpg",
     "source_doi": "10.1016/j.rse.2013.08.038",
     "source_url": "https://discovery.fiu.edu/display/pub70938"
+  },
+  {
+    "id": "hilbert-cluster-law",
+    "theme": "Geospatial Data Science",
+    "title": "Why your map search cost depends on shape, not size #shorts",
+    "description": "Spatial databases store map tiles along a Hilbert curve. A 2001 proof shows the number of disk reads a query needs tracks its surface area (its edge), not how much area it covers. #GeoAI #DataScience #GIS #Shorts",
+    "tags": [
+      "geospatial data science",
+      "spatial index",
+      "Hilbert curve",
+      "GIS",
+      "databases",
+      "geoai"
+    ],
+    "file": "https://raw.githubusercontent.com/mbongowo/social-media-shorts/main/HilbertClusterLaw.mp4",
+    "cover": "https://raw.githubusercontent.com/mbongowo/social-media-shorts/main/covers/HilbertClusterLaw_cover.jpg",
+    "source_doi": "10.1109/69.908985",
+    "source_url": "https://drum.lib.umd.edu/items/c713788f-517c-4c2e-a6a2-7ea9d7e69c5b"
   }
 ]
