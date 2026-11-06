@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-11-05T12:17:10.801011+00:00",
+  "generated_utc": "2026-11-06T12:17:09.569861+00:00",
   "tasks": {
     "GeoShortProducer": {
       "state": "Enabled",
@@ -18,31 +18,31 @@
     }
   },
   "youtube": {
-    "total": 200,
+    "total": 201,
     "uploaded": 176,
-    "remaining": 24,
+    "remaining": 25,
     "next": "2027-09-03T18:00:00Z"
   },
   "library_videos": 112,
   "geo_specs": 125,
   "renders": {
     "fails": [
-      "[06:15:30] FAIL cryosat: Command '['C:\\\\Python314\\\\python.exe', 'C:\\\\Users\\\\mbongowo.mbuh\\\\Dropbox\\\\Claude\\\\Video project\\\\remotion-app\\\\scripts\\\\build_geoshort.py', '--spec', 'C:\\\\Users\\\\mbongowo.mbuh\\\\Dropbox\\\\Claude\\\\Video project\\\\remotion-app\\\\scripts\\\\geo_specs.json', '--id', 'cryosat']' returned non-zero exit status 1.",
-      "[06:15:32] FAIL croptypeai: Command '['C:\\\\Python314\\\\python.exe', 'C:\\\\Users\\\\mbongowo.mbuh\\\\Dropbox\\\\Claude\\\\Video project\\\\remotion-app\\\\scripts\\\\build_geoshort.py', '--spec', 'C:\\\\Users\\\\mbongowo.mbuh\\\\Dropbox\\\\Claude\\\\Video project\\\\remotion-app\\\\scripts\\\\geo_specs.json', '--id', 'croptypeai']' returned non-zero exit status 1.",
-      "[06:15:33] FAIL snaptolerance: Command '['C:\\\\Python314\\\\python.exe', 'C:\\\\Users\\\\mbongowo.mbuh\\\\Dropbox\\\\Claude\\\\Video project\\\\remotion-app\\\\scripts\\\\build_geoshort.py', '--spec', 'C:\\\\Users\\\\mbongowo.mbuh\\\\Dropbox\\\\Claude\\\\Video project\\\\remotion-app\\\\scripts\\\\geo_specs.json', '--id', 'snaptolerance']' returned non-zero exit status 1.",
-      "[06:15:35] FAIL tordesillas: Command '['C:\\\\Python314\\\\python.exe', 'C:\\\\Users\\\\mbongowo.mbuh\\\\Dropbox\\\\Claude\\\\Video project\\\\remotion-app\\\\scripts\\\\build_geoshort.py', '--spec', 'C:\\\\Users\\\\mbongowo.mbuh\\\\Dropbox\\\\Claude\\\\Video project\\\\remotion-app\\\\scripts\\\\geo_specs.json', '--id', 'tordesillas']' returned non-zero exit status 1.",
-      "[06:15:37] FAIL alaskaextremes: Command '['C:\\\\Python314\\\\python.exe', 'C:\\\\Users\\\\mbongowo.mbuh\\\\Dropbox\\\\Claude\\\\Video project\\\\remotion-app\\\\scripts\\\\build_geoshort.py', '--spec', 'C:\\\\Users\\\\mbongowo.mbuh\\\\Dropbox\\\\Claude\\\\Video project\\\\remotion-app\\\\scripts\\\\geo_specs.json', '--id', 'alaskaextremes']' returned non-zero exit status 1.",
-      "[06:15:38] FAIL gasflaring: Command '['C:\\\\Python314\\\\python.exe', 'C:\\\\Users\\\\mbongowo.mbuh\\\\Dropbox\\\\Claude\\\\Video project\\\\remotion-app\\\\scripts\\\\build_geoshort.py', '--spec', 'C:\\\\Users\\\\mbongowo.mbuh\\\\Dropbox\\\\Claude\\\\Video project\\\\remotion-app\\\\scripts\\\\geo_specs.json', '--id', 'gasflaring']' returned non-zero exit status 1.",
-      "[06:15:40] FAIL magneticweakspot: Command '['C:\\\\Python314\\\\python.exe', 'C:\\\\Users\\\\mbongowo.mbuh\\\\Dropbox\\\\Claude\\\\Video project\\\\remotion-app\\\\scripts\\\\build_geoshort.py', '--spec', 'C:\\\\Users\\\\mbongowo.mbuh\\\\Dropbox\\\\Claude\\\\Video project\\\\remotion-app\\\\scripts\\\\geo_specs.json', '--id', 'magneticweakspot']' returned non-zero exit status 1.",
-      "[06:15:42] FAIL yieldai: Command '['C:\\\\Python314\\\\python.exe', 'C:\\\\Users\\\\mbongowo.mbuh\\\\Dropbox\\\\Claude\\\\Video project\\\\remotion-app\\\\scripts\\\\build_geoshort.py', '--spec', 'C:\\\\Users\\\\mbongowo.mbuh\\\\Dropbox\\\\Claude\\\\Video project\\\\remotion-app\\\\scripts\\\\geo_specs.json', '--id', 'yieldai']' returned non-zero exit status 1.",
-      "[06:15:44] FAIL kriginggeo: Command '['C:\\\\Python314\\\\python.exe', 'C:\\\\Users\\\\mbongowo.mbuh\\\\Dropbox\\\\Claude\\\\Video project\\\\remotion-app\\\\scripts\\\\build_geoshort.py', '--spec', 'C:\\\\Users\\\\mbongowo.mbuh\\\\Dropbox\\\\Claude\\\\Video project\\\\remotion-app\\\\scripts\\\\geo_specs.json', '--id', 'kriginggeo']' returned non-zero exit status 1.",
-      "[06:15:46] FAIL southpolemarker: Command '['C:\\\\Python314\\\\python.exe', 'C:\\\\Users\\\\mbongowo.mbuh\\\\Dropbox\\\\Claude\\\\Video project\\\\remotion-app\\\\scripts\\\\build_geoshort.py', '--spec', 'C:\\\\Users\\\\mbongowo.mbuh\\\\Dropbox\\\\Claude\\\\Video project\\\\remotion-app\\\\scripts\\\\geo_specs.json', '--id', 'southpolemarker']' returned non-zero exit status 1."
+      "[06:15:26] FAIL cryosat: Command '['C:\\\\Python314\\\\python.exe', 'C:\\\\Users\\\\mbongowo.mbuh\\\\Dropbox\\\\Claude\\\\Video project\\\\remotion-app\\\\scripts\\\\build_geoshort.py', '--spec', 'C:\\\\Users\\\\mbongowo.mbuh\\\\Dropbox\\\\Claude\\\\Video project\\\\remotion-app\\\\scripts\\\\geo_specs.json', '--id', 'cryosat']' returned non-zero exit status 1.",
+      "[06:15:28] FAIL croptypeai: Command '['C:\\\\Python314\\\\python.exe', 'C:\\\\Users\\\\mbongowo.mbuh\\\\Dropbox\\\\Claude\\\\Video project\\\\remotion-app\\\\scripts\\\\build_geoshort.py', '--spec', 'C:\\\\Users\\\\mbongowo.mbuh\\\\Dropbox\\\\Claude\\\\Video project\\\\remotion-app\\\\scripts\\\\geo_specs.json', '--id', 'croptypeai']' returned non-zero exit status 1.",
+      "[06:15:30] FAIL snaptolerance: Command '['C:\\\\Python314\\\\python.exe', 'C:\\\\Users\\\\mbongowo.mbuh\\\\Dropbox\\\\Claude\\\\Video project\\\\remotion-app\\\\scripts\\\\build_geoshort.py', '--spec', 'C:\\\\Users\\\\mbongowo.mbuh\\\\Dropbox\\\\Claude\\\\Video project\\\\remotion-app\\\\scripts\\\\geo_specs.json', '--id', 'snaptolerance']' returned non-zero exit status 1.",
+      "[06:15:31] FAIL tordesillas: Command '['C:\\\\Python314\\\\python.exe', 'C:\\\\Users\\\\mbongowo.mbuh\\\\Dropbox\\\\Claude\\\\Video project\\\\remotion-app\\\\scripts\\\\build_geoshort.py', '--spec', 'C:\\\\Users\\\\mbongowo.mbuh\\\\Dropbox\\\\Claude\\\\Video project\\\\remotion-app\\\\scripts\\\\geo_specs.json', '--id', 'tordesillas']' returned non-zero exit status 1.",
+      "[06:15:33] FAIL alaskaextremes: Command '['C:\\\\Python314\\\\python.exe', 'C:\\\\Users\\\\mbongowo.mbuh\\\\Dropbox\\\\Claude\\\\Video project\\\\remotion-app\\\\scripts\\\\build_geoshort.py', '--spec', 'C:\\\\Users\\\\mbongowo.mbuh\\\\Dropbox\\\\Claude\\\\Video project\\\\remotion-app\\\\scripts\\\\geo_specs.json', '--id', 'alaskaextremes']' returned non-zero exit status 1.",
+      "[06:15:35] FAIL gasflaring: Command '['C:\\\\Python314\\\\python.exe', 'C:\\\\Users\\\\mbongowo.mbuh\\\\Dropbox\\\\Claude\\\\Video project\\\\remotion-app\\\\scripts\\\\build_geoshort.py', '--spec', 'C:\\\\Users\\\\mbongowo.mbuh\\\\Dropbox\\\\Claude\\\\Video project\\\\remotion-app\\\\scripts\\\\geo_specs.json', '--id', 'gasflaring']' returned non-zero exit status 1.",
+      "[06:15:37] FAIL magneticweakspot: Command '['C:\\\\Python314\\\\python.exe', 'C:\\\\Users\\\\mbongowo.mbuh\\\\Dropbox\\\\Claude\\\\Video project\\\\remotion-app\\\\scripts\\\\build_geoshort.py', '--spec', 'C:\\\\Users\\\\mbongowo.mbuh\\\\Dropbox\\\\Claude\\\\Video project\\\\remotion-app\\\\scripts\\\\geo_specs.json', '--id', 'magneticweakspot']' returned non-zero exit status 1.",
+      "[06:15:39] FAIL yieldai: Command '['C:\\\\Python314\\\\python.exe', 'C:\\\\Users\\\\mbongowo.mbuh\\\\Dropbox\\\\Claude\\\\Video project\\\\remotion-app\\\\scripts\\\\build_geoshort.py', '--spec', 'C:\\\\Users\\\\mbongowo.mbuh\\\\Dropbox\\\\Claude\\\\Video project\\\\remotion-app\\\\scripts\\\\geo_specs.json', '--id', 'yieldai']' returned non-zero exit status 1.",
+      "[06:15:40] FAIL kriginggeo: Command '['C:\\\\Python314\\\\python.exe', 'C:\\\\Users\\\\mbongowo.mbuh\\\\Dropbox\\\\Claude\\\\Video project\\\\remotion-app\\\\scripts\\\\build_geoshort.py', '--spec', 'C:\\\\Users\\\\mbongowo.mbuh\\\\Dropbox\\\\Claude\\\\Video project\\\\remotion-app\\\\scripts\\\\geo_specs.json', '--id', 'kriginggeo']' returned non-zero exit status 1.",
+      "[06:15:43] FAIL southpolemarker: Command '['C:\\\\Python314\\\\python.exe', 'C:\\\\Users\\\\mbongowo.mbuh\\\\Dropbox\\\\Claude\\\\Video project\\\\remotion-app\\\\scripts\\\\build_geoshort.py', '--spec', 'C:\\\\Users\\\\mbongowo.mbuh\\\\Dropbox\\\\Claude\\\\Video project\\\\remotion-app\\\\scripts\\\\geo_specs.json', '--id', 'southpolemarker']' returned non-zero exit status 1."
     ],
-    "last_run_summary": "[06:15:46] === produce finished: 112 done, 13 failed ['russiaclocks', 'threecapitals', 'ozonehole', 'cryosat', 'croptypeai', 'snaptolerance', 'tordesillas', 'alaskaextremes', 'gasflaring', 'magneticweakspot', 'yieldai', 'kriginggeo', 'southpolemarker'] ==="
+    "last_run_summary": "[06:15:43] === produce finished: 112 done, 13 failed ['russiaclocks', 'threecapitals', 'ozonehole', 'cryosat', 'croptypeai', 'snaptolerance', 'tordesillas', 'alaskaextremes', 'gasflaring', 'magneticweakspot', 'yieldai', 'kriginggeo', 'southpolemarker'] ==="
   },
   "bluesky": {
-    "total": 414,
-    "posted": 310,
+    "total": 416,
+    "posted": 312,
     "pending": 104
   }
 }
