@@ -5741,5 +5741,257 @@
       "commons": "ocean plastic pollution aerial photograph"
     },
     "credit": "Imagery: Wikimedia Commons (public domain)"
+  },
+  "svalbard": {
+    "theme": "MAPS & CARTOGRAPHY",
+    "accent": "#F6B93B",
+    "hook": "One Arctic island group lets you live there with no visa, no matter which passport you hold.",
+    "hookMap": {
+      "projection": "ortho",
+      "accent": "#F6B93B",
+      "highlight": [
+        "Svalbard"
+      ],
+      "rotate": [
+        -18,
+        -78
+      ]
+    },
+    "scenes": [
+      {
+        "caption": "The 1920 Svalbard Treaty gave Norway sovereignty over the islands, on the condition that citizens of every treaty nation keep equal rights to enter, live, and work there.",
+        "map": {
+          "projection": "ortho",
+          "accent": "#F6B93B",
+          "highlight": [
+            "Svalbard"
+          ],
+          "rotate": [
+            -18,
+            -78
+          ]
+        }
+      },
+      {
+        "caption": "Norway later extended that same open door to people of any nationality, so Svalbard itself has no visa requirement at all.",
+        "map": {
+          "projection": "equalEarth",
+          "accent": "#F6B93B",
+          "highlight": [
+            "Svalbard"
+          ]
+        }
+      },
+      {
+        "caption": "Svalbard sits outside the Schengen zone, so almost every traveler still flies through mainland Norway first, where normal Schengen entry rules apply.",
+        "map": {
+          "projection": "mercator",
+          "accent": "#F6B93B",
+          "highlight": [
+            "Svalbard"
+          ],
+          "highlight2": [
+            "Norway"
+          ],
+          "accent2": "#4aa8ff"
+        }
+      }
+    ],
+    "outro": "Follow for the science behind the map.",
+    "endMap": {
+      "projection": "ortho",
+      "accent": "#F6B93B",
+      "highlight": [
+        "Svalbard"
+      ],
+      "rotate": [
+        -18,
+        -78
+      ]
+    },
+    "credit": "Cartography: Natural Earth"
+  },
+  "natgeomap": {
+    "theme": "MAPS & CARTOGRAPHY",
+    "accent": "#F6B93B",
+    "hook": "National Geographic quietly changed the shape of the whole world in 1998.",
+    "hookMap": {
+      "projection": "equalEarth",
+      "accent": "#F6B93B"
+    },
+    "scenes": [
+      {
+        "caption": "From 1988 to 1998, National Geographic's standard world map used the Robinson projection, an oval compromise shape drawn in 1963.",
+        "map": {
+          "projection": "mercator",
+          "accent": "#F6B93B"
+        }
+      },
+      {
+        "caption": "In 1998 the Society switched to the Winkel Tripel projection, a 1921 design that averages three separate map formulas into one shape.",
+        "map": {
+          "projection": "equalEarth",
+          "accent": "#F6B93B"
+        }
+      },
+      {
+        "caption": "Winkel Tripel still stretches shape and area near the poles, because every flat map of a round planet has to bend something somewhere.",
+        "map": {
+          "projection": "ortho",
+          "accent": "#F6B93B",
+          "rotate": [
+            0,
+            -40
+          ]
+        }
+      }
+    ],
+    "outro": "Follow for the science behind the map.",
+    "endMap": {
+      "projection": "equalEarth",
+      "accent": "#F6B93B"
+    },
+    "credit": "Cartography: Natural Earth"
+  },
+  "sentinel6": {
+    "theme": "SATELLITES & REMOTE SENSING",
+    "accent": "#4aa8ff",
+    "hook": "NASA has named a spacecraft after a living person only twice, once for the Sun and once for the ocean.",
+    "hookImg": {
+      "commons": "satellite in orbit over Earth"
+    },
+    "scenes": [
+      {
+        "caption": "In 2017 NASA named a mission after Eugene Parker, the astrophysicist who predicted the solar wind decades earlier, the Parker Solar Probe launched in 2018.",
+        "image": {
+          "commons": "sun solar flare"
+        }
+      },
+      {
+        "caption": "In 2020, the European Space Agency offered NASA a second honor, renaming an ocean altimetry satellite Sentinel 6 Michael Freilich after the scientist who led NASA's Earth science division for over a decade.",
+        "image": {
+          "commons": "satellite in orbit over Earth"
+        }
+      },
+      {
+        "caption": "Freilich died soon after retiring from NASA, and the satellite now carries his name while it measures the height of the ocean surface to track sea level rise.",
+        "image": {
+          "commons": "ocean surface from space"
+        }
+      }
+    ],
+    "outro": "Follow for the science behind the map.",
+    "endImg": {
+      "commons": "satellite in orbit over Earth"
+    },
+    "credit": "Imagery: Wikimedia Commons (public domain)"
+  },
+  "gpm": {
+    "theme": "SATELLITES & REMOTE SENSING",
+    "accent": "#4aa8ff",
+    "hook": "One satellite network reads rain and snow falling almost everywhere on Earth, every three hours.",
+    "hookImg": {
+      "nasa": "hurricane from space"
+    },
+    "scenes": [
+      {
+        "caption": "NASA and Japan's space agency JAXA launched the Global Precipitation Measurement core satellite in 2014 to anchor a whole constellation of weather satellites.",
+        "image": {
+          "nasa": "hurricane from space"
+        }
+      },
+      {
+        "caption": "A microwave imager and a dual frequency radar on that core satellite calibrate rain and snow readings from nine other satellites run by agencies across the world.",
+        "image": {
+          "nasa": "blue marble earth"
+        }
+      },
+      {
+        "caption": "Together the constellation covers the planet from the Arctic Circle to the Antarctic Circle, refreshing the global rainfall map about every three hours.",
+        "image": {
+          "nasa": "hurricane from space"
+        }
+      }
+    ],
+    "outro": "Follow for the science behind the map.",
+    "endImg": {
+      "nasa": "hurricane from space"
+    },
+    "credit": "Imagery: NASA"
+  },
+  "saharatrees": {
+    "theme": "GEOAI",
+    "accent": "#39d98a",
+    "hook": "An AI once found over a billion trees hiding in satellite images of the Sahara, where almost none were expected.",
+    "hookImg": {
+      "commons": "Sahara desert aerial photograph"
+    },
+    "scenes": [
+      {
+        "caption": "In 2020, researchers trained a deep learning model to pick out individual tree crowns across 1.3 million square kilometers of satellite imagery over West Africa.",
+        "image": {
+          "commons": "Sahara desert aerial photograph"
+        }
+      },
+      {
+        "caption": "The model counted more than 1.8 billion individual trees scattered across the Sahara and the Sahel, far more than existing maps had ever shown.",
+        "image": {
+          "commons": "Sahel savanna acacia trees landscape"
+        }
+      },
+      {
+        "caption": "The study, published in the journal Nature by Martin Brandt and colleagues, proved AI could count scattered trees across regions long assumed to be nearly bare.",
+        "image": {
+          "commons": "desert satellite image vegetation"
+        }
+      }
+    ],
+    "outro": "Follow for the science behind the map.",
+    "endImg": {
+      "commons": "Sahara desert aerial photograph"
+    },
+    "credit": "Imagery: Wikimedia Commons (public domain)"
+  },
+  "lhasa": {
+    "theme": "GEOSPATIAL DATA SCIENCE",
+    "accent": "#8b7cff",
+    "hook": "One NASA model flags which hillsides are about to fail, using nothing but satellite rain data and the shape of the land.",
+    "hookMap": {
+      "projection": "equalEarth",
+      "accent": "#8b7cff"
+    },
+    "scenes": [
+      {
+        "caption": "In 2017, NASA scientists built a global susceptibility score for landslides by combining slope steepness, geology, fault lines, forest loss, and road cuts into one map.",
+        "map": {
+          "projection": "mercator",
+          "accent": "#8b7cff"
+        }
+      },
+      {
+        "caption": "That static map feeds a system called LHASA, which checks it against near real time satellite rainfall estimates roughly every thirty minutes.",
+        "map": {
+          "projection": "equalEarth",
+          "accent": "#8b7cff"
+        }
+      },
+      {
+        "caption": "When heavy rain lands on a hillside the map already flagged as fragile, LHASA raises a nowcast warning, giving disaster teams notice before the ground gives way.",
+        "map": {
+          "projection": "ortho",
+          "accent": "#8b7cff",
+          "rotate": [
+            -85,
+            -20
+          ]
+        }
+      }
+    ],
+    "outro": "Follow for the science behind the map.",
+    "endMap": {
+      "projection": "equalEarth",
+      "accent": "#8b7cff"
+    },
+    "credit": "Cartography: Natural Earth"
   }
 }
