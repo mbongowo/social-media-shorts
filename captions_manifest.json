@@ -1055,5 +1055,23 @@
     "cover": "https://raw.githubusercontent.com/mbongowo/social-media-shorts/main/covers/HilbertClusterLaw_cover.jpg",
     "source_doi": "10.1109/69.908985",
     "source_url": "https://drum.lib.umd.edu/items/c713788f-517c-4c2e-a6a2-7ea9d7e69c5b"
+  },
+  {
+    "id": "land-from-space",
+    "theme": "GeoAI",
+    "title": "A satellite AI got land cover right 98.57% of the time #shorts",
+    "description": "A neural network trained on 27,000 Sentinel-2 satellite image patches learned to classify 10 land cover types with 98.57% accuracy, no fieldwork required. #GeoAI #RemoteSensing #MachineLearning #Shorts",
+    "tags": [
+      "GeoAI",
+      "remote sensing",
+      "deep learning",
+      "Sentinel-2",
+      "land cover",
+      "satellite imagery"
+    ],
+    "file": "https://raw.githubusercontent.com/mbongowo/social-media-shorts/main/LandFromSpace.mp4",
+    "cover": "https://raw.githubusercontent.com/mbongowo/social-media-shorts/main/covers/LandFromSpace_cover.jpg",
+    "source_doi": "10.1109/JSTARS.2019.2918242",
+    "source_url": "https://github.com/phelber/eurosat"
   }
 ]
