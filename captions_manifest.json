@@ -1073,5 +1073,23 @@
     "cover": "https://raw.githubusercontent.com/mbongowo/social-media-shorts/main/covers/LandFromSpace_cover.jpg",
     "source_doi": "10.1109/JSTARS.2019.2918242",
     "source_url": "https://github.com/phelber/eurosat"
+  },
+  {
+    "id": "dots-not-averages",
+    "theme": "Maps & Cartography",
+    "title": "A map trick cut census error from 21% to 5% #shorts",
+    "description": "Swapping evenly spread population dots for real address points cut census block-group error from 21.2% to 4.9% across 683 Ohio block groups (Zandbergen, 2011, Transactions in GIS). #Cartography #GIS #DataScience #Shorts",
+    "tags": [
+      "cartography",
+      "GIS",
+      "dasymetric mapping",
+      "census data",
+      "population mapping",
+      "geospatial"
+    ],
+    "file": "https://raw.githubusercontent.com/mbongowo/social-media-shorts/main/DotsNotAverages.mp4",
+    "cover": "https://raw.githubusercontent.com/mbongowo/social-media-shorts/main/covers/DotsNotAverages_cover.jpg",
+    "source_doi": "10.1111/j.1467-9671.2011.01270.x",
+    "source_url": "https://doi.org/10.1111/j.1467-9671.2011.01270.x"
   }
 ]
