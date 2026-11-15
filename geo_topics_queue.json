@@ -5993,5 +5993,291 @@
       "accent": "#8b7cff"
     },
     "credit": "Cartography: Natural Earth"
+  },
+  "greenwichshift": {
+    "theme": "MAPS & CARTOGRAPHY",
+    "accent": "#F6B93B",
+    "hook": "The zero line on your phone's map is not where the Greenwich Observatory says it is.",
+    "hookMap": {
+      "projection": "ortho",
+      "accent": "#F6B93B",
+      "highlight": [
+        "United Kingdom"
+      ],
+      "rotate": [
+        0,
+        -51
+      ]
+    },
+    "scenes": [
+      {
+        "caption": "For a century, zero degrees longitude ran straight through the brass line at Greenwich Observatory.",
+        "map": {
+          "projection": "ortho",
+          "accent": "#F6B93B",
+          "highlight": [
+            "United Kingdom"
+          ],
+          "rotate": [
+            0,
+            -51
+          ]
+        }
+      },
+      {
+        "caption": "Modern GPS and satellite mapping use a different zero line, about 100 meters east of that brass line.",
+        "map": {
+          "projection": "mercator",
+          "accent": "#F6B93B",
+          "highlight": [
+            "United Kingdom"
+          ]
+        }
+      },
+      {
+        "caption": "A 2015 study found the shift comes from a tiny bend in gravity at Greenwich itself, not a global error.",
+        "map": {
+          "projection": "ortho",
+          "accent": "#F6B93B",
+          "highlight": [
+            "United Kingdom"
+          ],
+          "rotate": [
+            0,
+            -51
+          ]
+        }
+      }
+    ],
+    "outro": "Follow for the science behind the map.",
+    "endMap": {
+      "projection": "ortho",
+      "accent": "#F6B93B",
+      "highlight": [
+        "United Kingdom"
+      ],
+      "rotate": [
+        0,
+        -51
+      ]
+    },
+    "credit": "Cartography: Natural Earth"
+  },
+  "franceeez": {
+    "theme": "MAPS & CARTOGRAPHY",
+    "accent": "#F6B93B",
+    "hook": "One European country claims more ocean than the whole European Union has land.",
+    "hookMap": {
+      "projection": "equalEarth",
+      "accent": "#F6B93B",
+      "highlight": [
+        "France"
+      ]
+    },
+    "scenes": [
+      {
+        "caption": "Mainland France covers about 550,000 square kilometers.",
+        "map": {
+          "projection": "equalEarth",
+          "accent": "#F6B93B",
+          "highlight": [
+            "France"
+          ]
+        }
+      },
+      {
+        "caption": "But islands and territories scattered from the Caribbean to the South Pacific add up to roughly 11 million square kilometers of ocean, all of it legally French.",
+        "map": {
+          "projection": "mercator",
+          "accent": "#F6B93B",
+          "highlight": [
+            "France"
+          ]
+        }
+      },
+      {
+        "caption": "That single country's maritime claim is bigger than the entire land area of the European Union.",
+        "map": {
+          "projection": "ortho",
+          "accent": "#F6B93B",
+          "highlight": [
+            "France"
+          ],
+          "rotate": [
+            -2,
+            -46
+          ]
+        }
+      }
+    ],
+    "outro": "Follow for the science behind the map.",
+    "endMap": {
+      "projection": "equalEarth",
+      "accent": "#F6B93B",
+      "highlight": [
+        "France"
+      ]
+    },
+    "credit": "Cartography: Natural Earth"
+  },
+  "goce": {
+    "theme": "SATELLITES & REMOTE SENSING",
+    "accent": "#4aa8ff",
+    "hook": "Earth is not a smooth ball. Satellites proved it is shaped more like a lumpy potato.",
+    "hookImg": {
+      "nasa": "blue marble earth"
+    },
+    "scenes": [
+      {
+        "caption": "Gravity pulls slightly harder over mountains and ocean trenches than it does over flat plains.",
+        "image": {
+          "nasa": "blue marble earth"
+        }
+      },
+      {
+        "caption": "In 2009, Europe launched the GOCE satellite to fly low enough to feel those tiny tugs, mapping them across the whole planet over the next several years.",
+        "image": {
+          "nasa": "blue marble earth"
+        }
+      },
+      {
+        "caption": "That true shape, called the geoid, is the zero point every elevation on Earth is measured against.",
+        "image": {
+          "nasa": "earth at night black marble"
+        }
+      }
+    ],
+    "outro": "Follow for the science behind the map.",
+    "endImg": {
+      "nasa": "blue marble earth"
+    },
+    "credit": "Imagery: NASA"
+  },
+  "mayalidar": {
+    "theme": "SATELLITES & REMOTE SENSING",
+    "accent": "#4aa8ff",
+    "hook": "An airborne laser survey once found a hidden Maya civilization bigger than anyone imagined.",
+    "hookImg": {
+      "commons": "Tikal temple Guatemala"
+    },
+    "scenes": [
+      {
+        "caption": "From the ground, the rainforest canopy over northern Guatemala looks like empty, unbroken forest.",
+        "image": {
+          "commons": "Guatemala rainforest aerial"
+        }
+      },
+      {
+        "caption": "In 2018, an airborne laser survey digitally stripped away the jungle canopy and revealed over 61,000 hidden structures, from houses to pyramids.",
+        "image": {
+          "commons": "Tikal pyramid jungle"
+        }
+      },
+      {
+        "caption": "Causeways and defensive earthworks revealed a population across this stretch of the Maya Lowlands far bigger than anyone had mapped.",
+        "image": {
+          "commons": "Maya ruins Guatemala"
+        }
+      }
+    ],
+    "outro": "Follow for the science behind the map.",
+    "endImg": {
+      "commons": "Tikal temple Guatemala"
+    },
+    "credit": "Imagery: Wikimedia Commons (public domain)"
+  },
+  "coralai": {
+    "theme": "GEOAI",
+    "accent": "#39d98a",
+    "hook": "One AI project mapped nearly every coral reef on Earth, reef by reef, from space.",
+    "hookImg": {
+      "wv": {
+        "bbox": "19.16,-80.5,29.83,-74.5",
+        "date": "2024-07-01"
+      }
+    },
+    "scenes": [
+      {
+        "caption": "Coral reefs cover less than one percent of the ocean floor but support an estimated quarter of all known marine species.",
+        "image": {
+          "wv": {
+            "bbox": "19.16,-80.5,29.83,-74.5",
+            "date": "2024-07-01"
+          }
+        }
+      },
+      {
+        "caption": "In 2020, a research team fed millions of satellite images into machine-learning models trained reef by reef, at every scale from one reef to a whole ocean.",
+        "image": {
+          "wv": {
+            "bbox": "19.16,-80.5,29.83,-74.5",
+            "date": "2024-07-01"
+          }
+        }
+      },
+      {
+        "caption": "The result, the Allen Coral Atlas, was the first map to show reef habitats at this detail across the whole planet.",
+        "image": {
+          "wv": {
+            "bbox": "19.16,-80.5,29.83,-74.5",
+            "date": "2024-07-01"
+          }
+        }
+      }
+    ],
+    "outro": "Follow for the science behind the map.",
+    "endImg": {
+      "wv": {
+        "bbox": "19.16,-80.5,29.83,-74.5",
+        "date": "2024-07-01"
+      }
+    },
+    "credit": "Imagery: NASA Worldview"
+  },
+  "hotspotstat": {
+    "theme": "GEOSPATIAL DATA SCIENCE",
+    "accent": "#8b7cff",
+    "hook": "A cluster of red dots on a map does not prove anything is actually clustered.",
+    "hookMap": {
+      "projection": "mercator",
+      "accent": "#8b7cff"
+    },
+    "scenes": [
+      {
+        "caption": "Crime, disease or sales data can clump up by pure chance, the same way a string of coin flips can streak.",
+        "map": {
+          "projection": "mercator",
+          "accent": "#8b7cff"
+        }
+      },
+      {
+        "caption": "A 1992 statistic called the Getis-Ord G star compares each hot spot to what pure randomness would produce.",
+        "map": {
+          "projection": "equalEarth",
+          "accent": "#8b7cff"
+        }
+      },
+      {
+        "caption": "Only when the clustering beats random chance does the map call it a real hot spot, not a fluke.",
+        "map": {
+          "projection": "ortho",
+          "accent": "#8b7cff",
+          "rotate": [
+            -10,
+            -6
+          ]
+        }
+      }
+    ],
+    "outro": "Follow for the science behind the map.",
+    "endMap": {
+      "projection": "ortho",
+      "accent": "#8b7cff",
+      "rotate": [
+        -10,
+        -6
+      ]
+    },
+    "credit": "Cartography: Natural Earth"
   }
 }
