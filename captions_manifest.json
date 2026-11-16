@@ -1091,5 +1091,23 @@
     "cover": "https://raw.githubusercontent.com/mbongowo/social-media-shorts/main/covers/DotsNotAverages_cover.jpg",
     "source_doi": "10.1111/j.1467-9671.2011.01270.x",
     "source_url": "https://doi.org/10.1111/j.1467-9671.2011.01270.x"
+  },
+  {
+    "id": "depth-from-color",
+    "theme": "Remote Sensing explained",
+    "title": "A satellite measured ocean depth with no sonar #shorts",
+    "description": "Comparing blue and green light reflectance let satellite imagery read seafloor depth past 25 m in clear water, matched against lidar truth (Stumpf, Holderied and Sinclair, 2003). #RemoteSensing #GeoAI #Bathymetry #Shorts",
+    "tags": [
+      "remote sensing",
+      "bathymetry",
+      "satellite imagery",
+      "oceanography",
+      "GIS",
+      "geospatial"
+    ],
+    "file": "https://raw.githubusercontent.com/mbongowo/social-media-shorts/main/DepthFromColor.mp4",
+    "cover": "https://raw.githubusercontent.com/mbongowo/social-media-shorts/main/covers/DepthFromColor_cover.jpg",
+    "source_doi": "10.4319/lo.2003.48.1_part_2.0547",
+    "source_url": "https://doi.org/10.4319/lo.2003.48.1_part_2.0547"
   }
 ]
