@@ -6279,5 +6279,270 @@
       ]
     },
     "credit": "Cartography: Natural Earth"
+  },
+  "istanbul": {
+    "theme": "MAPS & CARTOGRAPHY",
+    "accent": "#F6B93B",
+    "hook": "One major city on Earth sits on two continents at once.",
+    "hookMap": {
+      "projection": "ortho",
+      "accent": "#F6B93B",
+      "highlight": ["Turkey"],
+      "rotate": [-29, -41]
+    },
+    "scenes": [
+      {
+        "caption": "Istanbul straddles the Bosphorus strait, with one half of the city in Europe and the other in Asia.",
+        "map": {
+          "projection": "equalEarth",
+          "accent": "#F6B93B",
+          "highlight": ["Turkey"],
+          "fit": "Turkey"
+        }
+      },
+      {
+        "caption": "About two thirds of its roughly fifteen million residents live on the European side.",
+        "map": {
+          "projection": "ortho",
+          "accent": "#F6B93B",
+          "highlight": ["Turkey"],
+          "rotate": [-29, -41]
+        }
+      },
+      {
+        "caption": "No other city of its size sits on two continents at once.",
+        "map": {
+          "projection": "equalEarth",
+          "accent": "#F6B93B",
+          "highlight": ["Turkey"],
+          "fit": "Turkey"
+        }
+      }
+    ],
+    "outro": "Follow for the science behind the map.",
+    "endMap": {
+      "projection": "ortho",
+      "accent": "#F6B93B",
+      "highlight": ["Turkey"],
+      "rotate": [-29, -41]
+    },
+    "credit": "Cartography: Natural Earth"
+  },
+  "tristandacunha": {
+    "theme": "MAPS & CARTOGRAPHY",
+    "accent": "#F6B93B",
+    "hook": "The most remote inhabited island on Earth sits alone in the South Atlantic.",
+    "hookMap": {
+      "projection": "ortho",
+      "accent": "#F6B93B",
+      "rotate": [12, 37]
+    },
+    "scenes": [
+      {
+        "caption": "Tristan da Cunha lies about 2,400 kilometres from Saint Helena, its nearest inhabited neighbour.",
+        "map": {
+          "projection": "ortho",
+          "accent": "#F6B93B",
+          "rotate": [12, 37]
+        }
+      },
+      {
+        "caption": "In 1961 a volcanic eruption forced the entire population to evacuate to England. Most returned two years later.",
+        "map": {
+          "projection": "equalEarth",
+          "accent": "#F6B93B"
+        }
+      },
+      {
+        "caption": "Fewer than 300 people live there today, reachable only by a week-long boat voyage.",
+        "map": {
+          "projection": "ortho",
+          "accent": "#F6B93B",
+          "rotate": [12, 37]
+        }
+      }
+    ],
+    "outro": "Follow for the science behind the map.",
+    "endMap": {
+      "projection": "ortho",
+      "accent": "#F6B93B",
+      "rotate": [12, 37]
+    },
+    "credit": "Cartography: Natural Earth"
+  },
+  "biomass": {
+    "theme": "SATELLITES & REMOTE SENSING",
+    "accent": "#4aa8ff",
+    "hook": "A satellite launched in 2025 is built to weigh an entire forest from orbit, trunks and all.",
+    "hookImg": {
+      "wv": {
+        "bbox": "-12,-67.5,4,-58.5",
+        "date": "2024-08-20"
+      }
+    },
+    "scenes": [
+      {
+        "caption": "Most satellites only see the leafy top of a forest. ESA's Biomass satellite carries a radar wavelength long enough to reach through the whole canopy.",
+        "image": {
+          "wv": {
+            "bbox": "-12,-67.5,4,-58.5",
+            "date": "2024-08-20"
+          }
+        }
+      },
+      {
+        "caption": "That P-band radar, the first ever flown in space, is designed to bounce off trunks and branches and measure the wood itself.",
+        "image": {
+          "nasa": "synthetic aperture radar earth"
+        }
+      },
+      {
+        "caption": "Over its five-year mission, it aims to produce the first global map of how much carbon forests actually store.",
+        "image": {
+          "wv": {
+            "bbox": "-12,-67.5,4,-58.5",
+            "date": "2024-02-20"
+          }
+        }
+      }
+    ],
+    "outro": "Follow for the science behind the map.",
+    "endImg": {
+      "wv": {
+        "bbox": "-12,-67.5,4,-58.5",
+        "date": "2024-08-20"
+      }
+    },
+    "credit": "Imagery: NASA Worldview"
+  },
+  "salinity": {
+    "theme": "SATELLITES & REMOTE SENSING",
+    "accent": "#4aa8ff",
+    "hook": "A satellite can taste how salty the ocean is without ever touching the water.",
+    "hookImg": {
+      "wv": {
+        "bbox": "19.16,-80.5,29.83,-74.5",
+        "date": "2024-07-01"
+      }
+    },
+    "scenes": [
+      {
+        "caption": "A microwave radiometer like the one on ESA's SMOS satellite reads the ocean surface at a wavelength that shifts with saltiness.",
+        "image": {
+          "wv": {
+            "bbox": "19.16,-80.5,29.83,-74.5",
+            "date": "2024-07-01"
+          }
+        }
+      },
+      {
+        "caption": "That signal maps how rainfall, evaporation and river outflow change salinity patterns across the whole planet.",
+        "image": {
+          "wv": {
+            "bbox": "25,28.5,33,33.0",
+            "date": "2024-08-01"
+          }
+        }
+      },
+      {
+        "caption": "Because saltiness helps drive ocean currents, one radiometer in orbit helps track how the entire ocean circulates.",
+        "image": {
+          "nasa": "blue marble earth"
+        }
+      }
+    ],
+    "outro": "Follow for the science behind the map.",
+    "endImg": {
+      "wv": {
+        "bbox": "19.16,-80.5,29.83,-74.5",
+        "date": "2024-07-01"
+      }
+    },
+    "credit": "Imagery: NASA Worldview"
+  },
+  "superres": {
+    "theme": "GEOAI",
+    "accent": "#39d98a",
+    "hook": "An AI can sharpen a satellite photo into detail the camera never actually captured.",
+    "hookImg": {
+      "wv": {
+        "bbox": "18,28.5,34,37.5",
+        "date": "2024-07-01"
+      }
+    },
+    "scenes": [
+      {
+        "caption": "Many free satellite bands are blurry, with each pixel covering a patch twenty meters or more across.",
+        "image": {
+          "wv": {
+            "bbox": "18,28.5,34,37.5",
+            "date": "2024-07-01"
+          }
+        }
+      },
+      {
+        "caption": "A neural network trained on sharp and blurry versions of the same places learns to predict the missing detail.",
+        "image": {
+          "wv": {
+            "bbox": "25,28.5,33,33.0",
+            "date": "2024-07-01"
+          }
+        }
+      },
+      {
+        "caption": "It cannot invent anything truly new, but it turns coarse pixels into maps as sharp as the satellite's finest bands.",
+        "image": {
+          "nasa": "blue marble earth"
+        }
+      }
+    ],
+    "outro": "Follow for the science behind the map.",
+    "endImg": {
+      "wv": {
+        "bbox": "18,28.5,34,37.5",
+        "date": "2024-07-01"
+      }
+    },
+    "credit": "Imagery: NASA Worldview"
+  },
+  "shapefile": {
+    "theme": "GEOSPATIAL DATA SCIENCE",
+    "accent": "#8b7cff",
+    "hook": "One of the most common map file formats still carries a size limit from 1998 that can silently cut off your data.",
+    "hookMap": {
+      "projection": "mercator",
+      "accent": "#8b7cff"
+    },
+    "scenes": [
+      {
+        "caption": "ESRI published the shapefile's technical specification in 1998, when a 32-bit number was a generous limit for file size.",
+        "map": {
+          "projection": "mercator",
+          "accent": "#8b7cff"
+        }
+      },
+      {
+        "caption": "Each piece inside it, the geometry file and the attribute table, is capped at 2 gigabytes, so a huge layer can quietly fail to save in full.",
+        "map": {
+          "projection": "equalEarth",
+          "accent": "#8b7cff"
+        }
+      },
+      {
+        "caption": "Newer formats like GeoPackage drop that limit, but millions of shapefiles out there still carry it.",
+        "map": {
+          "projection": "ortho",
+          "accent": "#8b7cff",
+          "rotate": [-10, -6]
+        }
+      }
+    ],
+    "outro": "Follow for the science behind the map.",
+    "endMap": {
+      "projection": "ortho",
+      "accent": "#8b7cff",
+      "rotate": [-10, -6]
+    },
+    "credit": "Cartography: Natural Earth"
   }
 }
