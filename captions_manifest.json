@@ -1127,5 +1127,23 @@
     "cover": "https://raw.githubusercontent.com/mbongowo/social-media-shorts/main/covers/ZipCodeUnique_cover.jpg",
     "source_doi": "10.1142/S0218488502001648",
     "source_url": "https://doi.org/10.1142/S0218488502001648"
+  },
+  {
+    "id": "pigeon-locator",
+    "theme": "GeoAI",
+    "title": "AI can guess where any photo was taken, no GPS needed #shorts",
+    "description": "PIGEON (CVPR 2024) trained on worldwide Street View photos places over 40% of its guesses within 25 km of the true location, no metadata used. #GeoAI #ComputerVision #Geolocation #Shorts",
+    "tags": [
+      "GeoAI",
+      "computer vision",
+      "geolocation",
+      "street view",
+      "machine learning",
+      "privacy"
+    ],
+    "file": "https://raw.githubusercontent.com/mbongowo/social-media-shorts/main/PigeonLocator.mp4",
+    "cover": "https://raw.githubusercontent.com/mbongowo/social-media-shorts/main/covers/PigeonLocator_cover.jpg",
+    "source_doi": "10.1109/CVPR52733.2024.01225",
+    "source_url": "https://openaccess.thecvf.com/content/CVPR2024/html/Haas_PIGEON_Predicting_Image_Geolocations_CVPR_2024_paper.html"
   }
 ]
