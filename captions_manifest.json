@@ -1145,5 +1145,23 @@
     "cover": "https://raw.githubusercontent.com/mbongowo/social-media-shorts/main/covers/PigeonLocator_cover.jpg",
     "source_doi": "10.1109/CVPR52733.2024.01225",
     "source_url": "https://openaccess.thecvf.com/content/CVPR2024/html/Haas_PIGEON_Predicting_Image_Geolocations_CVPR_2024_paper.html"
+  },
+  {
+    "id": "magnetic-pole-drift",
+    "theme": "Maps & Cartography",
+    "title": "Your compass does not point at a fixed spot #shorts",
+    "description": "The magnetic north pole moved 1,104 km toward Siberia from 1999 to 2019, and 87% of that traces to one stretching lobe of core flux under Canada. #Cartography #Geography #EarthScience #Shorts",
+    "tags": [
+      "cartography",
+      "magnetic north",
+      "navigation",
+      "geomagnetism",
+      "earth science",
+      "shorts"
+    ],
+    "file": "https://raw.githubusercontent.com/mbongowo/social-media-shorts/main/MagneticPoleDrift.mp4",
+    "cover": "https://raw.githubusercontent.com/mbongowo/social-media-shorts/main/covers/MagneticPoleDrift_cover.jpg",
+    "source_doi": "10.1038/s41561-020-0570-9",
+    "source_url": "https://www.nature.com/articles/s41561-020-0570-9"
   }
 ]
