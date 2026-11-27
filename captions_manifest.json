@@ -1163,5 +1163,23 @@
     "cover": "https://raw.githubusercontent.com/mbongowo/social-media-shorts/main/covers/MagneticPoleDrift_cover.jpg",
     "source_doi": "10.1038/s41561-020-0570-9",
     "source_url": "https://www.nature.com/articles/s41561-020-0570-9"
+  },
+  {
+    "id": "methane-from-space",
+    "theme": "Remote Sensing explained",
+    "title": "A satellite caught 1,800 invisible methane leaks #shorts",
+    "description": "TROPOMI spotted 1,800 giant methane plumes from orbit in 2019-2020, and oil and gas leaks alone equal 8 to 12% of the sector's reported emissions in six top producing nations. #RemoteSensing #Methane #ClimateScience #Shorts",
+    "tags": [
+      "remote sensing",
+      "methane",
+      "satellite",
+      "climate science",
+      "tropomi",
+      "shorts"
+    ],
+    "file": "https://raw.githubusercontent.com/mbongowo/social-media-shorts/main/MethaneFromSpace.mp4",
+    "cover": "https://raw.githubusercontent.com/mbongowo/social-media-shorts/main/covers/MethaneFromSpace_cover.jpg",
+    "source_doi": "10.1126/science.abj4351",
+    "source_url": "https://www.science.org/doi/10.1126/science.abj4351"
   }
 ]
